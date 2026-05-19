@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "passed": 110,
+    "failed": 0,
+    "errors": 0,
+    "total": 110,
+    "coverage_percent": 87
+  },
+  "categories": {
+    "occasion_detection": {
+      "description": "Tests for Hijri conversion, confidence scoring, recipient clustering"
+    },
+    "message_generator": {
+      "description": "Tests for content safety, WhatsApp constraints, push length"
+    },
+    "send_time_optimizer": {
+      "description": "Tests for timezone awareness, cold-start, urgency"
+    },
+    "campaign_engine": {
+      "description": "Tests for fatigue management, consent, channel preference"
+    },
+    "pipeline": {
+      "description": "Integration tests for end-to-end flow"
+    }
+  },
+  "raw_output": "============================= test session starts =============================\nplatform win32 -- Python 3.14.4, pytest-9.0.3, pluggy-1.6.0 -- C:\\Users\\sahil\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\ncachedir: .pytest_cache\nrootdir: C:\\Users\\sahil\\Desktop\\Intelligent Campaign Orchestration Engine\nplugins: anyio-4.13.0, cov-7.1.0, mock-3.15.1\ncollecting ... collected 110 items\n\ntests/test_campaign_engine.py::TestFatigueManagement::test_no_more_than_2_per_week PASSED [  0%]\ntests/test_campaign_engine.py::TestFatigueManagement::test_high_confidence_wins_over_low PASSED [  1%]\ntests/test_campaign_engine.py::TestConsentManagement::test_never_sends_to_opted_out_channel PASSED [  2%]\ntests/test_campaign_engine.py::TestConsentManagement::test_no_channels_available_skips_customer PASSED [  3%]\ntests/test_campaign_engine.py::TestConsentManagement::test_consent_status_reflects_profile PASSED [  4%]\ntests/test_campaign_engine.py::TestChannelPreference::test_high_wa_rate_zero_email_prefers_wa PASSED [  5%]\ntests/test_campaign_engine.py::TestChannelPreference::test_no_wa_optin_falls_back_to_email PASSED [  6%]\ntests/test_campaign_engine.py::TestChannelPreference::test_all_opted_out_returns_none PASSED [  7%]\ntests/test_campaign_engine.py::TestScheduleStructure::test_scheduled_send_has_all_required_fields PASSED [  8%]\ntests/test_campaign_engine.py::TestScheduleStructure::test_past_occasion_not_scheduled PASSED [  9%]\ntests/test_campaign_engine.py::TestScheduleStructure::test_multiple_customers_scheduled PASSED [ 10%]\ntests/test_campaign_engine.py::TestDetectionKey::test_key_is_string PASSED [ 10%]\ntests/test_ingestor.py::TestLoadEvents::test_loads_500_events PASSED     [ 11%]\ntests/test_ingestor.py::TestLoadEvents::test_all_have_required_fields PASSED [ 12%]\ntests/test_ingestor.py::TestLoadEvents::test_event_types_valid PASSED    [ 13%]\ntests/test_ingestor.py::TestLoadEvents::test_timestamps_parseable PASSED [ 14%]\ntests/test_ingestor.py::TestLoadEvents::test_50_unique_customers PASSED  [ 15%]\ntests/test_ingestor.py::TestLoadEvents::test_events_span_14_months PASSED [ 16%]\ntests/test_ingestor.py::TestLoadEvents::test_validation_rejects_bad_events PASSED [ 17%]\ntests/test_ingestor.py::TestLoadCatalogue::test_loads_100_skus PASSED    [ 18%]\ntests/test_ingestor.py::TestLoadCatalogue::test_all_6_categories_present PASSED [ 19%]\ntests/test_ingestor.py::TestLoadCatalogue::test_cultural_flags_present PASSED [ 20%]\ntests/test_ingestor.py::TestLoadCatalogue::test_all_skus_unique PASSED   [ 20%]\ntests/test_ingestor.py::TestBuildProfiles::test_builds_50_profiles PASSED [ 21%]\ntests/test_ingestor.py::TestBuildProfiles::test_profiles_have_timezone PASSED [ 22%]\ntests/test_ingestor.py::TestBuildProfiles::test_at_least_3_different_timezones PASSED [ 23%]\ntests/test_ingestor.py::TestBuildProfiles::test_wa_opted_out_customer_has_false_optin PASSED [ 24%]\ntests/test_ingestor.py::TestBuildProfiles::test_wa_read_rate_between_0_and_1 PASSED [ 25%]\ntests/test_ingestor.py::"
+}

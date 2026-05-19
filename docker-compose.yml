@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  campaign-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      # Set ONE of these API keys. Cerebras is checked first (free tier).
+      # If neither is set, the pipeline uses template-based fallback messages.
+      - CEREBRAS_API_KEY=${CEREBRAS_API_KEY:-}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    volumes:
+      # Mount outputs/ so generated files are accessible on the host
+      - ./outputs:/app/outputs
+    command: >
+      sh -c "
+        echo '=== Stage 1: Ingest ===' &&
+        python -m src.pipeline --stage ingest &&
+        echo '=== Stage 2: Detect ===' &&
+        python -m src.pipeline --stage detect &&
+        echo '=== Running Full Pipeline ===' &&
+        python -m src.pipeline &&
+        echo '=== Running Tests ===' &&
+        python -m pytest tests/ -q --tb=short --cov=src --cov-report=term-missing &&
+        echo '=== Done. Outputs in /app/outputs ==='
+      "

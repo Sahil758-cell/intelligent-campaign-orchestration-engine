@@ -1,0 +1,6930 @@
+[
+  {
+    "event_id": "3efd4980-a48e-4d59-9f0f-e9b6a6dc4cbc",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T09:37:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1071",
+      "product_sku": "ZUV-1071",
+      "category": "hampers",
+      "time_spent_seconds": 317
+    }
+  },
+  {
+    "event_id": "5c973722-7bc2-4ac8-94b2-b7a9cb41c711",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T11:20:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1054",
+      "product_sku": "ZUV-1054",
+      "category": "chocolates",
+      "time_spent_seconds": 190
+    }
+  },
+  {
+    "event_id": "59d68aed-db53-41d0-8e57-7c94f8dd14f8",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T14:09:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1084",
+      "product_sku": "ZUV-1084",
+      "category": "perfumes",
+      "time_spent_seconds": 276
+    }
+  },
+  {
+    "event_id": "36dc57b7-3f78-40d2-b10e-8f8b748d5fa7",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T14:27:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1057",
+      "product_sku": "ZUV-1057",
+      "category": "hampers",
+      "time_spent_seconds": 146
+    }
+  },
+  {
+    "event_id": "23a1e1e0-a935-40c4-a89a-f54d3dc20c09",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T16:39:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1081",
+      "product_sku": "ZUV-1081",
+      "category": "perfumes",
+      "time_spent_seconds": 329
+    }
+  },
+  {
+    "event_id": "dbb1ff54-3e86-4e97-9d6c-4fd0cf409959",
+    "customer_id": "CUST011",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T17:29:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1082",
+      "product_sku": "ZUV-1082",
+      "category": "perfumes",
+      "time_spent_seconds": 45
+    }
+  },
+  {
+    "event_id": "94b54f93-0837-427b-a203-9cc03236f332",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T17:29:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1064",
+      "product_sku": "ZUV-1064",
+      "category": "hampers",
+      "time_spent_seconds": 339
+    }
+  },
+  {
+    "event_id": "c7ca35a2-557e-4fa8-8438-3ce9476a08cc",
+    "customer_id": "CUST025",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T19:07:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1097",
+      "product_sku": "ZUV-1097",
+      "category": "combos",
+      "time_spent_seconds": 172
+    }
+  },
+  {
+    "event_id": "325936e2-9303-4c35-8b35-849a6d532227",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T19:32:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1075",
+      "product_sku": "ZUV-1075",
+      "category": "perfumes",
+      "time_spent_seconds": 85
+    }
+  },
+  {
+    "event_id": "e4b89dbd-2687-40ce-905a-5b3fdf1a133c",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T21:55:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1092",
+      "product_sku": "ZUV-1092",
+      "category": "combos",
+      "time_spent_seconds": 56
+    }
+  },
+  {
+    "event_id": "d55efa18-0b69-486e-8b57-7395d935dd74",
+    "customer_id": "CUST022",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T23:04:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1011",
+      "product_sku": "ZUV-1011",
+      "category": "flowers",
+      "time_spent_seconds": 73
+    }
+  },
+  {
+    "event_id": "59334a4a-4c1e-4757-9e06-f35ad0646f64",
+    "customer_id": "CUST013",
+    "event_type": "browse",
+    "timestamp": "2025-02-12T23:45:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1056",
+      "product_sku": "ZUV-1056",
+      "category": "hampers",
+      "time_spent_seconds": 67
+    }
+  },
+  {
+    "event_id": "66632864-c354-4b28-9d8c-989f1378b1cb",
+    "customer_id": "CUST013",
+    "event_type": "order",
+    "timestamp": "2025-02-14T10:30:00+03:41",
+    "data": {
+      "order_id": "ORD-322C4911",
+      "line_items": [
+        {
+          "sku": "ZUV-1053",
+          "name": "Nutella Swirl Chocolate Box",
+          "price": 263.92,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 547.49,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "e213c2b2-6c2d-4d93-ae5e-15e5e520de87",
+    "customer_id": "CUST021",
+    "event_type": "order",
+    "timestamp": "2025-02-14T11:20:00-00:01",
+    "data": {
+      "order_id": "ORD-6B8D5EB3",
+      "line_items": [
+        {
+          "sku": "ZUV-1084",
+          "name": "Frankincense & Myrrh Roll-On",
+          "price": 522.44,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 477.06,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "fe884648-fe88-48c1-b352-70eb20fd8225",
+    "customer_id": "CUST004",
+    "event_type": "order",
+    "timestamp": "2025-02-14T11:27:00+03:41",
+    "data": {
+      "order_id": "ORD-AA9A1017",
+      "line_items": [
+        {
+          "sku": "ZUV-1019",
+          "name": "Romantic Rose & Lily Combo",
+          "price": 155.22,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 329.8,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "a6db5812-b08d-4f7d-8e86-549241f10cff",
+    "customer_id": "CUST007",
+    "event_type": "order",
+    "timestamp": "2025-02-14T11:47:00+03:41",
+    "data": {
+      "order_id": "ORD-90586103",
+      "line_items": [
+        {
+          "sku": "ZUV-1018",
+          "name": "Cherry Blossom Stem Bouquet",
+          "price": 175.19,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Partner",
+      "total_aed": 346.76,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "919e4545-e1ff-4539-a3f5-bb82f7f021f3",
+    "customer_id": "CUST025",
+    "event_type": "order",
+    "timestamp": "2025-02-14T13:54:00-00:01",
+    "data": {
+      "order_id": "ORD-6E892EDF",
+      "line_items": [
+        {
+          "sku": "ZUV-1019",
+          "name": "Romantic Rose & Lily Combo",
+          "price": 155.22,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 331.88,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "15a70eb1-72b8-470a-9fc7-d27dfc8bad4f",
+    "customer_id": "CUST016",
+    "event_type": "order",
+    "timestamp": "2025-02-14T14:38:00+05:53",
+    "data": {
+      "order_id": "ORD-3E15C2BC",
+      "line_items": [
+        {
+          "sku": "ZUV-1048",
+          "name": "Sugar-Free Dark Chocolate Set",
+          "price": 244.51,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 450.25,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "1ae8c908-1a0e-45ca-8025-93b44db8f3c4",
+    "customer_id": "CUST009",
+    "event_type": "order",
+    "timestamp": "2025-02-14T15:42:00+03:41",
+    "data": {
+      "order_id": "ORD-1C9DEF28",
+      "line_items": [
+        {
+          "sku": "ZUV-1019",
+          "name": "Romantic Rose & Lily Combo",
+          "price": 155.22,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 301.35,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "31debaba-9b1e-4cf8-a074-fb8b43b75ac2",
+    "customer_id": "CUST036",
+    "event_type": "order",
+    "timestamp": "2025-02-14T16:06:00-04:56",
+    "data": {
+      "order_id": "ORD-BABE855D",
+      "line_items": [
+        {
+          "sku": "ZUV-1093",
+          "name": "Peony & Perfume Gift Set",
+          "price": 314.03,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 336.19,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "77162935-150e-41dd-b9af-dfa63b7c415c",
+    "customer_id": "CUST003",
+    "event_type": "order",
+    "timestamp": "2025-02-14T16:21:00+03:41",
+    "data": {
+      "order_id": "ORD-CEC9E94F",
+      "line_items": [
+        {
+          "sku": "ZUV-1098",
+          "name": "Bouquet & Belgian Chocolate Duo",
+          "price": 715.59,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 1402.19,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "fba4da01-4567-403a-b2e1-94220df606d3",
+    "customer_id": "CUST011",
+    "event_type": "order",
+    "timestamp": "2025-02-14T17:32:00+03:41",
+    "data": {
+      "order_id": "ORD-A1D56326",
+      "line_items": [
+        {
+          "sku": "ZUV-1045",
+          "name": "Ferrero Rocher Gift Tin (24pc)",
+          "price": 53.13,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 55.54,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "05d73bc6-4a3b-40c6-890a-9deb26485819",
+    "customer_id": "CUST026",
+    "event_type": "order",
+    "timestamp": "2025-02-14T18:45:00-05:18",
+    "data": {
+      "order_id": "ORD-4AAA3418",
+      "line_items": [
+        {
+          "sku": "ZUV-1049",
+          "name": "Kinder Bueno Gift Hamper",
+          "price": 246.7,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Partner",
+      "total_aed": 542.21,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "b1d27835-2163-4bae-9450-ea6f215d2b60",
+    "customer_id": "CUST022",
+    "event_type": "order",
+    "timestamp": "2025-02-14T20:16:00-00:01",
+    "data": {
+      "order_id": "ORD-CD6E3C30",
+      "line_items": [
+        {
+          "sku": "ZUV-1052",
+          "name": "Rose & Pistachio Chocolate Slab",
+          "price": 41.25,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 42.79,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "c3dd137c-fd02-41b0-9e31-079b206c7bcb",
+    "customer_id": "CUST007",
+    "event_type": "order",
+    "timestamp": "2025-02-14T20:21:00+03:41",
+    "data": {
+      "order_id": "ORD-6136A817",
+      "line_items": [
+        {
+          "sku": "ZUV-1021",
+          "name": "Vanilla Bean Dream Cake",
+          "price": 379.22,
+          "category": "cakes"
+        }
+      ],
+      "occasion_tag": "anniversary",
+      "recipient_name": "Wife",
+      "recipient_relationship": "Spouse",
+      "total_aed": 401.92,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "3d648879-bf17-45ff-b5fc-e739b54a91bf",
+    "customer_id": "CUST020",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-01T14:50:00+05:53",
+    "data": {
+      "field": "birthday",
+      "value": "1991-11-15",
+      "recipient_name": "Sister"
+    }
+  },
+  {
+    "event_id": "b64f7dc6-85b2-4375-925d-65bbac6fb2ff",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2025-03-01T19:00:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1062",
+      "product_sku": "ZUV-1062",
+      "category": "hampers",
+      "time_spent_seconds": 99
+    }
+  },
+  {
+    "event_id": "a58d2ea6-8401-4ab1-8977-97eb71cac80e",
+    "customer_id": "CUST007",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-02T14:13:00+03:41",
+    "data": {
+      "field": "anniversary",
+      "value": "2020-08-14",
+      "recipient_name": "Wife"
+    }
+  },
+  {
+    "event_id": "a40c6ad6-97a4-4526-8293-c83101efb7d4",
+    "customer_id": "CUST037",
+    "event_type": "browse",
+    "timestamp": "2025-03-02T15:47:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1018",
+      "product_sku": "ZUV-1018",
+      "category": "flowers",
+      "time_spent_seconds": 38
+    }
+  },
+  {
+    "event_id": "9b2339fe-407b-45dc-8674-a1123e88ee40",
+    "customer_id": "CUST043",
+    "event_type": "browse",
+    "timestamp": "2025-03-03T23:33:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1081",
+      "product_sku": "ZUV-1081",
+      "category": "perfumes",
+      "time_spent_seconds": 190
+    }
+  },
+  {
+    "event_id": "e6a3e2c8-0dca-4d1a-ad4b-eb57dbfb7113",
+    "customer_id": "CUST004",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-05T12:04:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1990-07-22",
+      "recipient_name": "Wife"
+    }
+  },
+  {
+    "event_id": "384dc75f-27b3-4ec4-a306-a42200edf372",
+    "customer_id": "CUST008",
+    "event_type": "browse",
+    "timestamp": "2025-03-05T13:28:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1058",
+      "product_sku": "ZUV-1058",
+      "category": "hampers",
+      "time_spent_seconds": 30
+    }
+  },
+  {
+    "event_id": "694a5106-bd03-479e-89e2-d0a79289893c",
+    "customer_id": "CUST018",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-06T10:42:00+05:53",
+    "data": {
+      "field": "anniversary",
+      "value": "2020-10-20",
+      "recipient_name": "Wife"
+    }
+  },
+  {
+    "event_id": "1e645354-84d2-45a8-8003-a04e823fc3cd",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2025-03-07T22:35:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1095",
+      "product_sku": "ZUV-1095",
+      "category": "combos",
+      "time_spent_seconds": 311
+    }
+  },
+  {
+    "event_id": "059fa148-7122-42ee-b9a2-1062dab9e8c9",
+    "customer_id": "CUST006",
+    "event_type": "order",
+    "timestamp": "2025-03-08T12:23:00+03:41",
+    "data": {
+      "order_id": "ORD-8314E0DF",
+      "line_items": [
+        {
+          "sku": "ZUV-1007",
+          "name": "Tulip Collection (15 stems)",
+          "price": 201.35,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "womens_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 425.0,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "74e28cab-6c5e-48c2-85bd-23ad0f0a6c0e",
+    "customer_id": "CUST041",
+    "event_type": "order",
+    "timestamp": "2025-03-08T16:31:00+03:41",
+    "data": {
+      "order_id": "ORD-629B84E4",
+      "line_items": [
+        {
+          "sku": "ZUV-1015",
+          "name": "Daisy Garden Mix",
+          "price": 234.37,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "womens_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 447.47,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "b8c5d2de-2282-4bf1-a2a5-53a8a155114a",
+    "customer_id": "CUST001",
+    "event_type": "order",
+    "timestamp": "2025-03-08T18:13:00+03:41",
+    "data": {
+      "order_id": "ORD-35DBFD47",
+      "line_items": [
+        {
+          "sku": "ZUV-1013",
+          "name": "Baby's Breath Cloud",
+          "price": 191.46,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "womens_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 379.37,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "18e69122-ba05-49d1-94ba-d69e7681c2f8",
+    "customer_id": "CUST030",
+    "event_type": "order",
+    "timestamp": "2025-03-08T19:03:00-05:18",
+    "data": {
+      "order_id": "ORD-F29E63AD",
+      "line_items": [
+        {
+          "sku": "ZUV-1002",
+          "name": "Mixed Wildflower Bunch",
+          "price": 83.86,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "womens_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 165.81,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "f855e068-4b64-4a7f-9ef8-cb69b80ef6d7",
+    "customer_id": "CUST015",
+    "event_type": "order",
+    "timestamp": "2025-03-08T19:38:00+03:41",
+    "data": {
+      "order_id": "ORD-5225B4D5",
+      "line_items": [
+        {
+          "sku": "ZUV-1002",
+          "name": "Mixed Wildflower Bunch",
+          "price": 83.86,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "womens_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 78.08,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "9a432ca0-ddbf-423a-95d9-afee31a152e6",
+    "customer_id": "CUST024",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-09T09:08:00-00:01",
+    "data": {
+      "field": "birthday",
+      "value": "1996-10-25",
+      "recipient_name": "Mom"
+    }
+  },
+  {
+    "event_id": "cbe81b69-8f95-4442-badd-e66ed1134be6",
+    "customer_id": "CUST023",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-11T09:11:00-00:01",
+    "data": {
+      "field": "anniversary",
+      "value": "2017-07-07",
+      "recipient_name": "Husband"
+    }
+  },
+  {
+    "event_id": "f3b8c503-203d-4c98-8a06-4cb33c617ed3",
+    "customer_id": "CUST040",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-03-12T10:25:00-07:53",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "dfc95967-1ead-4b91-85cb-1cd25618181a",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2025-03-12T21:41:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1042",
+      "product_sku": "ZUV-1042",
+      "category": "chocolates",
+      "time_spent_seconds": 319
+    }
+  },
+  {
+    "event_id": "e7a93ff8-434a-44ab-b1f4-52d15d75f894",
+    "customer_id": "CUST023",
+    "event_type": "browse",
+    "timestamp": "2025-03-12T22:39:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1022",
+      "product_sku": "ZUV-1022",
+      "category": "cakes",
+      "time_spent_seconds": 374
+    }
+  },
+  {
+    "event_id": "c418f695-1fd6-4a18-9047-5f2b34c5b649",
+    "customer_id": "CUST021",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-13T13:12:00-00:01",
+    "data": {
+      "field": "birthday",
+      "value": "1993-07-30",
+      "recipient_name": "Best Friend"
+    }
+  },
+  {
+    "event_id": "5333b9cc-89a2-4395-aaa0-8113540b58c7",
+    "customer_id": "CUST003",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-14T10:53:00+03:41",
+    "data": {
+      "field": "anniversary",
+      "value": "2019-06-10",
+      "recipient_name": "Husband"
+    }
+  },
+  {
+    "event_id": "5e4c3057-539c-4fe5-878d-2ac4b33cbc26",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2025-03-15T09:20:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1039",
+      "product_sku": "ZUV-1039",
+      "category": "cakes",
+      "time_spent_seconds": 293
+    }
+  },
+  {
+    "event_id": "5a468b9d-ac8a-45a4-8bf5-4cc70a54ca76",
+    "customer_id": "CUST009",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-15T16:15:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1965-08-03",
+      "recipient_name": "Dad"
+    }
+  },
+  {
+    "event_id": "99473dbb-bb8d-49d4-b6b9-9b1023896318",
+    "customer_id": "CUST006",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-16T15:17:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1990-12-05",
+      "recipient_name": "Mom"
+    }
+  },
+  {
+    "event_id": "d859fdb3-1d9b-4fd9-a898-5720d030c794",
+    "customer_id": "CUST016",
+    "event_type": "order",
+    "timestamp": "2025-03-17T10:18:00+05:53",
+    "data": {
+      "order_id": "ORD-FCFD9B31",
+      "line_items": [
+        {
+          "sku": "ZUV-1027",
+          "name": "Lemon Drizzle Layer Cake",
+          "price": 310.73,
+          "category": "cakes"
+        }
+      ],
+      "occasion_tag": "birthday",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 328.82,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "a701a8fc-02a8-497e-95cd-24a14d45325c",
+    "customer_id": "CUST017",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-18T13:51:00+05:53",
+    "data": {
+      "field": "birthday",
+      "value": "1992-12-12",
+      "recipient_name": "Dad"
+    }
+  },
+  {
+    "event_id": "bd2dbb16-8c52-4985-9ce7-fd8ce78a5b27",
+    "customer_id": "CUST019",
+    "event_type": "browse",
+    "timestamp": "2025-03-19T10:52:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1052",
+      "product_sku": "ZUV-1052",
+      "category": "chocolates",
+      "time_spent_seconds": 374
+    }
+  },
+  {
+    "event_id": "5dab83ff-0c1e-423d-8b80-4e08bfaf19ab",
+    "customer_id": "CUST002",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-19T11:56:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1988-09-22",
+      "recipient_name": "Wife"
+    }
+  },
+  {
+    "event_id": "1b1695d4-c6c2-4dfe-aa44-e3c445747afa",
+    "customer_id": "CUST008",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-19T12:52:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1993-08-19",
+      "recipient_name": "Mom"
+    }
+  },
+  {
+    "event_id": "ded0cd91-d140-4f7b-9d8d-93d7242833f0",
+    "customer_id": "CUST045",
+    "event_type": "browse",
+    "timestamp": "2025-03-19T18:20:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1057",
+      "product_sku": "ZUV-1057",
+      "category": "hampers",
+      "time_spent_seconds": 169
+    }
+  },
+  {
+    "event_id": "d99f1760-e90e-4d36-b500-1653d7b65ea2",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-03-20T15:48:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1086",
+      "product_sku": "ZUV-1086",
+      "category": "perfumes",
+      "time_spent_seconds": 231
+    }
+  },
+  {
+    "event_id": "69f7a262-bbf5-432b-95a6-eea0c2aa6ded",
+    "customer_id": "CUST041",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-21T09:03:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1988-09-05",
+      "recipient_name": "Husband"
+    }
+  },
+  {
+    "event_id": "8b93362b-ea2a-4e5b-b36f-3aff29ee46fd",
+    "customer_id": "CUST044",
+    "event_type": "browse",
+    "timestamp": "2025-03-21T10:41:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1083",
+      "product_sku": "ZUV-1083",
+      "category": "perfumes",
+      "time_spent_seconds": 418
+    }
+  },
+  {
+    "event_id": "3f4c233b-064f-48c2-9e55-b33615607ab6",
+    "customer_id": "CUST013",
+    "event_type": "browse",
+    "timestamp": "2025-03-21T16:59:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1071",
+      "product_sku": "ZUV-1071",
+      "category": "hampers",
+      "time_spent_seconds": 386
+    }
+  },
+  {
+    "event_id": "d46818df-859f-4fb0-9dc6-0496773aef10",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2025-03-21T21:32:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1041",
+      "product_sku": "ZUV-1041",
+      "category": "chocolates",
+      "time_spent_seconds": 74
+    }
+  },
+  {
+    "event_id": "4fb53f04-d9f2-4a93-8fe1-ab2f7d4cba9f",
+    "customer_id": "CUST036",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-22T12:41:00-04:56",
+    "data": {
+      "field": "birthday",
+      "value": "1996-09-19",
+      "recipient_name": "Sister"
+    }
+  },
+  {
+    "event_id": "698e13bf-b368-4df1-a2b4-d106b10d57d9",
+    "customer_id": "CUST013",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-22T14:34:00+03:41",
+    "data": {
+      "field": "anniversary",
+      "value": "2018-06-20",
+      "recipient_name": "Partner"
+    }
+  },
+  {
+    "event_id": "ba406261-af8f-4816-9693-be66a6d49cf1",
+    "customer_id": "CUST001",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-22T17:26:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1992-07-15",
+      "recipient_name": "Husband"
+    }
+  },
+  {
+    "event_id": "45871c52-39ce-4db5-b27f-f14b60a83f9e",
+    "customer_id": "CUST035",
+    "event_type": "browse",
+    "timestamp": "2025-03-23T19:34:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1096",
+      "product_sku": "ZUV-1096",
+      "category": "combos",
+      "time_spent_seconds": 51
+    }
+  },
+  {
+    "event_id": "405bc992-3f08-41ba-9f27-1e2a80794148",
+    "customer_id": "CUST025",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-24T15:33:00-00:01",
+    "data": {
+      "field": "anniversary",
+      "value": "2020-12-01",
+      "recipient_name": "Husband"
+    }
+  },
+  {
+    "event_id": "f9f50582-35c8-4968-9c07-561da862a11a",
+    "customer_id": "CUST012",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-25T11:50:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1987-10-08",
+      "recipient_name": "Wife"
+    }
+  },
+  {
+    "event_id": "de356da1-2c0a-4bbf-90db-9c1bd873265a",
+    "customer_id": "CUST017",
+    "event_type": "browse",
+    "timestamp": "2025-03-26T08:47:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1027",
+      "product_sku": "ZUV-1027",
+      "category": "cakes",
+      "time_spent_seconds": 326
+    }
+  },
+  {
+    "event_id": "9dc0dcf8-d62f-42e9-b8e9-9c902620255a",
+    "customer_id": "CUST022",
+    "event_type": "browse",
+    "timestamp": "2025-03-26T11:55:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1054",
+      "product_sku": "ZUV-1054",
+      "category": "chocolates",
+      "time_spent_seconds": 385
+    }
+  },
+  {
+    "event_id": "dcf34343-fc04-42c3-a98e-51e8d457cb37",
+    "customer_id": "CUST022",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-26T12:37:00-00:01",
+    "data": {
+      "field": "birthday",
+      "value": "1989-09-14",
+      "recipient_name": "Wife"
+    }
+  },
+  {
+    "event_id": "f039fb01-c342-40d4-9199-41c510d59e84",
+    "customer_id": "CUST045",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-26T14:15:00+03:41",
+    "data": {
+      "field": "anniversary",
+      "value": "2021-10-15",
+      "recipient_name": "Husband"
+    }
+  },
+  {
+    "event_id": "51543b45-e7ac-4e49-9786-9658a33e2eba",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T09:27:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1002",
+      "product_sku": "ZUV-1002",
+      "category": "flowers",
+      "time_spent_seconds": 265
+    }
+  },
+  {
+    "event_id": "85aae8f3-20af-4681-aac7-2479464f97fe",
+    "customer_id": "CUST027",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T11:15:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1055",
+      "product_sku": "ZUV-1055",
+      "category": "hampers",
+      "time_spent_seconds": 331
+    }
+  },
+  {
+    "event_id": "ed4740e2-1856-45fa-a423-ffce518d4466",
+    "customer_id": "CUST041",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T12:48:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1097",
+      "product_sku": "ZUV-1097",
+      "category": "combos",
+      "time_spent_seconds": 365
+    }
+  },
+  {
+    "event_id": "4c50907f-bf7b-48e0-8c74-0864f63660d7",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T15:21:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1099",
+      "product_sku": "ZUV-1099",
+      "category": "combos",
+      "time_spent_seconds": 116
+    }
+  },
+  {
+    "event_id": "a0b93b82-5acc-4af9-b17a-d2d9519ab911",
+    "customer_id": "CUST031",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-27T16:05:00+02:05",
+    "data": {
+      "field": "birthday",
+      "value": "1985-06-25",
+      "recipient_name": "Mother"
+    }
+  },
+  {
+    "event_id": "1a686b7e-efb1-4ff3-b824-02a1e67cfe58",
+    "customer_id": "CUST005",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-27T17:13:00+03:41",
+    "data": {
+      "field": "anniversary",
+      "value": "2018-09-01",
+      "recipient_name": "Husband"
+    }
+  },
+  {
+    "event_id": "ece3855b-18f6-4a3f-b7c1-8d9a206ada00",
+    "customer_id": "CUST002",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T17:13:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1098",
+      "product_sku": "ZUV-1098",
+      "category": "combos",
+      "time_spent_seconds": 100
+    }
+  },
+  {
+    "event_id": "0143cfd6-bd94-4533-b8b9-9503ceda4443",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T19:22:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1093",
+      "product_sku": "ZUV-1093",
+      "category": "combos",
+      "time_spent_seconds": 360
+    }
+  },
+  {
+    "event_id": "69e227d8-d5f2-4ca3-9173-1f0993be32f3",
+    "customer_id": "CUST013",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T20:35:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1064",
+      "product_sku": "ZUV-1064",
+      "category": "hampers",
+      "time_spent_seconds": 364
+    }
+  },
+  {
+    "event_id": "5f357033-397f-4559-88bb-3b7d80fd6f30",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T21:11:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1016",
+      "product_sku": "ZUV-1016",
+      "category": "flowers",
+      "time_spent_seconds": 224
+    }
+  },
+  {
+    "event_id": "b5cec5db-0335-41ef-aad5-0afcc68d0847",
+    "customer_id": "CUST023",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T21:18:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1014",
+      "product_sku": "ZUV-1014",
+      "category": "flowers",
+      "time_spent_seconds": 237
+    }
+  },
+  {
+    "event_id": "303b9254-bf78-43d8-8a2c-a3ee0982daf6",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T22:43:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1072",
+      "product_sku": "ZUV-1072",
+      "category": "hampers",
+      "time_spent_seconds": 359
+    }
+  },
+  {
+    "event_id": "44d63ab6-d5c6-4650-b429-163c12457655",
+    "customer_id": "CUST001",
+    "event_type": "browse",
+    "timestamp": "2025-03-27T23:33:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1085",
+      "product_sku": "ZUV-1085",
+      "category": "perfumes",
+      "time_spent_seconds": 187
+    }
+  },
+  {
+    "event_id": "c7192a2d-cc82-4acf-b85a-183f300310fd",
+    "customer_id": "CUST019",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-28T09:08:00+05:53",
+    "data": {
+      "field": "birthday",
+      "value": "1994-08-30",
+      "recipient_name": "Mom"
+    }
+  },
+  {
+    "event_id": "c56a2c6c-dfc3-4aef-8e6a-a77769281313",
+    "customer_id": "CUST015",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-28T11:08:00+03:41",
+    "data": {
+      "field": "anniversary",
+      "value": "2019-06-28",
+      "recipient_name": "Partner"
+    }
+  },
+  {
+    "event_id": "b28933fd-f520-4b19-9de2-94ece588310d",
+    "customer_id": "CUST010",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-28T12:21:00+03:41",
+    "data": {
+      "field": "anniversary",
+      "value": "2016-11-05",
+      "recipient_name": "Husband"
+    }
+  },
+  {
+    "event_id": "d3f0dd71-dcdb-40b1-b5b1-1ad1a77523a2",
+    "customer_id": "CUST011",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-28T14:06:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1994-11-28",
+      "recipient_name": "Sister"
+    }
+  },
+  {
+    "event_id": "2a5b2d2b-26a2-4596-b53a-eab6598b82e1",
+    "customer_id": "CUST014",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-29T09:17:00+03:41",
+    "data": {
+      "field": "birthday",
+      "value": "1995-07-04",
+      "recipient_name": "Partner"
+    }
+  },
+  {
+    "event_id": "cd5c1b75-28e1-4505-a4fc-2a8590375f30",
+    "customer_id": "CUST045",
+    "event_type": "browse",
+    "timestamp": "2025-03-29T10:06:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1098",
+      "product_sku": "ZUV-1098",
+      "category": "combos",
+      "time_spent_seconds": 157
+    }
+  },
+  {
+    "event_id": "9956af9b-ca47-4056-bc74-d866a1d9caac",
+    "customer_id": "CUST016",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-29T14:03:00+05:53",
+    "data": {
+      "field": "birthday",
+      "value": "1991-10-17",
+      "recipient_name": "Mom"
+    }
+  },
+  {
+    "event_id": "6686ba73-89ad-4c1b-aca5-a47072b21546",
+    "customer_id": "CUST014",
+    "event_type": "browse",
+    "timestamp": "2025-03-29T19:55:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1090",
+      "product_sku": "ZUV-1090",
+      "category": "combos",
+      "time_spent_seconds": 342
+    }
+  },
+  {
+    "event_id": "b911b79e-8789-4c4f-8073-59249e700788",
+    "customer_id": "CUST001",
+    "event_type": "order",
+    "timestamp": "2025-03-30T11:22:00+03:41",
+    "data": {
+      "order_id": "ORD-1DD6CB06",
+      "line_items": [
+        {
+          "sku": "ZUV-1070",
+          "name": "His & Hers Pamper Bundle",
+          "price": 524.89,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Sister",
+      "recipient_relationship": "Sibling",
+      "total_aed": 502.14,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "2a013b4d-e75d-402f-914d-14f4917cb822",
+    "customer_id": "CUST042",
+    "event_type": "order",
+    "timestamp": "2025-03-30T12:49:00+03:41",
+    "data": {
+      "order_id": "ORD-FB64F0C1",
+      "line_items": [
+        {
+          "sku": "ZUV-1087",
+          "name": "Ocean Breeze Unisex EDT",
+          "price": 626.84,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 1317.48,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "a9a5d2da-bbc7-4c7f-95f4-3b0348dcb787",
+    "customer_id": "CUST041",
+    "event_type": "order",
+    "timestamp": "2025-03-30T13:06:00+03:41",
+    "data": {
+      "order_id": "ORD-36B1CA89",
+      "line_items": [
+        {
+          "sku": "ZUV-1020",
+          "name": "Dark Chocolate Truffle Cake",
+          "price": 306.38,
+          "category": "cakes"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Wife",
+      "recipient_relationship": "Spouse",
+      "total_aed": 575.66,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "c4c01994-26c7-4fa7-b5fb-caeae818a700",
+    "customer_id": "CUST002",
+    "event_type": "order",
+    "timestamp": "2025-03-30T13:25:00+03:41",
+    "data": {
+      "order_id": "ORD-2F98EF22",
+      "line_items": [
+        {
+          "sku": "ZUV-1099",
+          "name": "Premium Rose & Oud Perfume Gift",
+          "price": 590.52,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 532.38,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "c44cb6e8-9c07-4420-902e-aa0a3112378f",
+    "customer_id": "CUST003",
+    "event_type": "order",
+    "timestamp": "2025-03-30T14:20:00+03:41",
+    "data": {
+      "order_id": "ORD-6F0ED1C9",
+      "line_items": [
+        {
+          "sku": "ZUV-1017",
+          "name": "Exotic Bird of Paradise",
+          "price": 209.87,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 209.76,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "5f6decd6-5847-4a20-926b-d3e499ae952d",
+    "customer_id": "CUST027",
+    "event_type": "order",
+    "timestamp": "2025-03-30T15:10:00-05:18",
+    "data": {
+      "order_id": "ORD-6E7E8983",
+      "line_items": [
+        {
+          "sku": "ZUV-1083",
+          "name": "Bakhoor Concentrated Perfume Oil",
+          "price": 180.19,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 330.69,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "da31ff3c-6542-45e8-8c4e-4b00ce1ab748",
+    "customer_id": "CUST023",
+    "event_type": "order",
+    "timestamp": "2025-03-30T15:36:00-00:01",
+    "data": {
+      "order_id": "ORD-F028AF25",
+      "line_items": [
+        {
+          "sku": "ZUV-1070",
+          "name": "His & Hers Pamper Bundle",
+          "price": 524.89,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 1093.77,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "35354ef3-1477-472b-9fd1-01cc5139678a",
+    "customer_id": "CUST031",
+    "event_type": "order",
+    "timestamp": "2025-03-30T18:05:00+02:05",
+    "data": {
+      "order_id": "ORD-47638D19",
+      "line_items": [
+        {
+          "sku": "ZUV-1064",
+          "name": "Premium Coffee & Sweets Basket",
+          "price": 755.09,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 1584.42,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "06f21bc7-742d-4d70-b734-c3aefe8809a2",
+    "customer_id": "CUST032",
+    "event_type": "order",
+    "timestamp": "2025-03-30T18:40:00+02:05",
+    "data": {
+      "order_id": "ORD-8A49F0C5",
+      "line_items": [
+        {
+          "sku": "ZUV-1017",
+          "name": "Exotic Bird of Paradise",
+          "price": 209.87,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 226.91,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "2d8333b3-1867-4b56-8392-67fde261cc55",
+    "customer_id": "CUST004",
+    "event_type": "order",
+    "timestamp": "2025-03-30T21:14:00+03:41",
+    "data": {
+      "order_id": "ORD-ED4F0DFA",
+      "line_items": [
+        {
+          "sku": "ZUV-1088",
+          "name": "Vanilla Musk Signature Spray",
+          "price": 604.53,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Sister",
+      "recipient_relationship": "Sibling",
+      "total_aed": 1105.58,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "4b62a05a-94b3-4377-bee2-2c5ec56ce0bb",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2025-03-30T23:33:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1045",
+      "product_sku": "ZUV-1045",
+      "category": "chocolates",
+      "time_spent_seconds": 329
+    }
+  },
+  {
+    "event_id": "b9ffa3ac-b918-411c-97f4-e6006bd7661a",
+    "customer_id": "CUST026",
+    "event_type": "profile_update",
+    "timestamp": "2025-03-31T10:54:00-05:18",
+    "data": {
+      "field": "anniversary",
+      "value": "2017-08-12",
+      "recipient_name": "Husband"
+    }
+  },
+  {
+    "event_id": "ccefdc2a-2268-4544-8ea9-2ae5d4154df1",
+    "customer_id": "CUST011",
+    "event_type": "browse",
+    "timestamp": "2025-03-31T17:52:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1090",
+      "product_sku": "ZUV-1090",
+      "category": "combos",
+      "time_spent_seconds": 386
+    }
+  },
+  {
+    "event_id": "d8f15f18-379e-4d15-a776-f477936e303c",
+    "customer_id": "CUST014",
+    "event_type": "browse",
+    "timestamp": "2025-04-01T09:36:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1044",
+      "product_sku": "ZUV-1044",
+      "category": "chocolates",
+      "time_spent_seconds": 302
+    }
+  },
+  {
+    "event_id": "88ae9a90-4478-4b5a-ab7d-f4e1752ac41d",
+    "customer_id": "CUST007",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-04-03T13:25:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "3ef36305-021b-4086-a286-eaa387a3d106",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-04-06T16:18:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1015",
+      "product_sku": "ZUV-1015",
+      "category": "flowers",
+      "time_spent_seconds": 323
+    }
+  },
+  {
+    "event_id": "3daa35ac-727f-4a05-8641-799ada0f4636",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-04-09T10:32:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1095",
+      "product_sku": "ZUV-1095",
+      "category": "combos",
+      "time_spent_seconds": 207
+    }
+  },
+  {
+    "event_id": "c60724d6-1c69-4746-9205-6b930b69a4db",
+    "customer_id": "CUST039",
+    "event_type": "browse",
+    "timestamp": "2025-04-10T10:33:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1057",
+      "product_sku": "ZUV-1057",
+      "category": "hampers",
+      "time_spent_seconds": 300
+    }
+  },
+  {
+    "event_id": "c91d1ba1-3966-455d-9a69-505e95640551",
+    "customer_id": "CUST007",
+    "event_type": "order",
+    "timestamp": "2025-04-10T16:56:00+03:41",
+    "data": {
+      "order_id": "ORD-82BEF4EF",
+      "line_items": [
+        {
+          "sku": "ZUV-1032",
+          "name": "Saffron & Cardamom Cake",
+          "price": 373.59,
+          "category": "cakes"
+        }
+      ],
+      "occasion_tag": "anniversary",
+      "recipient_name": "Wife",
+      "recipient_relationship": "Spouse",
+      "total_aed": 806.15,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "b73deeac-5719-427b-9864-30799ce11adc",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2025-04-10T23:11:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1095",
+      "product_sku": "ZUV-1095",
+      "category": "combos",
+      "time_spent_seconds": 178
+    }
+  },
+  {
+    "event_id": "f01cd5b5-473f-4fa6-9216-1fb581a8e09f",
+    "customer_id": "CUST002",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-04-11T09:41:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "a4a3fb61-7d88-4cba-9e07-28f30ee66f55",
+    "customer_id": "CUST025",
+    "event_type": "browse",
+    "timestamp": "2025-04-11T18:44:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1053",
+      "product_sku": "ZUV-1053",
+      "category": "chocolates",
+      "time_spent_seconds": 239
+    }
+  },
+  {
+    "event_id": "f46c65fc-ff4e-4761-8b67-36940f19d048",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2025-04-13T10:23:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1032",
+      "product_sku": "ZUV-1032",
+      "category": "cakes",
+      "time_spent_seconds": 156
+    }
+  },
+  {
+    "event_id": "2ceac214-284d-429b-8852-afd971dc6c49",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-04-16T17:24:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1059",
+      "product_sku": "ZUV-1059",
+      "category": "hampers",
+      "time_spent_seconds": 303
+    }
+  },
+  {
+    "event_id": "97fd3fe1-5217-42cd-be55-9026355d0f75",
+    "customer_id": "CUST025",
+    "event_type": "browse",
+    "timestamp": "2025-04-17T12:41:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1086",
+      "product_sku": "ZUV-1086",
+      "category": "perfumes",
+      "time_spent_seconds": 103
+    }
+  },
+  {
+    "event_id": "1f8aa9d8-cb12-42c3-a86d-8cc4568784cf",
+    "customer_id": "CUST030",
+    "event_type": "browse",
+    "timestamp": "2025-04-18T12:22:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1003",
+      "product_sku": "ZUV-1003",
+      "category": "flowers",
+      "time_spent_seconds": 277
+    }
+  },
+  {
+    "event_id": "51932ca5-2b00-4ec1-b9b7-ccfd8c2a84a0",
+    "customer_id": "CUST039",
+    "event_type": "browse",
+    "timestamp": "2025-04-20T20:49:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1041",
+      "product_sku": "ZUV-1041",
+      "category": "chocolates",
+      "time_spent_seconds": 45
+    }
+  },
+  {
+    "event_id": "6a7020f9-7c9c-4d7e-b5f4-16f9643ef825",
+    "customer_id": "CUST033",
+    "event_type": "browse",
+    "timestamp": "2025-04-21T21:27:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1089",
+      "product_sku": "ZUV-1089",
+      "category": "perfumes",
+      "time_spent_seconds": 235
+    }
+  },
+  {
+    "event_id": "de431f46-a615-410b-8672-85bef8de7d35",
+    "customer_id": "CUST024",
+    "event_type": "browse",
+    "timestamp": "2025-04-24T16:06:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1016",
+      "product_sku": "ZUV-1016",
+      "category": "flowers",
+      "time_spent_seconds": 74
+    }
+  },
+  {
+    "event_id": "a39bb5d1-17d7-468b-9c56-cfe189d116e1",
+    "customer_id": "CUST044",
+    "event_type": "browse",
+    "timestamp": "2025-04-26T14:11:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1078",
+      "product_sku": "ZUV-1078",
+      "category": "perfumes",
+      "time_spent_seconds": 357
+    }
+  },
+  {
+    "event_id": "705d59a2-4333-4775-bf33-61177a6f084e",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2025-04-26T14:48:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1031",
+      "product_sku": "ZUV-1031",
+      "category": "cakes",
+      "time_spent_seconds": 378
+    }
+  },
+  {
+    "event_id": "6ef21c41-c927-4e2f-ab54-d2456c6f151f",
+    "customer_id": "CUST029",
+    "event_type": "browse",
+    "timestamp": "2025-04-28T16:21:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1038",
+      "product_sku": "ZUV-1038",
+      "category": "cakes",
+      "time_spent_seconds": 328
+    }
+  },
+  {
+    "event_id": "e68601c6-1902-4583-8907-2b9bef5e72f9",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2025-04-29T15:19:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1004",
+      "product_sku": "ZUV-1004",
+      "category": "flowers",
+      "time_spent_seconds": 260
+    }
+  },
+  {
+    "event_id": "3785d9f8-9862-4511-9870-3614e61a6ff3",
+    "customer_id": "CUST013",
+    "event_type": "browse",
+    "timestamp": "2025-05-01T20:18:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1082",
+      "product_sku": "ZUV-1082",
+      "category": "perfumes",
+      "time_spent_seconds": 57
+    }
+  },
+  {
+    "event_id": "d578c6b4-3f28-49f5-b1df-ecfe413811c3",
+    "customer_id": "CUST008",
+    "event_type": "browse",
+    "timestamp": "2025-05-01T23:58:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1031",
+      "product_sku": "ZUV-1031",
+      "category": "cakes",
+      "time_spent_seconds": 386
+    }
+  },
+  {
+    "event_id": "049ff06c-fea7-45d5-838b-3c669864990d",
+    "customer_id": "CUST038",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-05-02T13:28:00-04:56",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "0e194670-a5a8-45f2-a423-2fefd3fed2f3",
+    "customer_id": "CUST043",
+    "event_type": "browse",
+    "timestamp": "2025-05-04T13:07:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1001",
+      "product_sku": "ZUV-1001",
+      "category": "flowers",
+      "time_spent_seconds": 392
+    }
+  },
+  {
+    "event_id": "2812dc48-e86b-4a10-9ff8-297dd8b2653d",
+    "customer_id": "CUST011",
+    "event_type": "browse",
+    "timestamp": "2025-05-04T15:33:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1022",
+      "product_sku": "ZUV-1022",
+      "category": "cakes",
+      "time_spent_seconds": 312
+    }
+  },
+  {
+    "event_id": "89ec5f62-2ea9-4ddd-929f-2daee0f568c6",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2025-05-05T23:29:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1021",
+      "product_sku": "ZUV-1021",
+      "category": "cakes",
+      "time_spent_seconds": 405
+    }
+  },
+  {
+    "event_id": "a17eb23b-e7a7-4143-9899-95c7b02fd736",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-05-07T09:42:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1043",
+      "product_sku": "ZUV-1043",
+      "category": "chocolates",
+      "time_spent_seconds": 346
+    }
+  },
+  {
+    "event_id": "e08fbb72-6bb6-4a4a-bbb1-d374b80d5646",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-05-07T12:21:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1010",
+      "product_sku": "ZUV-1010",
+      "category": "flowers",
+      "time_spent_seconds": 328
+    }
+  },
+  {
+    "event_id": "50afb8c3-3d26-4c48-9772-0e57c2e664e8",
+    "customer_id": "CUST006",
+    "event_type": "browse",
+    "timestamp": "2025-05-07T13:23:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1047",
+      "product_sku": "ZUV-1047",
+      "category": "chocolates",
+      "time_spent_seconds": 174
+    }
+  },
+  {
+    "event_id": "2543e301-6f76-4475-b3f5-21e14db636b7",
+    "customer_id": "CUST040",
+    "event_type": "browse",
+    "timestamp": "2025-05-07T13:46:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1056",
+      "product_sku": "ZUV-1056",
+      "category": "hampers",
+      "time_spent_seconds": 52
+    }
+  },
+  {
+    "event_id": "1efe6851-f9f5-45fd-bd3c-8aea6d38f2a3",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2025-05-07T18:04:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1042",
+      "product_sku": "ZUV-1042",
+      "category": "chocolates",
+      "time_spent_seconds": 78
+    }
+  },
+  {
+    "event_id": "d9233ac8-d026-410e-b932-4ce09e445cd6",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2025-05-07T18:52:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1016",
+      "product_sku": "ZUV-1016",
+      "category": "flowers",
+      "time_spent_seconds": 373
+    }
+  },
+  {
+    "event_id": "7ad7fade-8485-44bf-9622-5a17c9709650",
+    "customer_id": "CUST011",
+    "event_type": "browse",
+    "timestamp": "2025-05-07T20:08:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1076",
+      "product_sku": "ZUV-1076",
+      "category": "perfumes",
+      "time_spent_seconds": 392
+    }
+  },
+  {
+    "event_id": "c784afef-e589-4f1a-9fc3-c5a67664e2ae",
+    "customer_id": "CUST017",
+    "event_type": "browse",
+    "timestamp": "2025-05-07T21:32:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1046",
+      "product_sku": "ZUV-1046",
+      "category": "chocolates",
+      "time_spent_seconds": 39
+    }
+  },
+  {
+    "event_id": "5f76c382-7862-42b6-8c9a-c245dc5b80cc",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-05-07T23:12:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1028",
+      "product_sku": "ZUV-1028",
+      "category": "cakes",
+      "time_spent_seconds": 100
+    }
+  },
+  {
+    "event_id": "181f314f-d8c0-4246-92fa-b28c15ae6ce8",
+    "customer_id": "CUST018",
+    "event_type": "browse",
+    "timestamp": "2025-05-08T11:49:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1003",
+      "product_sku": "ZUV-1003",
+      "category": "flowers",
+      "time_spent_seconds": 201
+    }
+  },
+  {
+    "event_id": "95c634e7-5929-41aa-8a74-10dbe0bf8fdc",
+    "customer_id": "CUST013",
+    "event_type": "browse",
+    "timestamp": "2025-05-08T15:09:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1000",
+      "product_sku": "ZUV-1000",
+      "category": "flowers",
+      "time_spent_seconds": 239
+    }
+  },
+  {
+    "event_id": "387f3ba9-59de-441d-89b9-c790e010a7f4",
+    "customer_id": "CUST016",
+    "event_type": "order",
+    "timestamp": "2025-05-11T11:19:00+05:53",
+    "data": {
+      "order_id": "ORD-108F1BBB",
+      "line_items": [
+        {
+          "sku": "ZUV-1096",
+          "name": "Rose Bouquet & Tiramisu Combo",
+          "price": 347.86,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "mothers_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 715.69,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "a54faa3a-9e04-4480-a497-8205e678cf44",
+    "customer_id": "CUST006",
+    "event_type": "order",
+    "timestamp": "2025-05-11T12:02:00+03:41",
+    "data": {
+      "order_id": "ORD-9DD87669",
+      "line_items": [
+        {
+          "sku": "ZUV-1012",
+          "name": "Premium Red Roses (24 stems)",
+          "price": 201.43,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "mothers_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 442.42,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "adbbe59c-0fe7-49a5-a684-444f71f16bfc",
+    "customer_id": "CUST036",
+    "event_type": "order",
+    "timestamp": "2025-05-11T12:04:00-04:56",
+    "data": {
+      "order_id": "ORD-17E46441",
+      "line_items": [
+        {
+          "sku": "ZUV-1014",
+          "name": "Hydrangea Bliss Bouquet",
+          "price": 293.26,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "mothers_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 293.71,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "d3a90f54-2720-4b2c-b496-ad231f266bfb",
+    "customer_id": "CUST040",
+    "event_type": "order",
+    "timestamp": "2025-05-11T12:38:00-07:53",
+    "data": {
+      "order_id": "ORD-EB958E34",
+      "line_items": [
+        {
+          "sku": "ZUV-1091",
+          "name": "Orchid & Godiva Chocolates Set",
+          "price": 478.27,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "mothers_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 445.96,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "d917c6ac-cb48-4459-867b-1711380578ad",
+    "customer_id": "CUST021",
+    "event_type": "order",
+    "timestamp": "2025-05-11T15:19:00-00:01",
+    "data": {
+      "order_id": "ORD-2D059DD0",
+      "line_items": [
+        {
+          "sku": "ZUV-1007",
+          "name": "Tulip Collection (15 stems)",
+          "price": 201.35,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "mothers_day",
+      "recipient_name": "Mum",
+      "recipient_relationship": "Mother",
+      "total_aed": 194.98,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "afab558d-df7d-43ea-b0b7-4be163e0751f",
+    "customer_id": "CUST007",
+    "event_type": "order",
+    "timestamp": "2025-05-11T16:26:00+03:41",
+    "data": {
+      "order_id": "ORD-AA41C300",
+      "line_items": [
+        {
+          "sku": "ZUV-1090",
+          "name": "Roses & Red Velvet Cake Combo",
+          "price": 684.75,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "mothers_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 724.36,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "cf72fe52-0f1f-49b4-a864-3ec3f2b22865",
+    "customer_id": "CUST009",
+    "event_type": "order",
+    "timestamp": "2025-05-11T18:43:00+03:41",
+    "data": {
+      "order_id": "ORD-6687EBE7",
+      "line_items": [
+        {
+          "sku": "ZUV-1091",
+          "name": "Orchid & Godiva Chocolates Set",
+          "price": 478.27,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "mothers_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 909.09,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "f090607b-795c-4838-a1cd-9132bf8ac6a7",
+    "customer_id": "CUST011",
+    "event_type": "order",
+    "timestamp": "2025-05-11T20:09:00+03:41",
+    "data": {
+      "order_id": "ORD-BD1C3117",
+      "line_items": [
+        {
+          "sku": "ZUV-1090",
+          "name": "Roses & Red Velvet Cake Combo",
+          "price": 684.75,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "mothers_day",
+      "recipient_name": "Mum",
+      "recipient_relationship": "Mother",
+      "total_aed": 1497.6,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "4009be82-f207-47b7-9775-30c0a17a55e5",
+    "customer_id": "CUST017",
+    "event_type": "order",
+    "timestamp": "2025-05-11T21:53:00+05:53",
+    "data": {
+      "order_id": "ORD-57F77F8E",
+      "line_items": [
+        {
+          "sku": "ZUV-1099",
+          "name": "Premium Rose & Oud Perfume Gift",
+          "price": 590.52,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "mothers_day",
+      "recipient_name": "Amma",
+      "recipient_relationship": "Mother",
+      "total_aed": 607.77,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "f7855c24-25fd-4c6c-94b8-1af7682ca8d6",
+    "customer_id": "CUST002",
+    "event_type": "browse",
+    "timestamp": "2025-05-11T22:45:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1026",
+      "product_sku": "ZUV-1026",
+      "category": "cakes",
+      "time_spent_seconds": 254
+    }
+  },
+  {
+    "event_id": "4c25ffe3-da3f-40f7-8264-efa9baf79e70",
+    "customer_id": "CUST020",
+    "event_type": "browse",
+    "timestamp": "2025-05-12T15:27:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1083",
+      "product_sku": "ZUV-1083",
+      "category": "perfumes",
+      "time_spent_seconds": 76
+    }
+  },
+  {
+    "event_id": "005972f1-d7ee-4e2b-81b6-60f9c2b44dbb",
+    "customer_id": "CUST035",
+    "event_type": "browse",
+    "timestamp": "2025-05-13T14:03:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1034",
+      "product_sku": "ZUV-1034",
+      "category": "cakes",
+      "time_spent_seconds": 223
+    }
+  },
+  {
+    "event_id": "3465dcc5-f074-4ee9-a38b-38d21f09a569",
+    "customer_id": "CUST038",
+    "event_type": "browse",
+    "timestamp": "2025-05-13T14:30:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1026",
+      "product_sku": "ZUV-1026",
+      "category": "cakes",
+      "time_spent_seconds": 200
+    }
+  },
+  {
+    "event_id": "20c76090-6fa8-40bb-9428-49018f879521",
+    "customer_id": "CUST039",
+    "event_type": "browse",
+    "timestamp": "2025-05-14T17:49:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1088",
+      "product_sku": "ZUV-1088",
+      "category": "perfumes",
+      "time_spent_seconds": 43
+    }
+  },
+  {
+    "event_id": "e62d1633-3621-4a6d-a5cc-af65f4a365cf",
+    "customer_id": "CUST010",
+    "event_type": "browse",
+    "timestamp": "2025-05-17T21:50:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1048",
+      "product_sku": "ZUV-1048",
+      "category": "chocolates",
+      "time_spent_seconds": 67
+    }
+  },
+  {
+    "event_id": "446a8c85-a8ec-46b9-89af-df8926732f61",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2025-05-18T10:05:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1034",
+      "product_sku": "ZUV-1034",
+      "category": "cakes",
+      "time_spent_seconds": 108
+    }
+  },
+  {
+    "event_id": "d51e6877-c813-42be-9951-e5c51df72135",
+    "customer_id": "CUST025",
+    "event_type": "browse",
+    "timestamp": "2025-05-19T12:47:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1049",
+      "product_sku": "ZUV-1049",
+      "category": "chocolates",
+      "time_spent_seconds": 192
+    }
+  },
+  {
+    "event_id": "06f2ec12-784f-43f3-b88c-5ac9c6d458af",
+    "customer_id": "CUST006",
+    "event_type": "browse",
+    "timestamp": "2025-05-19T15:22:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1050",
+      "product_sku": "ZUV-1050",
+      "category": "chocolates",
+      "time_spent_seconds": 292
+    }
+  },
+  {
+    "event_id": "ff15020e-995e-45d1-9d50-dda5d5fedcc0",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2025-05-22T12:33:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1026",
+      "product_sku": "ZUV-1026",
+      "category": "cakes",
+      "time_spent_seconds": 317
+    }
+  },
+  {
+    "event_id": "6d1993b7-80bf-455c-a2c5-deb5c01cc1ab",
+    "customer_id": "CUST039",
+    "event_type": "browse",
+    "timestamp": "2025-05-23T14:25:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1030",
+      "product_sku": "ZUV-1030",
+      "category": "cakes",
+      "time_spent_seconds": 312
+    }
+  },
+  {
+    "event_id": "c1380734-f0fc-42be-b71e-77a0172489c5",
+    "customer_id": "CUST026",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-05-23T15:39:00-05:18",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "e5e4d82f-b473-4ab4-9dc1-b3e3ca332217",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-05-24T08:10:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1063",
+      "product_sku": "ZUV-1063",
+      "category": "hampers",
+      "time_spent_seconds": 207
+    }
+  },
+  {
+    "event_id": "b8267b0b-5bb9-4819-b436-cc042ccb8d8c",
+    "customer_id": "CUST043",
+    "event_type": "browse",
+    "timestamp": "2025-05-26T19:54:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1008",
+      "product_sku": "ZUV-1008",
+      "category": "flowers",
+      "time_spent_seconds": 303
+    }
+  },
+  {
+    "event_id": "c752a37e-5c40-4395-a82c-a2cdfc2022d9",
+    "customer_id": "CUST035",
+    "event_type": "browse",
+    "timestamp": "2025-05-28T13:35:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1021",
+      "product_sku": "ZUV-1021",
+      "category": "cakes",
+      "time_spent_seconds": 280
+    }
+  },
+  {
+    "event_id": "be1b00af-c79e-425a-82e2-9b9e690b7422",
+    "customer_id": "CUST018",
+    "event_type": "browse",
+    "timestamp": "2025-05-28T19:29:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1062",
+      "product_sku": "ZUV-1062",
+      "category": "hampers",
+      "time_spent_seconds": 197
+    }
+  },
+  {
+    "event_id": "c056faff-5d26-45d7-a38e-a75716f87523",
+    "customer_id": "CUST033",
+    "event_type": "browse",
+    "timestamp": "2025-05-29T21:34:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1004",
+      "product_sku": "ZUV-1004",
+      "category": "flowers",
+      "time_spent_seconds": 214
+    }
+  },
+  {
+    "event_id": "3eb5af02-2266-41d4-88b1-e177c47a6a4c",
+    "customer_id": "CUST014",
+    "event_type": "browse",
+    "timestamp": "2025-05-30T23:20:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1061",
+      "product_sku": "ZUV-1061",
+      "category": "hampers",
+      "time_spent_seconds": 208
+    }
+  },
+  {
+    "event_id": "d76973ca-0587-45be-ac12-84d6e3dce3da",
+    "customer_id": "CUST035",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-06-01T09:36:00+02:05",
+    "data": {
+      "direction": "outbound",
+      "template_name": "order_confirmation",
+      "read": false,
+      "opted_out": true
+    }
+  },
+  {
+    "event_id": "18328981-d70b-442e-b31e-3ec3036bf7c5",
+    "customer_id": "CUST024",
+    "event_type": "browse",
+    "timestamp": "2025-06-01T10:37:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1075",
+      "product_sku": "ZUV-1075",
+      "category": "perfumes",
+      "time_spent_seconds": 162
+    }
+  },
+  {
+    "event_id": "fac21f51-f288-4d2c-9c30-0935e9049324",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2025-06-01T17:44:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1015",
+      "product_sku": "ZUV-1015",
+      "category": "flowers",
+      "time_spent_seconds": 357
+    }
+  },
+  {
+    "event_id": "791cdfea-9018-44d2-babe-559eaa05bbdc",
+    "customer_id": "CUST031",
+    "event_type": "order",
+    "timestamp": "2025-06-06T15:53:00+02:05",
+    "data": {
+      "order_id": "ORD-7D20CF12",
+      "line_items": [
+        {
+          "sku": "ZUV-1048",
+          "name": "Sugar-Free Dark Chocolate Set",
+          "price": 244.51,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 251.58,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "f1a32fd3-0fce-45c3-868c-d614b49c57bc",
+    "customer_id": "CUST002",
+    "event_type": "order",
+    "timestamp": "2025-06-06T15:55:00+03:41",
+    "data": {
+      "order_id": "ORD-C99FA632",
+      "line_items": [
+        {
+          "sku": "ZUV-1051",
+          "name": "Valrhona Single Origin Bar Set",
+          "price": 96.52,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Sister",
+      "recipient_relationship": "Sibling",
+      "total_aed": 95.36,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "c158bbe8-6c33-4e5d-9ecf-aabc0e6b7ef4",
+    "customer_id": "CUST043",
+    "event_type": "order",
+    "timestamp": "2025-06-06T17:06:00+03:41",
+    "data": {
+      "order_id": "ORD-EF9A2915",
+      "line_items": [
+        {
+          "sku": "ZUV-1053",
+          "name": "Nutella Swirl Chocolate Box",
+          "price": 263.92,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 264.16,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "c446796f-6ca3-4d82-bf47-0df1a335086a",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2025-06-06T17:16:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1022",
+      "product_sku": "ZUV-1022",
+      "category": "cakes",
+      "time_spent_seconds": 45
+    }
+  },
+  {
+    "event_id": "57ed6e2f-d6af-4d9f-96ab-5243a0f60182",
+    "customer_id": "CUST004",
+    "event_type": "order",
+    "timestamp": "2025-06-06T17:40:00+03:41",
+    "data": {
+      "order_id": "ORD-B60344BC",
+      "line_items": [
+        {
+          "sku": "ZUV-1049",
+          "name": "Kinder Bueno Gift Hamper",
+          "price": 246.7,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 502.42,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "a2a3fd4b-600e-40e1-bdd9-1b4d8cbcf275",
+    "customer_id": "CUST005",
+    "event_type": "order",
+    "timestamp": "2025-06-06T18:04:00+03:41",
+    "data": {
+      "order_id": "ORD-F66FC54E",
+      "line_items": [
+        {
+          "sku": "ZUV-1049",
+          "name": "Kinder Bueno Gift Hamper",
+          "price": 246.7,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 488.65,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "128e7cd6-d6cc-4253-a0ce-71698b1574fd",
+    "customer_id": "CUST025",
+    "event_type": "browse",
+    "timestamp": "2025-06-06T18:24:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1096",
+      "product_sku": "ZUV-1096",
+      "category": "combos",
+      "time_spent_seconds": 408
+    }
+  },
+  {
+    "event_id": "a3e5169e-bd7f-4b39-8045-e7dafaff2045",
+    "customer_id": "CUST033",
+    "event_type": "order",
+    "timestamp": "2025-06-06T19:38:00+02:05",
+    "data": {
+      "order_id": "ORD-C0D6E4C4",
+      "line_items": [
+        {
+          "sku": "ZUV-1088",
+          "name": "Vanilla Musk Signature Spray",
+          "price": 604.53,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 1200.04,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "1dc62792-0d68-481b-8ea4-f1e8552ae9f4",
+    "customer_id": "CUST005",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-06-06T19:50:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": true,
+      "opted_out": true
+    }
+  },
+  {
+    "event_id": "2d8bbbba-44ca-4aaa-878f-faed62d422a8",
+    "customer_id": "CUST038",
+    "event_type": "order",
+    "timestamp": "2025-06-06T20:12:00-04:56",
+    "data": {
+      "order_id": "ORD-D2FDA9B6",
+      "line_items": [
+        {
+          "sku": "ZUV-1051",
+          "name": "Valrhona Single Origin Bar Set",
+          "price": 96.52,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Sister",
+      "recipient_relationship": "Sibling",
+      "total_aed": 193.09,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "480c8c56-2086-4be4-9258-90138f1a31aa",
+    "customer_id": "CUST034",
+    "event_type": "order",
+    "timestamp": "2025-06-06T21:57:00+02:05",
+    "data": {
+      "order_id": "ORD-11CF16C9",
+      "line_items": [
+        {
+          "sku": "ZUV-1009",
+          "name": "Pastel Carnation Bouquet",
+          "price": 200.79,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Sister",
+      "recipient_relationship": "Sibling",
+      "total_aed": 434.43,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "0c8d9a29-36be-42a2-9d75-c5c5a69d07a6",
+    "customer_id": "CUST033",
+    "event_type": "browse",
+    "timestamp": "2025-06-08T09:11:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1028",
+      "product_sku": "ZUV-1028",
+      "category": "cakes",
+      "time_spent_seconds": 294
+    }
+  },
+  {
+    "event_id": "5cb74982-39d5-498e-82d9-640d23262e7e",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2025-06-10T11:11:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1017",
+      "product_sku": "ZUV-1017",
+      "category": "flowers",
+      "time_spent_seconds": 274
+    }
+  },
+  {
+    "event_id": "b5d0885d-8c81-4b5b-90d1-d0de47b676f7",
+    "customer_id": "CUST043",
+    "event_type": "browse",
+    "timestamp": "2025-06-12T19:10:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1082",
+      "product_sku": "ZUV-1082",
+      "category": "perfumes",
+      "time_spent_seconds": 343
+    }
+  },
+  {
+    "event_id": "617e5b56-040e-4762-9522-41f4a839dc4f",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-06-13T23:33:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1048",
+      "product_sku": "ZUV-1048",
+      "category": "chocolates",
+      "time_spent_seconds": 190
+    }
+  },
+  {
+    "event_id": "29bb4310-a3c7-46bb-9501-96d88cafc62a",
+    "customer_id": "CUST009",
+    "event_type": "order",
+    "timestamp": "2025-06-15T16:21:00+03:41",
+    "data": {
+      "order_id": "ORD-8BB80C43",
+      "line_items": [
+        {
+          "sku": "ZUV-1026",
+          "name": "Mango Mousse Cake",
+          "price": 215.52,
+          "category": "cakes"
+        }
+      ],
+      "occasion_tag": "birthday",
+      "recipient_name": "Dad",
+      "recipient_relationship": "Father",
+      "total_aed": 447.6,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "d836a911-2ea6-4366-89bb-4d0689fcd688",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-06-17T18:16:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1097",
+      "product_sku": "ZUV-1097",
+      "category": "combos",
+      "time_spent_seconds": 280
+    }
+  },
+  {
+    "event_id": "b3229710-d193-4221-a4d4-72fc91d4636e",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-06-18T19:07:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1022",
+      "product_sku": "ZUV-1022",
+      "category": "cakes",
+      "time_spent_seconds": 305
+    }
+  },
+  {
+    "event_id": "f4e556b5-9da0-4c53-8e60-1d860fb5d169",
+    "customer_id": "CUST027",
+    "event_type": "browse",
+    "timestamp": "2025-06-18T23:30:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1083",
+      "product_sku": "ZUV-1083",
+      "category": "perfumes",
+      "time_spent_seconds": 132
+    }
+  },
+  {
+    "event_id": "3f7469ea-8e26-4fb8-8df5-eac740a6cd43",
+    "customer_id": "CUST018",
+    "event_type": "browse",
+    "timestamp": "2025-06-22T10:15:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1070",
+      "product_sku": "ZUV-1070",
+      "category": "hampers",
+      "time_spent_seconds": 337
+    }
+  },
+  {
+    "event_id": "fd71a4a0-7458-4857-8c04-50e206ab1954",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2025-06-23T14:18:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1045",
+      "product_sku": "ZUV-1045",
+      "category": "chocolates",
+      "time_spent_seconds": 54
+    }
+  },
+  {
+    "event_id": "2e1a4fe7-12ee-4401-8fc8-5287dea61a7a",
+    "customer_id": "CUST044",
+    "event_type": "browse",
+    "timestamp": "2025-06-23T16:39:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1061",
+      "product_sku": "ZUV-1061",
+      "category": "hampers",
+      "time_spent_seconds": 128
+    }
+  },
+  {
+    "event_id": "96a0f3b6-9dd0-4910-b3c1-6ba5b8add38c",
+    "customer_id": "CUST006",
+    "event_type": "browse",
+    "timestamp": "2025-06-25T12:17:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1010",
+      "product_sku": "ZUV-1010",
+      "category": "flowers",
+      "time_spent_seconds": 188
+    }
+  },
+  {
+    "event_id": "c85676e3-6df9-4d61-a958-b865b202dece",
+    "customer_id": "CUST031",
+    "event_type": "order",
+    "timestamp": "2025-06-25T16:52:00+02:05",
+    "data": {
+      "order_id": "ORD-2AC21A2D",
+      "line_items": [
+        {
+          "sku": "ZUV-1084",
+          "name": "Frankincense & Myrrh Roll-On",
+          "price": 522.44,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "birthday",
+      "recipient_name": "Mother",
+      "recipient_relationship": "Mother",
+      "total_aed": 993.33,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "eb2d49a2-3858-48ab-a2d5-470f559b23bc",
+    "customer_id": "CUST045",
+    "event_type": "browse",
+    "timestamp": "2025-06-28T23:36:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1031",
+      "product_sku": "ZUV-1031",
+      "category": "cakes",
+      "time_spent_seconds": 196
+    }
+  },
+  {
+    "event_id": "e1a80dd7-cfdd-43eb-afea-40a8706fc92d",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2025-06-30T08:24:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1091",
+      "product_sku": "ZUV-1091",
+      "category": "combos",
+      "time_spent_seconds": 213
+    }
+  },
+  {
+    "event_id": "65660535-60e9-4850-9de5-eaadba64780d",
+    "customer_id": "CUST027",
+    "event_type": "browse",
+    "timestamp": "2025-07-07T22:55:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1027",
+      "product_sku": "ZUV-1027",
+      "category": "cakes",
+      "time_spent_seconds": 74
+    }
+  },
+  {
+    "event_id": "b0448fb4-1c00-457c-8a12-73e59872d697",
+    "customer_id": "CUST020",
+    "event_type": "browse",
+    "timestamp": "2025-07-08T10:43:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1017",
+      "product_sku": "ZUV-1017",
+      "category": "flowers",
+      "time_spent_seconds": 190
+    }
+  },
+  {
+    "event_id": "8e221896-da19-4217-9597-1a827e3b43e9",
+    "customer_id": "CUST030",
+    "event_type": "browse",
+    "timestamp": "2025-07-09T09:19:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1085",
+      "product_sku": "ZUV-1085",
+      "category": "perfumes",
+      "time_spent_seconds": 409
+    }
+  },
+  {
+    "event_id": "9c4c1531-aa8f-4bfd-86cc-3c1cbe0d5a67",
+    "customer_id": "CUST044",
+    "event_type": "browse",
+    "timestamp": "2025-07-13T09:55:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1009",
+      "product_sku": "ZUV-1009",
+      "category": "flowers",
+      "time_spent_seconds": 126
+    }
+  },
+  {
+    "event_id": "fcc5d344-0817-423a-b2dd-7655e8473c10",
+    "customer_id": "CUST001",
+    "event_type": "browse",
+    "timestamp": "2025-07-13T23:02:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1081",
+      "product_sku": "ZUV-1081",
+      "category": "perfumes",
+      "time_spent_seconds": 228
+    }
+  },
+  {
+    "event_id": "35e09183-571f-4e66-b5b1-b2692fd72d55",
+    "customer_id": "CUST001",
+    "event_type": "order",
+    "timestamp": "2025-07-15T18:50:00+03:41",
+    "data": {
+      "order_id": "ORD-9E5DAC0B",
+      "line_items": [
+        {
+          "sku": "ZUV-1082",
+          "name": "Fresh Citrus Burst EDT 100ml",
+          "price": 623.55,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "birthday",
+      "recipient_name": "Husband",
+      "recipient_relationship": "Spouse",
+      "total_aed": 609.89,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "f3eeec4a-7620-4375-a043-671ad048c4d4",
+    "customer_id": "CUST029",
+    "event_type": "browse",
+    "timestamp": "2025-07-16T09:15:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1094",
+      "product_sku": "ZUV-1094",
+      "category": "combos",
+      "time_spent_seconds": 52
+    }
+  },
+  {
+    "event_id": "30e34bca-1ccb-4499-b974-6a9a47710d72",
+    "customer_id": "CUST029",
+    "event_type": "browse",
+    "timestamp": "2025-07-16T23:37:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1051",
+      "product_sku": "ZUV-1051",
+      "category": "chocolates",
+      "time_spent_seconds": 303
+    }
+  },
+  {
+    "event_id": "091a72aa-e59b-4d3f-b1f8-f88b171a2f90",
+    "customer_id": "CUST018",
+    "event_type": "browse",
+    "timestamp": "2025-07-17T13:20:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1090",
+      "product_sku": "ZUV-1090",
+      "category": "combos",
+      "time_spent_seconds": 179
+    }
+  },
+  {
+    "event_id": "3e981530-b55c-4f66-8e18-9e8d5d7eceb2",
+    "customer_id": "CUST006",
+    "event_type": "browse",
+    "timestamp": "2025-07-17T18:55:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1049",
+      "product_sku": "ZUV-1049",
+      "category": "chocolates",
+      "time_spent_seconds": 36
+    }
+  },
+  {
+    "event_id": "b7085a76-7bc1-484f-9118-85053c1938a8",
+    "customer_id": "CUST041",
+    "event_type": "browse",
+    "timestamp": "2025-07-18T10:33:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1001",
+      "product_sku": "ZUV-1001",
+      "category": "flowers",
+      "time_spent_seconds": 214
+    }
+  },
+  {
+    "event_id": "60547959-c0d2-4e4d-b726-36694f3e14e0",
+    "customer_id": "CUST045",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-07-19T11:40:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "39ae0b67-d226-48df-b976-e6b12dfa4101",
+    "customer_id": "CUST013",
+    "event_type": "browse",
+    "timestamp": "2025-07-19T13:43:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1098",
+      "product_sku": "ZUV-1098",
+      "category": "combos",
+      "time_spent_seconds": 311
+    }
+  },
+  {
+    "event_id": "dc2a3e8d-88f7-4a74-bacb-d1c63108fdd9",
+    "customer_id": "CUST044",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-07-21T14:26:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": true,
+      "opted_out": true
+    }
+  },
+  {
+    "event_id": "ea090a5a-2f38-4065-9e3b-13e8f3a8a03a",
+    "customer_id": "CUST002",
+    "event_type": "browse",
+    "timestamp": "2025-07-22T10:00:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1033",
+      "product_sku": "ZUV-1033",
+      "category": "cakes",
+      "time_spent_seconds": 140
+    }
+  },
+  {
+    "event_id": "6ff1544a-7d8f-4c35-b3a4-22a46010e3c3",
+    "customer_id": "CUST014",
+    "event_type": "browse",
+    "timestamp": "2025-07-22T12:48:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1091",
+      "product_sku": "ZUV-1091",
+      "category": "combos",
+      "time_spent_seconds": 233
+    }
+  },
+  {
+    "event_id": "2bc21103-dcfe-4b87-9148-461de67cc830",
+    "customer_id": "CUST042",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-07-24T22:05:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "cddcbe52-250e-4568-b259-8d5eba8dc7be",
+    "customer_id": "CUST006",
+    "event_type": "browse",
+    "timestamp": "2025-07-25T11:32:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1017",
+      "product_sku": "ZUV-1017",
+      "category": "flowers",
+      "time_spent_seconds": 356
+    }
+  },
+  {
+    "event_id": "04422ea3-90d8-4142-9efa-ed5d94839c66",
+    "customer_id": "CUST005",
+    "event_type": "browse",
+    "timestamp": "2025-07-27T11:51:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1068",
+      "product_sku": "ZUV-1068",
+      "category": "hampers",
+      "time_spent_seconds": 125
+    }
+  },
+  {
+    "event_id": "4976f116-01c2-4a21-bdbf-c6d35b9f083a",
+    "customer_id": "CUST004",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-07-27T15:55:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "3ba9e44d-b14e-491e-988f-7940d46d9dca",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-07-27T18:15:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1038",
+      "product_sku": "ZUV-1038",
+      "category": "cakes",
+      "time_spent_seconds": 103
+    }
+  },
+  {
+    "event_id": "a617f2a2-2ed2-4f27-a122-c3703b7872e3",
+    "customer_id": "CUST043",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-07-27T19:19:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "1f6909da-6813-4f4a-b4c3-76b11483c20e",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2025-07-29T11:14:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1094",
+      "product_sku": "ZUV-1094",
+      "category": "combos",
+      "time_spent_seconds": 290
+    }
+  },
+  {
+    "event_id": "3bad4da3-181e-47a8-90c2-8852227c3009",
+    "customer_id": "CUST013",
+    "event_type": "browse",
+    "timestamp": "2025-07-29T12:10:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1041",
+      "product_sku": "ZUV-1041",
+      "category": "chocolates",
+      "time_spent_seconds": 296
+    }
+  },
+  {
+    "event_id": "949ab9e4-4bbb-4b2d-9377-0ff4a78fbd55",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2025-07-29T15:34:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1094",
+      "product_sku": "ZUV-1094",
+      "category": "combos",
+      "time_spent_seconds": 400
+    }
+  },
+  {
+    "event_id": "2ed30d0b-d655-427a-9bc1-404cfd48f4ac",
+    "customer_id": "CUST019",
+    "event_type": "browse",
+    "timestamp": "2025-07-29T16:54:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1065",
+      "product_sku": "ZUV-1065",
+      "category": "hampers",
+      "time_spent_seconds": 377
+    }
+  },
+  {
+    "event_id": "e722f675-7fd5-41e6-8126-dade5b9f7a16",
+    "customer_id": "CUST032",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-07-31T16:04:00+02:05",
+    "data": {
+      "direction": "outbound",
+      "template_name": "order_confirmation",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "d16b92d1-1e6f-4822-b799-7f94127bb222",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-08-01T12:04:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1091",
+      "product_sku": "ZUV-1091",
+      "category": "combos",
+      "time_spent_seconds": 264
+    }
+  },
+  {
+    "event_id": "bee09c03-54be-4cf1-b948-f5fb3bb3254d",
+    "customer_id": "CUST030",
+    "event_type": "browse",
+    "timestamp": "2025-08-02T15:44:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1028",
+      "product_sku": "ZUV-1028",
+      "category": "cakes",
+      "time_spent_seconds": 183
+    }
+  },
+  {
+    "event_id": "14db2c69-3548-4d84-9dc4-7e062c9d15b4",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-08-02T23:50:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1043",
+      "product_sku": "ZUV-1043",
+      "category": "chocolates",
+      "time_spent_seconds": 379
+    }
+  },
+  {
+    "event_id": "c43ac769-2e5a-446a-9743-a78908f9c2c6",
+    "customer_id": "CUST009",
+    "event_type": "order",
+    "timestamp": "2025-08-03T12:53:00+03:41",
+    "data": {
+      "order_id": "ORD-8BF601FD",
+      "line_items": [
+        {
+          "sku": "ZUV-1076",
+          "name": "Rose Arabica Parfum 50ml",
+          "price": 404.48,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "birthday",
+      "recipient_name": "Dad",
+      "recipient_relationship": "Father",
+      "total_aed": 830.27,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "80b169c2-b484-4d06-b07c-8a76db131c8f",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2025-08-03T20:48:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1042",
+      "product_sku": "ZUV-1042",
+      "category": "chocolates",
+      "time_spent_seconds": 250
+    }
+  },
+  {
+    "event_id": "93712cf5-0eb1-4dd7-a534-6af0c20d43a5",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2025-08-06T13:40:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1086",
+      "product_sku": "ZUV-1086",
+      "category": "perfumes",
+      "time_spent_seconds": 248
+    }
+  },
+  {
+    "event_id": "c450b12f-3e27-4903-84b6-18f20a2e0d8f",
+    "customer_id": "CUST034",
+    "event_type": "browse",
+    "timestamp": "2025-08-06T15:28:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1047",
+      "product_sku": "ZUV-1047",
+      "category": "chocolates",
+      "time_spent_seconds": 230
+    }
+  },
+  {
+    "event_id": "9bcde51b-8678-4432-9f26-3d814b70d399",
+    "customer_id": "CUST017",
+    "event_type": "browse",
+    "timestamp": "2025-08-08T21:18:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1019",
+      "product_sku": "ZUV-1019",
+      "category": "flowers",
+      "time_spent_seconds": 130
+    }
+  },
+  {
+    "event_id": "b2a73ad2-9551-406f-a13f-b8b994b8486a",
+    "customer_id": "CUST027",
+    "event_type": "browse",
+    "timestamp": "2025-08-10T23:03:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1011",
+      "product_sku": "ZUV-1011",
+      "category": "flowers",
+      "time_spent_seconds": 173
+    }
+  },
+  {
+    "event_id": "1aeeec72-65af-44c0-9a01-af805278ece6",
+    "customer_id": "CUST024",
+    "event_type": "browse",
+    "timestamp": "2025-08-12T13:48:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1060",
+      "product_sku": "ZUV-1060",
+      "category": "hampers",
+      "time_spent_seconds": 67
+    }
+  },
+  {
+    "event_id": "02574d1a-be23-433a-a488-49455a64c15a",
+    "customer_id": "CUST029",
+    "event_type": "browse",
+    "timestamp": "2025-08-12T14:27:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1013",
+      "product_sku": "ZUV-1013",
+      "category": "flowers",
+      "time_spent_seconds": 406
+    }
+  },
+  {
+    "event_id": "b59a6ead-4996-4467-8a23-3d483ab1b0a7",
+    "customer_id": "CUST018",
+    "event_type": "browse",
+    "timestamp": "2025-08-13T09:11:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1040",
+      "product_sku": "ZUV-1040",
+      "category": "chocolates",
+      "time_spent_seconds": 38
+    }
+  },
+  {
+    "event_id": "2b807136-d46c-4d9f-95e7-7044ef1ddd95",
+    "customer_id": "CUST014",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-08-13T20:14:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "92aaad02-4d1a-4f86-aa21-f64181b02e63",
+    "customer_id": "CUST044",
+    "event_type": "browse",
+    "timestamp": "2025-08-13T20:57:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1050",
+      "product_sku": "ZUV-1050",
+      "category": "chocolates",
+      "time_spent_seconds": 206
+    }
+  },
+  {
+    "event_id": "8433a2f6-ff6b-4885-b832-59b1c27941fc",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2025-08-13T23:22:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1072",
+      "product_sku": "ZUV-1072",
+      "category": "hampers",
+      "time_spent_seconds": 287
+    }
+  },
+  {
+    "event_id": "85e0b73d-c8c3-447d-a3a6-5cf42987f9e2",
+    "customer_id": "CUST012",
+    "event_type": "browse",
+    "timestamp": "2025-08-14T09:33:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1004",
+      "product_sku": "ZUV-1004",
+      "category": "flowers",
+      "time_spent_seconds": 68
+    }
+  },
+  {
+    "event_id": "7e954390-e798-4eb9-a984-dbe132c30fef",
+    "customer_id": "CUST018",
+    "event_type": "browse",
+    "timestamp": "2025-08-17T17:01:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1064",
+      "product_sku": "ZUV-1064",
+      "category": "hampers",
+      "time_spent_seconds": 387
+    }
+  },
+  {
+    "event_id": "db187538-4506-478e-8838-0e679d182648",
+    "customer_id": "CUST028",
+    "event_type": "browse",
+    "timestamp": "2025-08-19T20:52:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1029",
+      "product_sku": "ZUV-1029",
+      "category": "cakes",
+      "time_spent_seconds": 156
+    }
+  },
+  {
+    "event_id": "e931cc31-8a55-4156-944f-790c73b8e306",
+    "customer_id": "CUST005",
+    "event_type": "browse",
+    "timestamp": "2025-08-20T08:39:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1083",
+      "product_sku": "ZUV-1083",
+      "category": "perfumes",
+      "time_spent_seconds": 114
+    }
+  },
+  {
+    "event_id": "d2886f0a-b42e-4268-b19d-a824fb388161",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2025-08-21T09:14:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1027",
+      "product_sku": "ZUV-1027",
+      "category": "cakes",
+      "time_spent_seconds": 384
+    }
+  },
+  {
+    "event_id": "85a1373f-7ef5-4322-a8be-ad1ef4d5e43d",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2025-08-21T12:46:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1028",
+      "product_sku": "ZUV-1028",
+      "category": "cakes",
+      "time_spent_seconds": 31
+    }
+  },
+  {
+    "event_id": "5defb0e8-de55-491a-b79b-d822376a72ec",
+    "customer_id": "CUST043",
+    "event_type": "browse",
+    "timestamp": "2025-08-25T15:26:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1038",
+      "product_sku": "ZUV-1038",
+      "category": "cakes",
+      "time_spent_seconds": 170
+    }
+  },
+  {
+    "event_id": "d85fc736-e3d4-4311-b4f9-5a12e8c07d07",
+    "customer_id": "CUST034",
+    "event_type": "browse",
+    "timestamp": "2025-08-27T16:10:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1047",
+      "product_sku": "ZUV-1047",
+      "category": "chocolates",
+      "time_spent_seconds": 94
+    }
+  },
+  {
+    "event_id": "bf4e60c7-87c3-4716-98aa-31d154d1ba2e",
+    "customer_id": "CUST012",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-08-27T16:10:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": false,
+      "opted_out": true
+    }
+  },
+  {
+    "event_id": "bd095d80-af56-4e5f-9fa4-3171ce0ed504",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-08-29T21:29:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1072",
+      "product_sku": "ZUV-1072",
+      "category": "hampers",
+      "time_spent_seconds": 59
+    }
+  },
+  {
+    "event_id": "df086e64-e756-4b0e-baef-93830534405a",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-08-30T11:36:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1014",
+      "product_sku": "ZUV-1014",
+      "category": "flowers",
+      "time_spent_seconds": 167
+    }
+  },
+  {
+    "event_id": "fcdd6a8a-c8be-4694-985b-4d133b8bbb2f",
+    "customer_id": "CUST006",
+    "event_type": "browse",
+    "timestamp": "2025-08-30T14:51:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1019",
+      "product_sku": "ZUV-1019",
+      "category": "flowers",
+      "time_spent_seconds": 304
+    }
+  },
+  {
+    "event_id": "6b78385b-91ce-4790-93c1-220f33b4fa44",
+    "customer_id": "CUST006",
+    "event_type": "browse",
+    "timestamp": "2025-08-30T22:51:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1007",
+      "product_sku": "ZUV-1007",
+      "category": "flowers",
+      "time_spent_seconds": 262
+    }
+  },
+  {
+    "event_id": "b88404dd-4200-4f3e-bee8-02389c5d6fbc",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2025-09-05T13:23:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1020",
+      "product_sku": "ZUV-1020",
+      "category": "cakes",
+      "time_spent_seconds": 160
+    }
+  },
+  {
+    "event_id": "be0f6137-aa30-4223-ae1d-88feb9491515",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-09-07T09:22:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1082",
+      "product_sku": "ZUV-1082",
+      "category": "perfumes",
+      "time_spent_seconds": 373
+    }
+  },
+  {
+    "event_id": "dcf74fdb-a5c6-4d39-aae3-9b4ff6bfbd85",
+    "customer_id": "CUST041",
+    "event_type": "browse",
+    "timestamp": "2025-09-07T14:29:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1013",
+      "product_sku": "ZUV-1013",
+      "category": "flowers",
+      "time_spent_seconds": 99
+    }
+  },
+  {
+    "event_id": "84d3601b-1fb6-4052-ba4b-0ff58655ff2a",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2025-09-07T20:07:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1030",
+      "product_sku": "ZUV-1030",
+      "category": "cakes",
+      "time_spent_seconds": 285
+    }
+  },
+  {
+    "event_id": "8c336e90-244c-41f9-a8d4-07d02f351b35",
+    "customer_id": "CUST032",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-09-08T21:21:00+02:05",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "85285171-eee2-4809-9b67-c0d10fce85eb",
+    "customer_id": "CUST034",
+    "event_type": "browse",
+    "timestamp": "2025-09-13T19:30:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1012",
+      "product_sku": "ZUV-1012",
+      "category": "flowers",
+      "time_spent_seconds": 254
+    }
+  },
+  {
+    "event_id": "e7ddebae-16f3-439e-9ae4-477c9418316a",
+    "customer_id": "CUST040",
+    "event_type": "browse",
+    "timestamp": "2025-09-13T23:01:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1000",
+      "product_sku": "ZUV-1000",
+      "category": "flowers",
+      "time_spent_seconds": 302
+    }
+  },
+  {
+    "event_id": "315c2501-ae59-48fe-8118-3212959d2c88",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-09-16T10:14:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1049",
+      "product_sku": "ZUV-1049",
+      "category": "chocolates",
+      "time_spent_seconds": 75
+    }
+  },
+  {
+    "event_id": "bc903918-4928-4830-b830-061346300206",
+    "customer_id": "CUST037",
+    "event_type": "browse",
+    "timestamp": "2025-09-17T16:02:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1009",
+      "product_sku": "ZUV-1009",
+      "category": "flowers",
+      "time_spent_seconds": 380
+    }
+  },
+  {
+    "event_id": "bf9085ac-9b06-4ddc-80b9-ca9ef5a7c85c",
+    "customer_id": "CUST002",
+    "event_type": "browse",
+    "timestamp": "2025-09-20T19:15:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1093",
+      "product_sku": "ZUV-1093",
+      "category": "combos",
+      "time_spent_seconds": 366
+    }
+  },
+  {
+    "event_id": "bc56f5c2-d7a3-4304-9dee-74f9d68bd5b0",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2025-09-22T11:51:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1092",
+      "product_sku": "ZUV-1092",
+      "category": "combos",
+      "time_spent_seconds": 270
+    }
+  },
+  {
+    "event_id": "67df9b2f-eb42-4f86-9f8e-b1253d42a20a",
+    "customer_id": "CUST002",
+    "event_type": "order",
+    "timestamp": "2025-09-22T15:16:00+03:41",
+    "data": {
+      "order_id": "ORD-83633747",
+      "line_items": [
+        {
+          "sku": "ZUV-1002",
+          "name": "Mixed Wildflower Bunch",
+          "price": 83.86,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "birthday",
+      "recipient_name": "Wife",
+      "recipient_relationship": "Spouse",
+      "total_aed": 177.4,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "ab1f77df-9464-4800-b74c-966cdd4fd2d4",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-09-24T17:46:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1002",
+      "product_sku": "ZUV-1002",
+      "category": "flowers",
+      "time_spent_seconds": 232
+    }
+  },
+  {
+    "event_id": "51fa401a-9803-4e34-892c-83cf97b31cd4",
+    "customer_id": "CUST012",
+    "event_type": "browse",
+    "timestamp": "2025-09-25T18:34:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1045",
+      "product_sku": "ZUV-1045",
+      "category": "chocolates",
+      "time_spent_seconds": 376
+    }
+  },
+  {
+    "event_id": "257b42f3-cc40-4fc7-bd86-6d253e88f3ba",
+    "customer_id": "CUST010",
+    "event_type": "browse",
+    "timestamp": "2025-09-28T19:26:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1089",
+      "product_sku": "ZUV-1089",
+      "category": "perfumes",
+      "time_spent_seconds": 311
+    }
+  },
+  {
+    "event_id": "133f0e34-9817-41e8-a3e2-119e8256c6bd",
+    "customer_id": "CUST045",
+    "event_type": "browse",
+    "timestamp": "2025-09-29T18:04:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1038",
+      "product_sku": "ZUV-1038",
+      "category": "cakes",
+      "time_spent_seconds": 52
+    }
+  },
+  {
+    "event_id": "a20a8619-a7cb-47b2-bd41-818bd42ef870",
+    "customer_id": "CUST009",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-09-30T18:19:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "order_confirmation",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "a4dff354-a958-42b1-a3af-77a5adeaeecf",
+    "customer_id": "CUST046",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-09-30T18:40:00-00:01",
+    "data": {
+      "direction": "outbound",
+      "template_name": "order_confirmation",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "85f58c39-cba1-44f0-ae3b-4f0b11a19cef",
+    "customer_id": "CUST023",
+    "event_type": "browse",
+    "timestamp": "2025-10-04T16:47:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1061",
+      "product_sku": "ZUV-1061",
+      "category": "hampers",
+      "time_spent_seconds": 139
+    }
+  },
+  {
+    "event_id": "86652159-b494-4da3-a6ca-67c16b0573ff",
+    "customer_id": "CUST022",
+    "event_type": "browse",
+    "timestamp": "2025-10-05T18:27:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1083",
+      "product_sku": "ZUV-1083",
+      "category": "perfumes",
+      "time_spent_seconds": 334
+    }
+  },
+  {
+    "event_id": "d7c28d6c-2b4e-4a0e-8091-a278eef91ee4",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2025-10-06T15:34:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1027",
+      "product_sku": "ZUV-1027",
+      "category": "cakes",
+      "time_spent_seconds": 416
+    }
+  },
+  {
+    "event_id": "edd5f1be-92e8-430b-b52c-020719881fb9",
+    "customer_id": "CUST044",
+    "event_type": "browse",
+    "timestamp": "2025-10-10T13:06:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1012",
+      "product_sku": "ZUV-1012",
+      "category": "flowers",
+      "time_spent_seconds": 298
+    }
+  },
+  {
+    "event_id": "e154ad42-b017-4d06-8ca7-55cd6f2358a6",
+    "customer_id": "CUST012",
+    "event_type": "browse",
+    "timestamp": "2025-10-10T22:35:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1071",
+      "product_sku": "ZUV-1071",
+      "category": "hampers",
+      "time_spent_seconds": 292
+    }
+  },
+  {
+    "event_id": "8a81e01d-51de-4383-a766-a6b3bac8233c",
+    "customer_id": "CUST041",
+    "event_type": "browse",
+    "timestamp": "2025-10-11T13:39:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1017",
+      "product_sku": "ZUV-1017",
+      "category": "flowers",
+      "time_spent_seconds": 135
+    }
+  },
+  {
+    "event_id": "3cb2a846-7fca-473b-958d-0043a675cea5",
+    "customer_id": "CUST023",
+    "event_type": "browse",
+    "timestamp": "2025-10-11T18:50:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1017",
+      "product_sku": "ZUV-1017",
+      "category": "flowers",
+      "time_spent_seconds": 156
+    }
+  },
+  {
+    "event_id": "b48636f7-a841-496f-a194-926c0411cedb",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2025-10-15T19:57:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1048",
+      "product_sku": "ZUV-1048",
+      "category": "chocolates",
+      "time_spent_seconds": 259
+    }
+  },
+  {
+    "event_id": "4c825cd7-ab4b-4b9b-8d64-716ea596343b",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2025-10-16T15:20:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1031",
+      "product_sku": "ZUV-1031",
+      "category": "cakes",
+      "time_spent_seconds": 243
+    }
+  },
+  {
+    "event_id": "850de2bf-4b4d-4ecb-bc98-8d15ec093e0f",
+    "customer_id": "CUST006",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-10-17T16:43:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "2ee61b49-fdb8-4b8b-849c-5290f8122968",
+    "customer_id": "CUST041",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-10-17T21:35:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "2d842442-daff-480d-805e-bea76494ab27",
+    "customer_id": "CUST019",
+    "event_type": "browse",
+    "timestamp": "2025-10-19T20:49:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1010",
+      "product_sku": "ZUV-1010",
+      "category": "flowers",
+      "time_spent_seconds": 401
+    }
+  },
+  {
+    "event_id": "9c0deed0-d447-414c-8654-95843c7db167",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-10-20T08:01:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1067",
+      "product_sku": "ZUV-1067",
+      "category": "hampers",
+      "time_spent_seconds": 399
+    }
+  },
+  {
+    "event_id": "d0b4ae67-63e3-4bcf-80e5-0fdee17adde2",
+    "customer_id": "CUST040",
+    "event_type": "order",
+    "timestamp": "2025-10-20T14:28:00-07:53",
+    "data": {
+      "order_id": "ORD-7B69BAB6",
+      "line_items": [
+        {
+          "sku": "ZUV-1059",
+          "name": "Baby Shower Celebration Hamper",
+          "price": 240.7,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "diwali",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 256.64,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "b2dd7c22-dba7-404d-9243-4b4416f6054d",
+    "customer_id": "CUST007",
+    "event_type": "order",
+    "timestamp": "2025-10-20T14:48:00+03:41",
+    "data": {
+      "order_id": "ORD-C7FC353A",
+      "line_items": [
+        {
+          "sku": "ZUV-1090",
+          "name": "Roses & Red Velvet Cake Combo",
+          "price": 684.75,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "diwali",
+      "recipient_name": "Friends",
+      "recipient_relationship": "Friends",
+      "total_aed": 1296.64,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "d393bb92-9372-48fa-a180-b9dbdd494967",
+    "customer_id": "CUST008",
+    "event_type": "order",
+    "timestamp": "2025-10-20T14:51:00+03:41",
+    "data": {
+      "order_id": "ORD-22700EA1",
+      "line_items": [
+        {
+          "sku": "ZUV-1095",
+          "name": "Lilies & Luxury Hamper Bundle",
+          "price": 379.2,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "diwali",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 819.67,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "c3575324-3721-4eb1-829f-09f9125abbc5",
+    "customer_id": "CUST006",
+    "event_type": "order",
+    "timestamp": "2025-10-20T15:43:00+03:41",
+    "data": {
+      "order_id": "ORD-1417365B",
+      "line_items": [
+        {
+          "sku": "ZUV-1090",
+          "name": "Roses & Red Velvet Cake Combo",
+          "price": 684.75,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "diwali",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 749.06,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "a1637c94-c902-4d92-958d-47de9f4a3d57",
+    "customer_id": "CUST009",
+    "event_type": "order",
+    "timestamp": "2025-10-20T15:43:00+03:41",
+    "data": {
+      "order_id": "ORD-B10116A3",
+      "line_items": [
+        {
+          "sku": "ZUV-1061",
+          "name": "Birthday Celebration Mega Hamper",
+          "price": 734.05,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "diwali",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 1456.85,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "95e5be14-d430-430d-b32b-d0cb4d873f69",
+    "customer_id": "CUST016",
+    "event_type": "order",
+    "timestamp": "2025-10-20T16:32:00+05:53",
+    "data": {
+      "order_id": "ORD-7F88FA5C",
+      "line_items": [
+        {
+          "sku": "ZUV-1059",
+          "name": "Baby Shower Celebration Hamper",
+          "price": 240.7,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "diwali",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 526.29,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "f5a71d96-37f2-4b21-bab3-5e08f9870d0a",
+    "customer_id": "CUST019",
+    "event_type": "order",
+    "timestamp": "2025-10-20T18:59:00+05:53",
+    "data": {
+      "order_id": "ORD-C8C96193",
+      "line_items": [
+        {
+          "sku": "ZUV-1023",
+          "name": "Strawberry Shortcake",
+          "price": 211.85,
+          "category": "cakes"
+        }
+      ],
+      "occasion_tag": "diwali",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 202.74,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "c44cf332-48b1-4615-9b39-65cac286014a",
+    "customer_id": "CUST017",
+    "event_type": "order",
+    "timestamp": "2025-10-20T19:08:00+05:53",
+    "data": {
+      "order_id": "ORD-10B449BE",
+      "line_items": [
+        {
+          "sku": "ZUV-1032",
+          "name": "Saffron & Cardamom Cake",
+          "price": 373.59,
+          "category": "cakes"
+        }
+      ],
+      "occasion_tag": "diwali",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 384.14,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "44b16363-6049-4ecd-a30b-fb90f29b149e",
+    "customer_id": "CUST014",
+    "event_type": "browse",
+    "timestamp": "2025-10-20T23:55:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1094",
+      "product_sku": "ZUV-1094",
+      "category": "combos",
+      "time_spent_seconds": 402
+    }
+  },
+  {
+    "event_id": "9508546e-604f-491c-a3a2-c1d5d6d33621",
+    "customer_id": "CUST019",
+    "event_type": "browse",
+    "timestamp": "2025-10-21T13:49:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1017",
+      "product_sku": "ZUV-1017",
+      "category": "flowers",
+      "time_spent_seconds": 358
+    }
+  },
+  {
+    "event_id": "d9319169-1816-4459-b746-47dd14520401",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2025-10-21T23:26:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1090",
+      "product_sku": "ZUV-1090",
+      "category": "combos",
+      "time_spent_seconds": 257
+    }
+  },
+  {
+    "event_id": "a9575486-584d-4f71-8a1c-9b5f5c35c990",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-10-22T11:34:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1045",
+      "product_sku": "ZUV-1045",
+      "category": "chocolates",
+      "time_spent_seconds": 136
+    }
+  },
+  {
+    "event_id": "d3f4fe58-60fd-4bd7-abae-ce0b5e68613b",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2025-10-25T10:56:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1059",
+      "product_sku": "ZUV-1059",
+      "category": "hampers",
+      "time_spent_seconds": 174
+    }
+  },
+  {
+    "event_id": "bdd55392-a35c-4c71-b6d7-7dde276b4168",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-10-30T10:19:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1089",
+      "product_sku": "ZUV-1089",
+      "category": "perfumes",
+      "time_spent_seconds": 253
+    }
+  },
+  {
+    "event_id": "7c9f9cb1-119b-4885-a323-90191360cc50",
+    "customer_id": "CUST025",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-10-30T22:01:00-00:01",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "11ba5c99-6935-4fa4-8e96-dcf509fb18fb",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-11-01T15:16:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1026",
+      "product_sku": "ZUV-1026",
+      "category": "cakes",
+      "time_spent_seconds": 199
+    }
+  },
+  {
+    "event_id": "79c55a3e-b541-472c-b8cb-83634c114314",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-11-01T16:11:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1003",
+      "product_sku": "ZUV-1003",
+      "category": "flowers",
+      "time_spent_seconds": 193
+    }
+  },
+  {
+    "event_id": "a1bf93ba-b48e-4813-97c7-8bca3cda2075",
+    "customer_id": "CUST039",
+    "event_type": "browse",
+    "timestamp": "2025-11-01T20:37:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1014",
+      "product_sku": "ZUV-1014",
+      "category": "flowers",
+      "time_spent_seconds": 208
+    }
+  },
+  {
+    "event_id": "de608ca1-da5a-4f10-82f8-4ada1185ce2b",
+    "customer_id": "CUST024",
+    "event_type": "browse",
+    "timestamp": "2025-11-03T12:11:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1004",
+      "product_sku": "ZUV-1004",
+      "category": "flowers",
+      "time_spent_seconds": 313
+    }
+  },
+  {
+    "event_id": "04e7e5da-6323-4432-bed5-0e4b2aa3d94f",
+    "customer_id": "CUST033",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-11-03T16:13:00+02:05",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "138b7f0f-76fe-4434-96f4-a929b24cf15e",
+    "customer_id": "CUST037",
+    "event_type": "browse",
+    "timestamp": "2025-11-03T21:11:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1062",
+      "product_sku": "ZUV-1062",
+      "category": "hampers",
+      "time_spent_seconds": 355
+    }
+  },
+  {
+    "event_id": "5ffaff31-39c9-416f-ae64-f0d59528946f",
+    "customer_id": "CUST043",
+    "event_type": "browse",
+    "timestamp": "2025-11-05T10:49:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1079",
+      "product_sku": "ZUV-1079",
+      "category": "perfumes",
+      "time_spent_seconds": 181
+    }
+  },
+  {
+    "event_id": "45ee5c1a-2f62-4048-8d9e-29f909ecca56",
+    "customer_id": "CUST025",
+    "event_type": "browse",
+    "timestamp": "2025-11-07T10:43:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1084",
+      "product_sku": "ZUV-1084",
+      "category": "perfumes",
+      "time_spent_seconds": 306
+    }
+  },
+  {
+    "event_id": "7e110d87-7980-4e88-9745-03947db7aab1",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-11-07T21:11:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1087",
+      "product_sku": "ZUV-1087",
+      "category": "perfumes",
+      "time_spent_seconds": 329
+    }
+  },
+  {
+    "event_id": "98d39f24-0d2a-4d40-9ed5-2b2976019d34",
+    "customer_id": "CUST030",
+    "event_type": "browse",
+    "timestamp": "2025-11-08T09:39:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1081",
+      "product_sku": "ZUV-1081",
+      "category": "perfumes",
+      "time_spent_seconds": 371
+    }
+  },
+  {
+    "event_id": "7646b982-9b8c-4b67-a488-61f6493814f1",
+    "customer_id": "CUST006",
+    "event_type": "browse",
+    "timestamp": "2025-11-09T13:03:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1050",
+      "product_sku": "ZUV-1050",
+      "category": "chocolates",
+      "time_spent_seconds": 350
+    }
+  },
+  {
+    "event_id": "97c06693-cb99-4dc1-97d4-20553ad9ad37",
+    "customer_id": "CUST019",
+    "event_type": "browse",
+    "timestamp": "2025-11-11T15:14:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1017",
+      "product_sku": "ZUV-1017",
+      "category": "flowers",
+      "time_spent_seconds": 274
+    }
+  },
+  {
+    "event_id": "402c2f6d-bdd3-4173-b448-db24d4b2650f",
+    "customer_id": "CUST014",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-11-11T17:29:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "0a51bdc6-3f2d-4a64-aeed-a8e1f19de462",
+    "customer_id": "CUST007",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-11-13T19:10:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "083ba6d5-a5f6-4c24-98b8-a9ed2abd06b1",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2025-11-16T17:16:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1046",
+      "product_sku": "ZUV-1046",
+      "category": "chocolates",
+      "time_spent_seconds": 292
+    }
+  },
+  {
+    "event_id": "1410b923-7551-44c4-b6f1-29b83c7a87cf",
+    "customer_id": "CUST029",
+    "event_type": "browse",
+    "timestamp": "2025-11-20T14:40:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1095",
+      "product_sku": "ZUV-1095",
+      "category": "combos",
+      "time_spent_seconds": 107
+    }
+  },
+  {
+    "event_id": "b0e91bb4-e6dd-4d9a-b216-d4580aa0837d",
+    "customer_id": "CUST017",
+    "event_type": "browse",
+    "timestamp": "2025-11-21T10:28:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1015",
+      "product_sku": "ZUV-1015",
+      "category": "flowers",
+      "time_spent_seconds": 151
+    }
+  },
+  {
+    "event_id": "26335e4f-a3c1-4b72-aa7e-62abf67622b8",
+    "customer_id": "CUST010",
+    "event_type": "browse",
+    "timestamp": "2025-11-21T17:21:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1058",
+      "product_sku": "ZUV-1058",
+      "category": "hampers",
+      "time_spent_seconds": 135
+    }
+  },
+  {
+    "event_id": "9d858f98-24ea-4117-9711-9643fd920202",
+    "customer_id": "CUST030",
+    "event_type": "browse",
+    "timestamp": "2025-11-22T12:17:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1024",
+      "product_sku": "ZUV-1024",
+      "category": "cakes",
+      "time_spent_seconds": 401
+    }
+  },
+  {
+    "event_id": "4505a916-dc1c-4b39-ae35-46bd0d272838",
+    "customer_id": "CUST011",
+    "event_type": "browse",
+    "timestamp": "2025-11-30T21:29:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1029",
+      "product_sku": "ZUV-1029",
+      "category": "cakes",
+      "time_spent_seconds": 237
+    }
+  },
+  {
+    "event_id": "6c397c75-af8a-428d-a60a-ed14fddcad71",
+    "customer_id": "CUST020",
+    "event_type": "browse",
+    "timestamp": "2025-12-02T10:35:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1058",
+      "product_sku": "ZUV-1058",
+      "category": "hampers",
+      "time_spent_seconds": 34
+    }
+  },
+  {
+    "event_id": "b361c0d3-dd7f-4f58-b79a-a5602adb1534",
+    "customer_id": "CUST024",
+    "event_type": "browse",
+    "timestamp": "2025-12-03T14:29:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1014",
+      "product_sku": "ZUV-1014",
+      "category": "flowers",
+      "time_spent_seconds": 164
+    }
+  },
+  {
+    "event_id": "8d021309-ece6-443d-949b-931011872f7d",
+    "customer_id": "CUST006",
+    "event_type": "browse",
+    "timestamp": "2025-12-03T19:34:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1043",
+      "product_sku": "ZUV-1043",
+      "category": "chocolates",
+      "time_spent_seconds": 359
+    }
+  },
+  {
+    "event_id": "e87fa236-5cd4-4de1-80bc-66358aa9507f",
+    "customer_id": "CUST018",
+    "event_type": "browse",
+    "timestamp": "2025-12-04T17:21:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1070",
+      "product_sku": "ZUV-1070",
+      "category": "hampers",
+      "time_spent_seconds": 325
+    }
+  },
+  {
+    "event_id": "0b14f14a-78f7-4031-b5a5-83bc9938ebc3",
+    "customer_id": "CUST019",
+    "event_type": "browse",
+    "timestamp": "2025-12-05T17:41:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1007",
+      "product_sku": "ZUV-1007",
+      "category": "flowers",
+      "time_spent_seconds": 75
+    }
+  },
+  {
+    "event_id": "8ae31d52-23e4-4662-be07-16bf4a663ff9",
+    "customer_id": "CUST006",
+    "event_type": "order",
+    "timestamp": "2025-12-05T20:06:00+03:41",
+    "data": {
+      "order_id": "ORD-4D1BA01F",
+      "line_items": [
+        {
+          "sku": "ZUV-1088",
+          "name": "Vanilla Musk Signature Spray",
+          "price": 604.53,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "birthday",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 1120.41,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "0e098aa3-8390-485a-a500-05b840088059",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2025-12-09T13:25:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1040",
+      "product_sku": "ZUV-1040",
+      "category": "chocolates",
+      "time_spent_seconds": 179
+    }
+  },
+  {
+    "event_id": "86466408-771b-427e-85d1-737f8221836e",
+    "customer_id": "CUST029",
+    "event_type": "browse",
+    "timestamp": "2025-12-12T22:16:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1015",
+      "product_sku": "ZUV-1015",
+      "category": "flowers",
+      "time_spent_seconds": 76
+    }
+  },
+  {
+    "event_id": "c09e15a4-2f17-47c0-bef2-8083a7414d68",
+    "customer_id": "CUST046",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-12-13T12:23:00-00:01",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "31d7b383-545f-4bb5-b1f7-b705e0307cc6",
+    "customer_id": "CUST043",
+    "event_type": "browse",
+    "timestamp": "2025-12-15T14:33:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1077",
+      "product_sku": "ZUV-1077",
+      "category": "perfumes",
+      "time_spent_seconds": 290
+    }
+  },
+  {
+    "event_id": "316bc04f-cfc6-4f3e-b0b2-74e2f3a06930",
+    "customer_id": "CUST005",
+    "event_type": "browse",
+    "timestamp": "2025-12-16T13:36:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1030",
+      "product_sku": "ZUV-1030",
+      "category": "cakes",
+      "time_spent_seconds": 320
+    }
+  },
+  {
+    "event_id": "c1c7e0bc-d830-4037-acbd-6a59be5d34f2",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2025-12-16T18:38:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1088",
+      "product_sku": "ZUV-1088",
+      "category": "perfumes",
+      "time_spent_seconds": 132
+    }
+  },
+  {
+    "event_id": "cb5571fd-3328-4087-95fd-b7c8f6f91d5c",
+    "customer_id": "CUST010",
+    "event_type": "browse",
+    "timestamp": "2025-12-16T20:11:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1096",
+      "product_sku": "ZUV-1096",
+      "category": "combos",
+      "time_spent_seconds": 305
+    }
+  },
+  {
+    "event_id": "29662bec-84a0-4ae5-84ac-8c1a7616c4c4",
+    "customer_id": "CUST002",
+    "event_type": "browse",
+    "timestamp": "2025-12-17T22:43:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1092",
+      "product_sku": "ZUV-1092",
+      "category": "combos",
+      "time_spent_seconds": 308
+    }
+  },
+  {
+    "event_id": "309a6f82-d594-43b8-8359-cdbff24425ef",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2025-12-18T21:58:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1010",
+      "product_sku": "ZUV-1010",
+      "category": "flowers",
+      "time_spent_seconds": 89
+    }
+  },
+  {
+    "event_id": "768f8f81-a69f-452c-bdd9-5e30dddd1b39",
+    "customer_id": "CUST045",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-12-19T14:29:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "c2ca7df3-6d14-4862-a50d-c2dd85388126",
+    "customer_id": "CUST011",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T08:26:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1006",
+      "product_sku": "ZUV-1006",
+      "category": "flowers",
+      "time_spent_seconds": 232
+    }
+  },
+  {
+    "event_id": "624beceb-adb0-4adb-9782-b84fd0429892",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T08:39:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1045",
+      "product_sku": "ZUV-1045",
+      "category": "chocolates",
+      "time_spent_seconds": 153
+    }
+  },
+  {
+    "event_id": "8ca78372-1238-4866-8b24-3a9f9439191f",
+    "customer_id": "CUST015",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T09:17:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1028",
+      "product_sku": "ZUV-1028",
+      "category": "cakes",
+      "time_spent_seconds": 305
+    }
+  },
+  {
+    "event_id": "1ae875e6-c431-4ec9-aaa4-f2bc07eada82",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T10:01:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1032",
+      "product_sku": "ZUV-1032",
+      "category": "cakes",
+      "time_spent_seconds": 140
+    }
+  },
+  {
+    "event_id": "09a20a37-e1a7-4cfe-b4ef-74ba7b99be89",
+    "customer_id": "CUST022",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T15:19:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1015",
+      "product_sku": "ZUV-1015",
+      "category": "flowers",
+      "time_spent_seconds": 54
+    }
+  },
+  {
+    "event_id": "7c7a437d-7b2f-4eec-981f-8db3d41cfaee",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T16:54:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1040",
+      "product_sku": "ZUV-1040",
+      "category": "chocolates",
+      "time_spent_seconds": 231
+    }
+  },
+  {
+    "event_id": "c079a60c-2d33-482f-8dc5-192ef3c8ba02",
+    "customer_id": "CUST013",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T17:58:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1060",
+      "product_sku": "ZUV-1060",
+      "category": "hampers",
+      "time_spent_seconds": 386
+    }
+  },
+  {
+    "event_id": "a038b586-0d08-4037-990f-8d090f96545e",
+    "customer_id": "CUST037",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T19:04:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1067",
+      "product_sku": "ZUV-1067",
+      "category": "hampers",
+      "time_spent_seconds": 308
+    }
+  },
+  {
+    "event_id": "bd737002-8b8a-4729-bc29-49b19cf2f7fe",
+    "customer_id": "CUST012",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T19:14:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1003",
+      "product_sku": "ZUV-1003",
+      "category": "flowers",
+      "time_spent_seconds": 193
+    }
+  },
+  {
+    "event_id": "8ff9ac23-ebda-44bc-bc8d-30a65d677b42",
+    "customer_id": "CUST028",
+    "event_type": "browse",
+    "timestamp": "2025-12-20T23:38:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1068",
+      "product_sku": "ZUV-1068",
+      "category": "hampers",
+      "time_spent_seconds": 38
+    }
+  },
+  {
+    "event_id": "26b26630-e9c6-4155-8869-29bfbd9a39ac",
+    "customer_id": "CUST010",
+    "event_type": "browse",
+    "timestamp": "2025-12-21T09:18:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1091",
+      "product_sku": "ZUV-1091",
+      "category": "combos",
+      "time_spent_seconds": 70
+    }
+  },
+  {
+    "event_id": "b1709051-e9e6-495b-b8d1-55bc6a5cfa90",
+    "customer_id": "CUST017",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2025-12-24T14:03:00+05:53",
+    "data": {
+      "direction": "outbound",
+      "template_name": "order_confirmation",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "f7aa1081-4e02-45f1-8c1b-c6960331c74a",
+    "customer_id": "CUST022",
+    "event_type": "browse",
+    "timestamp": "2025-12-24T22:41:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1069",
+      "product_sku": "ZUV-1069",
+      "category": "hampers",
+      "time_spent_seconds": 298
+    }
+  },
+  {
+    "event_id": "7a8d9a10-875b-49cb-80bb-74dde589ab23",
+    "customer_id": "CUST013",
+    "event_type": "order",
+    "timestamp": "2025-12-25T11:53:00+03:41",
+    "data": {
+      "order_id": "ORD-68D03AB2",
+      "line_items": [
+        {
+          "sku": "ZUV-1067",
+          "name": "Fruit & Nut Paradise Basket",
+          "price": 721.43,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "christmas",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 669.14,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "11b49540-f3ef-44be-88a8-3d10172ff6cb",
+    "customer_id": "CUST011",
+    "event_type": "order",
+    "timestamp": "2025-12-25T11:58:00+03:41",
+    "data": {
+      "order_id": "ORD-6C1CC9E8",
+      "line_items": [
+        {
+          "sku": "ZUV-1049",
+          "name": "Kinder Bueno Gift Hamper",
+          "price": 246.7,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "christmas",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 531.36,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "f65cad94-b5d9-4491-8fbd-2a1004dc0be0",
+    "customer_id": "CUST022",
+    "event_type": "order",
+    "timestamp": "2025-12-25T12:35:00-00:01",
+    "data": {
+      "order_id": "ORD-D8B32D93",
+      "line_items": [
+        {
+          "sku": "ZUV-1080",
+          "name": "Saffron & Gold Parfum 100ml",
+          "price": 471.27,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "christmas",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 497.3,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "c34ccfd1-02df-4e11-9ad0-857748e679f8",
+    "customer_id": "CUST021",
+    "event_type": "order",
+    "timestamp": "2025-12-25T12:48:00-00:01",
+    "data": {
+      "order_id": "ORD-FDB25962",
+      "line_items": [
+        {
+          "sku": "ZUV-1087",
+          "name": "Ocean Breeze Unisex EDT",
+          "price": 626.84,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "christmas",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 1282.6,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "9a56b3b5-15e5-4a56-bbd0-dc8407325fd4",
+    "customer_id": "CUST028",
+    "event_type": "order",
+    "timestamp": "2025-12-25T13:26:00-05:18",
+    "data": {
+      "order_id": "ORD-281665DA",
+      "line_items": [
+        {
+          "sku": "ZUV-1085",
+          "name": "Lavender Mist Body Spray",
+          "price": 310.57,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "christmas",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 286.4,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "8c767b67-208c-4f67-9a0e-38126c71d461",
+    "customer_id": "CUST012",
+    "event_type": "order",
+    "timestamp": "2025-12-25T18:23:00+03:41",
+    "data": {
+      "order_id": "ORD-B8C5A4BF",
+      "line_items": [
+        {
+          "sku": "ZUV-1051",
+          "name": "Valrhona Single Origin Bar Set",
+          "price": 96.52,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "christmas",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 212.13,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "54370b67-9828-42a6-8361-05db40148093",
+    "customer_id": "CUST037",
+    "event_type": "order",
+    "timestamp": "2025-12-25T19:26:00-04:56",
+    "data": {
+      "order_id": "ORD-397140F3",
+      "line_items": [
+        {
+          "sku": "ZUV-1044",
+          "name": "Haribo Gummy & Chocolate Tower",
+          "price": 272.53,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "christmas",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 273.81,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "add06cc9-f25d-47c5-8c84-3fbfc7bce724",
+    "customer_id": "CUST036",
+    "event_type": "order",
+    "timestamp": "2025-12-25T20:32:00-04:56",
+    "data": {
+      "order_id": "ORD-5DC39130",
+      "line_items": [
+        {
+          "sku": "ZUV-1051",
+          "name": "Valrhona Single Origin Bar Set",
+          "price": 96.52,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "christmas",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 92.49,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "cb042419-cec5-4db6-b8cf-b2d062e2f628",
+    "customer_id": "CUST025",
+    "event_type": "browse",
+    "timestamp": "2025-12-26T20:23:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1014",
+      "product_sku": "ZUV-1014",
+      "category": "flowers",
+      "time_spent_seconds": 318
+    }
+  },
+  {
+    "event_id": "0c8b14d3-f1aa-465c-be18-f26ddd4c29ed",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2025-12-27T17:14:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1038",
+      "product_sku": "ZUV-1038",
+      "category": "cakes",
+      "time_spent_seconds": 177
+    }
+  },
+  {
+    "event_id": "d37aea44-0962-4e9a-9723-688a2c0a8f65",
+    "customer_id": "CUST011",
+    "event_type": "browse",
+    "timestamp": "2025-12-29T10:41:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1046",
+      "product_sku": "ZUV-1046",
+      "category": "chocolates",
+      "time_spent_seconds": 158
+    }
+  },
+  {
+    "event_id": "e1271142-53fc-4c5a-afa4-4eaf40235d5a",
+    "customer_id": "CUST028",
+    "event_type": "browse",
+    "timestamp": "2025-12-30T10:16:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1091",
+      "product_sku": "ZUV-1091",
+      "category": "combos",
+      "time_spent_seconds": 325
+    }
+  },
+  {
+    "event_id": "4cfa3533-c870-44a4-8c59-94a780808cc4",
+    "customer_id": "CUST041",
+    "event_type": "browse",
+    "timestamp": "2025-12-30T22:31:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1029",
+      "product_sku": "ZUV-1029",
+      "category": "cakes",
+      "time_spent_seconds": 212
+    }
+  },
+  {
+    "event_id": "aca42fb2-b469-433a-9568-e9599a84b753",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2025-12-31T10:36:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1047",
+      "product_sku": "ZUV-1047",
+      "category": "chocolates",
+      "time_spent_seconds": 91
+    }
+  },
+  {
+    "event_id": "15c795d2-890a-46d3-82c2-9777e0ef0053",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2026-01-01T17:17:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1063",
+      "product_sku": "ZUV-1063",
+      "category": "hampers",
+      "time_spent_seconds": 104
+    }
+  },
+  {
+    "event_id": "43af5c8f-0fc6-4290-85cb-b59e34d7c39c",
+    "customer_id": "CUST023",
+    "event_type": "browse",
+    "timestamp": "2026-01-02T20:05:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1047",
+      "product_sku": "ZUV-1047",
+      "category": "chocolates",
+      "time_spent_seconds": 237
+    }
+  },
+  {
+    "event_id": "b16b36b7-907f-40b4-9c7a-b77c8d39959f",
+    "customer_id": "CUST016",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-01-03T17:25:00+05:53",
+    "data": {
+      "direction": "outbound",
+      "template_name": "order_confirmation",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "c94f59eb-145c-42d4-98a1-6b53ca9551e9",
+    "customer_id": "CUST013",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-01-05T17:08:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "87614a88-eac4-45b6-ba91-a53582693cc4",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2026-01-11T08:16:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1049",
+      "product_sku": "ZUV-1049",
+      "category": "chocolates",
+      "time_spent_seconds": 150
+    }
+  },
+  {
+    "event_id": "3432e731-4357-45b2-b810-6c560ff91fb6",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2026-01-14T09:42:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1067",
+      "product_sku": "ZUV-1067",
+      "category": "hampers",
+      "time_spent_seconds": 145
+    }
+  },
+  {
+    "event_id": "faee236c-bcbd-48ba-ad03-b8336623439c",
+    "customer_id": "CUST036",
+    "event_type": "browse",
+    "timestamp": "2026-01-14T13:43:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1048",
+      "product_sku": "ZUV-1048",
+      "category": "chocolates",
+      "time_spent_seconds": 116
+    }
+  },
+  {
+    "event_id": "e7f1fd9a-ad27-491b-baf4-4eb10fee1d99",
+    "customer_id": "CUST040",
+    "event_type": "browse",
+    "timestamp": "2026-01-14T22:23:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1075",
+      "product_sku": "ZUV-1075",
+      "category": "perfumes",
+      "time_spent_seconds": 282
+    }
+  },
+  {
+    "event_id": "4e6ef8c7-33cf-49d1-89e5-162b9d3e7da4",
+    "customer_id": "CUST010",
+    "event_type": "browse",
+    "timestamp": "2026-01-15T14:39:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1067",
+      "product_sku": "ZUV-1067",
+      "category": "hampers",
+      "time_spent_seconds": 159
+    }
+  },
+  {
+    "event_id": "90687e0c-5fca-472c-8b39-9eee1d1a94b9",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2026-01-15T15:19:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1090",
+      "product_sku": "ZUV-1090",
+      "category": "combos",
+      "time_spent_seconds": 103
+    }
+  },
+  {
+    "event_id": "cabd7d38-2c39-4853-8473-3c3e871700f7",
+    "customer_id": "CUST008",
+    "event_type": "browse",
+    "timestamp": "2026-01-16T17:07:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1023",
+      "product_sku": "ZUV-1023",
+      "category": "cakes",
+      "time_spent_seconds": 221
+    }
+  },
+  {
+    "event_id": "8f53f285-33ed-4345-878d-4aaf4a736a29",
+    "customer_id": "CUST041",
+    "event_type": "browse",
+    "timestamp": "2026-01-19T09:06:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1052",
+      "product_sku": "ZUV-1052",
+      "category": "chocolates",
+      "time_spent_seconds": 199
+    }
+  },
+  {
+    "event_id": "2affc7f0-0407-4bae-ad26-f5492f5b7b35",
+    "customer_id": "CUST002",
+    "event_type": "browse",
+    "timestamp": "2026-01-19T19:40:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1088",
+      "product_sku": "ZUV-1088",
+      "category": "perfumes",
+      "time_spent_seconds": 34
+    }
+  },
+  {
+    "event_id": "76137e78-d7e4-494c-a6d1-e1c19c2a3c63",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2026-01-20T21:44:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1047",
+      "product_sku": "ZUV-1047",
+      "category": "chocolates",
+      "time_spent_seconds": 264
+    }
+  },
+  {
+    "event_id": "00bd0f6a-7525-4410-8d1c-d6d50bfb19c3",
+    "customer_id": "CUST022",
+    "event_type": "browse",
+    "timestamp": "2026-01-21T20:36:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1031",
+      "product_sku": "ZUV-1031",
+      "category": "cakes",
+      "time_spent_seconds": 285
+    }
+  },
+  {
+    "event_id": "5845166d-e112-44aa-99b2-a2d991f3172e",
+    "customer_id": "CUST045",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-01-22T18:11:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "9f8e53d7-10a4-4437-9479-a2cddb43cdc5",
+    "customer_id": "CUST038",
+    "event_type": "browse",
+    "timestamp": "2026-01-23T22:00:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1001",
+      "product_sku": "ZUV-1001",
+      "category": "flowers",
+      "time_spent_seconds": 386
+    }
+  },
+  {
+    "event_id": "c99c562c-c5dc-4461-bfa2-45e7ad85698c",
+    "customer_id": "CUST039",
+    "event_type": "browse",
+    "timestamp": "2026-01-26T08:57:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1099",
+      "product_sku": "ZUV-1099",
+      "category": "combos",
+      "time_spent_seconds": 173
+    }
+  },
+  {
+    "event_id": "fe1819bc-0f3c-4c6e-be9c-92e0931ed793",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2026-01-27T21:52:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1027",
+      "product_sku": "ZUV-1027",
+      "category": "cakes",
+      "time_spent_seconds": 283
+    }
+  },
+  {
+    "event_id": "07ec2aa0-950c-4ba5-a2a2-7e847868d6c3",
+    "customer_id": "CUST023",
+    "event_type": "browse",
+    "timestamp": "2026-01-29T13:17:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1035",
+      "product_sku": "ZUV-1035",
+      "category": "cakes",
+      "time_spent_seconds": 258
+    }
+  },
+  {
+    "event_id": "fa995053-6bd9-460b-9156-7f7900a41dbf",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2026-02-02T10:06:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1076",
+      "product_sku": "ZUV-1076",
+      "category": "perfumes",
+      "time_spent_seconds": 47
+    }
+  },
+  {
+    "event_id": "b6d38cf3-1419-4ea6-a697-8a13c4b56a58",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2026-02-03T19:20:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1052",
+      "product_sku": "ZUV-1052",
+      "category": "chocolates",
+      "time_spent_seconds": 53
+    }
+  },
+  {
+    "event_id": "a9ffa80f-f175-4f33-971c-0991ba6e4817",
+    "customer_id": "CUST028",
+    "event_type": "browse",
+    "timestamp": "2026-02-04T12:56:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1083",
+      "product_sku": "ZUV-1083",
+      "category": "perfumes",
+      "time_spent_seconds": 184
+    }
+  },
+  {
+    "event_id": "2855c2e6-4e7e-4147-ab9a-cf38d7f613af",
+    "customer_id": "CUST024",
+    "event_type": "browse",
+    "timestamp": "2026-02-05T17:36:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1038",
+      "product_sku": "ZUV-1038",
+      "category": "cakes",
+      "time_spent_seconds": 408
+    }
+  },
+  {
+    "event_id": "0468393e-cd54-42da-a80f-9fad2a4ab51c",
+    "customer_id": "CUST050",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-02-12T18:07:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "6efbb285-7a65-41d4-b615-a2730ede4cb5",
+    "customer_id": "CUST041",
+    "event_type": "browse",
+    "timestamp": "2026-02-13T13:40:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1084",
+      "product_sku": "ZUV-1084",
+      "category": "perfumes",
+      "time_spent_seconds": 251
+    }
+  },
+  {
+    "event_id": "2603005b-5b55-4d2a-bec7-7b515d93213c",
+    "customer_id": "CUST021",
+    "event_type": "order",
+    "timestamp": "2026-02-14T14:44:00-00:01",
+    "data": {
+      "order_id": "ORD-2DD53C18",
+      "line_items": [
+        {
+          "sku": "ZUV-1092",
+          "name": "Sunflowers & Birthday Cake Bundle",
+          "price": 297.59,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 645.36,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "be4e8980-c0ba-4072-820b-2d2122bada60",
+    "customer_id": "CUST004",
+    "event_type": "order",
+    "timestamp": "2026-02-14T15:00:00+03:41",
+    "data": {
+      "order_id": "ORD-959DCF63",
+      "line_items": [
+        {
+          "sku": "ZUV-1041",
+          "name": "Lindt Gold Box Assortment",
+          "price": 151.55,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 153.56,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "a8ce5ec9-e5ca-4897-afe2-1529fe52aab5",
+    "customer_id": "CUST016",
+    "event_type": "order",
+    "timestamp": "2026-02-14T16:04:00+05:53",
+    "data": {
+      "order_id": "ORD-7F0530EA",
+      "line_items": [
+        {
+          "sku": "ZUV-1040",
+          "name": "Godiva Assorted Truffles Box (16pc)",
+          "price": 152.99,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 140.5,
+      "delivery_area": "Online",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "a83ec997-9045-43f9-b745-85a814b4cbc5",
+    "customer_id": "CUST007",
+    "event_type": "order",
+    "timestamp": "2026-02-14T19:14:00+03:41",
+    "data": {
+      "order_id": "ORD-856274F0",
+      "line_items": [
+        {
+          "sku": "ZUV-1093",
+          "name": "Peony & Perfume Gift Set",
+          "price": 314.03,
+          "category": "combos"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 671.42,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "e6c9cb36-1731-42e7-bf63-f3348a6e9f60",
+    "customer_id": "CUST011",
+    "event_type": "order",
+    "timestamp": "2026-02-14T19:39:00+03:41",
+    "data": {
+      "order_id": "ORD-A56D79D9",
+      "line_items": [
+        {
+          "sku": "ZUV-1086",
+          "name": "Velvet Rose Parfum 80ml",
+          "price": 102.06,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 104.28,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "ed7743c6-dbed-45ae-995a-56dffafbd180",
+    "customer_id": "CUST013",
+    "event_type": "order",
+    "timestamp": "2026-02-14T20:53:00+03:41",
+    "data": {
+      "order_id": "ORD-BE51F441",
+      "line_items": [
+        {
+          "sku": "ZUV-1087",
+          "name": "Ocean Breeze Unisex EDT",
+          "price": 626.84,
+          "category": "perfumes"
+        }
+      ],
+      "occasion_tag": "valentines_day",
+      "recipient_name": "Partner",
+      "recipient_relationship": "Boyfriend/Girlfriend",
+      "total_aed": 1135.57,
+      "delivery_area": "Al Quoz",
+      "email_opened": true
+    }
+  },
+  {
+    "event_id": "316e68cf-2867-4403-bc55-f719c1e884df",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2026-02-18T21:56:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1022",
+      "product_sku": "ZUV-1022",
+      "category": "cakes",
+      "time_spent_seconds": 48
+    }
+  },
+  {
+    "event_id": "903c95e6-a48c-4231-8714-13beece943dd",
+    "customer_id": "CUST023",
+    "event_type": "browse",
+    "timestamp": "2026-02-21T12:46:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1069",
+      "product_sku": "ZUV-1069",
+      "category": "hampers",
+      "time_spent_seconds": 280
+    }
+  },
+  {
+    "event_id": "2f0cb783-3e1a-41b1-970a-0459f6157323",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2026-02-21T21:52:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1092",
+      "product_sku": "ZUV-1092",
+      "category": "combos",
+      "time_spent_seconds": 232
+    }
+  },
+  {
+    "event_id": "481d4f6d-ba97-4dfb-8fc9-7dc4b18557f4",
+    "customer_id": "CUST019",
+    "event_type": "browse",
+    "timestamp": "2026-02-21T22:36:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1095",
+      "product_sku": "ZUV-1095",
+      "category": "combos",
+      "time_spent_seconds": 283
+    }
+  },
+  {
+    "event_id": "10f6f6b5-bd4c-4909-bca7-fe443cc5b4d5",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2026-02-22T10:36:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1003",
+      "product_sku": "ZUV-1003",
+      "category": "flowers",
+      "time_spent_seconds": 419
+    }
+  },
+  {
+    "event_id": "4aa30c0e-d640-4eb2-bdcd-9799f2103a8d",
+    "customer_id": "CUST005",
+    "event_type": "browse",
+    "timestamp": "2026-02-22T21:17:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1053",
+      "product_sku": "ZUV-1053",
+      "category": "chocolates",
+      "time_spent_seconds": 183
+    }
+  },
+  {
+    "event_id": "722f7f4f-2f32-4ee2-8453-43e2f90d1850",
+    "customer_id": "CUST022",
+    "event_type": "browse",
+    "timestamp": "2026-02-24T22:41:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1032",
+      "product_sku": "ZUV-1032",
+      "category": "cakes",
+      "time_spent_seconds": 397
+    }
+  },
+  {
+    "event_id": "93cc141e-5e08-4ec0-a800-19fda4233879",
+    "customer_id": "CUST015",
+    "event_type": "browse",
+    "timestamp": "2026-02-26T11:15:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1084",
+      "product_sku": "ZUV-1084",
+      "category": "perfumes",
+      "time_spent_seconds": 153
+    }
+  },
+  {
+    "event_id": "5b7e660d-34b3-4e0f-936d-b9caac053a0a",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2026-02-28T11:10:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1057",
+      "product_sku": "ZUV-1057",
+      "category": "hampers",
+      "time_spent_seconds": 268
+    }
+  },
+  {
+    "event_id": "c699694e-2994-4ed7-8323-54335cd7eac2",
+    "customer_id": "CUST011",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-03-01T14:51:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "e56272e6-b917-4042-a6ac-d37d28966ffb",
+    "customer_id": "CUST050",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-03-04T18:21:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "order_confirmation",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "b6be0e03-6292-4e02-b705-9d234ee1e50a",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2026-03-07T16:40:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1053",
+      "product_sku": "ZUV-1053",
+      "category": "chocolates",
+      "time_spent_seconds": 222
+    }
+  },
+  {
+    "event_id": "f3a678a1-7598-4c68-8eea-9c9eae2007cb",
+    "customer_id": "CUST045",
+    "event_type": "browse",
+    "timestamp": "2026-03-07T20:26:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1076",
+      "product_sku": "ZUV-1076",
+      "category": "perfumes",
+      "time_spent_seconds": 100
+    }
+  },
+  {
+    "event_id": "82ad63f2-7136-4c04-ac87-0541e9efeb6c",
+    "customer_id": "CUST001",
+    "event_type": "order",
+    "timestamp": "2026-03-08T11:08:00+03:41",
+    "data": {
+      "order_id": "ORD-20481C8C",
+      "line_items": [
+        {
+          "sku": "ZUV-1002",
+          "name": "Mixed Wildflower Bunch",
+          "price": 83.86,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "womens_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 156.74,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "f0ca10c9-7e1b-4756-be4d-5062c3fe955d",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2026-03-08T11:37:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1093",
+      "product_sku": "ZUV-1093",
+      "category": "combos",
+      "time_spent_seconds": 226
+    }
+  },
+  {
+    "event_id": "877ba1d7-c928-4f0c-b45d-989d2dd05427",
+    "customer_id": "CUST019",
+    "event_type": "browse",
+    "timestamp": "2026-03-08T13:20:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1057",
+      "product_sku": "ZUV-1057",
+      "category": "hampers",
+      "time_spent_seconds": 347
+    }
+  },
+  {
+    "event_id": "d9e12789-6d67-4d41-898a-1c9047eea344",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2026-03-08T17:14:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1093",
+      "product_sku": "ZUV-1093",
+      "category": "combos",
+      "time_spent_seconds": 324
+    }
+  },
+  {
+    "event_id": "2013a0a3-4f2c-4be5-9310-84f7aee4ae95",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2026-03-08T17:15:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1032",
+      "product_sku": "ZUV-1032",
+      "category": "cakes",
+      "time_spent_seconds": 367
+    }
+  },
+  {
+    "event_id": "2e8ee474-2a0d-4aef-a073-7a626fd5c4b8",
+    "customer_id": "CUST030",
+    "event_type": "order",
+    "timestamp": "2026-03-08T21:04:00-05:18",
+    "data": {
+      "order_id": "ORD-92762B9F",
+      "line_items": [
+        {
+          "sku": "ZUV-1007",
+          "name": "Tulip Collection (15 stems)",
+          "price": 201.35,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "womens_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 431.0,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "dd21a844-1e74-41bd-9066-2446a29175a6",
+    "customer_id": "CUST006",
+    "event_type": "order",
+    "timestamp": "2026-03-08T21:28:00+03:41",
+    "data": {
+      "order_id": "ORD-E2939498",
+      "line_items": [
+        {
+          "sku": "ZUV-1002",
+          "name": "Mixed Wildflower Bunch",
+          "price": 83.86,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "womens_day",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 173.35,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "e88763a4-5baf-461d-b558-26a2172e8c4d",
+    "customer_id": "CUST018",
+    "event_type": "browse",
+    "timestamp": "2026-03-09T11:39:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1094",
+      "product_sku": "ZUV-1094",
+      "category": "combos",
+      "time_spent_seconds": 330
+    }
+  },
+  {
+    "event_id": "5937ebc7-1b6d-4330-ac3e-5cdb879813ce",
+    "customer_id": "CUST025",
+    "event_type": "browse",
+    "timestamp": "2026-03-09T21:12:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1082",
+      "product_sku": "ZUV-1082",
+      "category": "perfumes",
+      "time_spent_seconds": 299
+    }
+  },
+  {
+    "event_id": "b85068a6-6760-4e63-98ef-7f63bf075560",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2026-03-10T21:58:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1007",
+      "product_sku": "ZUV-1007",
+      "category": "flowers",
+      "time_spent_seconds": 171
+    }
+  },
+  {
+    "event_id": "90bbba16-f900-4019-91fa-5fbd9a03a7cd",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2026-03-11T22:17:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1024",
+      "product_sku": "ZUV-1024",
+      "category": "cakes",
+      "time_spent_seconds": 87
+    }
+  },
+  {
+    "event_id": "5ff77702-d192-410f-8c1a-48993e5d0c96",
+    "customer_id": "CUST021",
+    "event_type": "browse",
+    "timestamp": "2026-03-12T20:55:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1072",
+      "product_sku": "ZUV-1072",
+      "category": "hampers",
+      "time_spent_seconds": 245
+    }
+  },
+  {
+    "event_id": "d57601da-2a64-4920-b7b0-a319d4b5b042",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2026-03-15T12:15:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1018",
+      "product_sku": "ZUV-1018",
+      "category": "flowers",
+      "time_spent_seconds": 394
+    }
+  },
+  {
+    "event_id": "a0ad002b-c561-44cb-ae05-6b24e170d507",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2026-03-16T09:04:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1085",
+      "product_sku": "ZUV-1085",
+      "category": "perfumes",
+      "time_spent_seconds": 356
+    }
+  },
+  {
+    "event_id": "a4a3ba45-6929-4b1b-a279-5f244b537c8a",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2026-03-16T09:38:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1019",
+      "product_sku": "ZUV-1019",
+      "category": "flowers",
+      "time_spent_seconds": 377
+    }
+  },
+  {
+    "event_id": "2b72725b-f306-4b9d-a1d7-647023b76fdf",
+    "customer_id": "CUST001",
+    "event_type": "browse",
+    "timestamp": "2026-03-16T13:34:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1037",
+      "product_sku": "ZUV-1037",
+      "category": "cakes",
+      "time_spent_seconds": 194
+    }
+  },
+  {
+    "event_id": "8458b1a3-c366-4ca8-9be4-504d2e8635a0",
+    "customer_id": "CUST044",
+    "event_type": "browse",
+    "timestamp": "2026-03-16T17:44:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1062",
+      "product_sku": "ZUV-1062",
+      "category": "hampers",
+      "time_spent_seconds": 132
+    }
+  },
+  {
+    "event_id": "87e5e453-8dde-425a-a7c3-9f00e5d933b7",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2026-03-16T19:25:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1040",
+      "product_sku": "ZUV-1040",
+      "category": "chocolates",
+      "time_spent_seconds": 362
+    }
+  },
+  {
+    "event_id": "3dfefadb-bf63-4748-b10f-a879fab5d5a4",
+    "customer_id": "CUST043",
+    "event_type": "browse",
+    "timestamp": "2026-03-16T20:58:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1071",
+      "product_sku": "ZUV-1071",
+      "category": "hampers",
+      "time_spent_seconds": 90
+    }
+  },
+  {
+    "event_id": "d1367d3b-8b38-44c8-8d8d-afa9fd4da3dd",
+    "customer_id": "CUST002",
+    "event_type": "browse",
+    "timestamp": "2026-03-16T21:10:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1088",
+      "product_sku": "ZUV-1088",
+      "category": "perfumes",
+      "time_spent_seconds": 257
+    }
+  },
+  {
+    "event_id": "3c6bd0cb-6ebb-4846-a443-ba20a9f74a27",
+    "customer_id": "CUST027",
+    "event_type": "browse",
+    "timestamp": "2026-03-16T22:02:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1016",
+      "product_sku": "ZUV-1016",
+      "category": "flowers",
+      "time_spent_seconds": 64
+    }
+  },
+  {
+    "event_id": "526079a7-3427-4245-bb0b-78e05e2ecd50",
+    "customer_id": "CUST002",
+    "event_type": "order",
+    "timestamp": "2026-03-20T11:20:00+03:41",
+    "data": {
+      "order_id": "ORD-2BF0CE1B",
+      "line_items": [
+        {
+          "sku": "ZUV-1048",
+          "name": "Sugar-Free Dark Chocolate Set",
+          "price": 244.51,
+          "category": "chocolates"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Parents",
+      "recipient_relationship": "Parents",
+      "total_aed": 483.73,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "5c790a49-ffba-44a8-9e83-8b88bca5cb46",
+    "customer_id": "CUST043",
+    "event_type": "order",
+    "timestamp": "2026-03-20T13:07:00+03:41",
+    "data": {
+      "order_id": "ORD-8183E6A5",
+      "line_items": [
+        {
+          "sku": "ZUV-1008",
+          "name": "Jasmine Garland",
+          "price": 372.66,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 372.59,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "38ca0c08-43a8-45b9-8923-2c9caaa7a00b",
+    "customer_id": "CUST044",
+    "event_type": "order",
+    "timestamp": "2026-03-20T14:45:00+03:41",
+    "data": {
+      "order_id": "ORD-122B47B5",
+      "line_items": [
+        {
+          "sku": "ZUV-1074",
+          "name": "Picnic in the Park Hamper",
+          "price": 380.47,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 418.24,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "ef6bbcfc-8ccd-4c1a-9ec0-6c2b45524805",
+    "customer_id": "CUST029",
+    "event_type": "browse",
+    "timestamp": "2026-03-20T14:45:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1074",
+      "product_sku": "ZUV-1074",
+      "category": "hampers",
+      "time_spent_seconds": 280
+    }
+  },
+  {
+    "event_id": "ae8496cb-10f6-44b3-bc54-c58935354082",
+    "customer_id": "CUST042",
+    "event_type": "order",
+    "timestamp": "2026-03-20T15:23:00+03:41",
+    "data": {
+      "order_id": "ORD-80D41B74",
+      "line_items": [
+        {
+          "sku": "ZUV-1074",
+          "name": "Picnic in the Park Hamper",
+          "price": 380.47,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 386.1,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "83e0873f-2b6d-4cd0-a05d-4c7e627d7603",
+    "customer_id": "CUST027",
+    "event_type": "order",
+    "timestamp": "2026-03-20T15:32:00-05:18",
+    "data": {
+      "order_id": "ORD-54C50E5A",
+      "line_items": [
+        {
+          "sku": "ZUV-1025",
+          "name": "Pistachio Rose Cake",
+          "price": 122.33,
+          "category": "cakes"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Family",
+      "recipient_relationship": "Family",
+      "total_aed": 113.59,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "01ab726b-0e46-4f6d-9c0e-d011c28bc198",
+    "customer_id": "CUST003",
+    "event_type": "order",
+    "timestamp": "2026-03-20T17:02:00+03:41",
+    "data": {
+      "order_id": "ORD-57F33778",
+      "line_items": [
+        {
+          "sku": "ZUV-1055",
+          "name": "Luxury Date & Nut Hamper",
+          "price": 221.61,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 423.24,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "16fbb161-ff32-425f-8df6-2ee6ba19b89d",
+    "customer_id": "CUST001",
+    "event_type": "order",
+    "timestamp": "2026-03-20T18:17:00+03:41",
+    "data": {
+      "order_id": "ORD-2B4F21D1",
+      "line_items": [
+        {
+          "sku": "ZUV-1014",
+          "name": "Hydrangea Bliss Bouquet",
+          "price": 293.26,
+          "category": "flowers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Mom",
+      "recipient_relationship": "Mother",
+      "total_aed": 537.13,
+      "delivery_area": "Al Quoz",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "9c8d08e1-3c2b-4cfa-9ab0-ccb1ec48b3df",
+    "customer_id": "CUST031",
+    "event_type": "order",
+    "timestamp": "2026-03-20T20:23:00+02:05",
+    "data": {
+      "order_id": "ORD-6FB5390F",
+      "line_items": [
+        {
+          "sku": "ZUV-1060",
+          "name": "Gourmet Cheese & Crackers Basket",
+          "price": 542.2,
+          "category": "hampers"
+        }
+      ],
+      "occasion_tag": "eid",
+      "recipient_name": "Wife",
+      "recipient_relationship": "Spouse",
+      "total_aed": 1181.88,
+      "delivery_area": "Online",
+      "email_opened": false
+    }
+  },
+  {
+    "event_id": "2dea5680-a903-49b7-aa6f-3d2765e8880c",
+    "customer_id": "CUST024",
+    "event_type": "browse",
+    "timestamp": "2026-03-25T10:00:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1039",
+      "product_sku": "ZUV-1039",
+      "category": "cakes",
+      "time_spent_seconds": 257
+    }
+  },
+  {
+    "event_id": "1ef28902-e1d4-450b-938e-453744990a87",
+    "customer_id": "CUST011",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-03-25T14:32:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "order_confirmation",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "15c99ae9-8853-4233-ac1c-662d69981322",
+    "customer_id": "CUST020",
+    "event_type": "browse",
+    "timestamp": "2026-03-26T14:33:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1030",
+      "product_sku": "ZUV-1030",
+      "category": "cakes",
+      "time_spent_seconds": 244
+    }
+  },
+  {
+    "event_id": "722dd90f-0ffe-4784-b243-9b317186a72c",
+    "customer_id": "CUST027",
+    "event_type": "browse",
+    "timestamp": "2026-03-27T08:05:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1045",
+      "product_sku": "ZUV-1045",
+      "category": "chocolates",
+      "time_spent_seconds": 313
+    }
+  },
+  {
+    "event_id": "0918b9f8-92a9-46d5-8182-298960380b6c",
+    "customer_id": "CUST030",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-03-27T15:23:00-05:18",
+    "data": {
+      "direction": "outbound",
+      "template_name": "order_confirmation",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "77444c46-6ce4-45e1-8909-22d0c499ba31",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2026-03-27T18:23:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1038",
+      "product_sku": "ZUV-1038",
+      "category": "cakes",
+      "time_spent_seconds": 100
+    }
+  },
+  {
+    "event_id": "e6aa9035-7668-4068-a2bc-efb5f1c40e84",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2026-03-28T12:00:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1070",
+      "product_sku": "ZUV-1070",
+      "category": "hampers",
+      "time_spent_seconds": 110
+    }
+  },
+  {
+    "event_id": "8e6b77dd-f8c6-4633-8d93-3ceb9e5f44f7",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2026-03-29T21:14:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1009",
+      "product_sku": "ZUV-1009",
+      "category": "flowers",
+      "time_spent_seconds": 204
+    }
+  },
+  {
+    "event_id": "8521f333-87d6-479b-a5b3-f46167eca612",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2026-03-31T22:06:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1017",
+      "product_sku": "ZUV-1017",
+      "category": "flowers",
+      "time_spent_seconds": 92
+    }
+  },
+  {
+    "event_id": "e2b9da96-2c50-4547-8892-ff0c1f6107fb",
+    "customer_id": "CUST009",
+    "event_type": "browse",
+    "timestamp": "2026-04-01T18:07:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1005",
+      "product_sku": "ZUV-1005",
+      "category": "flowers",
+      "time_spent_seconds": 266
+    }
+  },
+  {
+    "event_id": "a7d13877-8821-4850-b1fc-b7b0ec1d27df",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2026-04-01T20:24:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1048",
+      "product_sku": "ZUV-1048",
+      "category": "chocolates",
+      "time_spent_seconds": 312
+    }
+  },
+  {
+    "event_id": "4dfff40d-a517-4505-bbc7-18db9488d422",
+    "customer_id": "CUST042",
+    "event_type": "browse",
+    "timestamp": "2026-04-08T22:54:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1047",
+      "product_sku": "ZUV-1047",
+      "category": "chocolates",
+      "time_spent_seconds": 77
+    }
+  },
+  {
+    "event_id": "d15699e1-30f0-4fdf-97b6-121756a303f4",
+    "customer_id": "CUST024",
+    "event_type": "browse",
+    "timestamp": "2026-04-09T11:03:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1070",
+      "product_sku": "ZUV-1070",
+      "category": "hampers",
+      "time_spent_seconds": 288
+    }
+  },
+  {
+    "event_id": "1f1a7fa7-41ad-4e28-905c-e5575db3061c",
+    "customer_id": "CUST041",
+    "event_type": "browse",
+    "timestamp": "2026-04-09T23:29:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1065",
+      "product_sku": "ZUV-1065",
+      "category": "hampers",
+      "time_spent_seconds": 214
+    }
+  },
+  {
+    "event_id": "05ae6138-3947-4b63-b580-471c8628c824",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2026-04-10T09:27:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1084",
+      "product_sku": "ZUV-1084",
+      "category": "perfumes",
+      "time_spent_seconds": 96
+    }
+  },
+  {
+    "event_id": "8ccc4585-c966-41cd-8f6b-70e142c5bcb0",
+    "customer_id": "CUST029",
+    "event_type": "browse",
+    "timestamp": "2026-04-10T10:25:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1065",
+      "product_sku": "ZUV-1065",
+      "category": "hampers",
+      "time_spent_seconds": 413
+    }
+  },
+  {
+    "event_id": "17ed7e89-1e83-4cb4-a905-6a0c933e86aa",
+    "customer_id": "CUST016",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-04-10T11:15:00+05:53",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "d2989a6c-9383-4dd0-ae4e-ba51e0771c0e",
+    "customer_id": "CUST015",
+    "event_type": "browse",
+    "timestamp": "2026-04-10T14:08:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1099",
+      "product_sku": "ZUV-1099",
+      "category": "combos",
+      "time_spent_seconds": 329
+    }
+  },
+  {
+    "event_id": "d8719897-5fd8-484e-a939-46395965d6ca",
+    "customer_id": "CUST015",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-04-11T14:32:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "525f1b7b-10ff-447b-8971-c542b2919e9e",
+    "customer_id": "CUST015",
+    "event_type": "browse",
+    "timestamp": "2026-04-14T12:00:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1027",
+      "product_sku": "ZUV-1027",
+      "category": "cakes",
+      "time_spent_seconds": 288
+    }
+  },
+  {
+    "event_id": "734ffe05-918b-4d2a-9616-7dbe0ad37b2a",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2026-04-17T11:29:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1039",
+      "product_sku": "ZUV-1039",
+      "category": "cakes",
+      "time_spent_seconds": 111
+    }
+  },
+  {
+    "event_id": "99c48c9f-e71b-4730-ab8f-af0c640f6af1",
+    "customer_id": "CUST001",
+    "event_type": "browse",
+    "timestamp": "2026-04-17T15:08:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1025",
+      "product_sku": "ZUV-1025",
+      "category": "cakes",
+      "time_spent_seconds": 235
+    }
+  },
+  {
+    "event_id": "29d319e6-8403-4cac-9123-22f6db2f4b6c",
+    "customer_id": "CUST035",
+    "event_type": "browse",
+    "timestamp": "2026-04-18T10:59:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1060",
+      "product_sku": "ZUV-1060",
+      "category": "hampers",
+      "time_spent_seconds": 46
+    }
+  },
+  {
+    "event_id": "a8e45196-8287-4107-9b81-0d95eb5e29dd",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2026-04-18T12:45:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1035",
+      "product_sku": "ZUV-1035",
+      "category": "cakes",
+      "time_spent_seconds": 77
+    }
+  },
+  {
+    "event_id": "512f63be-1744-4980-95af-4d66ee606c8a",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2026-04-18T20:32:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1036",
+      "product_sku": "ZUV-1036",
+      "category": "cakes",
+      "time_spent_seconds": 351
+    }
+  },
+  {
+    "event_id": "22f9d6ea-2f98-4a88-95c6-068884d18166",
+    "customer_id": "CUST016",
+    "event_type": "browse",
+    "timestamp": "2026-04-19T15:05:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1055",
+      "product_sku": "ZUV-1055",
+      "category": "hampers",
+      "time_spent_seconds": 89
+    }
+  },
+  {
+    "event_id": "a3b810ce-451f-410c-8c02-c86d972c2193",
+    "customer_id": "CUST030",
+    "event_type": "browse",
+    "timestamp": "2026-04-19T21:26:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1071",
+      "product_sku": "ZUV-1071",
+      "category": "hampers",
+      "time_spent_seconds": 301
+    }
+  },
+  {
+    "event_id": "f078587d-5043-4439-9692-b0b19e2c330e",
+    "customer_id": "CUST031",
+    "event_type": "browse",
+    "timestamp": "2026-04-20T08:44:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1021",
+      "product_sku": "ZUV-1021",
+      "category": "cakes",
+      "time_spent_seconds": 72
+    }
+  },
+  {
+    "event_id": "a556b33e-ead9-40fc-895a-84cc09eb1d92",
+    "customer_id": "CUST014",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-04-21T14:59:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "48f1a8c2-e425-4219-9ab2-231162ed09e7",
+    "customer_id": "CUST043",
+    "event_type": "browse",
+    "timestamp": "2026-04-24T08:26:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1017",
+      "product_sku": "ZUV-1017",
+      "category": "flowers",
+      "time_spent_seconds": 352
+    }
+  },
+  {
+    "event_id": "2eca45d5-df13-444f-9bf7-b1663ef6617c",
+    "customer_id": "CUST004",
+    "event_type": "browse",
+    "timestamp": "2026-04-25T11:40:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1058",
+      "product_sku": "ZUV-1058",
+      "category": "hampers",
+      "time_spent_seconds": 38
+    }
+  },
+  {
+    "event_id": "a907d5e0-0bdb-4a90-ac50-19fcbc2e2414",
+    "customer_id": "CUST005",
+    "event_type": "browse",
+    "timestamp": "2026-04-25T21:22:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1089",
+      "product_sku": "ZUV-1089",
+      "category": "perfumes",
+      "time_spent_seconds": 62
+    }
+  },
+  {
+    "event_id": "4fbf509c-fa86-4c05-9a00-1ca0d528087d",
+    "customer_id": "CUST001",
+    "event_type": "browse",
+    "timestamp": "2026-04-26T08:15:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1005",
+      "product_sku": "ZUV-1005",
+      "category": "flowers",
+      "time_spent_seconds": 271
+    }
+  },
+  {
+    "event_id": "fe920cae-b33d-43a7-8a9c-1618c2f84ffe",
+    "customer_id": "CUST033",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-04-26T18:04:00+02:05",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "443d606a-357a-41c7-adbe-0707ca9c0fc4",
+    "customer_id": "CUST039",
+    "event_type": "browse",
+    "timestamp": "2026-04-28T14:53:00-07:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1041",
+      "product_sku": "ZUV-1041",
+      "category": "chocolates",
+      "time_spent_seconds": 105
+    }
+  },
+  {
+    "event_id": "85a02cd2-9671-46a0-be50-254ec41faf91",
+    "customer_id": "CUST041",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-04-29T17:34:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "3e6804fb-2fbc-4849-8838-31f5814506dd",
+    "customer_id": "CUST004",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-04-30T10:33:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "316307b3-f80b-4e07-a4b1-63652a81cad0",
+    "customer_id": "CUST010",
+    "event_type": "browse",
+    "timestamp": "2026-05-01T15:41:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1037",
+      "product_sku": "ZUV-1037",
+      "category": "cakes",
+      "time_spent_seconds": 285
+    }
+  },
+  {
+    "event_id": "f6c34288-c781-452b-8e2b-53b59b1ead11",
+    "customer_id": "CUST008",
+    "event_type": "browse",
+    "timestamp": "2026-05-02T21:39:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1098",
+      "product_sku": "ZUV-1098",
+      "category": "combos",
+      "time_spent_seconds": 38
+    }
+  },
+  {
+    "event_id": "f0b76746-09c2-4dc5-8ef5-92060e3ccd7e",
+    "customer_id": "CUST032",
+    "event_type": "browse",
+    "timestamp": "2026-05-03T20:43:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1054",
+      "product_sku": "ZUV-1054",
+      "category": "chocolates",
+      "time_spent_seconds": 118
+    }
+  },
+  {
+    "event_id": "bd17d3cc-b42b-4b41-a984-2948b370827c",
+    "customer_id": "CUST026",
+    "event_type": "browse",
+    "timestamp": "2026-05-04T14:28:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1075",
+      "product_sku": "ZUV-1075",
+      "category": "perfumes",
+      "time_spent_seconds": 249
+    }
+  },
+  {
+    "event_id": "6b8e9956-86fa-49bb-8a75-7628de62e6fc",
+    "customer_id": "CUST048",
+    "event_type": "browse",
+    "timestamp": "2026-05-05T19:14:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1085",
+      "product_sku": "ZUV-1085",
+      "category": "perfumes",
+      "time_spent_seconds": 331
+    }
+  },
+  {
+    "event_id": "50d68bb1-ea1a-4228-8bb6-881d65275e1a",
+    "customer_id": "CUST048",
+    "event_type": "browse",
+    "timestamp": "2026-05-06T13:45:00-05:18",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1071",
+      "product_sku": "ZUV-1071",
+      "category": "hampers",
+      "time_spent_seconds": 385
+    }
+  },
+  {
+    "event_id": "60c6ec5b-b242-4fb3-81b3-85218602142d",
+    "customer_id": "CUST049",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-05-06T19:43:00+02:05",
+    "data": {
+      "direction": "outbound",
+      "template_name": "welcome_message",
+      "read": false,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "16cd2d32-19a2-4f6f-aa0a-5a9b72b488c3",
+    "customer_id": "CUST005",
+    "event_type": "browse",
+    "timestamp": "2026-05-07T10:12:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1082",
+      "product_sku": "ZUV-1082",
+      "category": "perfumes",
+      "time_spent_seconds": 257
+    }
+  },
+  {
+    "event_id": "226584f2-0abe-40c8-82b0-f7704422bae3",
+    "customer_id": "CUST008",
+    "event_type": "browse",
+    "timestamp": "2026-05-07T18:41:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1013",
+      "product_sku": "ZUV-1013",
+      "category": "flowers",
+      "time_spent_seconds": 376
+    }
+  },
+  {
+    "event_id": "2fc508e4-686f-4e08-8c0b-dfb30b087c51",
+    "customer_id": "CUST001",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-05-08T10:27:00+03:41",
+    "data": {
+      "direction": "outbound",
+      "template_name": "delivery_update",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "9ad124b9-ac18-40ba-8f41-3b4c29413ed5",
+    "customer_id": "CUST050",
+    "event_type": "browse",
+    "timestamp": "2026-05-10T09:11:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1077",
+      "product_sku": "ZUV-1077",
+      "category": "perfumes",
+      "time_spent_seconds": 192
+    }
+  },
+  {
+    "event_id": "f08972a0-7dac-4eee-ab8d-1a7a62087907",
+    "customer_id": "CUST050",
+    "event_type": "browse",
+    "timestamp": "2026-05-11T08:44:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1073",
+      "product_sku": "ZUV-1073",
+      "category": "hampers",
+      "time_spent_seconds": 230
+    }
+  },
+  {
+    "event_id": "3d77e22a-7689-4199-9b10-0318fdc8617f",
+    "customer_id": "CUST020",
+    "event_type": "browse",
+    "timestamp": "2026-05-11T14:59:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1024",
+      "product_sku": "ZUV-1024",
+      "category": "cakes",
+      "time_spent_seconds": 409
+    }
+  },
+  {
+    "event_id": "667e8bd5-fb19-40bd-a3e2-b8038c6a0957",
+    "customer_id": "CUST012",
+    "event_type": "browse",
+    "timestamp": "2026-05-11T18:50:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1037",
+      "product_sku": "ZUV-1037",
+      "category": "cakes",
+      "time_spent_seconds": 320
+    }
+  },
+  {
+    "event_id": "2e3d12f7-0545-4c4a-83a5-25061732d598",
+    "customer_id": "CUST046",
+    "event_type": "browse",
+    "timestamp": "2026-05-11T19:45:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1084",
+      "product_sku": "ZUV-1084",
+      "category": "perfumes",
+      "time_spent_seconds": 232
+    }
+  },
+  {
+    "event_id": "87086f57-78e1-4c85-9ad9-7fe3a198c033",
+    "customer_id": "CUST049",
+    "event_type": "browse",
+    "timestamp": "2026-05-11T20:19:00+02:05",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1093",
+      "product_sku": "ZUV-1093",
+      "category": "combos",
+      "time_spent_seconds": 382
+    }
+  },
+  {
+    "event_id": "519f4eea-d60d-4c43-9f43-c8eb67ff20d6",
+    "customer_id": "CUST046",
+    "event_type": "browse",
+    "timestamp": "2026-05-12T11:54:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1067",
+      "product_sku": "ZUV-1067",
+      "category": "hampers",
+      "time_spent_seconds": 216
+    }
+  },
+  {
+    "event_id": "65bfc93c-8d8b-45e0-bf8f-235efdff7dbc",
+    "customer_id": "CUST047",
+    "event_type": "browse",
+    "timestamp": "2026-05-12T21:50:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1081",
+      "product_sku": "ZUV-1081",
+      "category": "perfumes",
+      "time_spent_seconds": 279
+    }
+  },
+  {
+    "event_id": "41eed842-b54e-48eb-b6f5-a41cabcce034",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2026-05-13T11:16:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1028",
+      "product_sku": "ZUV-1028",
+      "category": "cakes",
+      "time_spent_seconds": 291
+    }
+  },
+  {
+    "event_id": "6db43a58-e72e-4a42-8144-1c46b0177323",
+    "customer_id": "CUST037",
+    "event_type": "browse",
+    "timestamp": "2026-05-13T16:41:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1046",
+      "product_sku": "ZUV-1046",
+      "category": "chocolates",
+      "time_spent_seconds": 384
+    }
+  },
+  {
+    "event_id": "e987e6cd-d62c-4ef8-bc33-1b25b432d35c",
+    "customer_id": "CUST047",
+    "event_type": "browse",
+    "timestamp": "2026-05-13T18:19:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1041",
+      "product_sku": "ZUV-1041",
+      "category": "chocolates",
+      "time_spent_seconds": 99
+    }
+  },
+  {
+    "event_id": "6045a218-6d60-417a-8642-d26a1b743490",
+    "customer_id": "CUST003",
+    "event_type": "browse",
+    "timestamp": "2026-05-14T17:36:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1077",
+      "product_sku": "ZUV-1077",
+      "category": "perfumes",
+      "time_spent_seconds": 84
+    }
+  },
+  {
+    "event_id": "233a67e2-8f03-47d6-a594-167741da3809",
+    "customer_id": "CUST020",
+    "event_type": "browse",
+    "timestamp": "2026-05-15T20:21:00+05:53",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1079",
+      "product_sku": "ZUV-1079",
+      "category": "perfumes",
+      "time_spent_seconds": 224
+    }
+  },
+  {
+    "event_id": "684b64c8-a574-442c-a69a-32cb7aea57b9",
+    "customer_id": "CUST025",
+    "event_type": "browse",
+    "timestamp": "2026-05-16T14:13:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1035",
+      "product_sku": "ZUV-1035",
+      "category": "cakes",
+      "time_spent_seconds": 415
+    }
+  },
+  {
+    "event_id": "7491ed4d-be60-485e-bb57-b80ad630a8d5",
+    "customer_id": "CUST026",
+    "event_type": "whatsapp_interaction",
+    "timestamp": "2026-05-16T20:20:00-05:18",
+    "data": {
+      "direction": "outbound",
+      "template_name": "occasion_reminder",
+      "read": true,
+      "opted_out": false
+    }
+  },
+  {
+    "event_id": "1be61bff-7aa5-4bc1-bdd6-0cc1fb46481a",
+    "customer_id": "CUST038",
+    "event_type": "browse",
+    "timestamp": "2026-05-17T10:46:00-04:56",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1058",
+      "product_sku": "ZUV-1058",
+      "category": "hampers",
+      "time_spent_seconds": 355
+    }
+  },
+  {
+    "event_id": "a5e37bdd-1fd0-4d0b-9e99-57028a00ac41",
+    "customer_id": "CUST007",
+    "event_type": "browse",
+    "timestamp": "2026-05-18T14:30:00+03:41",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1009",
+      "product_sku": "ZUV-1009",
+      "category": "flowers",
+      "time_spent_seconds": 97
+    }
+  },
+  {
+    "event_id": "8a880112-4e02-4aef-a9cd-1cd7949325dd",
+    "customer_id": "CUST022",
+    "event_type": "browse",
+    "timestamp": "2026-05-18T20:54:00-00:01",
+    "data": {
+      "page_url": "https://zuvees.ae/products/zuv-1094",
+      "product_sku": "ZUV-1094",
+      "category": "combos",
+      "time_spent_seconds": 402
+    }
+  }
+]

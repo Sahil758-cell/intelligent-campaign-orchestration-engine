@@ -1,0 +1,3406 @@
+[
+  {
+    "send_id": "9e9de03e-96c4-437b-8228-8b8b3928a523",
+    "customer_id": "CUST004",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-07-15T09:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST004 has a high-confidence birthday occasion on 2026-07-22 for recipient 'Wife'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "8a59b4ff-abbb-4342-b6ef-834e17fa0a7e",
+    "customer_id": "CUST004",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T09:00:00+04:00",
+    "occasion": "valentines_day",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST004 has a medium-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "db9f95d1-c078-45e0-b6b7-1c740164c53a",
+    "customer_id": "CUST004",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-05-20T09:00:00+04:00",
+    "occasion": "Eid al-Adha",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST004 has a low-confidence Eid al-Adha occasion on 2026-05-27 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "bdb9e5b2-8b6a-4002-b24a-fada19e15e31",
+    "customer_id": "CUST004",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T09:00:00+04:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST004 has a low-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Sister'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "e8780582-e2dd-433f-9960-55ca94db3ad1",
+    "customer_id": "CUST003",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-06-03T09:00:00+04:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST003 has a high-confidence anniversary occasion on 2026-06-10 for recipient 'Husband'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "8c80af1b-b943-4115-b9a3-ceac85c65dd0",
+    "customer_id": "CUST003",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T09:00:00+04:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST003 has a medium-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "184550bd-52d6-4970-8de0-835541051819",
+    "customer_id": "CUST003",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T09:00:00+04:00",
+    "occasion": "valentines_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST003 has a low-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "293be013-31c9-49ab-bd69-2ac3b339372e",
+    "customer_id": "CUST016",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-10-10T09:00:00+05:30",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST016 has a high-confidence birthday occasion on 2026-10-17 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "e6d95d67-34d2-4156-935e-e2d79059513d",
+    "customer_id": "CUST016",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T09:00:00+05:30",
+    "occasion": "valentines_day",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST016 has a medium-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "3fa75b4d-bf86-4ff0-9759-1c6c0381905a",
+    "customer_id": "CUST016",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-01T09:00:00+05:30",
+    "occasion": "diwali",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST016 has a low-confidence diwali occasion on 2026-11-08 for recipient 'Parents'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "a9282044-5ec3-4bc7-ab5c-15cdac5a43f5",
+    "customer_id": "CUST016",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-05-02T09:00:00+05:30",
+    "occasion": "mothers_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST016 has a low-confidence mothers_day occasion on 2027-05-09 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "45d0d5e8-b9df-45f9-b23f-530ae70dd5f9",
+    "customer_id": "CUST036",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-09-12T09:00:00-04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST036 has a high-confidence birthday occasion on 2026-09-19 for recipient 'Sister'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "9fce3d63-2461-450a-b3c9-a2166a195cc5",
+    "customer_id": "CUST036",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-12-18T09:00:00-05:00",
+    "occasion": "christmas",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST036 has a low-confidence christmas occasion on 2026-12-25 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "55be5893-8bfd-48a5-831c-cf95358251d3",
+    "customer_id": "CUST036",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T09:00:00-05:00",
+    "occasion": "valentines_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST036 has a low-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "28ea47c4-ec0d-415d-aef6-68b94180acfd",
+    "customer_id": "CUST036",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-05-02T09:00:00-04:00",
+    "occasion": "mothers_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST036 has a low-confidence mothers_day occasion on 2027-05-09 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "dd096eb0-5b93-4094-88e1-29ea7bc8cf85",
+    "customer_id": "CUST021",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-07-23T10:00:00+01:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST021 has a high-confidence birthday occasion on 2026-07-30 for recipient 'Best Friend'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "3d1533b4-3632-4b82-9242-d93e58418641",
+    "customer_id": "CUST021",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T10:00:00+00:00",
+    "occasion": "valentines_day",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST021 has a medium-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "920f70fc-0088-4148-9c30-0c1f2eedace0",
+    "customer_id": "CUST021",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-12-18T10:00:00+00:00",
+    "occasion": "christmas",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST021 has a low-confidence christmas occasion on 2026-12-25 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "25b2014a-76e2-449c-9952-9ac35a675e75",
+    "customer_id": "CUST021",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-05-02T10:00:00+01:00",
+    "occasion": "mothers_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST021 has a low-confidence mothers_day occasion on 2027-05-09 for recipient 'Mum'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "0790bab1-f95b-4f69-953c-d1644589d5aa",
+    "customer_id": "CUST011",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-21T13:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST011 has a high-confidence birthday occasion on 2026-11-28 for recipient 'Sister'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "de8892cc-fbc0-43e0-b1a7-ac711f88ce59",
+    "customer_id": "CUST011",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T13:00:00+04:00",
+    "occasion": "valentines_day",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST011 has a medium-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "80ef611a-1534-42e4-a171-43cff399c694",
+    "customer_id": "CUST011",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-12-18T13:00:00+04:00",
+    "occasion": "christmas",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST011 has a low-confidence christmas occasion on 2026-12-25 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "d7c09d4a-96bd-4d68-9586-b8a6abbd922a",
+    "customer_id": "CUST011",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-05-02T13:00:00+04:00",
+    "occasion": "mothers_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST011 has a low-confidence mothers_day occasion on 2027-05-09 for recipient 'Mum'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "e1b37361-957d-4cc3-b8cb-0c667123e614",
+    "customer_id": "CUST026",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-08-05T17:00:00-04:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST026 has a high-confidence anniversary occasion on 2026-08-12 for recipient 'Husband'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "01792336-f455-444d-9dc6-3671fdc6c040",
+    "customer_id": "CUST026",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T17:00:00-05:00",
+    "occasion": "valentines_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST026 has a low-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "3efd2154-3ed3-4abf-bd3e-debb9d25448f",
+    "customer_id": "CUST025",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-24T21:00:00+00:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST025 has a high-confidence anniversary occasion on 2026-12-01 for recipient 'Husband'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "dcc0b7a2-b64e-4863-b81e-902fd9f937bb",
+    "customer_id": "CUST025",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T21:00:00+00:00",
+    "occasion": "valentines_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST025 has a low-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "d7d78169-1084-4233-acc0-9876b3730fc5",
+    "customer_id": "CUST007",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-08-07T12:00:00+04:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST007 has a high-confidence anniversary occasion on 2026-08-14 for recipient 'Wife'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "83561d9a-112f-41db-84be-7f520d95ae79",
+    "customer_id": "CUST007",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T12:00:00+04:00",
+    "occasion": "valentines_day",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST007 has a medium-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "02fbeabb-2a45-450f-8b21-24807beb2843",
+    "customer_id": "CUST007",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-01T12:00:00+04:00",
+    "occasion": "diwali",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST007 has a low-confidence diwali occasion on 2026-11-08 for recipient 'Friends'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "aa75ec81-7623-4d49-bddc-5d97ba872c6a",
+    "customer_id": "CUST007",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-05-02T12:00:00+04:00",
+    "occasion": "mothers_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST007 has a low-confidence mothers_day occasion on 2027-05-09 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "9a91f240-2b46-4f4b-9fa2-fa2e83af7d6f",
+    "customer_id": "CUST009",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-07-27T17:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST009 has a high-confidence birthday occasion on 2026-08-03 for recipient 'Dad'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "84ca2a90-9edb-4c90-b0b5-959fd142f620",
+    "customer_id": "CUST009",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-01T17:00:00+04:00",
+    "occasion": "diwali",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST009 has a low-confidence diwali occasion on 2026-11-08 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "1c72c535-28a6-4724-a6f4-5a9bd1b855dc",
+    "customer_id": "CUST009",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T17:00:00+04:00",
+    "occasion": "valentines_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST009 has a low-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "187acd4c-94c2-455b-860d-cdee1dc58a27",
+    "customer_id": "CUST009",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-05-02T17:00:00+04:00",
+    "occasion": "mothers_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST009 has a low-confidence mothers_day occasion on 2027-05-09 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "80e24b23-4ba3-477d-abd1-7478c46b0842",
+    "customer_id": "CUST022",
+    "channel": "email",
+    "scheduled_send_time": "2026-09-07T15:00:00+01:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST022 has a high-confidence birthday occasion on 2026-09-14 for recipient 'Wife'; sending via email as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "298b9e2f-7453-4a4b-96c5-cab60821efa7",
+    "customer_id": "CUST022",
+    "channel": "email",
+    "scheduled_send_time": "2026-12-18T15:00:00+00:00",
+    "occasion": "christmas",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST022 has a low-confidence christmas occasion on 2026-12-25 for recipient 'Family'; sending via email as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "19b6a27b-842c-4fcd-8dc4-bad1d875c243",
+    "customer_id": "CUST022",
+    "channel": "email",
+    "scheduled_send_time": "2027-02-07T15:00:00+00:00",
+    "occasion": "valentines_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST022 has a low-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via email as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "46b86330-b5d3-41dd-8ecb-d39423d9f3f6",
+    "customer_id": "CUST013",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-06-13T16:00:00+04:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST013 has a high-confidence anniversary occasion on 2026-06-20 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "f7df2b8e-89c6-4640-a3a8-0c952c8ee31e",
+    "customer_id": "CUST013",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-02-07T16:00:00+04:00",
+    "occasion": "valentines_day",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST013 has a medium-confidence valentines_day occasion on 2027-02-14 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "e8d5b552-2287-42a7-b0ef-c7468434b9b2",
+    "customer_id": "CUST013",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-12-18T16:00:00+04:00",
+    "occasion": "christmas",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST013 has a low-confidence christmas occasion on 2026-12-25 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "df877f1b-23d8-44fe-a3f2-e223791a68c5",
+    "customer_id": "CUST020",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-08T09:00:00+05:30",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST020 has a high-confidence birthday occasion on 2026-11-15 for recipient 'Sister'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "76ddc5ba-c2af-484a-a69b-564297de0e49",
+    "customer_id": "CUST037",
+    "channel": "email",
+    "scheduled_send_time": "2026-12-18T18:00:00-05:00",
+    "occasion": "christmas",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST037 has a low-confidence christmas occasion on 2026-12-25 for recipient 'Family'; sending via email as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "ec1c1e0c-8a13-4ee5-9bfe-b70886b7e191",
+    "customer_id": "CUST043",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-05-20T09:00:00+04:00",
+    "occasion": "Eid al-Adha",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST043 has a low-confidence Eid al-Adha occasion on 2026-05-27 for recipient 'Parents'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "fd51e0d4-5681-4951-8730-d3ed7f12774b",
+    "customer_id": "CUST043",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T09:00:00+04:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST043 has a low-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "375f6dc1-4909-494f-a8f0-69aa25298015",
+    "customer_id": "CUST008",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-08-12T09:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST008 has a high-confidence birthday occasion on 2026-08-19 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "14577389-f736-44d2-8085-359debb92fe4",
+    "customer_id": "CUST008",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-01T09:00:00+04:00",
+    "occasion": "diwali",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST008 has a low-confidence diwali occasion on 2026-11-08 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "2b6f39bc-3a4c-49e2-ab71-6c545b3afb59",
+    "customer_id": "CUST018",
+    "channel": "email",
+    "scheduled_send_time": "2026-10-13T19:00:00+05:30",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST018 has a high-confidence anniversary occasion on 2026-10-20 for recipient 'Wife'; sending via email as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "a09fafac-508d-4d0a-8926-87b8527bc2f1",
+    "customer_id": "CUST006",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-28T09:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST006 has a high-confidence birthday occasion on 2026-12-05 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "13db61c2-608f-4252-9580-4b03fd8e0d2e",
+    "customer_id": "CUST006",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-01T09:00:00+04:00",
+    "occasion": "womens_day",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST006 has a medium-confidence womens_day occasion on 2027-03-08 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "4abdceaf-8be9-4272-84fa-dbf5b2b7c76e",
+    "customer_id": "CUST006",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-01T09:00:00+04:00",
+    "occasion": "diwali",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST006 has a low-confidence diwali occasion on 2026-11-08 for recipient 'Parents'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "95a635a1-a4e8-42e1-a0e5-895ecd11a6da",
+    "customer_id": "CUST006",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-05-02T09:00:00+04:00",
+    "occasion": "mothers_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST006 has a low-confidence mothers_day occasion on 2027-05-09 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "678d094c-58e3-4a99-8d71-c4830a1e6e6a",
+    "customer_id": "CUST041",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-08-29T18:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST041 has a high-confidence birthday occasion on 2026-09-05 for recipient 'Husband'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "590dd26d-9d21-4ee1-b0e6-6d3442eb0fe7",
+    "customer_id": "CUST041",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-01T18:00:00+04:00",
+    "occasion": "womens_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST041 has a low-confidence womens_day occasion on 2027-03-08 for recipient 'Mom'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "4472a4e5-c246-4cdb-a339-a0d24c4aa0c9",
+    "customer_id": "CUST041",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T18:00:00+04:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST041 has a low-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Wife'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 1,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "23afb58d-208e-4238-bccc-15c890dced3a",
+    "customer_id": "CUST001",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-07-08T09:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST001 has a high-confidence birthday occasion on 2026-07-15 for recipient 'Husband'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "63a7d769-d44f-488f-810b-09c96844bfe2",
+    "customer_id": "CUST001",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-01T09:00:00+04:00",
+    "occasion": "womens_day",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST001 has a medium-confidence womens_day occasion on 2027-03-08 for recipient 'Mom'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "3f05ca0b-2dac-44ce-9f0e-b2007b421d75",
+    "customer_id": "CUST001",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T09:00:00+04:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST001 has a medium-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Mom'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 1,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "f101c67a-56ea-40f5-b4e8-cda30870392d",
+    "customer_id": "CUST030",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-01T15:00:00-05:00",
+    "occasion": "womens_day",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST030 has a medium-confidence womens_day occasion on 2027-03-08 for recipient 'Mom'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "06e2f524-1fe7-414c-8a84-cea976956f01",
+    "customer_id": "CUST015",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-06-21T09:00:00+04:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST015 has a high-confidence anniversary occasion on 2026-06-28 for recipient 'Partner'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "d3eefbb5-42bc-49a1-bdcc-1f66007dc23e",
+    "customer_id": "CUST015",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-01T09:00:00+04:00",
+    "occasion": "womens_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST015 has a low-confidence womens_day occasion on 2027-03-08 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "b63345b8-b793-4489-bb10-5a5a54050cba",
+    "customer_id": "CUST024",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-10-18T10:00:00+01:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST024 has a high-confidence birthday occasion on 2026-10-25 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "862cb1a5-4cdc-4027-a6fe-79e61e6197bb",
+    "customer_id": "CUST023",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-06-30T10:00:00+01:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST023 has a high-confidence anniversary occasion on 2026-07-07 for recipient 'Husband'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "3e48426f-7c03-4b75-af28-c77910629ee4",
+    "customer_id": "CUST023",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T10:00:00+00:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST023 has a low-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Parents'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "97bdbd47-7bd8-4f4f-bd66-ba5632f29ca6",
+    "customer_id": "CUST040",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-01T10:00:00-08:00",
+    "occasion": "diwali",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST040 has a low-confidence diwali occasion on 2026-11-08 for recipient 'Family'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "0ee0ae2b-5521-45d6-a2b9-41e394b64b50",
+    "customer_id": "CUST040",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-05-02T10:00:00-07:00",
+    "occasion": "mothers_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST040 has a low-confidence mothers_day occasion on 2027-05-09 for recipient 'Mom'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "86ceeccd-a93b-45ba-ad18-204cb540b638",
+    "customer_id": "CUST032",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T21:00:00+02:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST032 has a low-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Parents'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "d5336746-9047-406b-85ff-5f1616448d61",
+    "customer_id": "CUST017",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-12-05T09:00:00+05:30",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST017 has a high-confidence birthday occasion on 2026-12-12 for recipient 'Dad'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "e3400daa-f32e-4de6-9712-5931f12dc665",
+    "customer_id": "CUST017",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-01T09:00:00+05:30",
+    "occasion": "diwali",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST017 has a low-confidence diwali occasion on 2026-11-08 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "1c6f8ecb-b18e-484b-bc0d-ce2d3c23c164",
+    "customer_id": "CUST017",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-05-02T09:00:00+05:30",
+    "occasion": "mothers_day",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST017 has a low-confidence mothers_day occasion on 2027-05-09 for recipient 'Amma'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "73ddc5ec-d0ea-4c62-abbe-187374890248",
+    "customer_id": "CUST019",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-08-23T09:00:00+05:30",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST019 has a high-confidence birthday occasion on 2026-08-30 for recipient 'Mom'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "4b9511ee-8e70-44c0-934c-16f9a731ad65",
+    "customer_id": "CUST019",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-11-01T09:00:00+05:30",
+    "occasion": "diwali",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST019 has a low-confidence diwali occasion on 2026-11-08 for recipient 'Parents'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "8377d586-cf31-46b2-8455-8120c477ec06",
+    "customer_id": "CUST002",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-09-15T09:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST002 has a high-confidence birthday occasion on 2026-09-22 for recipient 'Wife'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "cfd19b4b-22e7-4094-b830-fae4a40b5143",
+    "customer_id": "CUST002",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T09:00:00+04:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST002 has a medium-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Parents'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "42441c08-1593-4af3-9eef-2201db20c471",
+    "customer_id": "CUST002",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-05-20T09:00:00+04:00",
+    "occasion": "Eid al-Adha",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST002 has a low-confidence Eid al-Adha occasion on 2026-05-27 for recipient 'Sister'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "6ac0cf9a-051a-4789-93d5-53ecf26f7343",
+    "customer_id": "CUST045",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-10-08T13:00:00+04:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST045 has a high-confidence anniversary occasion on 2026-10-15 for recipient 'Husband'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "fcf4e115-a953-41f8-b6dc-b32b0fa1b9c7",
+    "customer_id": "CUST044",
+    "channel": "push",
+    "scheduled_send_time": "2027-03-02T14:00:00+04:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST044 has a low-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Mom'; sending via push due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "d44a6d00-5801-43b5-a9f2-c84803fb0737",
+    "customer_id": "CUST012",
+    "channel": "email",
+    "scheduled_send_time": "2026-10-01T17:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST012 has a high-confidence birthday occasion on 2026-10-08 for recipient 'Wife'; sending via email as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "0d5bff05-87cc-4d22-aac4-266b5a83dbf8",
+    "customer_id": "CUST012",
+    "channel": "email",
+    "scheduled_send_time": "2026-12-18T17:00:00+04:00",
+    "occasion": "christmas",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST012 has a low-confidence christmas occasion on 2026-12-25 for recipient 'Family'; sending via email as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "575cd947-00f9-464c-8972-d877db16970b",
+    "customer_id": "CUST027",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T09:00:00-05:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST027 has a medium-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "7209a568-6c70-4852-aa54-c134081eaeb1",
+    "customer_id": "CUST031",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-06-18T09:00:00+03:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST031 has a high-confidence birthday occasion on 2026-06-25 for recipient 'Mother'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "2edabedf-8319-4115-9c71-c5b3554a95a1",
+    "customer_id": "CUST031",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T09:00:00+02:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST031 has a medium-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Wife'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "44364a02-527e-4d40-93f6-c829a0a54790",
+    "customer_id": "CUST031",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-05-20T09:00:00+03:00",
+    "occasion": "Eid al-Adha",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST031 has a low-confidence Eid al-Adha occasion on 2026-05-27 for recipient 'Parents'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "0c4066cd-9097-44c9-92e4-849da3e7be64",
+    "customer_id": "CUST005",
+    "channel": "push",
+    "scheduled_send_time": "2026-08-25T13:00:00+04:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST005 has a high-confidence anniversary occasion on 2026-09-01 for recipient 'Husband'; sending via push due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "310b5075-b979-4829-85a3-23328a082208",
+    "customer_id": "CUST005",
+    "channel": "push",
+    "scheduled_send_time": "2026-05-20T13:00:00+04:00",
+    "occasion": "Eid al-Adha",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST005 has a low-confidence Eid al-Adha occasion on 2026-05-27 for recipient 'Mom'; sending via push due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "fc807f6a-6914-4ee5-b3b7-c11ee5e77f95",
+    "customer_id": "CUST042",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2027-03-02T09:00:00+04:00",
+    "occasion": "Eid al-Fitr",
+    "confidence_score": "medium",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST042 has a medium-confidence Eid al-Fitr occasion on 2027-03-09 for recipient 'Family'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": false
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "96c9afb3-7a2d-4188-ae18-84fb603dfb9a",
+    "customer_id": "CUST010",
+    "channel": "email",
+    "scheduled_send_time": "2026-10-29T19:00:00+04:00",
+    "occasion": "anniversary",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST010 has a high-confidence anniversary occasion on 2026-11-05 for recipient 'Husband'; sending via email as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "85ebed38-d574-4ed3-a8f0-fa4b64388059",
+    "customer_id": "CUST014",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-06-27T17:00:00+04:00",
+    "occasion": "birthday",
+    "confidence_score": "high",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST014 has a high-confidence birthday occasion on 2026-07-04 for recipient 'Partner'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "e8274b4d-9642-442f-952c-76a2ac862748",
+    "customer_id": "CUST033",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-05-20T16:00:00+03:00",
+    "occasion": "Eid al-Adha",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST033 has a low-confidence Eid al-Adha occasion on 2026-05-27 for recipient 'Parents'; sending via whatsapp due to high WA read rate and no email opens",
+    "consent_status": {
+      "email": false,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "8d1e6ee6-04d4-4237-ab28-7db1bd58b938",
+    "customer_id": "CUST038",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-05-20T09:00:00-04:00",
+    "occasion": "Eid al-Adha",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST038 has a low-confidence Eid al-Adha occasion on 2026-05-27 for recipient 'Sister'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "fac3f091-2324-42ed-8a1a-e5c2951d85d6",
+    "customer_id": "CUST034",
+    "channel": "whatsapp",
+    "scheduled_send_time": "2026-05-20T09:00:00+03:00",
+    "occasion": "Eid al-Adha",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST034 has a low-confidence Eid al-Adha occasion on 2026-05-27 for recipient 'Sister'; sending via whatsapp as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": true,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  },
+  {
+    "send_id": "c4975fd6-6ed0-445a-8701-bbce7bb11858",
+    "customer_id": "CUST028",
+    "channel": "email",
+    "scheduled_send_time": "2026-12-18T12:00:00-05:00",
+    "occasion": "christmas",
+    "confidence_score": "low",
+    "message": {
+      "email": {
+        "subject": "A gift they will treasure",
+        "body": "We thought of you as a special occasion approaches. Our curated collection has been handpicked for moments just like this. With 60-minute delivery across Dubai and Abu Dhabi, let us help you make it unforgettable."
+      },
+      "whatsapp": {
+        "template_body": "Hi {1}, a special occasion is almost here. We've handpicked {2} just for you \u2014 delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
+        "variables": [
+          "there",
+          "something wonderful",
+          "your door"
+        ],
+        "has_opt_out_footer": true
+      },
+      "push": {
+        "text": "A special occasion is near \u2014 shop curated gifts on Zuvees. 60-min delivery.",
+        "deep_link": "zuvees://shop?utm_source=push"
+      }
+    },
+    "reasoning": "Customer CUST028 has a low-confidence christmas occasion on 2026-12-25 for recipient 'Family'; sending via email as default channel priority",
+    "consent_status": {
+      "email": true,
+      "whatsapp": false,
+      "push": true
+    },
+    "fatigue_check": {
+      "messages_this_week": 0,
+      "within_limit": true
+    }
+  }
+]

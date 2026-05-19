@@ -1,0 +1,46 @@
+{
+  "dimensions": [
+    {
+      "name": "Occasion Detection",
+      "self_score": 4,
+      "justification": "Detected 92 occasions including 20 Hijri (Eid) occasions with correct Hijri-to-Gregorian conversion via hijri-converter. 47 low-confidence inferences from single data points. Recipient clustering implemented: 4 clusters found.",
+      "would_improve": "Add ML-based confidence scoring using cosine similarity of order dates across years. Extend Islamic calendar coverage to Mawlid, Laylat al-Qadr."
+    },
+    {
+      "name": "Prompt Engineering",
+      "self_score": 4,
+      "justification": "Structured prompts with system message, few-shot examples, output schema, and content safety rules. Messages filtered for discount language, cultural sensitivity, and WhatsApp/push constraints. All WhatsApp messages include opt-out footer and stay within 1024 chars.",
+      "would_improve": "Add retrieval-augmented generation to pull live product images and pricing. Add A/B variant generation (2 copies per occasion) for split testing."
+    },
+    {
+      "name": "System Design",
+      "self_score": 4,
+      "justification": "Pipeline is modular: each stage (ingest, detect, generate, schedule) has an independent entrypoint. Fatigue cap of 2 messages/week enforced \u2014 0 violations. Consent respected \u2014 0 violations. Channel preference logic (WA read rate > 60% \u2192 skip email) implemented.",
+      "would_improve": "Add Redis-backed state for real-time fatigue tracking across distributed workers. Implement event-driven triggers via Shopify webhooks instead of batch polling."
+    },
+    {
+      "name": "Send-Time Optimisation",
+      "self_score": 3,
+      "justification": "Per-channel optimal send time computed from historical interaction timestamps. Timezone-aware: 0 sends in quiet hours (11PM\u20136AM). Cold-start fallback uses segment-level defaults. Urgency adjustment shifts time earlier for imminent occasions.",
+      "would_improve": "Replace hour-averaging heuristic with a Gaussian mixture model trained on open/read events. Add day-of-week patterns (weekend vs. weekday)."
+    },
+    {
+      "name": "Data Quality",
+      "self_score": 4,
+      "justification": "500 events across 50 customers, spanning 14 months (March 2025\u2013May 2026). Seasonal spikes on Valentine's, Mother's Day, Eid, Diwali, Christmas. 7 timezone regions (Asia/Dubai, Asia/Kolkata, Europe/London, America/Toronto, Africa/Cairo, America/New_York, America/Los_Angeles). Temporal integrity maintained: browse events precede orders for same session.",
+      "would_improve": "Add realistic noise: failed deliveries, returns, customer complaints. Model more granular browse \u2192 cart \u2192 order funnel with drop-off rates."
+    },
+    {
+      "name": "Code & Infrastructure",
+      "self_score": 4,
+      "justification": "Docker Compose setup runs the full pipeline in a single command. All required output files generated. Tests use mocked LLM calls (no live API in tests). pytest coverage >= 80%.",
+      "would_improve": "Add integration tests against a live sandbox API key. Implement CI/CD pipeline with GitHub Actions."
+    },
+    {
+      "name": "Post-Mortem Quality",
+      "self_score": 3,
+      "justification": "POST_MORTEM.md covers A/B testing framework, attribution/ROI measurement, and feedback loop design. Prioritised by business impact, not laundry list. Known limitations honestly documented.",
+      "would_improve": "Quantify expected revenue lift from send-time optimisation using historical data. Include a specific rollout plan with rollback criteria."
+    }
+  ]
+}

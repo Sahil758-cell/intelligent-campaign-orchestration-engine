@@ -1,0 +1,1702 @@
+[
+  {
+    "sku": "ZUV-1000",
+    "name": "Red Rose Bouquet (12 stems)",
+    "category": "flowers",
+    "price_aed": 223.77,
+    "occasion_tags": [
+      "birthday",
+      "valentines_day",
+      "mothers_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1001",
+    "name": "White Lily Arrangement",
+    "category": "flowers",
+    "price_aed": 369.06,
+    "occasion_tags": [
+      "mothers_day",
+      "womens_day",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1002",
+    "name": "Mixed Wildflower Bunch",
+    "category": "flowers",
+    "price_aed": 442.27,
+    "occasion_tags": [
+      "birthday",
+      "valentines_day",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1003",
+    "name": "Pink Peony Bouquet",
+    "category": "flowers",
+    "price_aed": 59.87,
+    "occasion_tags": [
+      "womens_day",
+      "anniversary",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1004",
+    "name": "Sunflower Delight (6 stems)",
+    "category": "flowers",
+    "price_aed": 153.32,
+    "occasion_tags": [
+      "graduation",
+      "anniversary",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1005",
+    "name": "Orchid in Pot",
+    "category": "flowers",
+    "price_aed": 354.25,
+    "occasion_tags": [
+      "womens_day",
+      "mothers_day",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1006",
+    "name": "Lavender Dream Bouquet",
+    "category": "flowers",
+    "price_aed": 81.84,
+    "occasion_tags": [
+      "birthday",
+      "graduation",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1007",
+    "name": "Tulip Collection (15 stems)",
+    "category": "flowers",
+    "price_aed": 430.72,
+    "occasion_tags": [
+      "valentines_day",
+      "graduation",
+      "birthday"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1008",
+    "name": "Jasmine Garland",
+    "category": "flowers",
+    "price_aed": 310.35,
+    "occasion_tags": [
+      "birthday",
+      "anniversary",
+      "womens_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1009",
+    "name": "Pastel Carnation Bouquet",
+    "category": "flowers",
+    "price_aed": 298.16,
+    "occasion_tags": [
+      "valentines_day",
+      "anniversary",
+      "get_well"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1010",
+    "name": "Yellow Freesia Bundle",
+    "category": "flowers",
+    "price_aed": 275.15,
+    "occasion_tags": [
+      "valentines_day",
+      "get_well",
+      "graduation"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1011",
+    "name": "Blue Iris Arrangement",
+    "category": "flowers",
+    "price_aed": 196.93,
+    "occasion_tags": [
+      "anniversary",
+      "womens_day",
+      "get_well"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1012",
+    "name": "Premium Red Roses (24 stems)",
+    "category": "flowers",
+    "price_aed": 92.35,
+    "occasion_tags": [
+      "birthday",
+      "mothers_day",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1013",
+    "name": "Baby's Breath Cloud",
+    "category": "flowers",
+    "price_aed": 433.23,
+    "occasion_tags": [
+      "womens_day",
+      "graduation",
+      "anniversary"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1014",
+    "name": "Hydrangea Bliss Bouquet",
+    "category": "flowers",
+    "price_aed": 325.94,
+    "occasion_tags": [
+      "valentines_day",
+      "birthday",
+      "graduation"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1015",
+    "name": "Daisy Garden Mix",
+    "category": "flowers",
+    "price_aed": 389.97,
+    "occasion_tags": [
+      "anniversary",
+      "womens_day",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1016",
+    "name": "Chrysanthemum Wreath",
+    "category": "flowers",
+    "price_aed": 188.23,
+    "occasion_tags": [
+      "womens_day",
+      "graduation",
+      "mothers_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1017",
+    "name": "Exotic Bird of Paradise",
+    "category": "flowers",
+    "price_aed": 308.66,
+    "occasion_tags": [
+      "birthday",
+      "womens_day",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1018",
+    "name": "Cherry Blossom Stem Bouquet",
+    "category": "flowers",
+    "price_aed": 91.32,
+    "occasion_tags": [
+      "graduation",
+      "get_well",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1019",
+    "name": "Romantic Rose & Lily Combo",
+    "category": "flowers",
+    "price_aed": 223.63,
+    "occasion_tags": [
+      "eid",
+      "get_well",
+      "womens_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1020",
+    "name": "Dark Chocolate Truffle Cake",
+    "category": "cakes",
+    "price_aed": 224.28,
+    "occasion_tags": [
+      "eid",
+      "diwali",
+      "graduation"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1021",
+    "name": "Vanilla Bean Dream Cake",
+    "category": "cakes",
+    "price_aed": 160.44,
+    "occasion_tags": [
+      "birthday",
+      "graduation",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1022",
+    "name": "Red Velvet Celebration Cake",
+    "category": "cakes",
+    "price_aed": 224.23,
+    "occasion_tags": [
+      "diwali",
+      "christmas",
+      "graduation"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": false
+  },
+  {
+    "sku": "ZUV-1023",
+    "name": "Strawberry Shortcake",
+    "category": "cakes",
+    "price_aed": 336.63,
+    "occasion_tags": [
+      "anniversary",
+      "christmas",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1024",
+    "name": "Caramel Lotus Biscoff Cake",
+    "category": "cakes",
+    "price_aed": 164.18,
+    "occasion_tags": [
+      "graduation",
+      "diwali",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1025",
+    "name": "Pistachio Rose Cake",
+    "category": "cakes",
+    "price_aed": 239.34,
+    "occasion_tags": [
+      "anniversary",
+      "birthday",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1026",
+    "name": "Mango Mousse Cake",
+    "category": "cakes",
+    "price_aed": 231.18,
+    "occasion_tags": [
+      "anniversary",
+      "christmas",
+      "diwali"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1027",
+    "name": "Lemon Drizzle Layer Cake",
+    "category": "cakes",
+    "price_aed": 94.02,
+    "occasion_tags": [
+      "graduation",
+      "anniversary",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1028",
+    "name": "Hazelnut Praline Cake",
+    "category": "cakes",
+    "price_aed": 178.11,
+    "occasion_tags": [
+      "diwali",
+      "graduation",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1029",
+    "name": "Black Forest Gateau",
+    "category": "cakes",
+    "price_aed": 189.03,
+    "occasion_tags": [
+      "eid",
+      "diwali",
+      "graduation"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1030",
+    "name": "Tres Leches Cake",
+    "category": "cakes",
+    "price_aed": 221.04,
+    "occasion_tags": [
+      "graduation",
+      "eid",
+      "anniversary"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1031",
+    "name": "Kunafa Cheesecake Fusion",
+    "category": "cakes",
+    "price_aed": 145.04,
+    "occasion_tags": [
+      "birthday",
+      "diwali",
+      "anniversary"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1032",
+    "name": "Saffron & Cardamom Cake",
+    "category": "cakes",
+    "price_aed": 303.93,
+    "occasion_tags": [
+      "graduation",
+      "diwali",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1033",
+    "name": "Blueberry Chiffon Cake",
+    "category": "cakes",
+    "price_aed": 331.29,
+    "occasion_tags": [
+      "graduation",
+      "anniversary",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1034",
+    "name": "Tiramisu Tower Cake",
+    "category": "cakes",
+    "price_aed": 93.12,
+    "occasion_tags": [
+      "diwali",
+      "anniversary",
+      "graduation"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": false
+  },
+  {
+    "sku": "ZUV-1035",
+    "name": "Cookie & Cream Ice Cream Cake",
+    "category": "cakes",
+    "price_aed": 104.87,
+    "occasion_tags": [
+      "graduation",
+      "anniversary",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1036",
+    "name": "Ferrero Rocher Drip Cake",
+    "category": "cakes",
+    "price_aed": 92.57,
+    "occasion_tags": [
+      "graduation",
+      "christmas",
+      "diwali"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1037",
+    "name": "Salted Caramel Bundt Cake",
+    "category": "cakes",
+    "price_aed": 142.65,
+    "occasion_tags": [
+      "birthday",
+      "graduation",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1038",
+    "name": "Pineapple Upside Down Cake",
+    "category": "cakes",
+    "price_aed": 108.01,
+    "occasion_tags": [
+      "christmas",
+      "birthday",
+      "diwali"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1039",
+    "name": "Churros Cake",
+    "category": "cakes",
+    "price_aed": 325.04,
+    "occasion_tags": [
+      "graduation",
+      "birthday",
+      "anniversary"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1040",
+    "name": "Godiva Assorted Truffles Box (16pc)",
+    "category": "chocolates",
+    "price_aed": 223.23,
+    "occasion_tags": [
+      "birthday",
+      "thank_you",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1041",
+    "name": "Lindt Gold Box Assortment",
+    "category": "chocolates",
+    "price_aed": 110.66,
+    "occasion_tags": [
+      "birthday",
+      "christmas",
+      "diwali"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1042",
+    "name": "Belgian Dark Chocolate Bark",
+    "category": "chocolates",
+    "price_aed": 62.92,
+    "occasion_tags": [
+      "eid",
+      "thank_you",
+      "diwali"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1043",
+    "name": "Milk Chocolate Praline Selection",
+    "category": "chocolates",
+    "price_aed": 57.09,
+    "occasion_tags": [
+      "valentines_day",
+      "christmas",
+      "birthday"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": false
+  },
+  {
+    "sku": "ZUV-1044",
+    "name": "Haribo Gummy & Chocolate Tower",
+    "category": "chocolates",
+    "price_aed": 108.43,
+    "occasion_tags": [
+      "diwali",
+      "christmas",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1045",
+    "name": "Ferrero Rocher Gift Tin (24pc)",
+    "category": "chocolates",
+    "price_aed": 189.64,
+    "occasion_tags": [
+      "thank_you",
+      "eid",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": false,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1046",
+    "name": "Patchi Luxury Date & Chocolate Box",
+    "category": "chocolates",
+    "price_aed": 103.02,
+    "occasion_tags": [
+      "eid",
+      "valentines_day",
+      "birthday"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1047",
+    "name": "White Chocolate Raspberry Bark",
+    "category": "chocolates",
+    "price_aed": 176.18,
+    "occasion_tags": [
+      "diwali",
+      "christmas",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1048",
+    "name": "Sugar-Free Dark Chocolate Set",
+    "category": "chocolates",
+    "price_aed": 104.61,
+    "occasion_tags": [
+      "birthday",
+      "christmas",
+      "thank_you"
+    ],
+    "cultural_flags": {
+      "alcohol_free": false,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1049",
+    "name": "Kinder Bueno Gift Hamper",
+    "category": "chocolates",
+    "price_aed": 116.68,
+    "occasion_tags": [
+      "diwali",
+      "valentines_day",
+      "birthday"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1050",
+    "name": "Artisan Salted Caramel Bonbons",
+    "category": "chocolates",
+    "price_aed": 180.5,
+    "occasion_tags": [
+      "valentines_day",
+      "diwali",
+      "thank_you"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1051",
+    "name": "Valrhona Single Origin Bar Set",
+    "category": "chocolates",
+    "price_aed": 145.58,
+    "occasion_tags": [
+      "diwali",
+      "eid",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1052",
+    "name": "Rose & Pistachio Chocolate Slab",
+    "category": "chocolates",
+    "price_aed": 122.86,
+    "occasion_tags": [
+      "diwali",
+      "thank_you",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1053",
+    "name": "Nutella Swirl Chocolate Box",
+    "category": "chocolates",
+    "price_aed": 108.46,
+    "occasion_tags": [
+      "christmas",
+      "birthday",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1054",
+    "name": "Toblerone Tower Set",
+    "category": "chocolates",
+    "price_aed": 272.81,
+    "occasion_tags": [
+      "christmas",
+      "birthday",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1055",
+    "name": "Luxury Date & Nut Hamper",
+    "category": "hampers",
+    "price_aed": 280.5,
+    "occasion_tags": [
+      "baby_shower",
+      "corporate",
+      "new_home"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1056",
+    "name": "Arabian Nights Gift Basket",
+    "category": "hampers",
+    "price_aed": 291.69,
+    "occasion_tags": [
+      "christmas",
+      "ramadan",
+      "new_home"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1057",
+    "name": "Wellness & Self-Care Hamper",
+    "category": "hampers",
+    "price_aed": 169.24,
+    "occasion_tags": [
+      "new_home",
+      "baby_shower",
+      "diwali"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": false
+  },
+  {
+    "sku": "ZUV-1058",
+    "name": "Tea & Biscuit Indulgence Box",
+    "category": "hampers",
+    "price_aed": 435.0,
+    "occasion_tags": [
+      "new_home",
+      "birthday",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1059",
+    "name": "Baby Shower Celebration Hamper",
+    "category": "hampers",
+    "price_aed": 732.33,
+    "occasion_tags": [
+      "ramadan",
+      "baby_shower",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1060",
+    "name": "Gourmet Cheese & Crackers Basket",
+    "category": "hampers",
+    "price_aed": 734.14,
+    "occasion_tags": [
+      "ramadan",
+      "diwali",
+      "new_home"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1061",
+    "name": "Birthday Celebration Mega Hamper",
+    "category": "hampers",
+    "price_aed": 795.23,
+    "occasion_tags": [
+      "christmas",
+      "birthday",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1062",
+    "name": "Spa & Relaxation Gift Set",
+    "category": "hampers",
+    "price_aed": 439.87,
+    "occasion_tags": [
+      "corporate",
+      "birthday",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1063",
+    "name": "Ramadan Family Sharing Hamper",
+    "category": "hampers",
+    "price_aed": 560.44,
+    "occasion_tags": [
+      "ramadan",
+      "birthday",
+      "diwali"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1064",
+    "name": "Premium Coffee & Sweets Basket",
+    "category": "hampers",
+    "price_aed": 382.04,
+    "occasion_tags": [
+      "birthday",
+      "new_home",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1065",
+    "name": "Eid Mubarak Luxury Gift Box",
+    "category": "hampers",
+    "price_aed": 316.4,
+    "occasion_tags": [
+      "birthday",
+      "diwali",
+      "new_home"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1066",
+    "name": "New Home Housewarming Hamper",
+    "category": "hampers",
+    "price_aed": 643.36,
+    "occasion_tags": [
+      "birthday",
+      "new_home",
+      "baby_shower"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1067",
+    "name": "Fruit & Nut Paradise Basket",
+    "category": "hampers",
+    "price_aed": 255.63,
+    "occasion_tags": [
+      "eid",
+      "diwali",
+      "corporate"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1068",
+    "name": "Mother's Love Pampering Hamper",
+    "category": "hampers",
+    "price_aed": 219.36,
+    "occasion_tags": [
+      "ramadan",
+      "eid",
+      "corporate"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": false
+  },
+  {
+    "sku": "ZUV-1069",
+    "name": "Corporate Gratitude Gift Box",
+    "category": "hampers",
+    "price_aed": 250.05,
+    "occasion_tags": [
+      "christmas",
+      "eid",
+      "new_home"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1070",
+    "name": "His & Hers Pamper Bundle",
+    "category": "hampers",
+    "price_aed": 585.9,
+    "occasion_tags": [
+      "birthday",
+      "baby_shower",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1071",
+    "name": "Kids Birthday Fun Box",
+    "category": "hampers",
+    "price_aed": 751.4,
+    "occasion_tags": [
+      "birthday",
+      "christmas",
+      "baby_shower"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": true
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1072",
+    "name": "Diwali Celebration Hamper",
+    "category": "hampers",
+    "price_aed": 760.54,
+    "occasion_tags": [
+      "eid",
+      "corporate",
+      "ramadan"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1073",
+    "name": "Winter Warmth Gift Basket",
+    "category": "hampers",
+    "price_aed": 350.45,
+    "occasion_tags": [
+      "new_home",
+      "baby_shower",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1074",
+    "name": "Picnic in the Park Hamper",
+    "category": "hampers",
+    "price_aed": 593.26,
+    "occasion_tags": [
+      "diwali",
+      "new_home",
+      "ramadan"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1075",
+    "name": "Oud Royale Eau de Parfum 100ml",
+    "category": "perfumes",
+    "price_aed": 124.34,
+    "occasion_tags": [
+      "eid",
+      "anniversary",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1076",
+    "name": "Rose Arabica Parfum 50ml",
+    "category": "perfumes",
+    "price_aed": 179.21,
+    "occasion_tags": [
+      "christmas",
+      "valentines_day",
+      "birthday"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1077",
+    "name": "Musk & Amber Night Spray",
+    "category": "perfumes",
+    "price_aed": 142.51,
+    "occasion_tags": [
+      "valentines_day",
+      "christmas",
+      "birthday"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1078",
+    "name": "Jasmine Bloom EDP 75ml",
+    "category": "perfumes",
+    "price_aed": 420.32,
+    "occasion_tags": [
+      "birthday",
+      "valentines_day",
+      "anniversary"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1079",
+    "name": "Sandalwood Serenity Cologne",
+    "category": "perfumes",
+    "price_aed": 466.43,
+    "occasion_tags": [
+      "valentines_day",
+      "anniversary",
+      "birthday"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1080",
+    "name": "Saffron & Gold Parfum 100ml",
+    "category": "perfumes",
+    "price_aed": 619.82,
+    "occasion_tags": [
+      "christmas",
+      "anniversary",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1081",
+    "name": "Midnight Oud Intense 50ml",
+    "category": "perfumes",
+    "price_aed": 350.72,
+    "occasion_tags": [
+      "anniversary",
+      "birthday",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1082",
+    "name": "Fresh Citrus Burst EDT 100ml",
+    "category": "perfumes",
+    "price_aed": 157.77,
+    "occasion_tags": [
+      "valentines_day",
+      "christmas",
+      "anniversary"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1083",
+    "name": "Bakhoor Concentrated Perfume Oil",
+    "category": "perfumes",
+    "price_aed": 645.97,
+    "occasion_tags": [
+      "anniversary",
+      "eid",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1084",
+    "name": "Frankincense & Myrrh Roll-On",
+    "category": "perfumes",
+    "price_aed": 410.83,
+    "occasion_tags": [
+      "graduation",
+      "eid",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1085",
+    "name": "Lavender Mist Body Spray",
+    "category": "perfumes",
+    "price_aed": 596.52,
+    "occasion_tags": [
+      "birthday",
+      "christmas",
+      "anniversary"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1086",
+    "name": "Velvet Rose Parfum 80ml",
+    "category": "perfumes",
+    "price_aed": 203.76,
+    "occasion_tags": [
+      "anniversary",
+      "birthday",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1087",
+    "name": "Ocean Breeze Unisex EDT",
+    "category": "perfumes",
+    "price_aed": 455.13,
+    "occasion_tags": [
+      "anniversary",
+      "valentines_day",
+      "eid"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1088",
+    "name": "Vanilla Musk Signature Spray",
+    "category": "perfumes",
+    "price_aed": 502.53,
+    "occasion_tags": [
+      "eid",
+      "anniversary",
+      "christmas"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1089",
+    "name": "Cedar & Vetiver Parfum 100ml",
+    "category": "perfumes",
+    "price_aed": 195.78,
+    "occasion_tags": [
+      "birthday",
+      "christmas",
+      "anniversary"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1090",
+    "name": "Roses & Red Velvet Cake Combo",
+    "category": "combos",
+    "price_aed": 698.01,
+    "occasion_tags": [
+      "anniversary",
+      "valentines_day",
+      "mothers_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1091",
+    "name": "Orchid & Godiva Chocolates Set",
+    "category": "combos",
+    "price_aed": 326.38,
+    "occasion_tags": [
+      "valentines_day",
+      "birthday",
+      "mothers_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1092",
+    "name": "Sunflowers & Birthday Cake Bundle",
+    "category": "combos",
+    "price_aed": 233.59,
+    "occasion_tags": [
+      "anniversary",
+      "mothers_day",
+      "valentines_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1093",
+    "name": "Peony & Perfume Gift Set",
+    "category": "combos",
+    "price_aed": 386.14,
+    "occasion_tags": [
+      "valentines_day",
+      "eid",
+      "birthday"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1094",
+    "name": "Tulip Bouquet & Patchi Box Combo",
+    "category": "combos",
+    "price_aed": 553.37,
+    "occasion_tags": [
+      "diwali",
+      "valentines_day",
+      "mothers_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1095",
+    "name": "Lilies & Luxury Hamper Bundle",
+    "category": "combos",
+    "price_aed": 714.12,
+    "occasion_tags": [
+      "birthday",
+      "anniversary",
+      "mothers_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": false
+  },
+  {
+    "sku": "ZUV-1096",
+    "name": "Rose Bouquet & Tiramisu Combo",
+    "category": "combos",
+    "price_aed": 680.43,
+    "occasion_tags": [
+      "eid",
+      "valentines_day",
+      "anniversary"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1097",
+    "name": "Wildflower & Wellness Hamper Set",
+    "category": "combos",
+    "price_aed": 530.88,
+    "occasion_tags": [
+      "mothers_day",
+      "valentines_day",
+      "diwali"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1098",
+    "name": "Bouquet & Belgian Chocolate Duo",
+    "category": "combos",
+    "price_aed": 176.25,
+    "occasion_tags": [
+      "birthday",
+      "valentines_day",
+      "mothers_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  },
+  {
+    "sku": "ZUV-1099",
+    "name": "Premium Rose & Oud Perfume Gift",
+    "category": "combos",
+    "price_aed": 290.11,
+    "occasion_tags": [
+      "eid",
+      "anniversary",
+      "mothers_day"
+    ],
+    "cultural_flags": {
+      "alcohol_free": true,
+      "halal": true,
+      "vegan": false
+    },
+    "available": true
+  }
+]
