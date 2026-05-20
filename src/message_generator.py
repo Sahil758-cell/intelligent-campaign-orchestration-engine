@@ -180,7 +180,7 @@ Respond ONLY with a JSON object in this exact format:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_message},
                 ],
-                max_tokens=1024,
+                max_tokens=2048,
                 temperature=0.7,
             )
             return response.choices[0].message.content
@@ -188,7 +188,7 @@ Respond ONLY with a JSON object in this exact format:
         else:  # anthropic
             response = llm_client.messages.create(
                 model="claude-sonnet-4-6",
-                max_tokens=1024,
+                max_tokens=2048,
                 system=system_prompt,
                 messages=[{"role": "user", "content": user_message}],
             )
@@ -201,8 +201,8 @@ Respond ONLY with a JSON object in this exact format:
 
 def _build_llm_client():
     """Build an LLM client from environment variables. Returns None if no key found."""
-    cerebras_key = os.environ.get("CEREBRAS_API_KEY", "")
-    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    cerebras_key = os.environ.get("CEREBRAS_API_KEY", "").strip()
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 
     if cerebras_key:
         try:
@@ -242,8 +242,10 @@ def _parse_llm_response(raw: str) -> dict:
         if match:
             try:
                 return json.loads(match.group())
-            except json.JSONDecodeError:
-                pass
+            except json.JSONDecodeError as e:
+                print(f"    [parse] JSON decode error after regex: {e} — snippet: {match.group()[:80]!r}")
+        else:
+            print(f"    [parse] No JSON object found in response (len={len(raw)}): {raw[:120]!r}")
     return {}
 
 
@@ -304,6 +306,7 @@ def _apply_safety_layer(
             push_msg = PushMessage(text=text[:150], deep_link=deep_link)
 
     if not any([email_msg, wa_msg, push_msg]):
+        print(f"    [safety] All channels empty after cleaning — using fallback for {detection.customer_id}/{detection.occasion}")
         return _fallback_bundle(detection)
 
     return MessageBundle(email=email_msg, whatsapp=wa_msg, push=push_msg)
