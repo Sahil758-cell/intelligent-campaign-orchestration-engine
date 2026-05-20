@@ -242,10 +242,10 @@ def _parse_llm_response(raw: str) -> dict:
         if match:
             try:
                 return json.loads(match.group())
-            except json.JSONDecodeError as e:
-                print(f"    [parse] JSON decode error after regex: {e} — snippet: {match.group()[:80]!r}")
+            except json.JSONDecodeError:
+                print(f"    [parse] JSON parse failed after regex extraction")
         else:
-            print(f"    [parse] No JSON object found in response (len={len(raw)}): {raw[:120]!r}")
+            print(f"    [parse] No JSON object found in response (len={len(raw)})")
     return {}
 
 

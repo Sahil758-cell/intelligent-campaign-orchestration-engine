@@ -67,17 +67,35 @@ def stage_detect(profiles):
 
 
 def stage_generate(profiles, detections, catalogue, llm_client=None):
-    from src.message_generator import generate_messages
+    from src.message_generator import generate_messages, _build_llm_client
     from src.campaign_engine import _detection_key
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    import threading
 
+    # Build one shared client (thread-safe for HTTP calls)
+    shared_client = llm_client if llm_client is not None else _build_llm_client()
+    counter_lock = threading.Lock()
+    counter = [0]
+    total = len(detections)
     messages = {}
-    for i, det in enumerate(detections):
+
+    def _process(det):
         profile = profiles.get(det.customer_id)
         if profile is None:
-            continue
-        print(f"[generate] {i+1}/{len(detections)} — {det.customer_id} / {det.occasion}")
-        bundle = generate_messages(profile, det, catalogue, llm_client)
-        messages[_detection_key(det)] = bundle
+            return None, None
+        bundle = generate_messages(profile, det, catalogue, shared_client)
+        with counter_lock:
+            counter[0] += 1
+            print(f"[generate] {counter[0]}/{total} — {det.customer_id} / {det.occasion}")
+        return _detection_key(det), bundle
+
+    workers = 1 if llm_client is not None else 5  # mock runs don't need parallelism
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = [pool.submit(_process, det) for det in detections]
+        for future in as_completed(futures):
+            key, bundle = future.result()
+            if key is not None:
+                messages[key] = bundle
 
     print(f"[generate] Generated {len(messages)} message bundles")
     return messages
