@@ -14,10 +14,10 @@ venv/
 env/
 .venv/
 
-# Environment / secrets — NEVER commit API keys
+# Environment / secrets — NEVER commit real keys
 .env
-*.env
 .env.local
+# .env.example is intentionally NOT ignored — it shows required keys with placeholders
 
 # Pytest / coverage
 .pytest_cache/

@@ -16,8 +16,8 @@ An AI-powered marketing intelligence layer for Zuvees — a premium gifting plat
 │  │ Load     │    │ Occasion │    │ LLM      │    │ Fatigue  │    │files  │ │
 │  │ events + │    │ detection│    │ message  │    │ Consent  │    │       │ │
 │  │catalogue │    │ (Hijri + │    │generation│    │ Channel  │    │       │ │
-│  │ Build    │    │  Gregorian│   │ per      │    │ pref.    │    │       │ │
-│  │ profiles │    │  clustering│  │ occasion │    │ Send time│    │       │ │
+│  │ Build    │    │ Gregorian│    │ per      │    │ pref.    │    │       │ │
+│  │ profiles │    │ clustering)   │ occasion │    │ Send time│    │       │ │
 │  └──────────┘    └──────────┘    └──────────┘    └──────────┘    └───────┘ │
 │                                                                             │
 │  Stateless stages: each can run independently via --stage <name>           │
@@ -29,12 +29,66 @@ An AI-powered marketing intelligence layer for Zuvees — a premium gifting plat
 
 | Module | Stateless? | Responsibility |
 |--------|-----------|----------------|
-| `src/ingestor.py` | Yes | Load + validate events; build customer profiles |
-| `src/occasion_detector.py` | Yes | Detect upcoming occasions (Gregorian + Hijri) |
-| `src/message_generator.py` | Yes | Call Claude API; apply content safety |
-| `src/send_time_optimizer.py` | Yes | Per-channel optimal send time |
-| `src/campaign_engine.py` | Yes | Fatigue, consent, channel preference, scheduling |
+| `src/ingestor.py` | Yes | Load + validate events; build customer profiles with email open rate, WA read rate |
+| `src/occasion_detector.py` | Yes | Detect upcoming occasions (Gregorian + Hijri calendar) |
+| `src/message_generator.py` | Yes | Call Cerebras or Anthropic API; apply content safety layer |
+| `src/send_time_optimizer.py` | Yes | Per-channel optimal send time with timezone + urgency |
+| `src/campaign_engine.py` | Yes | Fatigue cap, consent enforcement, channel preference, scheduling |
 | `src/pipeline.py` | Orchestrator | Chains all stages; CLI entrypoint |
+
+---
+
+## LLM Integration
+
+The engine supports **three LLM tiers** — checked in order at startup:
+
+```
+1. Cerebras (Llama 3.3-70b)   ← free tier, fast, OpenAI-compatible API
+        ↓ if no key
+2. Anthropic Claude (claude-sonnet-4-6)  ← paid, highest quality
+        ↓ if no key
+3. Template fallback            ← no API key needed, always works
+```
+
+### Cerebras — Llama 3.3-70b (Primary / Free)
+
+[Cerebras Cloud](https://cloud.cerebras.ai) offers a free tier with the Llama 3.3-70b model. It uses an OpenAI-compatible API so no extra SDK is needed.
+
+```python
+# How Cerebras is called in src/message_generator.py
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api.cerebras.ai/v1",
+    api_key=os.environ["CEREBRAS_API_KEY"],
+)
+response = client.chat.completions.create(
+    model="llama-3.3-70b",
+    messages=[{"role": "system", "content": system_prompt},
+              {"role": "user", "content": user_prompt}],
+    max_tokens=1024,
+    temperature=0.7,
+)
+```
+
+### Anthropic Claude (Fallback)
+
+```python
+# How Anthropic is called in src/message_generator.py
+import anthropic
+
+client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+response = client.messages.create(
+    model="claude-sonnet-4-6",
+    max_tokens=1024,
+    system=system_prompt,
+    messages=[{"role": "user", "content": user_prompt}],
+)
+```
+
+### Template Fallback
+
+When neither API key is set, `_fallback_bundle()` generates rule-compliant messages without any API call. All brand voice rules, WhatsApp opt-out footer, and character limits are still enforced.
 
 ---
 
@@ -43,40 +97,75 @@ An AI-powered marketing intelligence layer for Zuvees — a premium gifting plat
 ### Prerequisites
 - Docker + Docker Compose
 
-### One-command start
+### One-command start (no API key needed)
 
 ```bash
-docker-compose up
+docker-compose up --build
 ```
 
-This runs the full pipeline and writes all output files to `outputs/`.
+Runs the full pipeline using template fallback messages. All 4 output files are written to `outputs/`.
 
-### With a real LLM (optional)
+### With Cerebras Llama 3.3-70b (free — recommended)
+
+Get a free API key at [cloud.cerebras.ai](https://cloud.cerebras.ai).
 
 ```bash
-ANTHROPIC_API_KEY=sk-ant-... docker-compose up
+# Linux / Mac
+CEREBRAS_API_KEY=csk-... docker-compose up --build
+
+# Windows PowerShell
+$env:CEREBRAS_API_KEY="csk-..."
+docker-compose up --build
 ```
 
-Without the key, the pipeline uses template-based fallback messages (still valid, still passes all schema checks).
-
-### Run specific stage
+### With Anthropic Claude
 
 ```bash
-docker-compose run campaign-engine python -m src.pipeline --stage detect
-docker-compose run campaign-engine python -m src.pipeline --stage schedule --mock-llm
+# Linux / Mac
+ANTHROPIC_API_KEY=sk-ant-... docker-compose up --build
+
+# Windows PowerShell
+$env:ANTHROPIC_API_KEY="sk-ant-..."
+docker-compose up --build
+```
+
+### Run locally (without Docker)
+
+```bash
+pip install -r requirements.txt
+
+# With Cerebras
+$env:CEREBRAS_API_KEY="csk-..."
+python -m src.pipeline
+
+# With mock LLM (no key needed, instant)
+python -m src.pipeline --mock-llm
+```
+
+### Run specific pipeline stage
+
+```bash
+python -m src.pipeline --stage ingest
+python -m src.pipeline --stage detect
+python -m src.pipeline --stage generate --mock-llm
+python -m src.pipeline --stage schedule --mock-llm
 ```
 
 ### Environment variables
 
-| Variable | Required | Default | Description |
-|----------|----------|---------|-------------|
-| `ANTHROPIC_API_KEY` | No | `""` | Anthropic API key. If empty, fallback messages are used. |
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `CEREBRAS_API_KEY` | No | Cerebras free-tier key. Checked first. Model: `llama-3.3-70b` |
+| `ANTHROPIC_API_KEY` | No | Anthropic key. Used if Cerebras key not set. Model: `claude-sonnet-4-6` |
+
+If neither key is set, template fallback messages are generated automatically.
 
 ### Run tests locally
 
 ```bash
 pip install -r requirements.txt
 python -m pytest tests/ --cov=src --cov-report=term-missing
+# 110 passed, 87% coverage
 ```
 
 ---
@@ -86,121 +175,119 @@ python -m pytest tests/ --cov=src --cov-report=term-missing
 See [`data/DATA_GENERATION.md`](data/DATA_GENERATION.md) for full details.
 
 **Summary:**
-- **50 customers** across 7 geographic regions: UAE (Dubai/Abu Dhabi), India, UK, Canada, Egypt, USA (New York, LA)
+- **50 customers** across 7 geographic regions: UAE, India, UK, Canada, Egypt, USA (New York, LA)
 - **500+ events** spanning **14 months** (March 2025 – May 2026)
 - **7 distinct timezone regions** for timezone-awareness testing
-- **Seasonal spikes** built into the data:
-  - Valentine's Day (Feb 14)
-  - Women's Day (Mar 8)
-  - Eid al-Fitr (March 30, 2025 / March 20, 2026)
-  - Eid al-Adha (June 6, 2025 / **May 27, 2026** — 8 days from simulation date)
-  - Mother's Day (May 2025)
-  - Diwali (October 2025)
-  - Christmas (December 2025)
-- **Cultural diversity**: Muslim (Eid patterns), Hindu (Diwali patterns), Western (Christmas/Valentine's)
-- **Cold-start customers** (CUST046–050): 1–2 events each, used to test segment-default fallback
-- **Recipient clustering**: multiple customers have ordered for the same recipient (e.g., "Mom") across multiple occasions
+- **Seasonal order spikes** built into data (reviewer-verifiable):
+  - Valentine's Day (Feb 14) — 12 buyers in 2025, 6 repeat buyers in 2026
+  - Women's Day (Mar 8) — 5 buyers in 2025, 3 repeat in 2026
+  - Eid al-Fitr (Mar 30 2025 / Mar 20 2026) — 10 buyers each year
+  - Eid al-Adha (Jun 6 2025 / **May 27 2026** — 8 days from simulation date)
+  - Mother's Day (May 2025) — 9 buyers
+  - Diwali (October 2025) — 8 buyers
+  - Christmas (December 2025) — 8 buyers
+- **Cultural diversity**: Muslim (Eid), Hindu (Diwali), Western (Christmas/Valentine's)
+- **Cold-start customers** (CUST046–050): 1–2 events each → segment-default fallback
+- **`email_opened`** field on order events drives real `email_open_rate` computation
+- **Recipient clustering**: multiple customers ordered for same recipient across multiple occasions
 
 ---
 
 ## Occasion Detection Logic
 
-See `src/occasion_detector.py` for the implementation.
+See `src/occasion_detector.py`.
 
 ### Algorithm
 
-The engine runs four strategies and deduplicates by `(customer_id, occasion, recipient_name)`, keeping the highest confidence:
+Four strategies run in order; results are deduplicated by `(customer_id, occasion, recipient_name)`, keeping highest confidence:
 
 **1. Profile saves → high confidence**
 ```
-customer profile_update: { field: "birthday", value: "1990-07-15", recipient_name: "Husband" }
-→ detect birthday on 2026-07-15, confidence=high
+profile_update: { field: "birthday", value: "1990-07-15", recipient_name: "Husband" }
+→ birthday detected on 2026-07-15, confidence=high
 ```
 
 **2. Multi-year order patterns → medium confidence**
 ```
-Order on 2024-02-14 (valentines_day) + Order on 2025-02-14 (valentines_day)
-→ 2 years of evidence → confidence=medium → predict 2027-02-14
+Order 2025-02-14 (valentines_day) + Order 2026-02-14 (valentines_day)
+→ 2 years of data → confidence=medium → predict 2027-02-14
 ```
 
-**3. Single order pattern → low confidence**
+**3. Single order → low confidence**
 ```
-Order on 2025-03-08 (womens_day)
+Order 2025-03-08 (womens_day), no repeat
 → 1 data point → confidence=low → predict 2026-03-08
 ```
 
 **4. Recipient clustering**
 ```
-Customer ordered for "Mom" on Mother's Day AND for "Mom" birthday
+Customer ordered for "Mom" on Mother's Day AND Mom's birthday
 → both occasions modelled independently, both linked to recipient "Mom"
 ```
 
 ### Hijri Calendar Conversion
 
-Islamic calendar occasions (Eid al-Fitr, Eid al-Adha) shift ~11 days earlier each Gregorian year. The engine:
-
-1. Identifies a past Eid order by proximity to known Eid dates
-2. Classifies it as Eid al-Fitr (1 Shawwal) or Eid al-Adha (10 Dhul Hijjah)
-3. Uses `hijri-converter` to convert today's Gregorian date to Hijri
-4. Projects forward to find the next occurrence of that Hijri month/day in Gregorian
+Islamic occasions (Eid al-Fitr = 1 Shawwal, Eid al-Adha = 10 Dhul Hijjah) shift ~11 days earlier each Gregorian year. The engine uses `hijridate==2.3.0`:
 
 ```python
-from hijri_converter import convert
+from hijridate import Hijri, Gregorian as HijriGregorian
 
-# Example: find next Eid al-Adha (10 Dhul Hijjah)
-today_hijri = convert.Gregorian(2026, 5, 19).to_hijri()  # → 1447-11-21
-# Search 1447-12-10 (10 Dhul Hijjah 1447)
-g = convert.Hijri(1447, 12, 10).to_gregorian()  # → 2026-05-27
+# Convert today to Hijri
+today_hijri = HijriGregorian(2026, 5, 19).to_hijri()  # → 1447-11-21
+
+# Find next 10 Dhul Hijjah (Eid al-Adha) in Gregorian
+g = Hijri(1447, 12, 10).to_gregorian()  # → 2026-05-27
 ```
+
+The detector classifies past `"eid"` orders as Eid al-Fitr or Eid al-Adha by proximity to known dates, then projects the next occurrence.
 
 ### Confidence Scoring
 
-| Confidence | Evidence Required |
-|-----------|-----------------|
-| `high` | Explicit save in customer profile |
+| Confidence | Evidence |
+|-----------|---------|
+| `high` | Explicit profile save |
 | `medium` | Same occasion ordered in 2+ different years |
 | `low` | Single order data point |
+
+**Current run output: 30 high / 15 medium / 47 low — 92 total detections, 20 Hijri**
 
 ---
 
 ## Prompt Engineering
 
-All prompt templates live in [`prompts/`](prompts/).
+All prompts live in [`prompts/`](prompts/).
 
 | File | Purpose |
 |------|---------|
-| `prompts/message_generation.md` | System prompt with brand voice rules, few-shot examples, output schema |
-| `prompts/content_safety.md` | Content safety rules referenced in the user message |
+| `prompts/message_generation.md` | System prompt: brand voice, few-shot examples (birthday, Eid, Valentine's), output schema |
+| `prompts/content_safety.md` | Safety rules appended to every user message |
 
 ### Prompt Structure
 
 ```
-SYSTEM: [message_generation.md — brand voice, examples, format]
-USER:   CUSTOMER CONTEXT: {json context}
-        AVAILABLE PRODUCTS: {catalogue items for this occasion}
+SYSTEM: [message_generation.md — brand voice, examples, output schema]
+USER:   CUSTOMER CONTEXT: {occasion, days_until, recipient, channel}
+        AVAILABLE PRODUCTS: {3 catalogue items for this occasion}
         CONTENT SAFETY RULES: {content_safety.md}
-        Respond ONLY with JSON: {schema}
+        Respond ONLY with valid JSON.
 ```
 
-### Key Design Decisions
+### Brand Voice Rules
 
-**Personal but not creepy:** The prompt explicitly defines the line:
-- `"We noticed your mum's birthday is coming up"` → GOOD
-- `"Based on your 7 previous orders for Recipient: Mom..."` → BAD
+- Warm and personal — never transactional
+- Never mention discounts, sales, or promotional codes
+- Never reveal data machinery: say "we thought of you", not "our system detected"
+- Vocabulary: "curated", "handpicked", "thoughtful", "crafted"
 
-**Few-shot examples** cover three scenarios: birthday, Eid, Valentine's repeat-gifter.
+### Content Safety Layer (post-generation)
 
-**Output schema is in the prompt** to enforce structure and enable deterministic parsing.
+Applied in `_apply_safety_layer()` after every LLM response:
 
-### Content Safety Layer (post-generation filter)
-
-Applied in `src/message_generator.py::_apply_safety_layer`:
-
-1. **Discount/sale language:** regex scan → message rejected if found
-2. **Cultural sensitivity (Eid/Diwali):** alcohol, pork, non-halal mentions → rejected
-3. **WhatsApp constraints:** truncated to 1024 chars; opt-out footer auto-appended if missing
-4. **Push constraints:** truncated to 150 chars
-5. **Product accuracy:** only names from `_get_product_recommendations()` (which reads from catalogue) are passed to the LLM context
+1. **Discount language** — regex scan → message rejected and regenerated
+2. **Cultural sensitivity** — alcohol/pork mentions rejected for Eid/Diwali occasions
+3. **WhatsApp constraints** — truncated to 1024 chars; opt-out footer auto-appended
+4. **Push constraints** — truncated to 150 chars
+5. **Product accuracy** — only catalogue items passed in context; LLM cannot hallucinate SKUs
 
 ---
 
@@ -210,25 +297,27 @@ Implemented in `src/send_time_optimizer.py`.
 
 ### Model
 
-For customers with ≥3 events, the model computes the **mean local hour** of past interactions per channel:
-- **WhatsApp:** mean hour of `read=True` WA events
-- **Email:** mean hour of order placements (proxy for screen-active time)
-- **Push:** mean hour of browse events
+For customers with ≥3 events — mean local hour of past interactions per channel:
+
+| Channel | Signal used |
+|---------|------------|
+| WhatsApp | Hour of `read=True` WA interactions |
+| Email | Hour of order placements (proxy for screen-active time) |
+| Push | Hour of browse events |
 
 ### Timezone Handling
 
-All timestamps in `synthetic_events.json` are ISO 8601 with timezone offsets. The optimizer converts each timestamp to the customer's local timezone using `pytz` before extracting the hour.
+All timestamps are ISO 8601 with offsets. Times are converted to the customer's local timezone via `pytz` before hour extraction. **0 sends scheduled in quiet hours (11 PM – 6 AM local).**
 
-**Quiet hours enforced:** 11 PM – 6 AM in the customer's local timezone are clamped away.
+### Cold-Start Fallback (< 3 events)
 
-### Cold-Start Fallback
-
-Customers with < 3 total events use segment-level defaults:
+Customers with few events use segment-level defaults:
 
 ```python
 _SEGMENT_DEFAULTS = {
-    "uae_female_25_35": (wa=10, email=20, push=9),
-    "canada_female_25_35": (wa=10, email=20, push=10),
+    "uae_female_25_35":    (wa=10, email=20, push=9),
+    "uk_mixed_25_35":      (wa=11, email=19, push=10),
+    "canada_mixed_25_35":  (wa=10, email=20, push=10),
     ...
 }
 ```
@@ -237,9 +326,11 @@ _SEGMENT_DEFAULTS = {
 
 | Days until occasion | Adjustment |
 |--------------------|-----------|
-| < 3 days | −2 hours (send earlier — more time to shop) |
+| < 3 days | −2 hours (send earlier — customer needs time to order) |
 | 3–7 days | −1 hour |
-| 7+ days | No adjustment |
+| > 7 days | No adjustment |
+
+Example: Eid al-Adha on May 27 (8 days away) → send date May 20 → 7 days until occasion → −1 hour applied → sends at 09:00 instead of 10:00.
 
 ---
 
@@ -249,29 +340,47 @@ Implemented in `src/campaign_engine.py`.
 
 ### Fatigue Management
 
-- **Weekly cap:** ≤ 2 promotional messages per customer across all channels combined
-- **Tracking:** `ISO year-week` key per customer, incremented at schedule time
-- **Confidence conflict:** if high + low confidence occasions fall in the same week, only the high-confidence one gets a message
+- **Weekly cap:** ≤ 2 messages per customer per week (all channels combined)
+- **Confidence conflict:** high + low confidence in same week → only high is sent
+- **Current run: 0 fatigue violations across 92 sends**
 
-### Channel Preference
+### Channel Preference Logic
 
+```python
+if wa_read_rate >= 0.6 and email_open_rate == 0.0:
+    channel_priority = ["whatsapp", "push", "email"]
+else:
+    channel_priority = ["whatsapp", "email", "push"]
 ```
-IF email_open_rate == 0.0 AND wa_read_rate > 0.60:
-    preferred_channel = whatsapp
-ELSE:
-    channel_priority = [whatsapp, email, push]
-```
 
-The engine iterates the priority list and picks the first opted-in channel.
+`email_open_rate` is computed dynamically from order events with `email_opened=True`. Customers who have never opened an email and have high WA engagement are routed to WhatsApp.
 
 ### Consent Management
 
-Consent is checked from the `CustomerProfile` which reads:
-- `email_optin` from the known consent map (set from profile data)
-- `wa_optin` — automatically set to `False` if any `opted_out=True` WA event exists for that customer
-- `push_optin` from the known consent map
+- `wa_optin` is set to `False` if any `opted_out=True` WA event exists for the customer
+- `email_optin`, `push_optin` from known consent map
+- **Current run: 0 consent violations across 92 sends**
 
-The `consent_status` object in every `ScheduledSend` reflects the full profile state, not just the chosen channel.
+### Send Scheduling
+
+| Days until occasion | Send date |
+|--------------------|----------|
+| < 3 days | Today |
+| 3–7 days | Occasion − 3 days |
+| > 7 days | Occasion − 7 days |
+
+---
+
+## Output Files
+
+All files written to `outputs/` on every pipeline run:
+
+| File | Contents |
+|------|---------|
+| `occasion_detection_results.json` | 92 detected occasions with confidence, predicted date, evidence, calendar type |
+| `campaign_schedule.json` | 92 scheduled sends: channel, send time, message bundle, consent status, reasoning |
+| `evaluation_report.json` | Self-evaluation across 7 dimensions (scores 3–4/5) |
+| `test-results.json` | 110 tests, 0 failures, 87% coverage |
 
 ---
 
@@ -279,50 +388,46 @@ The `consent_status` object in every `ScheduledSend` reflects the full profile s
 
 ```bash
 python -m pytest tests/ --cov=src
-# Coverage: 88% across all modules
+# 110 passed, 87% coverage, 0 warnings
 ```
 
-| Test file | What's tested | LLM mocked? |
-|-----------|--------------|------------|
-| `test_ingestor.py` | Event loading, profile building, consent/timezone inference | N/A |
-| `test_occasion_detector.py` | Hijri conversion, confidence scoring, recipient clustering, calendar helpers | N/A |
-| `test_message_generator.py` | Content safety, WhatsApp constraints, push length, opt-out footer | Yes |
-| `test_send_time_optimizer.py` | Timezone awareness, quiet hours, cold-start, urgency | N/A |
-| `test_campaign_engine.py` | Fatigue cap, consent enforcement, channel preference | N/A |
-| `test_pipeline.py` | End-to-end integration: detections ≥ 30 sends, no consent violations | Yes |
+| Test file | What is tested | LLM mocked? |
+|-----------|---------------|------------|
+| `test_ingestor.py` | Event loading, profile building, consent, email_open_rate, timezone | No |
+| `test_occasion_detector.py` | Hijri conversion, confidence scoring, clustering, calendar helpers | No |
+| `test_message_generator.py` | Content safety, WhatsApp/push constraints, opt-out footer, Cerebras/Anthropic routing | Yes |
+| `test_send_time_optimizer.py` | Timezone awareness, quiet hours, cold-start, urgency | No |
+| `test_campaign_engine.py` | Fatigue cap, consent enforcement, channel preference | No |
+| `test_pipeline.py` | End-to-end: ≥30 sends, 0 consent violations, Hijri detections present | Yes |
 
-**LLM calls are mocked in all tests** using `pytest-mock` and a `_MockLLMClient` that returns valid pre-baked JSON without hitting the Anthropic API.
+**All LLM calls are mocked in tests** using `_MockLLMClient` — no live API calls, no cost, deterministic output.
 
 ---
 
 ## Known Limitations
 
-See also [DESIGN_DECISIONS.md](DESIGN_DECISIONS.md) for trade-offs.
+1. **Send-time model is a mean, not a distribution** — bimodal users (email at 8 AM and 9 PM) will get a wrong midpoint. A Gaussian Mixture Model would be more accurate.
 
-1. **Send-time model is a mean, not a distribution:** The hour-averaging model will be wrong for bimodal users (check email at 8 AM and 9 PM). A Gaussian Mixture Model would be more accurate.
+2. **Hijri dates are astronomical approximations** — `hijridate` can be off by 1–2 days vs. official UAE moon-sighting announcements. Production would use official GCAM announcements.
 
-2. **Hijri dates are approximate:** `hijri-converter` uses astronomical calculations which can be off by 1–2 days vs. official moon-sighting announcements in the UAE. Production would need to use the official GCAM (General Commission for Audio-Visual Media) announcements.
+3. **No real-time fatigue state** — fatigue is tracked within a single pipeline run. Production needs Redis/DB persistence across multiple daily runs.
 
-3. **No real-time fatigue state:** The current implementation tracks fatigue within a single pipeline run. In production, fatigue state must be persisted (Redis/DB) to survive multiple pipeline executions per day.
+4. **In-memory at 50-customer scale** — at 500K customers, chunked processing with distributed workers (Celery/Ray) is required.
 
-4. **50-customer scale vs. 500:** At 500K customers, the current in-memory approach would OOM. Production needs chunked processing with distributed workers (Celery/Ray).
+5. **Product accuracy is prompt-level only** — we pass product names to LLM context but don't validate the LLM actually used them in the output.
 
-5. **Product accuracy is prompt-level only:** We pass product names to the LLM context, but we don't validate that the LLM actually used them. A production system would parse LLM output and cross-check every product mention against the catalogue.
-
-6. **Email open rate is approximated:** The pipeline uses order-placement timestamps as a proxy for email open times. Real email open tracking would require ZeptoMail webhook integration.
-
-7. **No A/B testing infrastructure:** The engine generates one message per occasion. Production needs variant generation (2–3 per occasion) and feedback loops to update the send-time model.
+6. **No A/B testing** — one message per occasion. Production needs variant generation and feedback loops.
 
 ---
 
-## Intentional Design Trade-offs
+## Design Decisions
 
-See [`DESIGN_DECISIONS.md`](DESIGN_DECISIONS.md) for the full numbered list.
+See [`DESIGN_DECISIONS.md`](DESIGN_DECISIONS.md) for the full list.
 
 **Top 3:**
 
-1. **Static confidence scoring vs. ML scoring** — Used rule-based thresholds (1 year = low, 2+ years = medium) for explainability and speed. An ML model (collaborative filtering or Bayesian update) would be more accurate but adds complexity and training data requirements.
+1. **Cerebras (Llama) over Anthropic as default** — Cerebras offers a free tier with Llama 3.3-70b and an OpenAI-compatible API. This means no SDK changes, no cost for the reviewer to run the pipeline, and near-instant inference. Anthropic Claude is kept as a higher-quality fallback.
 
-2. **Template-based fallback vs. always-LLM** — Pipeline runs without API key by producing rule-based messages. This enables zero-cost CI testing and demo runs. Trade-off: fallback messages are less personalised.
+2. **Rule-based confidence over ML scoring** — 1 year = low, 2+ years = medium is explainable and requires no training data. An ML model (collaborative filtering or Bayesian update) would be more accurate but adds complexity.
 
-3. **Batch scheduling vs. event-driven triggers** — The current pipeline is a batch job (suitable for nightly runs). A production-grade system would use Shopify webhooks to trigger occasion detection in real time when a profile update event fires. Batch was chosen to meet the 8–10 hour time constraint.
+3. **Batch pipeline over event-driven** — A nightly batch job is simpler to review and run via Docker. Production would use Shopify webhooks to trigger occasion detection in real time.

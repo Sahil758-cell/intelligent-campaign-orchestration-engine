@@ -26,6 +26,9 @@ import uuid
 from datetime import date
 from pathlib import Path
 
+from dotenv import load_dotenv
+load_dotenv()  # loads .env from project root into os.environ
+
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
 OUTPUTS_DIR = ROOT / "outputs"
