@@ -175,7 +175,7 @@ Respond ONLY with a JSON object in this exact format:
     try:
         if provider == "cerebras":
             response = llm_client.chat.completions.create(
-                model="llama-3.3-70b",
+                model="llama3.1-8b",
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_message},
@@ -212,7 +212,7 @@ def _build_llm_client():
                 base_url="https://api.cerebras.ai/v1",
             )
             client._zuvees_provider = "cerebras"
-            print("    [LLM] Using Cerebras (Llama 3.3-70B)")
+            print("    [LLM] Using Cerebras (llama3.1-8b)")
             return client
         except ImportError:
             pass

@@ -43,16 +43,16 @@ An AI-powered marketing intelligence layer for Zuvees — a premium gifting plat
 The engine supports **three LLM tiers** — checked in order at startup:
 
 ```
-1. Cerebras (Llama 3.3-70b)   ← free tier, fast, OpenAI-compatible API
+1. Cerebras (Llama 3.1-8b)   ← free tier, fast, OpenAI-compatible API
         ↓ if no key
 2. Anthropic Claude (claude-sonnet-4-6)  ← paid, highest quality
         ↓ if no key
 3. Template fallback            ← no API key needed, always works
 ```
 
-### Cerebras — Llama 3.3-70b (Primary / Free)
+### Cerebras — Llama 3.1-8b (Primary / Free)
 
-[Cerebras Cloud](https://cloud.cerebras.ai) offers a free tier with the Llama 3.3-70b model. It uses an OpenAI-compatible API so no extra SDK is needed.
+[Cerebras Cloud](https://cloud.cerebras.ai) offers a free tier with the Llama 3.1-8b model. It uses an OpenAI-compatible API so no extra SDK is needed.
 
 ```python
 # How Cerebras is called in src/message_generator.py
@@ -63,7 +63,7 @@ client = OpenAI(
     api_key=os.environ["CEREBRAS_API_KEY"],
 )
 response = client.chat.completions.create(
-    model="llama-3.3-70b",
+    model="llama3.1-8b",
     messages=[{"role": "system", "content": system_prompt},
               {"role": "user", "content": user_prompt}],
     max_tokens=1024,
@@ -105,7 +105,7 @@ docker-compose up --build
 
 Runs the full pipeline using template fallback messages. All 4 output files are written to `outputs/`.
 
-### With Cerebras Llama 3.3-70b (free — recommended)
+### With Cerebras Llama 3.1-8b (free — recommended)
 
 Get a free API key at [cloud.cerebras.ai](https://cloud.cerebras.ai).
 
@@ -155,7 +155,7 @@ python -m src.pipeline --stage schedule --mock-llm
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `CEREBRAS_API_KEY` | No | Cerebras free-tier key. Checked first. Model: `llama-3.3-70b` |
+| `CEREBRAS_API_KEY` | No | Cerebras free-tier key. Checked first. Model: `llama3.1-8b` |
 | `ANTHROPIC_API_KEY` | No | Anthropic key. Used if Cerebras key not set. Model: `claude-sonnet-4-6` |
 
 If neither key is set, template fallback messages are generated automatically.
@@ -426,7 +426,7 @@ See [`DESIGN_DECISIONS.md`](DESIGN_DECISIONS.md) for the full list.
 
 **Top 3:**
 
-1. **Cerebras (Llama) over Anthropic as default** — Cerebras offers a free tier with Llama 3.3-70b and an OpenAI-compatible API. This means no SDK changes, no cost for the reviewer to run the pipeline, and near-instant inference. Anthropic Claude is kept as a higher-quality fallback.
+1. **Cerebras (Llama) over Anthropic as default** — Cerebras offers a free tier with Llama 3.1-8b and an OpenAI-compatible API. This means no SDK changes, no cost for the reviewer to run the pipeline, and near-instant inference. Anthropic Claude is kept as a higher-quality fallback.
 
 2. **Rule-based confidence over ML scoring** — 1 year = low, 2+ years = medium is explainable and requires no training data. An ML model (collaborative filtering or Bayesian update) would be more accurate but adds complexity.
 
