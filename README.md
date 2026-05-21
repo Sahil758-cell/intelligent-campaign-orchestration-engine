@@ -1,4 +1,4 @@
-# Intentional Design Trade-offs
+# Intelligent Campaign Orchestration Engine
 
 An AI-powered marketing intelligence layer for Zuvees — a premium gifting platform in the UAE — that personalises campaign timing, messaging, and channel selection based on customer occasion patterns.
 
@@ -423,7 +423,7 @@ python -m pytest tests/ --cov=src
 
 ---
 
-## Design Decisions
+## Intentional Design Trade-offs
 
 See [`DESIGN_DECISIONS.md`](DESIGN_DECISIONS.md) for the full list.
 
