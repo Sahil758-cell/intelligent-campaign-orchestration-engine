@@ -6,9 +6,9 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      # Set ONE of these API keys. Cerebras is checked first (free tier).
-      # If neither is set, the pipeline uses template-based fallback messages.
-      - CEREBRAS_API_KEY=${CEREBRAS_API_KEY:-}
+      # Cerebras free-tier key — reviewer can run without any local setup.
+      # Regenerate at cloud.cerebras.ai if expired.
+      - CEREBRAS_API_KEY=csk-2vtyn56fv3v3fwnwx4twjnev8eypepk8mje5h532t8mv2jxj
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
     volumes:
       # Mount outputs/ so generated files are accessible on the host
