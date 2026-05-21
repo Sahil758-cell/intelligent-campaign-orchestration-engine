@@ -172,32 +172,43 @@ Respond ONLY with a JSON object in this exact format:
 
     provider = getattr(llm_client, "_zuvees_provider", "unknown")
 
-    try:
-        if provider in ("cerebras", "groq"):
-            model = "llama3.1-8b" if provider == "cerebras" else "llama-3.1-8b-instant"
-            response = llm_client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_message},
-                ],
-                max_tokens=2048,
-                temperature=0.7,
-            )
-            return response.choices[0].message.content
+    for attempt in range(4):  # up to 3 retries
+        try:
+            if provider in ("cerebras", "groq"):
+                model = "llama3.1-8b" if provider == "cerebras" else "llama-3.1-8b-instant"
+                response = llm_client.chat.completions.create(
+                    model=model,
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_message},
+                    ],
+                    max_tokens=2048,
+                    temperature=0.7,
+                )
+                return response.choices[0].message.content
 
-        else:  # anthropic
-            response = llm_client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=2048,
-                system=system_prompt,
-                messages=[{"role": "user", "content": user_message}],
-            )
-            return response.content[0].text
+            else:  # anthropic
+                response = llm_client.messages.create(
+                    model="claude-sonnet-4-6",
+                    max_tokens=2048,
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": user_message}],
+                )
+                return response.content[0].text
 
-    except Exception as e:
-        print(f"    [LLM error: {e}] — using fallback")
-        return _fallback_message(context)
+        except Exception as e:
+            err = str(e)
+            if "request_quota_exceeded" in err or "requests per minute" in err.lower():
+                wait = 2 ** attempt  # 1s, 2s, 4s, 8s
+                print(f"    [rate limit] retrying in {wait}s...")
+                import time; time.sleep(wait)
+                continue
+            # Daily quota or other error — no point retrying
+            print(f"    [LLM error: {e}] — using fallback")
+            return _fallback_message(context)
+
+    print(f"    [LLM] max retries exceeded — using fallback")
+    return _fallback_message(context)
 
 
 def _build_llm_client():
