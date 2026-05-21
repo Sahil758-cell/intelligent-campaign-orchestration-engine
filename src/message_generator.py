@@ -212,48 +212,56 @@ Respond ONLY with a JSON object in this exact format:
 
 
 def _build_llm_client():
-    """Build an LLM client from environment variables. Returns None if no key found."""
-    cerebras_key = os.environ.get("CEREBRAS_API_KEY", "").strip()
+    """Build a single LLM client (returns first available)."""
+    clients = _build_llm_clients()
+    return clients[0] if clients else None
+
+
+def _build_llm_clients() -> list:
+    """Build all available LLM clients. Supports multiple Cerebras keys for parallel throughput."""
+    clients = []
+
+    # Cerebras — check up to 3 keys (CEREBRAS_API_KEY, CEREBRAS_API_KEY_2, CEREBRAS_API_KEY_3)
+    for env_var in ["CEREBRAS_API_KEY", "CEREBRAS_API_KEY_2", "CEREBRAS_API_KEY_3"]:
+        key = os.environ.get(env_var, "").strip()
+        if key:
+            try:
+                from openai import OpenAI
+                client = OpenAI(api_key=key, base_url="https://api.cerebras.ai/v1")
+                client._zuvees_provider = "cerebras"
+                clients.append(client)
+            except ImportError:
+                break
+
+    if clients:
+        print(f"    [LLM] Using {len(clients)} Cerebras client(s) (llama3.1-8b)")
+        return clients
+
+    # Groq fallback
     groq_key = os.environ.get("GROQ_API_KEY", "").strip()
-    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-
-    if cerebras_key:
-        try:
-            from openai import OpenAI
-            client = OpenAI(
-                api_key=cerebras_key,
-                base_url="https://api.cerebras.ai/v1",
-            )
-            client._zuvees_provider = "cerebras"
-            print("    [LLM] Using Cerebras (llama3.1-8b)")
-            return client
-        except ImportError:
-            pass
-
     if groq_key:
         try:
             from openai import OpenAI
-            client = OpenAI(
-                api_key=groq_key,
-                base_url="https://api.groq.com/openai/v1",
-            )
+            client = OpenAI(api_key=groq_key, base_url="https://api.groq.com/openai/v1")
             client._zuvees_provider = "groq"
             print("    [LLM] Using Groq (llama-3.1-8b-instant)")
-            return client
+            return [client]
         except ImportError:
             pass
 
-    if anthropic_key:
+    # Anthropic fallback
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if anthropic_key and "your_" not in anthropic_key:
         try:
             import anthropic
             client = anthropic.Anthropic(api_key=anthropic_key)
             client._zuvees_provider = "anthropic"
             print("    [LLM] Using Anthropic (Claude Sonnet)")
-            return client
+            return [client]
         except ImportError:
             pass
 
-    return None
+    return []
 
 
 # ─── RESPONSE PARSING ─────────────────────────────────────────────────────────

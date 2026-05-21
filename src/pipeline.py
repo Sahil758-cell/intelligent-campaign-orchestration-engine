@@ -67,31 +67,39 @@ def stage_detect(profiles):
 
 
 def stage_generate(profiles, detections, catalogue, llm_client=None):
-    from src.message_generator import generate_messages, _build_llm_client
+    from src.message_generator import generate_messages, _build_llm_clients
     from src.campaign_engine import _detection_key
     from concurrent.futures import ThreadPoolExecutor, as_completed
     import threading
 
-    # Build one shared client (thread-safe for HTTP calls)
-    shared_client = llm_client if llm_client is not None else _build_llm_client()
+    if llm_client is not None:
+        clients = [llm_client]
+    else:
+        clients = _build_llm_clients()
+
+    n_clients = len(clients)
     counter_lock = threading.Lock()
     counter = [0]
     total = len(detections)
     messages = {}
 
-    def _process(det):
+    def _process(args):
+        i, det = args
+        # Round-robin: each worker uses a different API key
+        client = clients[i % n_clients] if clients else None
         profile = profiles.get(det.customer_id)
         if profile is None:
             return None, None
-        bundle = generate_messages(profile, det, catalogue, shared_client)
+        bundle = generate_messages(profile, det, catalogue, client)
         with counter_lock:
             counter[0] += 1
             print(f"[generate] {counter[0]}/{total} — {det.customer_id} / {det.occasion}")
         return _detection_key(det), bundle
 
-    workers = 1 if llm_client is not None else 5  # mock runs don't need parallelism
+    # 5 workers per client key; mock runs use 1 worker
+    workers = 1 if llm_client is not None else max(5, n_clients * 5)
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        futures = [pool.submit(_process, det) for det in detections]
+        futures = [pool.submit(_process, (i, det)) for i, det in enumerate(detections)]
         for future in as_completed(futures):
             key, bundle = future.result()
             if key is not None:
