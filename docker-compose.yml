@@ -8,7 +8,7 @@ services:
     environment:
       # Cerebras free-tier key (primary). Regenerate at cloud.cerebras.ai if expired.
       - CEREBRAS_API_KEY=csk-2vtyn56fv3v3fwnwx4twjnev8eypepk8mje5h532t8mv2jxj
-      # Groq free-tier key (fallback). Regenerate at console.groq.com if expired.
+      # Groq free-tier fallback. Set GROQ_API_KEY env var or get key at console.groq.com
       - GROQ_API_KEY=${GROQ_API_KEY:-}
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
     volumes:
