@@ -38,5 +38,6 @@ Thumbs.db
 # Claude Code local config
 .claude/
 
-# Output JSON files are generated fresh when reviewer runs docker-compose up --build
-outputs/*.json
+# Pre-generated outputs are committed so reviewer sees real personalized messages.
+# test-results.json is excluded (platform-specific paths, regenerated each run).
+outputs/test-results.json

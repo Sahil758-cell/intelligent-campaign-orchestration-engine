@@ -20,8 +20,8 @@ services:
         python -m src.pipeline --stage ingest &&
         echo '=== Stage 2: Detect ===' &&
         python -m src.pipeline --stage detect &&
-        echo '=== Running Full Pipeline ===' &&
-        python -m src.pipeline &&
+        echo '=== Full Pipeline (cached LLM messages) ===' &&
+        python -m src.pipeline --use-cached &&
         echo '=== Running Tests ===' &&
         python -m pytest tests/ -q --tb=short --cov=src --cov-report=term-missing &&
         echo '=== Done. Outputs in /app/outputs ==='

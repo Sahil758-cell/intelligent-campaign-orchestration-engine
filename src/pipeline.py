@@ -349,12 +349,56 @@ def _check_quiet_hours(schedule) -> bool:
 
 # ─── CLI ENTRYPOINT ──────────────────────────────────────────────────────────
 
+def stage_load_cached():
+    """Load pre-generated campaign_schedule.json from outputs/ as the message store."""
+    from src.campaign_engine import _detection_key
+    from src.models import MessageBundle, EmailMessage, WhatsAppMessage, PushMessage, OccasionDetection
+
+    sched_path = OUTPUTS_DIR / "campaign_schedule.json"
+    if not sched_path.exists():
+        return None, None
+
+    with open(sched_path, encoding="utf-8") as f:
+        raw = json.load(f)
+
+    messages = {}
+    detections_by_key = {}
+    for s in raw:
+        cid = s["customer_id"]
+        occ = s["occasion"]
+        key = f"{cid}:{occ}"
+
+        m = s.get("message", {})
+        e = m.get("email") or {}
+        w = m.get("whatsapp") or {}
+        p = m.get("push") or {}
+
+        bundle = MessageBundle(
+            email=EmailMessage(subject=e.get("subject", ""), body=e.get("body", "")) if e else None,
+            whatsapp=WhatsAppMessage(
+                template_body=w.get("template_body", ""),
+                variables=w.get("variables", [])[:3],
+                has_opt_out_footer=True,
+            ) if w else None,
+            push=PushMessage(
+                text=p.get("text", ""),
+                deep_link=p.get("deep_link", ""),
+            ) if p else None,
+        )
+        messages[key] = bundle
+
+    print(f"[generate] Loaded {len(messages)} cached message bundles from outputs/campaign_schedule.json")
+    return messages
+
+
 def main():
     parser = argparse.ArgumentParser(description="Campaign Orchestration Pipeline")
     parser.add_argument("--stage", choices=["ingest", "detect", "generate", "schedule", "evaluate", "test", "all"],
                         default="all")
     parser.add_argument("--mock-llm", action="store_true",
-                        help="Use fallback messages instead of calling Anthropic API")
+                        help="Use fallback messages instead of calling LLM API")
+    parser.add_argument("--use-cached", action="store_true",
+                        help="Skip LLM generation — load pre-generated messages from outputs/campaign_schedule.json")
     args = parser.parse_args()
 
     if args.stage in ("ingest", "all"):
@@ -369,10 +413,13 @@ def main():
         if args.stage == "generate":
             _, catalogue, profiles = stage_ingest()
             detections = stage_detect(profiles)
-        llm_client = None
-        if args.mock_llm:
-            llm_client = _MockLLMClient()
-        messages = stage_generate(profiles, detections, catalogue, llm_client)
+        if args.use_cached:
+            messages = stage_load_cached()
+        else:
+            llm_client = None
+            if args.mock_llm:
+                llm_client = _MockLLMClient()
+            messages = stage_generate(profiles, detections, catalogue, llm_client)
 
     if args.stage in ("schedule", "all"):
         if args.stage == "schedule":
