@@ -254,8 +254,8 @@ def rand_sku_for_occasion(occasion, exclude_alcohol=False):
 def make_order_event(customer, event_date, occasion, recipient_name, recipient_rel, is_muslim_occasion=False, email_opened=False):
     tz = pytz.timezone(customer["tz"])
     hour = random.randint(10, 21)
-    dt = datetime(event_date.year, event_date.month, event_date.day, hour,
-                  random.randint(0, 59), tzinfo=tz)
+    dt = tz.localize(datetime(event_date.year, event_date.month, event_date.day, hour,
+                              random.randint(0, 59)))
     item = rand_sku_for_occasion(occasion, exclude_alcohol=is_muslim_occasion)
     qty = random.randint(1, 2)
     total = round(item["price"] * qty * random.uniform(0.9, 1.1), 2)
@@ -279,8 +279,8 @@ def make_order_event(customer, event_date, occasion, recipient_name, recipient_r
 def make_browse_event(customer, event_date, offset_minutes=0):
     tz = pytz.timezone(customer["tz"])
     hour = random.randint(8, 23)
-    dt = datetime(event_date.year, event_date.month, event_date.day, hour,
-                  random.randint(0, 59), tzinfo=tz)
+    dt = tz.localize(datetime(event_date.year, event_date.month, event_date.day, hour,
+                              random.randint(0, 59)))
     dt -= timedelta(minutes=offset_minutes)
     prod = random.choice(CATALOGUE_GLOBAL)
     return {
@@ -299,8 +299,8 @@ def make_browse_event(customer, event_date, offset_minutes=0):
 def make_whatsapp_event(customer, event_date, opted_out=False, direction="outbound"):
     tz = pytz.timezone(customer["tz"])
     hour = random.randint(9, 22)
-    dt = datetime(event_date.year, event_date.month, event_date.day, hour,
-                  random.randint(0, 59), tzinfo=tz)
+    dt = tz.localize(datetime(event_date.year, event_date.month, event_date.day, hour,
+                              random.randint(0, 59)))
     templates = ["order_confirmation", "delivery_update", "occasion_reminder", "welcome_message"]
     return {
         "event_id": str(uuid.uuid4()),
@@ -318,8 +318,8 @@ def make_whatsapp_event(customer, event_date, opted_out=False, direction="outbou
 def make_profile_update(customer, field, value, recipient_name=None):
     tz = pytz.timezone(customer["tz"])
     event_date = START_DATE + timedelta(days=random.randint(0, 30))
-    dt = datetime(event_date.year, event_date.month, event_date.day,
-                  random.randint(9, 17), random.randint(0, 59), tzinfo=tz)
+    dt = tz.localize(datetime(event_date.year, event_date.month, event_date.day,
+                              random.randint(9, 17), random.randint(0, 59)))
     event = {
         "event_id": str(uuid.uuid4()),
         "customer_id": customer["id"],
