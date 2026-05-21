@@ -173,9 +173,10 @@ Respond ONLY with a JSON object in this exact format:
     provider = getattr(llm_client, "_zuvees_provider", "unknown")
 
     try:
-        if provider == "cerebras":
+        if provider in ("cerebras", "groq"):
+            model = "llama3.1-8b" if provider == "cerebras" else "llama-3.1-8b-instant"
             response = llm_client.chat.completions.create(
-                model="llama3.1-8b",
+                model=model,
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_message},
@@ -202,6 +203,7 @@ Respond ONLY with a JSON object in this exact format:
 def _build_llm_client():
     """Build an LLM client from environment variables. Returns None if no key found."""
     cerebras_key = os.environ.get("CEREBRAS_API_KEY", "").strip()
+    groq_key = os.environ.get("GROQ_API_KEY", "").strip()
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 
     if cerebras_key:
@@ -213,6 +215,19 @@ def _build_llm_client():
             )
             client._zuvees_provider = "cerebras"
             print("    [LLM] Using Cerebras (llama3.1-8b)")
+            return client
+        except ImportError:
+            pass
+
+    if groq_key:
+        try:
+            from openai import OpenAI
+            client = OpenAI(
+                api_key=groq_key,
+                base_url="https://api.groq.com/openai/v1",
+            )
+            client._zuvees_provider = "groq"
+            print("    [LLM] Using Groq (llama-3.1-8b-instant)")
             return client
         except ImportError:
             pass
