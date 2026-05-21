@@ -31,7 +31,7 @@ An AI-powered marketing intelligence layer for Zuvees — a premium gifting plat
 |--------|-----------|----------------|
 | `src/ingestor.py` | Yes | Load + validate events; build customer profiles with email open rate, WA read rate |
 | `src/occasion_detector.py` | Yes | Detect upcoming occasions (Gregorian + Hijri calendar) |
-| `src/message_generator.py` | Yes | Call Cerebras or Anthropic API; apply content safety layer |
+| `src/message_generator.py` | Yes | Call Cerebras / Groq / Anthropic API; apply content safety layer |
 | `src/send_time_optimizer.py` | Yes | Per-channel optimal send time with timezone + urgency |
 | `src/campaign_engine.py` | Yes | Fatigue cap, consent enforcement, channel preference, scheduling |
 | `src/pipeline.py` | Orchestrator | Chains all stages; CLI entrypoint |
@@ -40,14 +40,16 @@ An AI-powered marketing intelligence layer for Zuvees — a premium gifting plat
 
 ## LLM Integration
 
-The engine supports **three LLM tiers** — checked in order at startup:
+The engine supports **four LLM tiers** — checked in order at startup:
 
 ```
-1. Cerebras (Llama 3.1-8b)   ← free tier, fast, OpenAI-compatible API
+1. Cerebras (Llama 3.1-8b)        ← free tier, fast, OpenAI-compatible API
+        ↓ if no key / quota exhausted
+2. Groq (Llama 3.1-8b-instant)    ← free tier, 14,400 req/day, OpenAI-compatible
         ↓ if no key
-2. Anthropic Claude (claude-sonnet-4-6)  ← paid, highest quality
+3. Anthropic Claude (claude-sonnet-4-6)  ← paid, highest quality
         ↓ if no key
-3. Template fallback            ← no API key needed, always works
+4. Template fallback               ← no API key needed, always works
 ```
 
 ### Cerebras — Llama 3.1-8b (Primary / Free)
@@ -156,9 +158,10 @@ python -m src.pipeline --stage schedule --mock-llm
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `CEREBRAS_API_KEY` | No | Cerebras free-tier key. Checked first. Model: `llama3.1-8b` |
-| `ANTHROPIC_API_KEY` | No | Anthropic key. Used if Cerebras key not set. Model: `claude-sonnet-4-6` |
+| `GROQ_API_KEY` | No | Groq free-tier key. Used if Cerebras key not set. Model: `llama-3.1-8b-instant` |
+| `ANTHROPIC_API_KEY` | No | Anthropic key. Used if Cerebras and Groq keys not set. Model: `claude-sonnet-4-6` |
 
-If neither key is set, template fallback messages are generated automatically.
+If no key is set, template fallback messages are generated automatically.
 
 ### Run tests locally
 
