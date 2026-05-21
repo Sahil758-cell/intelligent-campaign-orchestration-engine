@@ -1,4 +1,4 @@
-# Intelligent Campaign Orchestration Engine
+# Intentional Design Trade-offs
 
 An AI-powered marketing intelligence layer for Zuvees — a premium gifting platform in the UAE — that personalises campaign timing, messaging, and channel selection based on customer occasion patterns.
 
