@@ -10,6 +10,14 @@ ROOT = Path(__file__).parent.parent
 
 
 @pytest.fixture
+def isolated_outputs(tmp_path, monkeypatch):
+    """Redirect pipeline OUTPUTS_DIR to a temp path so tests never overwrite committed outputs."""
+    import src.pipeline as pm
+    monkeypatch.setattr(pm, "OUTPUTS_DIR", tmp_path)
+    return tmp_path
+
+
+@pytest.fixture
 def sample_catalogue():
     path = ROOT / "data" / "product_catalogue.json"
     with open(path, "r") as f:

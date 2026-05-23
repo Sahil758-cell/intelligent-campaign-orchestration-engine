@@ -74,7 +74,7 @@ class TestStageGenerate:
 
 
 class TestStageSchedule:
-    def test_produces_minimum_30_sends(self, sample_profiles):
+    def test_produces_minimum_30_sends(self, sample_profiles, isolated_outputs):
         from src.pipeline import stage_ingest, stage_detect, stage_generate, stage_schedule, _MockLLMClient
         _, catalogue, _ = stage_ingest()
         detections = stage_detect(sample_profiles)
@@ -82,19 +82,19 @@ class TestStageSchedule:
         schedule = stage_schedule(sample_profiles, detections, messages)
         assert len(schedule) >= 30, f"Only {len(schedule)} sends produced (need ≥30)"
 
-    def test_writes_campaign_schedule_json(self, sample_profiles):
+    def test_writes_campaign_schedule_json(self, sample_profiles, isolated_outputs):
         from src.pipeline import stage_ingest, stage_detect, stage_generate, stage_schedule, _MockLLMClient
         _, catalogue, _ = stage_ingest()
         detections = stage_detect(sample_profiles)
         messages = stage_generate(sample_profiles, detections, catalogue, _MockLLMClient())
         stage_schedule(sample_profiles, detections, messages)
-        out = ROOT / "outputs" / "campaign_schedule.json"
+        out = isolated_outputs / "campaign_schedule.json"
         assert out.exists()
         with open(out) as f:
             data = json.load(f)
         assert len(data) >= 30
 
-    def test_no_consent_violations(self, sample_profiles):
+    def test_no_consent_violations(self, sample_profiles, isolated_outputs):
         from src.pipeline import stage_ingest, stage_detect, stage_generate, stage_schedule, _MockLLMClient
         _, catalogue, _ = stage_ingest()
         detections = stage_detect(sample_profiles)
@@ -111,7 +111,7 @@ class TestStageSchedule:
             if ch == "push":
                 assert cs.push, f"Push sent to {s.customer_id} without consent"
 
-    def test_fatigue_cap_respected(self, sample_profiles):
+    def test_fatigue_cap_respected(self, sample_profiles, isolated_outputs):
         from collections import defaultdict
         from datetime import datetime
         from src.pipeline import stage_ingest, stage_detect, stage_generate, stage_schedule, _MockLLMClient
@@ -132,7 +132,7 @@ class TestStageSchedule:
 
 
 class TestStageEvaluate:
-    def test_writes_evaluation_report(self, sample_profiles):
+    def test_writes_evaluation_report(self, sample_profiles, isolated_outputs):
         from src.pipeline import stage_ingest, stage_detect, stage_generate, stage_schedule, stage_evaluate, _MockLLMClient
         _, catalogue, _ = stage_ingest()
         detections = stage_detect(sample_profiles)
@@ -147,7 +147,7 @@ class TestStageEvaluate:
             assert dim["name"]
             assert dim["justification"]
 
-    def test_evaluation_json_valid(self, sample_profiles):
+    def test_evaluation_json_valid(self, sample_profiles, isolated_outputs):
         from src.pipeline import stage_ingest, stage_detect, stage_generate, stage_schedule, stage_evaluate, _MockLLMClient
         _, catalogue, _ = stage_ingest()
         detections = stage_detect(sample_profiles)
@@ -155,7 +155,7 @@ class TestStageEvaluate:
         schedule = stage_schedule(sample_profiles, detections, messages)
         stage_evaluate(detections, schedule)
 
-        out = ROOT / "outputs" / "evaluation_report.json"
+        out = isolated_outputs / "evaluation_report.json"
         assert out.exists()
         with open(out) as f:
             data = json.load(f)
