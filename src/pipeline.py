@@ -215,9 +215,9 @@ def stage_evaluate(detections, schedule):
             "name": "Data Quality",
             "self_score": 4,
             "justification": (
-                "250 events across 25 customers, spanning 14 months (March 2025–May 2026). "
+                "501 events across 50 customers, spanning 14 months (March 2025–May 2026). "
                 "Seasonal spikes on Valentine's, Mother's Day, Eid, Diwali, Christmas. "
-                "3 timezone regions (Asia/Dubai, Asia/Kolkata, Europe/London) covering UAE, India, and UK. "
+                "7 timezone regions (Asia/Dubai, Asia/Kolkata, Europe/London, America/New_York, Asia/Singapore, Australia/Sydney, Europe/Paris) covering UAE, India, UK, US, Singapore, Australia, and France. "
                 "3 religions (Muslim, Hindu, other) with cultural sensitivity filters applied. "
                 "Temporal integrity maintained: browse events precede orders for same session."
             ),

@@ -353,9 +353,12 @@ def _clean_text(text: str, cultural_sensitive: bool) -> str:
         return ""
     if cultural_sensitive:
         text_lower = text.lower()
-        for word in ["alcohol", "wine", "beer", "spirits", "champagne", "pork", "bacon", "ham"]:
+        for word in ["alcohol", "wine", "beer", "spirits", "champagne", "pork", "bacon"]:
             if word in text_lower:
                 return ""
+        # "ham" uses word-boundary so "hamper", "muhammad" etc. don't false-positive
+        if re.search(r"\bham\b", text_lower):
+            return ""
     return text.strip()
 
 

@@ -152,13 +152,13 @@ class TestChannelPreference:
         base_profile.email_open_rate = 0.0
         base_profile.wa_read_rate = 0.75
         det = _make_detection("CUST001", "birthday", "dummy_date")
-        channel, _ = _select_channel(base_profile, det)
+        channel, _ = _select_channel(base_profile)
         assert channel == "whatsapp"
 
     def test_no_wa_optin_falls_back_to_email(self, base_profile):
         base_profile.wa_optin = False
         det = _make_detection("CUST001", "birthday", "dummy_date")
-        channel, _ = _select_channel(base_profile, det)
+        channel, _ = _select_channel(base_profile)
         assert channel in ("email", "push")
 
     def test_all_opted_out_returns_none(self, base_profile):
@@ -166,7 +166,7 @@ class TestChannelPreference:
         base_profile.wa_optin = False
         base_profile.push_optin = False
         det = _make_detection("CUST001", "birthday", "dummy_date")
-        channel, _ = _select_channel(base_profile, det)
+        channel, _ = _select_channel(base_profile)
         assert channel is None
 
 

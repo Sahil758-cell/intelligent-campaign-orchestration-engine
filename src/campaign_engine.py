@@ -56,6 +56,7 @@ def build_campaign_schedule(
 
         # Within-week deduplication: if multiple occasions in same week, prefer highest confidence
         seen_weeks: dict[str, str] = {}  # iso_week → confidence of already-scheduled occasion
+        occasion_index = 0  # increments per scheduled send to rotate channels
 
         for det in customer_detections:
             try:
@@ -89,10 +90,11 @@ def build_campaign_schedule(
             if existing_conf == "medium" and det.confidence == "low":
                 continue
 
-            # Select channel
-            channel, reason_suffix = _select_channel(profile, det)
+            # Select channel — rotates across occasions so same customer gets multi-channel sends
+            channel, reason_suffix = _select_channel(profile, occasion_index)
             if channel is None:
                 continue  # no consented channel available
+            occasion_index += 1
 
             # Build consent status
             consent = ConsentStatus(
@@ -139,17 +141,19 @@ def build_campaign_schedule(
     return schedule
 
 
-def _select_channel(profile: CustomerProfile, det: OccasionDetection) -> tuple[Optional[str], str]:
+def _select_channel(
+    profile: CustomerProfile,
+    occasion_index: int = 0,
+) -> tuple[Optional[str], str]:
     """
     Return (channel, reasoning_suffix) for best channel, respecting consent and preference.
 
     Channel preference logic:
       - If WA read rate > 60% and email open rate = 0% → prefer WA
       - Otherwise use channel priority: whatsapp > email > push
+      - occasion_index rotates through consented channels so different occasions
+        for the same customer are sent on different channels (multi-channel coverage).
     """
-    # Is this an Eid/Islamic occasion? Push cultural context to channel notes.
-    is_cultural = det.calendar_type == "hijri"
-
     wa_preferred = profile.wa_read_rate >= 0.6 and profile.email_open_rate == 0.0
 
     if wa_preferred:
@@ -165,11 +169,14 @@ def _select_channel(profile: CustomerProfile, det: OccasionDetection) -> tuple[O
         "push": profile.push_optin,
     }
 
-    for ch in channel_priority:
-        if consent_map.get(ch, False):
-            return ch, preference_note
+    # Build ordered list of consented channels
+    consented = [ch for ch in channel_priority if consent_map.get(ch, False)]
+    if not consented:
+        return None, ""
 
-    return None, ""
+    # Rotate: nth occasion uses nth consented channel (cycling)
+    channel = consented[occasion_index % len(consented)]
+    return channel, preference_note
 
 
 def _detection_key(det: OccasionDetection) -> str:

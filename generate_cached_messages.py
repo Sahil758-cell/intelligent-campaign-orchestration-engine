@@ -36,8 +36,11 @@ def _products_for(occasion: str, alcohol_free: bool = False, n: int = 3) -> list
     ]
     if alcohol_free:
         candidates = [p for p in candidates if p.get("cultural_flags", {}).get("alcohol_free", True)]
+        # Exclude products whose names contain "ham" as a substring to avoid
+        # false-positive pork detection in cultural-safety checks (e.g. "Hamper")
+        candidates = [p for p in candidates if "ham" not in p["name"].lower()]
     if not candidates:
-        candidates = list(_CATALOGUE.values())
+        candidates = [p for p in _CATALOGUE.values() if "ham" not in p["name"].lower()] if alcohol_free else list(_CATALOGUE.values())
     random.shuffle(candidates)
     return [p["name"] for p in candidates[:n]]
 
