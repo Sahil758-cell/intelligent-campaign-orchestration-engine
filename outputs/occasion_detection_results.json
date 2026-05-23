@@ -1,18 +1,18 @@
 [
   {
-    "customer_id": "CUST004",
-    "occasion": "birthday",
-    "predicted_date": "2026-07-22",
+    "customer_id": "CUST007",
+    "occasion": "anniversary",
+    "predicted_date": "2026-08-14",
     "confidence": "high",
     "evidence": [
-      "Explicit birthday save in profile: 1990-07-22"
+      "Explicit anniversary save in profile: 2020-08-14"
     ],
     "recipient_name": "Wife",
     "recipient_relationship": null,
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST004",
+    "customer_id": "CUST007",
     "occasion": "valentines_day",
     "predicted_date": "2027-02-14",
     "confidence": "medium",
@@ -24,30 +24,88 @@
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST004",
-    "occasion": "Eid al-Fitr",
-    "predicted_date": "2027-03-09",
+    "customer_id": "CUST007",
+    "occasion": "mothers_day",
+    "predicted_date": "2027-05-09",
     "confidence": "low",
     "evidence": [
-      "Ordered gifts for Eid in 2025",
-      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
+      "Ordered for 'mothers_day' in 2025 (1 year(s) of data)"
     ],
-    "recipient_name": "Sister",
-    "recipient_relationship": "Sibling",
-    "calendar_type": "hijri"
+    "recipient_name": "Mom",
+    "recipient_relationship": "Mother",
+    "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST004",
-    "occasion": "Eid al-Adha",
-    "predicted_date": "2026-05-27",
+    "customer_id": "CUST007",
+    "occasion": "diwali",
+    "predicted_date": "2026-11-08",
     "confidence": "low",
     "evidence": [
-      "Ordered gifts for Eid in 2025",
-      "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
+      "Ordered for 'diwali' in 2025 (1 year(s) of data)"
+    ],
+    "recipient_name": "Friends",
+    "recipient_relationship": "Friends",
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST025",
+    "occasion": "anniversary",
+    "predicted_date": "2026-12-01",
+    "confidence": "high",
+    "evidence": [
+      "Explicit anniversary save in profile: 2020-12-01"
+    ],
+    "recipient_name": "Husband",
+    "recipient_relationship": null,
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST025",
+    "occasion": "valentines_day",
+    "predicted_date": "2027-02-14",
+    "confidence": "low",
+    "evidence": [
+      "Ordered for 'valentines_day' in 2025 (1 year(s) of data)"
+    ],
+    "recipient_name": "Partner",
+    "recipient_relationship": "Boyfriend/Girlfriend",
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST013",
+    "occasion": "anniversary",
+    "predicted_date": "2026-06-20",
+    "confidence": "high",
+    "evidence": [
+      "Explicit anniversary save in profile: 2018-06-20"
+    ],
+    "recipient_name": "Partner",
+    "recipient_relationship": null,
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST013",
+    "occasion": "valentines_day",
+    "predicted_date": "2027-02-14",
+    "confidence": "medium",
+    "evidence": [
+      "Ordered for 'valentines_day' in 2025, 2026 (2 year(s) of data)"
+    ],
+    "recipient_name": "Partner",
+    "recipient_relationship": "Boyfriend/Girlfriend",
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST013",
+    "occasion": "christmas",
+    "predicted_date": "2026-12-25",
+    "confidence": "low",
+    "evidence": [
+      "Ordered for 'christmas' in 2025 (1 year(s) of data)"
     ],
     "recipient_name": "Family",
     "recipient_relationship": "Family",
-    "calendar_type": "hijri"
+    "calendar_type": "gregorian"
   },
   {
     "customer_id": "CUST003",
@@ -85,6 +143,140 @@
     "recipient_name": "Mom",
     "recipient_relationship": "Mother",
     "calendar_type": "hijri"
+  },
+  {
+    "customer_id": "CUST009",
+    "occasion": "birthday",
+    "predicted_date": "2026-08-03",
+    "confidence": "high",
+    "evidence": [
+      "Explicit birthday save in profile: 1965-08-03"
+    ],
+    "recipient_name": "Dad",
+    "recipient_relationship": null,
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST009",
+    "occasion": "valentines_day",
+    "predicted_date": "2027-02-14",
+    "confidence": "low",
+    "evidence": [
+      "Ordered for 'valentines_day' in 2025 (1 year(s) of data)"
+    ],
+    "recipient_name": "Partner",
+    "recipient_relationship": "Boyfriend/Girlfriend",
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST009",
+    "occasion": "mothers_day",
+    "predicted_date": "2027-05-09",
+    "confidence": "low",
+    "evidence": [
+      "Ordered for 'mothers_day' in 2025 (1 year(s) of data)"
+    ],
+    "recipient_name": "Mom",
+    "recipient_relationship": "Mother",
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST009",
+    "occasion": "diwali",
+    "predicted_date": "2026-11-08",
+    "confidence": "low",
+    "evidence": [
+      "Ordered for 'diwali' in 2025 (1 year(s) of data)"
+    ],
+    "recipient_name": "Family",
+    "recipient_relationship": "Family",
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST004",
+    "occasion": "birthday",
+    "predicted_date": "2026-07-22",
+    "confidence": "high",
+    "evidence": [
+      "Explicit birthday save in profile: 1990-07-22"
+    ],
+    "recipient_name": "Wife",
+    "recipient_relationship": null,
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST004",
+    "occasion": "valentines_day",
+    "predicted_date": "2027-02-14",
+    "confidence": "medium",
+    "evidence": [
+      "Ordered for 'valentines_day' in 2025, 2026 (2 year(s) of data)"
+    ],
+    "recipient_name": "Partner",
+    "recipient_relationship": "Boyfriend/Girlfriend",
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST004",
+    "occasion": "Eid al-Fitr",
+    "predicted_date": "2027-03-09",
+    "confidence": "low",
+    "evidence": [
+      "Ordered gifts for Eid in 2025",
+      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
+    ],
+    "recipient_name": "Mom",
+    "recipient_relationship": "Mother",
+    "calendar_type": "hijri"
+  },
+  {
+    "customer_id": "CUST004",
+    "occasion": "Eid al-Adha",
+    "predicted_date": "2026-05-27",
+    "confidence": "low",
+    "evidence": [
+      "Ordered gifts for Eid in 2025",
+      "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
+    ],
+    "recipient_name": "Parents",
+    "recipient_relationship": "Parents",
+    "calendar_type": "hijri"
+  },
+  {
+    "customer_id": "CUST022",
+    "occasion": "birthday",
+    "predicted_date": "2026-09-14",
+    "confidence": "high",
+    "evidence": [
+      "Explicit birthday save in profile: 1989-09-14"
+    ],
+    "recipient_name": "Wife",
+    "recipient_relationship": null,
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST022",
+    "occasion": "valentines_day",
+    "predicted_date": "2027-02-14",
+    "confidence": "low",
+    "evidence": [
+      "Ordered for 'valentines_day' in 2025 (1 year(s) of data)"
+    ],
+    "recipient_name": "Partner",
+    "recipient_relationship": "Boyfriend/Girlfriend",
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST022",
+    "occasion": "christmas",
+    "predicted_date": "2026-12-25",
+    "confidence": "low",
+    "evidence": [
+      "Ordered for 'christmas' in 2025 (1 year(s) of data)"
+    ],
+    "recipient_name": "Family",
+    "recipient_relationship": "Family",
+    "calendar_type": "gregorian"
   },
   {
     "customer_id": "CUST016",
@@ -135,43 +327,43 @@
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST036",
+    "customer_id": "CUST011",
     "occasion": "birthday",
-    "predicted_date": "2026-09-19",
+    "predicted_date": "2026-11-28",
     "confidence": "high",
     "evidence": [
-      "Explicit birthday save in profile: 1996-09-19"
+      "Explicit birthday save in profile: 1994-11-28"
     ],
     "recipient_name": "Sister",
     "recipient_relationship": null,
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST036",
+    "customer_id": "CUST011",
     "occasion": "valentines_day",
     "predicted_date": "2027-02-14",
-    "confidence": "low",
+    "confidence": "medium",
     "evidence": [
-      "Ordered for 'valentines_day' in 2025 (1 year(s) of data)"
+      "Ordered for 'valentines_day' in 2025, 2026 (2 year(s) of data)"
     ],
     "recipient_name": "Partner",
     "recipient_relationship": "Boyfriend/Girlfriend",
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST036",
+    "customer_id": "CUST011",
     "occasion": "mothers_day",
     "predicted_date": "2027-05-09",
     "confidence": "low",
     "evidence": [
       "Ordered for 'mothers_day' in 2025 (1 year(s) of data)"
     ],
-    "recipient_name": "Mom",
+    "recipient_name": "Mum",
     "recipient_relationship": "Mother",
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST036",
+    "customer_id": "CUST011",
     "occasion": "christmas",
     "predicted_date": "2026-12-25",
     "confidence": "low",
@@ -231,320 +423,6 @@
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST011",
-    "occasion": "birthday",
-    "predicted_date": "2026-11-28",
-    "confidence": "high",
-    "evidence": [
-      "Explicit birthday save in profile: 1994-11-28"
-    ],
-    "recipient_name": "Sister",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST011",
-    "occasion": "valentines_day",
-    "predicted_date": "2027-02-14",
-    "confidence": "medium",
-    "evidence": [
-      "Ordered for 'valentines_day' in 2025, 2026 (2 year(s) of data)"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": "Boyfriend/Girlfriend",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST011",
-    "occasion": "mothers_day",
-    "predicted_date": "2027-05-09",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'mothers_day' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Mum",
-    "recipient_relationship": "Mother",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST011",
-    "occasion": "christmas",
-    "predicted_date": "2026-12-25",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'christmas' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST026",
-    "occasion": "anniversary",
-    "predicted_date": "2026-08-12",
-    "confidence": "high",
-    "evidence": [
-      "Explicit anniversary save in profile: 2017-08-12"
-    ],
-    "recipient_name": "Husband",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST026",
-    "occasion": "valentines_day",
-    "predicted_date": "2027-02-14",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'valentines_day' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": "Partner",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST025",
-    "occasion": "anniversary",
-    "predicted_date": "2026-12-01",
-    "confidence": "high",
-    "evidence": [
-      "Explicit anniversary save in profile: 2020-12-01"
-    ],
-    "recipient_name": "Husband",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST025",
-    "occasion": "valentines_day",
-    "predicted_date": "2027-02-14",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'valentines_day' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": "Boyfriend/Girlfriend",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST007",
-    "occasion": "anniversary",
-    "predicted_date": "2026-08-14",
-    "confidence": "high",
-    "evidence": [
-      "Explicit anniversary save in profile: 2020-08-14"
-    ],
-    "recipient_name": "Wife",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST007",
-    "occasion": "valentines_day",
-    "predicted_date": "2027-02-14",
-    "confidence": "medium",
-    "evidence": [
-      "Ordered for 'valentines_day' in 2025, 2026 (2 year(s) of data)"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": "Boyfriend/Girlfriend",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST007",
-    "occasion": "mothers_day",
-    "predicted_date": "2027-05-09",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'mothers_day' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST007",
-    "occasion": "diwali",
-    "predicted_date": "2026-11-08",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'diwali' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Friends",
-    "recipient_relationship": "Friends",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST009",
-    "occasion": "birthday",
-    "predicted_date": "2026-08-03",
-    "confidence": "high",
-    "evidence": [
-      "Explicit birthday save in profile: 1965-08-03"
-    ],
-    "recipient_name": "Dad",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST009",
-    "occasion": "valentines_day",
-    "predicted_date": "2027-02-14",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'valentines_day' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": "Boyfriend/Girlfriend",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST009",
-    "occasion": "mothers_day",
-    "predicted_date": "2027-05-09",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'mothers_day' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST009",
-    "occasion": "diwali",
-    "predicted_date": "2026-11-08",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'diwali' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST022",
-    "occasion": "birthday",
-    "predicted_date": "2026-09-14",
-    "confidence": "high",
-    "evidence": [
-      "Explicit birthday save in profile: 1989-09-14"
-    ],
-    "recipient_name": "Wife",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST022",
-    "occasion": "valentines_day",
-    "predicted_date": "2027-02-14",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'valentines_day' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": "Boyfriend/Girlfriend",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST022",
-    "occasion": "christmas",
-    "predicted_date": "2026-12-25",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'christmas' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST013",
-    "occasion": "anniversary",
-    "predicted_date": "2026-06-20",
-    "confidence": "high",
-    "evidence": [
-      "Explicit anniversary save in profile: 2018-06-20"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST013",
-    "occasion": "valentines_day",
-    "predicted_date": "2027-02-14",
-    "confidence": "medium",
-    "evidence": [
-      "Ordered for 'valentines_day' in 2025, 2026 (2 year(s) of data)"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": "Boyfriend/Girlfriend",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST013",
-    "occasion": "christmas",
-    "predicted_date": "2026-12-25",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'christmas' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST020",
-    "occasion": "birthday",
-    "predicted_date": "2026-11-15",
-    "confidence": "high",
-    "evidence": [
-      "Explicit birthday save in profile: 1991-11-15"
-    ],
-    "recipient_name": "Sister",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST037",
-    "occasion": "christmas",
-    "predicted_date": "2026-12-25",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'christmas' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST043",
-    "occasion": "Eid al-Adha",
-    "predicted_date": "2026-05-27",
-    "confidence": "low",
-    "evidence": [
-      "Ordered gifts for Eid in 2025",
-      "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
-    ],
-    "recipient_name": "Parents",
-    "recipient_relationship": "Parents",
-    "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST043",
-    "occasion": "Eid al-Fitr",
-    "predicted_date": "2027-03-09",
-    "confidence": "low",
-    "evidence": [
-      "Ordered gifts for Eid in 2026",
-      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
-    ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
-    "calendar_type": "hijri"
-  },
-  {
     "customer_id": "CUST008",
     "occasion": "birthday",
     "predicted_date": "2026-08-19",
@@ -564,20 +442,56 @@
     "evidence": [
       "Ordered for 'diwali' in 2025 (1 year(s) of data)"
     ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
+    "recipient_name": "Friends",
+    "recipient_relationship": "Friends",
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST018",
-    "occasion": "anniversary",
-    "predicted_date": "2026-10-20",
+    "customer_id": "CUST024",
+    "occasion": "birthday",
+    "predicted_date": "2026-10-25",
     "confidence": "high",
     "evidence": [
-      "Explicit anniversary save in profile: 2020-10-20"
+      "Explicit birthday save in profile: 1996-10-25"
     ],
-    "recipient_name": "Wife",
+    "recipient_name": "Mom",
     "recipient_relationship": null,
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST014",
+    "occasion": "birthday",
+    "predicted_date": "2026-07-04",
+    "confidence": "high",
+    "evidence": [
+      "Explicit birthday save in profile: 1995-07-04"
+    ],
+    "recipient_name": "Partner",
+    "recipient_relationship": null,
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST015",
+    "occasion": "anniversary",
+    "predicted_date": "2026-06-28",
+    "confidence": "high",
+    "evidence": [
+      "Explicit anniversary save in profile: 2019-06-28"
+    ],
+    "recipient_name": "Partner",
+    "recipient_relationship": null,
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST015",
+    "occasion": "womens_day",
+    "predicted_date": "2027-03-08",
+    "confidence": "low",
+    "evidence": [
+      "Ordered for 'womens_day' in 2025 (1 year(s) of data)"
+    ],
+    "recipient_name": "Mom",
+    "recipient_relationship": "Mother",
     "calendar_type": "gregorian"
   },
   {
@@ -624,46 +538,9 @@
     "evidence": [
       "Ordered for 'diwali' in 2025 (1 year(s) of data)"
     ],
-    "recipient_name": "Parents",
-    "recipient_relationship": "Parents",
+    "recipient_name": "Friends",
+    "recipient_relationship": "Friends",
     "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST041",
-    "occasion": "birthday",
-    "predicted_date": "2026-09-05",
-    "confidence": "high",
-    "evidence": [
-      "Explicit birthday save in profile: 1988-09-05"
-    ],
-    "recipient_name": "Husband",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST041",
-    "occasion": "womens_day",
-    "predicted_date": "2027-03-08",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'womens_day' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST041",
-    "occasion": "Eid al-Fitr",
-    "predicted_date": "2027-03-09",
-    "confidence": "low",
-    "evidence": [
-      "Ordered gifts for Eid in 2025",
-      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
-    ],
-    "recipient_name": "Wife",
-    "recipient_relationship": "Spouse",
-    "calendar_type": "hijri"
   },
   {
     "customer_id": "CUST001",
@@ -698,57 +575,9 @@
       "Ordered gifts for Eid in 2025, 2026",
       "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
     ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
+    "recipient_name": "Sister",
+    "recipient_relationship": "Sibling",
     "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST030",
-    "occasion": "womens_day",
-    "predicted_date": "2027-03-08",
-    "confidence": "medium",
-    "evidence": [
-      "Ordered for 'womens_day' in 2025, 2026 (2 year(s) of data)"
-    ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST015",
-    "occasion": "anniversary",
-    "predicted_date": "2026-06-28",
-    "confidence": "high",
-    "evidence": [
-      "Explicit anniversary save in profile: 2019-06-28"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST015",
-    "occasion": "womens_day",
-    "predicted_date": "2027-03-08",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'womens_day' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST024",
-    "occasion": "birthday",
-    "predicted_date": "2026-10-25",
-    "confidence": "high",
-    "evidence": [
-      "Explicit birthday save in profile: 1996-10-25"
-    ],
-    "recipient_name": "Mom",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
   },
   {
     "customer_id": "CUST023",
@@ -771,45 +600,46 @@
       "Ordered gifts for Eid in 2025",
       "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
     ],
-    "recipient_name": "Parents",
-    "recipient_relationship": "Parents",
+    "recipient_name": "Sister",
+    "recipient_relationship": "Sibling",
     "calendar_type": "hijri"
   },
   {
-    "customer_id": "CUST040",
-    "occasion": "mothers_day",
-    "predicted_date": "2027-05-09",
-    "confidence": "low",
+    "customer_id": "CUST002",
+    "occasion": "birthday",
+    "predicted_date": "2026-09-22",
+    "confidence": "high",
     "evidence": [
-      "Ordered for 'mothers_day' in 2025 (1 year(s) of data)"
+      "Explicit birthday save in profile: 1988-09-22"
     ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
+    "recipient_name": "Wife",
+    "recipient_relationship": null,
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST040",
-    "occasion": "diwali",
-    "predicted_date": "2026-11-08",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'diwali' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST032",
+    "customer_id": "CUST002",
     "occasion": "Eid al-Fitr",
     "predicted_date": "2027-03-09",
+    "confidence": "medium",
+    "evidence": [
+      "Ordered gifts for Eid in 2025, 2026",
+      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
+    ],
+    "recipient_name": "Wife",
+    "recipient_relationship": "Spouse",
+    "calendar_type": "hijri"
+  },
+  {
+    "customer_id": "CUST002",
+    "occasion": "Eid al-Adha",
+    "predicted_date": "2026-05-27",
     "confidence": "low",
     "evidence": [
       "Ordered gifts for Eid in 2025",
-      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
+      "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
     ],
-    "recipient_name": "Parents",
-    "recipient_relationship": "Parents",
+    "recipient_name": "Wife",
+    "recipient_relationship": "Spouse",
     "calendar_type": "hijri"
   },
   {
@@ -844,8 +674,32 @@
     "evidence": [
       "Ordered for 'diwali' in 2025 (1 year(s) of data)"
     ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
+    "recipient_name": "Friends",
+    "recipient_relationship": "Friends",
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST010",
+    "occasion": "anniversary",
+    "predicted_date": "2026-11-05",
+    "confidence": "high",
+    "evidence": [
+      "Explicit anniversary save in profile: 2016-11-05"
+    ],
+    "recipient_name": "Husband",
+    "recipient_relationship": null,
+    "calendar_type": "gregorian"
+  },
+  {
+    "customer_id": "CUST020",
+    "occasion": "birthday",
+    "predicted_date": "2026-11-15",
+    "confidence": "high",
+    "evidence": [
+      "Explicit birthday save in profile: 1991-11-15"
+    ],
+    "recipient_name": "Sister",
+    "recipient_relationship": null,
     "calendar_type": "gregorian"
   },
   {
@@ -868,72 +722,9 @@
     "evidence": [
       "Ordered for 'diwali' in 2025 (1 year(s) of data)"
     ],
-    "recipient_name": "Parents",
-    "recipient_relationship": "Parents",
+    "recipient_name": "Friends",
+    "recipient_relationship": "Friends",
     "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST002",
-    "occasion": "birthday",
-    "predicted_date": "2026-09-22",
-    "confidence": "high",
-    "evidence": [
-      "Explicit birthday save in profile: 1988-09-22"
-    ],
-    "recipient_name": "Wife",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST002",
-    "occasion": "Eid al-Fitr",
-    "predicted_date": "2027-03-09",
-    "confidence": "medium",
-    "evidence": [
-      "Ordered gifts for Eid in 2025, 2026",
-      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
-    ],
-    "recipient_name": "Parents",
-    "recipient_relationship": "Parents",
-    "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST002",
-    "occasion": "Eid al-Adha",
-    "predicted_date": "2026-05-27",
-    "confidence": "low",
-    "evidence": [
-      "Ordered gifts for Eid in 2025",
-      "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
-    ],
-    "recipient_name": "Sister",
-    "recipient_relationship": "Sibling",
-    "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST045",
-    "occasion": "anniversary",
-    "predicted_date": "2026-10-15",
-    "confidence": "high",
-    "evidence": [
-      "Explicit anniversary save in profile: 2021-10-15"
-    ],
-    "recipient_name": "Husband",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST044",
-    "occasion": "Eid al-Fitr",
-    "predicted_date": "2027-03-09",
-    "confidence": "low",
-    "evidence": [
-      "Ordered gifts for Eid in 2026",
-      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
-    ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
-    "calendar_type": "hijri"
   },
   {
     "customer_id": "CUST012",
@@ -960,57 +751,6 @@
     "calendar_type": "gregorian"
   },
   {
-    "customer_id": "CUST027",
-    "occasion": "Eid al-Fitr",
-    "predicted_date": "2027-03-09",
-    "confidence": "medium",
-    "evidence": [
-      "Ordered gifts for Eid in 2025, 2026",
-      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
-    ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
-    "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST031",
-    "occasion": "birthday",
-    "predicted_date": "2026-06-25",
-    "confidence": "high",
-    "evidence": [
-      "Explicit birthday save in profile: 1985-06-25"
-    ],
-    "recipient_name": "Mother",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST031",
-    "occasion": "Eid al-Fitr",
-    "predicted_date": "2027-03-09",
-    "confidence": "medium",
-    "evidence": [
-      "Ordered gifts for Eid in 2025, 2026",
-      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
-    ],
-    "recipient_name": "Wife",
-    "recipient_relationship": "Spouse",
-    "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST031",
-    "occasion": "Eid al-Adha",
-    "predicted_date": "2026-05-27",
-    "confidence": "low",
-    "evidence": [
-      "Ordered gifts for Eid in 2025",
-      "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
-    ],
-    "recipient_name": "Parents",
-    "recipient_relationship": "Parents",
-    "calendar_type": "hijri"
-  },
-  {
     "customer_id": "CUST005",
     "occasion": "anniversary",
     "predicted_date": "2026-09-01",
@@ -1031,96 +771,20 @@
       "Ordered gifts for Eid in 2025",
       "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
     ],
-    "recipient_name": "Mom",
-    "recipient_relationship": "Mother",
+    "recipient_name": "Sister",
+    "recipient_relationship": "Sibling",
     "calendar_type": "hijri"
   },
   {
-    "customer_id": "CUST042",
-    "occasion": "Eid al-Fitr",
-    "predicted_date": "2027-03-09",
-    "confidence": "medium",
-    "evidence": [
-      "Ordered gifts for Eid in 2025, 2026",
-      "Hijri date: 1 Shawwal \u2192 Gregorian 2027-03-09 (converted via hijridate)"
-    ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
-    "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST010",
+    "customer_id": "CUST018",
     "occasion": "anniversary",
-    "predicted_date": "2026-11-05",
+    "predicted_date": "2026-10-20",
     "confidence": "high",
     "evidence": [
-      "Explicit anniversary save in profile: 2016-11-05"
+      "Explicit anniversary save in profile: 2020-10-20"
     ],
-    "recipient_name": "Husband",
+    "recipient_name": "Wife",
     "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST014",
-    "occasion": "birthday",
-    "predicted_date": "2026-07-04",
-    "confidence": "high",
-    "evidence": [
-      "Explicit birthday save in profile: 1995-07-04"
-    ],
-    "recipient_name": "Partner",
-    "recipient_relationship": null,
-    "calendar_type": "gregorian"
-  },
-  {
-    "customer_id": "CUST033",
-    "occasion": "Eid al-Adha",
-    "predicted_date": "2026-05-27",
-    "confidence": "low",
-    "evidence": [
-      "Ordered gifts for Eid in 2025",
-      "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
-    ],
-    "recipient_name": "Parents",
-    "recipient_relationship": "Parents",
-    "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST038",
-    "occasion": "Eid al-Adha",
-    "predicted_date": "2026-05-27",
-    "confidence": "low",
-    "evidence": [
-      "Ordered gifts for Eid in 2025",
-      "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
-    ],
-    "recipient_name": "Sister",
-    "recipient_relationship": "Sibling",
-    "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST034",
-    "occasion": "Eid al-Adha",
-    "predicted_date": "2026-05-27",
-    "confidence": "low",
-    "evidence": [
-      "Ordered gifts for Eid in 2025",
-      "Hijri date: 10 Dhul Hijjah \u2192 Gregorian 2026-05-27 (converted via hijridate)"
-    ],
-    "recipient_name": "Sister",
-    "recipient_relationship": "Sibling",
-    "calendar_type": "hijri"
-  },
-  {
-    "customer_id": "CUST028",
-    "occasion": "christmas",
-    "predicted_date": "2026-12-25",
-    "confidence": "low",
-    "evidence": [
-      "Ordered for 'christmas' in 2025 (1 year(s) of data)"
-    ],
-    "recipient_name": "Family",
-    "recipient_relationship": "Family",
     "calendar_type": "gregorian"
   }
 ]

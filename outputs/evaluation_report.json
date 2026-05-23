@@ -3,7 +3,7 @@
     {
       "name": "Occasion Detection",
       "self_score": 4,
-      "justification": "Detected 92 occasions including 20 Hijri (Eid) occasions with correct Hijri-to-Gregorian conversion via hijri-converter. 47 low-confidence inferences from single data points. Recipient clustering implemented: 4 clusters found.",
+      "justification": "Detected 65 occasions including 8 Hijri (Eid) occasions with correct Hijri-to-Gregorian conversion via hijri-converter. 29 low-confidence inferences from single data points. Recipient clustering implemented: 4 clusters found.",
       "would_improve": "Add ML-based confidence scoring using cosine similarity of order dates across years. Extend Islamic calendar coverage to Mawlid, Laylat al-Qadr."
     },
     {

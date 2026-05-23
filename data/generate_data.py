@@ -1,6 +1,6 @@
 """
 Synthetic data generator for Zuvees Campaign Orchestration Engine.
-Produces product_catalogue.json (100 SKUs) and synthetic_events.json (500 events, 50 customers).
+Produces product_catalogue.json (100 SKUs) and synthetic_events.json (~250 events, 25 customers).
 """
 
 import json
@@ -173,41 +173,6 @@ CUSTOMERS = [
     {"id": "CUST023", "name": "Amira Hassan", "tz": "Europe/London", "email_optin": True, "wa_optin": True, "push_optin": False, "segment": "uk_female_25_35", "religion": "muslim"},
     {"id": "CUST024", "name": "Ben Davies", "tz": "Europe/London", "email_optin": False, "wa_optin": True, "push_optin": True, "segment": "uk_male_25_35", "religion": "other"},
     {"id": "CUST025", "name": "Yasmin Patel", "tz": "Europe/London", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "uk_female_25_35", "religion": "muslim"},
-
-    # Canada-based customers
-    {"id": "CUST026", "name": "Lena Kowalski", "tz": "America/Toronto", "email_optin": True, "wa_optin": True, "push_optin": False, "segment": "canada_female_25_35", "religion": "other"},
-    {"id": "CUST027", "name": "Ahmed Farouk", "tz": "America/Toronto", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "canada_male_35_45", "religion": "muslim"},
-    {"id": "CUST028", "name": "Mei Lin Zhang", "tz": "America/Toronto", "email_optin": True, "wa_optin": False, "push_optin": True, "segment": "canada_female_25_35", "religion": "other"},
-    {"id": "CUST029", "name": "Carlos Rivera", "tz": "America/Toronto", "email_optin": False, "wa_optin": True, "push_optin": True, "segment": "canada_male_25_35", "religion": "other"},
-    {"id": "CUST030", "name": "Nadia Tremblay", "tz": "America/Toronto", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "canada_female_35_45", "religion": "other"},
-
-    # Egypt-based customers
-    {"id": "CUST031", "name": "Hoda Saleh", "tz": "Africa/Cairo", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "egypt_female_25_35", "religion": "muslim"},
-    {"id": "CUST032", "name": "Karim Mostafa", "tz": "Africa/Cairo", "email_optin": True, "wa_optin": True, "push_optin": False, "segment": "egypt_male_25_35", "religion": "muslim"},
-    {"id": "CUST033", "name": "Layla Ibrahim", "tz": "Africa/Cairo", "email_optin": False, "wa_optin": True, "push_optin": True, "segment": "egypt_female_35_45", "religion": "muslim"},
-    {"id": "CUST034", "name": "Yousef Mahmoud", "tz": "Africa/Cairo", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "egypt_male_35_45", "religion": "muslim"},
-    {"id": "CUST035", "name": "Dina Ramadan", "tz": "Africa/Cairo", "email_optin": True, "wa_optin": False, "push_optin": True, "segment": "egypt_female_25_35", "religion": "muslim"},
-
-    # USA-based customers
-    {"id": "CUST036", "name": "Jessica Moore", "tz": "America/New_York", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "usa_female_25_35", "religion": "other"},
-    {"id": "CUST037", "name": "Michael Johnson", "tz": "America/New_York", "email_optin": True, "wa_optin": False, "push_optin": False, "segment": "usa_male_35_45", "religion": "other"},
-    {"id": "CUST038", "name": "Zainab Ali", "tz": "America/New_York", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "usa_female_25_35", "religion": "muslim"},
-    {"id": "CUST039", "name": "Tyler Davis", "tz": "America/Los_Angeles", "email_optin": False, "wa_optin": True, "push_optin": True, "segment": "usa_male_25_35", "religion": "other"},
-    {"id": "CUST040", "name": "Aarav Singh", "tz": "America/Los_Angeles", "email_optin": True, "wa_optin": True, "push_optin": False, "segment": "usa_male_25_35", "religion": "hindu"},
-
-    # Additional UAE customers (new/sparse)
-    {"id": "CUST041", "name": "Mariam Al Falasi", "tz": "Asia/Dubai", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "uae_female_25_35", "religion": "muslim"},
-    {"id": "CUST042", "name": "Hassan Al Nuaimi", "tz": "Asia/Dubai", "email_optin": True, "wa_optin": True, "push_optin": False, "segment": "uae_male_25_35", "religion": "muslim"},
-    {"id": "CUST043", "name": "Rania Khalil", "tz": "Asia/Dubai", "email_optin": False, "wa_optin": True, "push_optin": True, "segment": "uae_female_35_45", "religion": "muslim"},
-    {"id": "CUST044", "name": "Tariq Al Shamsi", "tz": "Asia/Dubai", "email_optin": True, "wa_optin": False, "push_optin": True, "segment": "uae_male_35_45", "religion": "muslim"},
-    {"id": "CUST045", "name": "Hana Binti Zayed", "tz": "Asia/Dubai", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "uae_female_25_35", "religion": "muslim"},
-
-    # New customers (cold-start, <3 events)
-    {"id": "CUST046", "name": "Luca Ferrari", "tz": "Europe/London", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "uk_male_25_35", "religion": "other"},
-    {"id": "CUST047", "name": "Sana Mirza", "tz": "Asia/Dubai", "email_optin": True, "wa_optin": True, "push_optin": False, "segment": "uae_female_25_35", "religion": "muslim"},
-    {"id": "CUST048", "name": "Tom Walsh", "tz": "America/Toronto", "email_optin": True, "wa_optin": False, "push_optin": True, "segment": "canada_male_25_35", "religion": "other"},
-    {"id": "CUST049", "name": "Farah Nasser", "tz": "Africa/Cairo", "email_optin": False, "wa_optin": True, "push_optin": True, "segment": "egypt_female_25_35", "religion": "muslim"},
-    {"id": "CUST050", "name": "Ishaan Kapoor", "tz": "Asia/Dubai", "email_optin": True, "wa_optin": True, "push_optin": True, "segment": "uae_male_25_35", "religion": "hindu"},
 ]
 
 CUSTOMER_MAP = {c["id"]: c for c in CUSTOMERS}
@@ -229,7 +194,7 @@ MOTHERS_DAY_2026 = date(2026, 5, 10)
 EID_FITR_2025 = date(2025, 3, 30)
 EID_ADHA_2025 = date(2025, 6, 6)
 EID_FITR_2026 = date(2026, 3, 20)
-EID_ADHA_2026 = date(2026, 5, 27)  # 8 days from "today" (2026-05-19)
+EID_ADHA_2026 = date(2026, 5, 27)
 
 START_DATE = date(2025, 3, 1)
 TODAY = date(2026, 5, 19)
@@ -342,7 +307,7 @@ def generate_events():
 
     # 1) PROFILE UPDATES: explicit birthday/anniversary saves (→ high confidence)
     profile_updates = [
-        # Upcoming within next 9 months (May 19 2026 + 270 days = Feb 13 2027)
+        # Upcoming within next 9 months
         ("CUST001", "birthday", "1992-07-15", "Husband"),      # Jul 15
         ("CUST002", "birthday", "1988-09-22", "Wife"),         # Sep 22
         ("CUST003", "anniversary", "2019-06-10", "Husband"),   # Jun 10
@@ -353,11 +318,6 @@ def generate_events():
         ("CUST013", "anniversary", "2018-06-20", "Partner"),   # Jun 20
         ("CUST016", "birthday", "1991-10-17", "Mom"),          # Oct 17
         ("CUST021", "birthday", "1993-07-30", "Best Friend"),  # Jul 30
-        ("CUST026", "anniversary", "2017-08-12", "Husband"),   # Aug 12
-        ("CUST031", "birthday", "1985-06-25", "Mother"),       # Jun 25
-        ("CUST036", "birthday", "1996-09-19", "Sister"),       # Sep 19
-        ("CUST041", "birthday", "1988-09-05", "Husband"),      # Sep 5
-        ("CUST045", "anniversary", "2021-10-15", "Husband"),   # Oct 15
         # More upcoming dates
         ("CUST004", "birthday", "1990-07-22", "Wife"),         # Jul 22
         ("CUST005", "anniversary", "2018-09-01", "Husband"),   # Sep 1
@@ -378,17 +338,16 @@ def generate_events():
     for cid, field, val, recip in profile_updates:
         events.append(make_profile_update(CUSTOMER_MAP[cid], field, val, recip))
 
-    # 2) VALENTINE'S DAY 2025 orders (Feb 14) — wider buyer list for seasonal realism
-    valentines_buyers = ["CUST007", "CUST011", "CUST013", "CUST021", "CUST026",
-                         "CUST036", "CUST003", "CUST022",
+    # 2) VALENTINE'S DAY 2025 orders (Feb 14)
+    valentines_buyers = ["CUST007", "CUST011", "CUST013", "CUST021",
+                         "CUST003", "CUST022",
                          "CUST004", "CUST009", "CUST016", "CUST025"]
     for cid in valentines_buyers:
         c = CUSTOMER_MAP[cid]
-        recipient = "Partner" if c["id"] in ["CUST007", "CUST026"] else "Boyfriend/Girlfriend"
+        recipient = "Partner" if c["id"] in ["CUST007"] else "Boyfriend/Girlfriend"
         email_opened = bool(CUSTOMER_MAP[cid]["email_optin"])
         events.append(make_order_event(c, VALENTINES_2025, "valentines_day", "Partner", recipient,
                                        email_opened=email_opened))
-        # Browse 2-3 days before
         events.append(make_browse_event(c, VALENTINES_2025 - timedelta(days=2)))
 
     # 3) VALENTINE'S DAY 2026 orders (repeat buyers → medium confidence for next year)
@@ -400,32 +359,29 @@ def generate_events():
                                        email_opened=email_opened))
 
     # 4) WOMEN'S DAY 2025 orders (March 8) → infer repeat next year
-    womens_day_buyers = ["CUST001", "CUST006", "CUST015", "CUST030", "CUST041"]
+    womens_day_buyers = ["CUST001", "CUST006", "CUST015"]
     for cid in womens_day_buyers:
         c = CUSTOMER_MAP[cid]
         events.append(make_order_event(c, WOMENS_DAY_2025, "womens_day", "Mom", "Mother"))
 
     # 5) EID AL-FITR 2025 (March 30) - Muslim customers
-    eid_fitr_2025_buyers = ["CUST001", "CUST002", "CUST003", "CUST004", "CUST023",
-                            "CUST027", "CUST031", "CUST032", "CUST041", "CUST042"]
+    eid_fitr_2025_buyers = ["CUST001", "CUST002", "CUST003", "CUST004", "CUST023"]
     eid_recipients = [("Parents", "Parents"), ("Wife", "Spouse"), ("Mom", "Mother"),
                       ("Family", "Family"), ("Sister", "Sibling")]
     for cid in eid_fitr_2025_buyers:
         c = CUSTOMER_MAP[cid]
         recip_name, recip_rel = random.choice(eid_recipients)
         events.append(make_order_event(c, EID_FITR_2025, "eid", recip_name, recip_rel, is_muslim_occasion=True))
-        # Browse before Eid
         events.append(make_browse_event(c, EID_FITR_2025 - timedelta(days=3)))
 
     # 6) EID AL-ADHA 2025 (June 6)
-    eid_adha_2025_buyers = ["CUST002", "CUST004", "CUST005", "CUST031", "CUST033",
-                             "CUST034", "CUST038", "CUST043"]
+    eid_adha_2025_buyers = ["CUST002", "CUST004", "CUST005"]
     for cid in eid_adha_2025_buyers:
         c = CUSTOMER_MAP[cid]
         recip_name, recip_rel = random.choice(eid_recipients)
         events.append(make_order_event(c, EID_ADHA_2025, "eid", recip_name, recip_rel, is_muslim_occasion=True))
 
-    # 7) MOTHER'S DAY 2025 (May 11) - clustered recipients
+    # 7) MOTHER'S DAY 2025 (May 11)
     mothers_day_buyers = [
         ("CUST006", "Mom", "Mother"),
         ("CUST007", "Mom", "Mother"),
@@ -434,8 +390,6 @@ def generate_events():
         ("CUST016", "Mom", "Mother"),
         ("CUST017", "Amma", "Mother"),
         ("CUST021", "Mum", "Mother"),
-        ("CUST036", "Mom", "Mother"),
-        ("CUST040", "Mom", "Mother"),
     ]
     for cid, recip_name, recip_rel in mothers_day_buyers:
         c = CUSTOMER_MAP[cid]
@@ -444,15 +398,14 @@ def generate_events():
 
     # 8) DIWALI 2025 (Oct 20) - Hindu customers
     diwali_buyers = ["CUST006", "CUST007", "CUST008", "CUST009", "CUST016",
-                     "CUST017", "CUST019", "CUST040"]
+                     "CUST017", "CUST019"]
     for cid in diwali_buyers:
         c = CUSTOMER_MAP[cid]
         recip_name, recip_rel = random.choice([("Family", "Family"), ("Parents", "Parents"), ("Friends", "Friends")])
         events.append(make_order_event(c, DIWALI_2025, "diwali", recip_name, recip_rel))
 
     # 9) CHRISTMAS 2025 - Western customers
-    christmas_buyers = ["CUST011", "CUST012", "CUST013", "CUST021", "CUST022",
-                        "CUST028", "CUST036", "CUST037"]
+    christmas_buyers = ["CUST011", "CUST012", "CUST013", "CUST021", "CUST022"]
     for cid in christmas_buyers:
         c = CUSTOMER_MAP[cid]
         email_opened = bool(CUSTOMER_MAP[cid]["email_optin"])
@@ -462,12 +415,11 @@ def generate_events():
 
     # 10) BIRTHDAY orders based on profile-saved birthdays (high confidence evidence)
     birthday_orders = [
-        ("CUST001", date(2025, 7, 15), "Husband", "Spouse"),  # Husband birthday July 15
+        ("CUST001", date(2025, 7, 15), "Husband", "Spouse"),
         ("CUST002", date(2025, 9, 22), "Wife", "Spouse"),
         ("CUST006", date(2025, 12, 5), "Mom", "Mother"),
         ("CUST009", date(2025, 8, 3), "Dad", "Father"),
         ("CUST016", date(2025, 3, 17), "Mom", "Mother"),
-        ("CUST031", date(2025, 6, 25), "Mother", "Mother"),
     ]
     for cid, bday, recip_name, recip_rel in birthday_orders:
         c = CUSTOMER_MAP[cid]
@@ -475,13 +427,9 @@ def generate_events():
         events.append(make_browse_event(c, bday - timedelta(days=2)))
 
     # 11) RECIPIENT CLUSTERING: same customer, same recipient, different occasions
-    # CUST006 orders for "Mom" on Mother's Day AND Mom's birthday (Dec 5)
-    # Already done above - Mother's Day and birthday for CUST006
-
-    # CUST007 orders for "Wife" on Valentine's AND Anniversary (Feb 14)
+    # CUST007 orders for "Wife" on Valentine's AND Anniversary
     events.append(make_order_event(CUSTOMER_MAP["CUST007"], date(2025, 2, 14),
                                    "anniversary", "Wife", "Spouse"))
-    # Already have Valentine's order, now add anniversary order on anniversary date
     events.append(make_order_event(CUSTOMER_MAP["CUST007"], date(2025, 4, 10),
                                    "anniversary", "Wife", "Spouse"))
 
@@ -490,8 +438,7 @@ def generate_events():
                                    "birthday", "Dad", "Father"))
 
     # 12) EID AL-FITR 2026 (March 20) - same Muslim customers repeat
-    eid_fitr_2026_buyers = ["CUST001", "CUST002", "CUST003", "CUST027", "CUST031",
-                             "CUST042", "CUST043", "CUST044"]
+    eid_fitr_2026_buyers = ["CUST001", "CUST002", "CUST003"]
     for cid in eid_fitr_2026_buyers:
         c = CUSTOMER_MAP[cid]
         recip_name, recip_rel = random.choice(eid_recipients)
@@ -499,51 +446,37 @@ def generate_events():
         events.append(make_browse_event(c, EID_FITR_2026 - timedelta(days=4)))
 
     # 13) WOMEN'S DAY 2026 (March 8) - repeat buyers
-    womens_day_2026_buyers = ["CUST001", "CUST006", "CUST030"]
+    womens_day_2026_buyers = ["CUST001", "CUST006"]
     for cid in womens_day_2026_buyers:
         c = CUSTOMER_MAP[cid]
         events.append(make_order_event(c, WOMENS_DAY_2026, "womens_day", "Mom", "Mother"))
 
-    # 14) General browsing events to fill up to 500
+    # 14) General browsing events to fill up to 250
     all_event_dates = [START_DATE + timedelta(days=i) for i in range((TODAY - START_DATE).days)]
-    existing_count = len(events)
-    target = 500
 
     # WhatsApp interactions
     wa_customers = [c for c in CUSTOMERS if c["wa_optin"]]
-    for _ in range(40):
+    for _ in range(20):
         c = random.choice(wa_customers)
         d = random.choice(all_event_dates)
         if d < TODAY:
             events.append(make_whatsapp_event(c, d))
 
     # Opt-out events for some customers (to test consent management)
-    opt_out_customers = ["CUST005", "CUST012", "CUST035", "CUST044"]
+    opt_out_customers = ["CUST005", "CUST012"]
     for cid in opt_out_customers:
         c = CUSTOMER_MAP[cid]
         d = START_DATE + timedelta(days=random.randint(30, 200))
         events.append(make_whatsapp_event(c, d, opted_out=True))
 
-    # Fill remaining with browse events (exclude cold-start customers CUST046-050)
-    active_customers = [c for c in CUSTOMERS if c["id"] not in
-                        {"CUST046", "CUST047", "CUST048", "CUST049", "CUST050"}]
-    while len(events) < target:
-        c = random.choice(active_customers)
+    # Fill remaining with browse events
+    while len(events) < 250:
+        c = random.choice(CUSTOMERS)
         days_back = random.randint(1, (TODAY - START_DATE).days)
         d = TODAY - timedelta(days=days_back)
         events.append(make_browse_event(c, d))
 
-    # Trim active customers' events to leave room for cold-start customers
-    events = events[:492]
-
-    # NEW customers (CUST046-050): only 1-2 events each (cold-start test)
-    new_custs = ["CUST046", "CUST047", "CUST048", "CUST049", "CUST050"]
-    for cid in new_custs:
-        c = CUSTOMER_MAP[cid]
-        d = TODAY - timedelta(days=random.randint(3, 20))
-        events.append(make_browse_event(c, d))
-        if random.random() > 0.5:
-            events.append(make_browse_event(c, d - timedelta(days=1)))
+    events = events[:250]
 
     # Sort by timestamp
     events.sort(key=lambda e: e["timestamp"])

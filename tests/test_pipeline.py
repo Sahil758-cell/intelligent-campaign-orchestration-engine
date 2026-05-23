@@ -12,9 +12,9 @@ class TestStageIngest:
     def test_returns_events_catalogue_profiles(self):
         from src.pipeline import stage_ingest
         events, catalogue, profiles = stage_ingest()
-        assert len(events) >= 500
+        assert len(events) >= 200
         assert len(catalogue) == 100
-        assert len(profiles) >= 48
+        assert len(profiles) >= 20
 
 
 class TestStageDetect:
