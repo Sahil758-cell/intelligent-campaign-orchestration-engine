@@ -1,6 +1,6 @@
 [
   {
-    "send_id": "3c3bd141-22fa-40ab-b943-8e68cde6bf5f",
+    "send_id": "8fae7e34-7255-4914-b527-73ad7079b937",
     "customer_id": "CUST004",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-07-15T09:00:00+04:00",
@@ -37,7 +37,7 @@
     }
   },
   {
-    "send_id": "cd5b2758-25eb-42e0-afbe-13a36f3596e4",
+    "send_id": "217b857f-5b6e-4b0c-95d7-f7da352430c1",
     "customer_id": "CUST004",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T15:00:00+04:00",
@@ -46,13 +46,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Frankincense & Myrrh Roll-On (AED 365\u2013679) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Musk & Amber Night Spray (AED 365\u2013679) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Frankincense & Myrrh Roll-On",
+          "Musk & Amber Night Spray",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -74,7 +74,7 @@
     }
   },
   {
-    "send_id": "2237b62c-9459-4546-9f60-d0c0499a0acd",
+    "send_id": "6af7340b-95ed-4f75-b78d-64677ac59c1b",
     "customer_id": "CUST004",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-05-20T09:00:00+04:00",
@@ -89,7 +89,7 @@
         "template_body": "Eid al-Adha Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Black Forest Gateau",
+          "Cookie & Cream Ice Cream Cake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -111,7 +111,7 @@
     }
   },
   {
-    "send_id": "ff3e1d6a-e3ff-40bc-b151-a6b29b313515",
+    "send_id": "f5a5e67b-cb36-40cc-acfb-b200364d48e0",
     "customer_id": "CUST004",
     "channel": "email",
     "scheduled_send_time": "2027-03-02T15:00:00+04:00",
@@ -126,7 +126,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Sunflower Delight (6 stems)",
+          "Strawberry Shortcake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -148,7 +148,7 @@
     }
   },
   {
-    "send_id": "835b48b7-d390-4e94-a663-e96388e1b4ba",
+    "send_id": "2599a370-56f6-406a-bc58-fc9c2e562b8f",
     "customer_id": "CUST003",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-03T09:00:00+04:00",
@@ -157,13 +157,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Cedar & Vetiver Parfum 100ml (AED 474\u2013881) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Bakhoor Concentrated Perfume Oil (AED 474\u2013881) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Cedar & Vetiver Parfum 100ml",
+          "Bakhoor Concentrated Perfume Oil",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -185,7 +185,7 @@
     }
   },
   {
-    "send_id": "8247cffc-0018-48f2-a277-ca1029a127b3",
+    "send_id": "d231b67d-e1d9-4cd4-91d8-b0f283482f3a",
     "customer_id": "CUST003",
     "channel": "push",
     "scheduled_send_time": "2027-03-02T16:00:00+04:00",
@@ -200,7 +200,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Godiva Assorted Truffles Box (16pc)",
+          "His & Hers Pamper Bundle",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -222,7 +222,7 @@
     }
   },
   {
-    "send_id": "3f40d10f-b8c9-4c89-be4a-ea98ccd682d4",
+    "send_id": "0b26ff24-4a90-46d5-983c-b7b2944d613f",
     "customer_id": "CUST003",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T09:00:00+04:00",
@@ -231,13 +231,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Haribo Gummy & Chocolate Tower (AED 474\u2013881) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Midnight Oud Intense 50ml (AED 474\u2013881) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Haribo Gummy & Chocolate Tower",
+          "Midnight Oud Intense 50ml",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -259,7 +259,7 @@
     }
   },
   {
-    "send_id": "ca65295f-e8be-4b3c-936b-a22cc1444379",
+    "send_id": "84f34801-c911-48ca-8815-9216dbdf3170",
     "customer_id": "CUST016",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-10-10T09:00:00+05:30",
@@ -268,13 +268,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Mom's birthday",
-        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Kunafa Cheesecake Fusion (AED 302\u2013562) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Peony & Perfume Gift Set (AED 302\u2013562) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mom's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Kunafa Cheesecake Fusion",
+          "Peony & Perfume Gift Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -296,7 +296,7 @@
     }
   },
   {
-    "send_id": "8ad41dca-ed25-4881-aa94-304f59610fb3",
+    "send_id": "4acb885d-cea5-4880-8f37-e497b0105d2d",
     "customer_id": "CUST016",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T12:00:00+05:30",
@@ -305,13 +305,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Yellow Freesia Bundle (AED 302\u2013562) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Peony & Perfume Gift Set (AED 302\u2013562) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Yellow Freesia Bundle",
+          "Peony & Perfume Gift Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -333,7 +333,7 @@
     }
   },
   {
-    "send_id": "9b9d8cf6-522e-4f6d-b730-5c23ee2fc90f",
+    "send_id": "e83f3cfa-594c-4774-bc9b-d863ec1e1103",
     "customer_id": "CUST016",
     "channel": "push",
     "scheduled_send_time": "2026-11-01T13:00:00+05:30",
@@ -342,13 +342,13 @@
     "message": {
       "email": {
         "subject": "Diwali gifts that shine as bright as the festival",
-        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant hampers, sweets, and floral arrangements (AED 302\u2013562) \u2014 perfect for sharing the joy of the festival with Parents. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
+        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant gift sets, sweets, and floral arrangements (AED 302\u2013562) \u2014 perfect for sharing the joy of the festival with Parents. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
       },
       "whatsapp": {
         "template_body": "Happy Diwali {1} \ud83e\ude94 We've handpicked {2} to help you celebrate the festival of lights in style \u2014 delivered in 60 minutes to {3}. Browse: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Rose & Pistachio Chocolate Slab",
+          "White Chocolate Raspberry Bark",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -370,7 +370,7 @@
     }
   },
   {
-    "send_id": "5c9b19b4-46b6-4d8d-87fa-a5fdaa3e56d3",
+    "send_id": "f134e7eb-2dd7-4af3-ac87-843f6fcad779",
     "customer_id": "CUST016",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00+05:30",
@@ -379,13 +379,13 @@
     "message": {
       "email": {
         "subject": "Something beautiful for Mom this Mother's Day",
-        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Premium Rose & Oud Perfume Gift (AED 302\u2013562) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
+        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our White Lily Arrangement (AED 302\u2013562) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's Day is almost here \ud83c\udf38 We've handpicked {2} for Mom \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Premium Rose & Oud Perfume Gift",
+          "White Lily Arrangement",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -407,7 +407,7 @@
     }
   },
   {
-    "send_id": "bd5756ac-67b0-45d7-8906-fb8dce54bc78",
+    "send_id": "4ee3f122-02a5-4242-8068-fc710cb435e5",
     "customer_id": "CUST036",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-09-12T09:00:00-04:00",
@@ -416,13 +416,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Sister's birthday",
-        "body": "Sister's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Red Rose Bouquet (12 stems) (AED 168\u2013368) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Sister's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Cedar & Vetiver Parfum 100ml (AED 168\u2013368) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Sister's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Red Rose Bouquet (12 stems)",
+          "Cedar & Vetiver Parfum 100ml",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -444,7 +444,7 @@
     }
   },
   {
-    "send_id": "d73270a1-bc8c-4020-a0e0-5695fbf4821d",
+    "send_id": "fe5fb2d1-7886-47b2-a449-b12b443cf058",
     "customer_id": "CUST036",
     "channel": "email",
     "scheduled_send_time": "2026-12-18T15:00:00-05:00",
@@ -453,13 +453,13 @@
     "message": {
       "email": {
         "subject": "Christmas gifts, curated with care",
-        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Cookie & Cream Ice Cream Cake (AED 168\u2013368) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
+        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Lavender Mist Body Spray (AED 168\u2013368) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Christmas is just around the corner \u2728 We've handpicked {2} for Family \u2014 beautifully wrapped and delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Cookie & Cream Ice Cream Cake",
+          "Lavender Mist Body Spray",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -481,7 +481,7 @@
     }
   },
   {
-    "send_id": "708469b8-8d29-452a-a353-169f41e0c3df",
+    "send_id": "67b03880-0fc0-4c12-8cca-63eb60156cfe",
     "customer_id": "CUST036",
     "channel": "push",
     "scheduled_send_time": "2027-02-07T12:00:00-05:00",
@@ -490,13 +490,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Roses & Red Velvet Cake Combo (AED 168\u2013368) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Rose Bouquet & Tiramisu Combo (AED 168\u2013368) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Roses & Red Velvet Cake Combo",
+          "Rose Bouquet & Tiramisu Combo",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -518,7 +518,7 @@
     }
   },
   {
-    "send_id": "df66fc56-4cdb-48c0-be51-bf405833c0f7",
+    "send_id": "50894dd4-005d-4bf1-b06f-1a237590dbf2",
     "customer_id": "CUST036",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00-04:00",
@@ -527,13 +527,13 @@
     "message": {
       "email": {
         "subject": "Something beautiful for Mom this Mother's Day",
-        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Tulip Bouquet & Patchi Box Combo (AED 168\u2013368) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
+        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Premium Red Roses (24 stems) (AED 168\u2013368) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's Day is almost here \ud83c\udf38 We've handpicked {2} for Mom \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Tulip Bouquet & Patchi Box Combo",
+          "Premium Red Roses (24 stems)",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -555,7 +555,7 @@
     }
   },
   {
-    "send_id": "0d2e0da3-12ff-43d3-8749-b15f3b98c815",
+    "send_id": "a4d8d531-72f3-4679-b93f-3cbcd9737c04",
     "customer_id": "CUST021",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-07-23T10:00:00+01:00",
@@ -564,13 +564,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Best Friend's birthday",
-        "body": "Best Friend's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Kids Birthday Fun Box (AED 454\u2013845) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Best Friend's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Orchid & Godiva Chocolates Set (AED 454\u2013845) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Best Friend's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Kids Birthday Fun Box",
+          "Orchid & Godiva Chocolates Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -592,7 +592,7 @@
     }
   },
   {
-    "send_id": "4da3885d-e639-4ede-af9d-e0857609970f",
+    "send_id": "c799b7b0-751b-4f65-8f0f-273f638d6302",
     "customer_id": "CUST021",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T12:00:00+00:00",
@@ -601,13 +601,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Artisan Salted Caramel Bonbons (AED 454\u2013845) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Hydrangea Bliss Bouquet (AED 454\u2013845) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Artisan Salted Caramel Bonbons",
+          "Hydrangea Bliss Bouquet",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -629,7 +629,7 @@
     }
   },
   {
-    "send_id": "12efc536-026c-4aba-9a2b-12813c27257e",
+    "send_id": "93c72172-5bb1-4548-85a7-4cc2040b4af9",
     "customer_id": "CUST021",
     "channel": "push",
     "scheduled_send_time": "2026-12-18T14:00:00+00:00",
@@ -638,13 +638,13 @@
     "message": {
       "email": {
         "subject": "Christmas gifts, curated with care",
-        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Valrhona Single Origin Bar Set (AED 454\u2013845) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
+        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Kids Birthday Fun Box (AED 454\u2013845) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Christmas is just around the corner \u2728 We've handpicked {2} for Family \u2014 beautifully wrapped and delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Valrhona Single Origin Bar Set",
+          "Kids Birthday Fun Box",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -666,7 +666,7 @@
     }
   },
   {
-    "send_id": "aa6607a5-882f-457e-9335-f4d086e222d4",
+    "send_id": "c75ed329-040c-4b83-bca7-b47a7d4e7cab",
     "customer_id": "CUST021",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T10:00:00+01:00",
@@ -675,13 +675,13 @@
     "message": {
       "email": {
         "subject": "Something beautiful for Mum this Mother's Day",
-        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mum would absolutely love. Our Roses & Red Velvet Cake Combo (AED 454\u2013845) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
+        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mum would absolutely love. Our Wildflower & Wellness Hamper Set (AED 454\u2013845) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's Day is almost here \ud83c\udf38 We've handpicked {2} for Mum \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Roses & Red Velvet Cake Combo",
+          "Wildflower & Wellness Hamper Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -703,7 +703,7 @@
     }
   },
   {
-    "send_id": "05087baf-48e3-43a2-9820-a29f00c8cc14",
+    "send_id": "15d6247f-1424-4375-a977-8e011b867e02",
     "customer_id": "CUST011",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-21T13:00:00+04:00",
@@ -712,13 +712,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Sister's birthday",
-        "body": "Sister's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Vanilla Bean Dream Cake (AED 383\u2013711) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Sister's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Hydrangea Bliss Bouquet (AED 383\u2013711) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Sister's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Vanilla Bean Dream Cake",
+          "Hydrangea Bliss Bouquet",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -740,7 +740,7 @@
     }
   },
   {
-    "send_id": "c30d7419-34ed-478b-b73e-f28db190c2bc",
+    "send_id": "16c31dcb-27e8-4176-b6d9-7c5dceb600b2",
     "customer_id": "CUST011",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T16:00:00+04:00",
@@ -749,13 +749,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Frankincense & Myrrh Roll-On (AED 383\u2013711) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Tulip Bouquet & Patchi Box Combo (AED 383\u2013711) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Frankincense & Myrrh Roll-On",
+          "Tulip Bouquet & Patchi Box Combo",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -777,7 +777,7 @@
     }
   },
   {
-    "send_id": "54ff7907-cb91-4e1c-af86-a6a146d09c31",
+    "send_id": "0e92d563-a630-40cf-b044-1821dfac0c7a",
     "customer_id": "CUST011",
     "channel": "push",
     "scheduled_send_time": "2026-12-18T14:00:00+04:00",
@@ -786,13 +786,13 @@
     "message": {
       "email": {
         "subject": "Christmas gifts, curated with care",
-        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Ferrero Rocher Gift Tin (24pc) (AED 383\u2013711) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
+        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Strawberry Shortcake (AED 383\u2013711) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Christmas is just around the corner \u2728 We've handpicked {2} for Family \u2014 beautifully wrapped and delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Ferrero Rocher Gift Tin (24pc)",
+          "Strawberry Shortcake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -814,7 +814,7 @@
     }
   },
   {
-    "send_id": "b478ec62-a9c6-42d7-8bb3-2b137ed06598",
+    "send_id": "598a7ab1-7679-48a1-b1fc-38a837fe863e",
     "customer_id": "CUST011",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T13:00:00+04:00",
@@ -823,13 +823,13 @@
     "message": {
       "email": {
         "subject": "Something beautiful for Mum this Mother's Day",
-        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mum would absolutely love. Our Premium Red Roses (24 stems) (AED 383\u2013711) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
+        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mum would absolutely love. Our Bouquet & Belgian Chocolate Duo (AED 383\u2013711) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's Day is almost here \ud83c\udf38 We've handpicked {2} for Mum \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Premium Red Roses (24 stems)",
+          "Bouquet & Belgian Chocolate Duo",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -851,7 +851,7 @@
     }
   },
   {
-    "send_id": "4a07a3f4-9509-4b22-a01e-1a4b466acbfc",
+    "send_id": "87050ca9-78dc-413f-99f0-a713edf648b8",
     "customer_id": "CUST026",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-08-05T17:00:00-04:00",
@@ -860,13 +860,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Kunafa Cheesecake Fusion (AED 379\u2013704) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Sunflowers & Birthday Cake Bundle (AED 379\u2013704) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Kunafa Cheesecake Fusion",
+          "Sunflowers & Birthday Cake Bundle",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -888,7 +888,7 @@
     }
   },
   {
-    "send_id": "57c773ec-776d-4911-b5f2-456ec0f5f8c9",
+    "send_id": "4c432ec2-f7f3-4d1a-bc2f-d68a4762a541",
     "customer_id": "CUST026",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T17:00:00-05:00",
@@ -897,13 +897,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our White Lily Arrangement (AED 379\u2013704) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Orchid & Godiva Chocolates Set (AED 379\u2013704) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "White Lily Arrangement",
+          "Orchid & Godiva Chocolates Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -925,7 +925,7 @@
     }
   },
   {
-    "send_id": "71753e78-8ac3-4171-9eeb-45e004dfbb61",
+    "send_id": "7b06098a-0cbf-4324-8439-533681941e6f",
     "customer_id": "CUST025",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-24T21:00:00+00:00",
@@ -934,13 +934,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Churros Cake (AED 232\u2013432) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Midnight Oud Intense 50ml (AED 232\u2013432) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Churros Cake",
+          "Midnight Oud Intense 50ml",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -962,7 +962,7 @@
     }
   },
   {
-    "send_id": "ae6b01ad-bcc0-49e7-aca8-b6780e48824a",
+    "send_id": "dca71851-c233-4189-98fe-e925f5eaba88",
     "customer_id": "CUST025",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T12:00:00+00:00",
@@ -971,13 +971,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Red Rose Bouquet (12 stems) (AED 232\u2013432) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Jasmine Bloom EDP 75ml (AED 232\u2013432) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Red Rose Bouquet (12 stems)",
+          "Jasmine Bloom EDP 75ml",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -999,7 +999,7 @@
     }
   },
   {
-    "send_id": "5d1efb10-a725-45dc-a8e6-ad2d5bc94124",
+    "send_id": "a043831e-723e-4681-8805-f68654f788d1",
     "customer_id": "CUST007",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-08-07T12:00:00+04:00",
@@ -1008,13 +1008,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Pink Peony Bouquet (AED 495\u2013920) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Oud Royale Eau de Parfum 100ml (AED 495\u2013920) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Pink Peony Bouquet",
+          "Oud Royale Eau de Parfum 100ml",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1036,7 +1036,7 @@
     }
   },
   {
-    "send_id": "5c91add1-638f-47f9-993f-ebe3f16ff4e4",
+    "send_id": "4258c9e6-3fb3-4c96-a729-7d2032e1fad4",
     "customer_id": "CUST007",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T15:00:00+04:00",
@@ -1045,13 +1045,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Tulip Collection (15 stems) (AED 495\u2013920) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Cherry Blossom Stem Bouquet (AED 495\u2013920) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Tulip Collection (15 stems)",
+          "Cherry Blossom Stem Bouquet",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1073,7 +1073,7 @@
     }
   },
   {
-    "send_id": "e49119ca-de2b-41f9-8245-bcf078155e49",
+    "send_id": "152057fb-8332-4a10-9bc5-da9992462022",
     "customer_id": "CUST007",
     "channel": "push",
     "scheduled_send_time": "2026-11-01T14:00:00+04:00",
@@ -1082,13 +1082,13 @@
     "message": {
       "email": {
         "subject": "Diwali gifts that shine as bright as the festival",
-        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant hampers, sweets, and floral arrangements (AED 495\u2013920) \u2014 perfect for sharing the joy of the festival with Friends. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
+        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant gift sets, sweets, and floral arrangements (AED 495\u2013920) \u2014 perfect for sharing the joy of the festival with Friends. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
       },
       "whatsapp": {
         "template_body": "Happy Diwali {1} \ud83e\ude94 We've handpicked {2} to help you celebrate the festival of lights in style \u2014 delivered in 60 minutes to {3}. Browse: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Fruit & Nut Paradise Basket",
+          "White Chocolate Raspberry Bark",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1110,7 +1110,7 @@
     }
   },
   {
-    "send_id": "7b7e265c-5d85-45cc-af0c-0150d2b4cf3f",
+    "send_id": "3eb59722-eee4-48a9-8bab-93e0ac9f9a08",
     "customer_id": "CUST007",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T12:00:00+04:00",
@@ -1119,13 +1119,13 @@
     "message": {
       "email": {
         "subject": "Something beautiful for Mom this Mother's Day",
-        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Premium Rose & Oud Perfume Gift (AED 495\u2013920) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
+        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Orchid in Pot (AED 495\u2013920) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's Day is almost here \ud83c\udf38 We've handpicked {2} for Mom \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Premium Rose & Oud Perfume Gift",
+          "Orchid in Pot",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1147,7 +1147,7 @@
     }
   },
   {
-    "send_id": "dbaa0727-dd61-474d-ba23-73b757db2cd4",
+    "send_id": "23eeadcb-fb24-4e94-a56c-1de6e885a76a",
     "customer_id": "CUST009",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-07-27T17:00:00+04:00",
@@ -1156,13 +1156,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Dad's birthday",
-        "body": "Dad's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Churros Cake (AED 552\u20131025) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Dad's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Kids Birthday Fun Box (AED 552\u20131025) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Dad's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Churros Cake",
+          "Kids Birthday Fun Box",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1184,7 +1184,7 @@
     }
   },
   {
-    "send_id": "c22f3675-5ddd-4a9a-baa6-73cdc9a2a12a",
+    "send_id": "3d6c7f00-fd56-442b-b734-943d7cd0af44",
     "customer_id": "CUST009",
     "channel": "email",
     "scheduled_send_time": "2026-11-01T14:00:00+04:00",
@@ -1193,13 +1193,13 @@
     "message": {
       "email": {
         "subject": "Diwali gifts that shine as bright as the festival",
-        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant hampers, sweets, and floral arrangements (AED 552\u20131025) \u2014 perfect for sharing the joy of the festival with Family. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
+        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant gift sets, sweets, and floral arrangements (AED 552\u20131025) \u2014 perfect for sharing the joy of the festival with Family. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
       },
       "whatsapp": {
         "template_body": "Happy Diwali {1} \ud83e\ude94 We've handpicked {2} to help you celebrate the festival of lights in style \u2014 delivered in 60 minutes to {3}. Browse: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Eid Mubarak Luxury Gift Box",
+          "Picnic in the Park Hamper",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1221,7 +1221,7 @@
     }
   },
   {
-    "send_id": "c820533a-74ac-451b-ac15-8a69e44af4b9",
+    "send_id": "49884fe9-0529-4d5b-bb60-4649eb3cfb51",
     "customer_id": "CUST009",
     "channel": "push",
     "scheduled_send_time": "2027-02-07T15:00:00+04:00",
@@ -1230,13 +1230,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Toblerone Tower Set (AED 552\u20131025) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Orchid & Godiva Chocolates Set (AED 552\u20131025) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Toblerone Tower Set",
+          "Orchid & Godiva Chocolates Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1258,7 +1258,7 @@
     }
   },
   {
-    "send_id": "dd73f0f0-d105-46b1-b7f1-83d39ba2e12f",
+    "send_id": "64eb85f3-7b5d-424f-91af-9401d0c7635b",
     "customer_id": "CUST009",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T17:00:00+04:00",
@@ -1267,13 +1267,13 @@
     "message": {
       "email": {
         "subject": "Something beautiful for Mom this Mother's Day",
-        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Chrysanthemum Wreath (AED 552\u20131025) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
+        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Wildflower & Wellness Hamper Set (AED 552\u20131025) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's Day is almost here \ud83c\udf38 We've handpicked {2} for Mom \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Chrysanthemum Wreath",
+          "Wildflower & Wellness Hamper Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1295,7 +1295,7 @@
     }
   },
   {
-    "send_id": "6cdd2a0e-5ede-44d9-a730-44504383d981",
+    "send_id": "a5663677-9757-4d13-8660-e8b1080bca97",
     "customer_id": "CUST022",
     "channel": "email",
     "scheduled_send_time": "2026-09-07T15:00:00+01:00",
@@ -1304,13 +1304,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Wife's birthday",
-        "body": "Wife's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Nutella Swirl Chocolate Box (AED 189\u2013389) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Wife's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Rose Arabica Parfum 50ml (AED 189\u2013389) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Wife's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Nutella Swirl Chocolate Box",
+          "Rose Arabica Parfum 50ml",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1332,7 +1332,7 @@
     }
   },
   {
-    "send_id": "c058da70-95a4-4384-a557-b8cbd4b94057",
+    "send_id": "a44c7bbe-1434-4102-a0d0-7c42a99d5a6d",
     "customer_id": "CUST022",
     "channel": "push",
     "scheduled_send_time": "2026-12-18T18:00:00+00:00",
@@ -1341,13 +1341,13 @@
     "message": {
       "email": {
         "subject": "Christmas gifts, curated with care",
-        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Mango Mousse Cake (AED 189\u2013389) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
+        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Rose Arabica Parfum 50ml (AED 189\u2013389) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Christmas is just around the corner \u2728 We've handpicked {2} for Family \u2014 beautifully wrapped and delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Mango Mousse Cake",
+          "Rose Arabica Parfum 50ml",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1369,7 +1369,7 @@
     }
   },
   {
-    "send_id": "7d9c3281-0bc6-4b1d-9e89-75699129b018",
+    "send_id": "1585cdec-3a35-428d-b3ab-49165bc0206c",
     "customer_id": "CUST022",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T15:00:00+00:00",
@@ -1378,13 +1378,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Frankincense & Myrrh Roll-On (AED 189\u2013389) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Patchi Luxury Date & Chocolate Box (AED 189\u2013389) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Frankincense & Myrrh Roll-On",
+          "Patchi Luxury Date & Chocolate Box",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1406,7 +1406,7 @@
     }
   },
   {
-    "send_id": "d98fe14c-d334-41e0-a64a-50f95d1010a6",
+    "send_id": "faec0e92-9994-47bd-8ac4-d57b3c90998c",
     "customer_id": "CUST013",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-13T16:00:00+04:00",
@@ -1415,13 +1415,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Midnight Oud Intense 50ml (AED 548\u20131019) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Jasmine Garland (AED 548\u20131019) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Midnight Oud Intense 50ml",
+          "Jasmine Garland",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1443,7 +1443,7 @@
     }
   },
   {
-    "send_id": "d321ee68-5684-4bce-8437-1366dfd00867",
+    "send_id": "d3e4f71a-6eff-441d-a6ca-0a92c5154e8e",
     "customer_id": "CUST013",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T13:00:00+04:00",
@@ -1452,13 +1452,13 @@
     "message": {
       "email": {
         "subject": "Valentine's Day \u2014 make it one to remember",
-        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our White Lily Arrangement (AED 548\u20131019) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
+        "body": "Valentine's Day is around the corner, and this year we'd love to help you go a little further. Our Sandalwood Serenity Cologne (AED 548\u20131019) is one of our most cherished arrangements \u2014 perfect for someone you want to make feel truly special. We handle every detail, from the presentation to delivery at your door. Browse our Valentine's collection and let us do the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Valentine's Day is almost here \ud83d\udc90 We've curated {2} for someone who deserves something truly beautiful \u2014 delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "White Lily Arrangement",
+          "Sandalwood Serenity Cologne",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1480,7 +1480,7 @@
     }
   },
   {
-    "send_id": "8bb54ad3-19a4-4792-86f4-088a46a231f9",
+    "send_id": "fbe19be8-e475-49c4-b340-194d0facdf6c",
     "customer_id": "CUST013",
     "channel": "push",
     "scheduled_send_time": "2026-12-18T16:00:00+04:00",
@@ -1489,13 +1489,13 @@
     "message": {
       "email": {
         "subject": "Christmas gifts, curated with care",
-        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Cedar & Vetiver Parfum 100ml (AED 548\u20131019) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
+        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Premium Coffee & Sweets Basket (AED 548\u20131019) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Christmas is just around the corner \u2728 We've handpicked {2} for Family \u2014 beautifully wrapped and delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Cedar & Vetiver Parfum 100ml",
+          "Premium Coffee & Sweets Basket",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1517,7 +1517,7 @@
     }
   },
   {
-    "send_id": "b341f3d4-8a04-4ca9-9eb7-a2c4cd0d8939",
+    "send_id": "2a07a136-e4f9-4787-9d69-6867c4eccd34",
     "customer_id": "CUST020",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-08T09:00:00+05:30",
@@ -1526,13 +1526,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Sister's birthday",
-        "body": "Sister's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Ramadan Family Sharing Hamper (AED 140\u2013340) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Sister's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Tea & Biscuit Indulgence Box (AED 140\u2013340) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Sister's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Ramadan Family Sharing Hamper",
+          "Tea & Biscuit Indulgence Box",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1554,7 +1554,7 @@
     }
   },
   {
-    "send_id": "57e045f5-e77e-45a8-b4c8-055cacac5166",
+    "send_id": "94ca351e-b405-44c7-9981-ae317c813a76",
     "customer_id": "CUST037",
     "channel": "email",
     "scheduled_send_time": "2026-12-18T18:00:00-05:00",
@@ -1563,13 +1563,13 @@
     "message": {
       "email": {
         "subject": "Christmas gifts, curated with care",
-        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Vanilla Bean Dream Cake (AED 191\u2013391) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
+        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our White Chocolate Raspberry Bark (AED 191\u2013391) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Christmas is just around the corner \u2728 We've handpicked {2} for Family \u2014 beautifully wrapped and delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Vanilla Bean Dream Cake",
+          "White Chocolate Raspberry Bark",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1591,7 +1591,7 @@
     }
   },
   {
-    "send_id": "93b6a326-d59e-44ae-9d19-ebd27a7013db",
+    "send_id": "88b9c505-1507-4fe2-9ac5-db50974ce463",
     "customer_id": "CUST043",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-05-20T09:00:00+04:00",
@@ -1606,7 +1606,7 @@
         "template_body": "Eid al-Adha Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Rose Bouquet & Tiramisu Combo",
+          "His & Hers Pamper Bundle",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1628,7 +1628,7 @@
     }
   },
   {
-    "send_id": "4f389197-d5aa-4112-89c6-6f01793e6f1a",
+    "send_id": "7d84244e-3285-4995-8eef-6571e2afa292",
     "customer_id": "CUST043",
     "channel": "push",
     "scheduled_send_time": "2027-03-02T15:00:00+04:00",
@@ -1643,7 +1643,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Tea & Biscuit Indulgence Box",
+          "Romantic Rose & Lily Combo",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1665,7 +1665,7 @@
     }
   },
   {
-    "send_id": "14518e8a-910e-48ad-9483-fd0335db9a3c",
+    "send_id": "c15cfff1-9d7d-4cd3-aad9-a5ac36aceb3e",
     "customer_id": "CUST008",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-08-12T09:00:00+04:00",
@@ -1674,13 +1674,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Mom's birthday",
-        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Mixed Wildflower Bunch (AED 573\u20131065) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Sandalwood Serenity Cologne (AED 573\u20131065) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mom's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Mixed Wildflower Bunch",
+          "Sandalwood Serenity Cologne",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1702,7 +1702,7 @@
     }
   },
   {
-    "send_id": "82f37ea2-f6a5-47cc-b009-3de4faf74096",
+    "send_id": "545bbdb9-3b18-4203-b600-586bb99a0bf4",
     "customer_id": "CUST008",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-01T09:00:00+04:00",
@@ -1711,13 +1711,13 @@
     "message": {
       "email": {
         "subject": "Diwali gifts that shine as bright as the festival",
-        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant hampers, sweets, and floral arrangements (AED 573\u20131065) \u2014 perfect for sharing the joy of the festival with Family. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
+        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant gift sets, sweets, and floral arrangements (AED 573\u20131065) \u2014 perfect for sharing the joy of the festival with Family. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
       },
       "whatsapp": {
         "template_body": "Happy Diwali {1} \ud83e\ude94 We've handpicked {2} to help you celebrate the festival of lights in style \u2014 delivered in 60 minutes to {3}. Browse: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Eid Mubarak Luxury Gift Box",
+          "Wildflower & Wellness Hamper Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1739,7 +1739,7 @@
     }
   },
   {
-    "send_id": "ceec00f6-4aad-4f2b-bd57-2ccc849521e8",
+    "send_id": "6f37a503-e3ca-43b9-ae35-11cb7286ad47",
     "customer_id": "CUST018",
     "channel": "email",
     "scheduled_send_time": "2026-10-13T19:00:00+05:30",
@@ -1748,13 +1748,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Churros Cake (AED 140\u2013340) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Cookie & Cream Ice Cream Cake (AED 140\u2013340) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Churros Cake",
+          "Cookie & Cream Ice Cream Cake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1776,7 +1776,7 @@
     }
   },
   {
-    "send_id": "23c81b32-a964-4618-971a-76de17ee54a5",
+    "send_id": "c5d22a2e-d5ff-400a-b0ea-36938fe107aa",
     "customer_id": "CUST006",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-28T09:00:00+04:00",
@@ -1785,13 +1785,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Mom's birthday",
-        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Kunafa Cheesecake Fusion (AED 407\u2013756) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Premium Coffee & Sweets Basket (AED 407\u2013756) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mom's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Kunafa Cheesecake Fusion",
+          "Premium Coffee & Sweets Basket",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1813,7 +1813,7 @@
     }
   },
   {
-    "send_id": "d8bb49ef-916e-4121-b368-3d56f80b2e3e",
+    "send_id": "5f9d96b7-3d4a-4d87-978f-7faf85c4ba14",
     "customer_id": "CUST006",
     "channel": "email",
     "scheduled_send_time": "2027-03-01T15:00:00+04:00",
@@ -1822,13 +1822,13 @@
     "message": {
       "email": {
         "subject": "Celebrate the women who inspire you",
-        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our Daisy Garden Mix (AED 407\u2013756) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
+        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our Jasmine Garland (AED 407\u2013756) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Women's Day is almost here \ud83c\udf38 We've handpicked {2} to celebrate Mom \u2014 delivered beautifully in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Daisy Garden Mix",
+          "Jasmine Garland",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1850,7 +1850,7 @@
     }
   },
   {
-    "send_id": "eaf11aa1-6572-46ef-b31d-b5c5ae2f2caa",
+    "send_id": "2c18de23-1452-4005-8d67-d65bc81de8bc",
     "customer_id": "CUST006",
     "channel": "push",
     "scheduled_send_time": "2026-11-01T14:00:00+04:00",
@@ -1859,13 +1859,13 @@
     "message": {
       "email": {
         "subject": "Diwali gifts that shine as bright as the festival",
-        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant hampers, sweets, and floral arrangements (AED 407\u2013756) \u2014 perfect for sharing the joy of the festival with Parents. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
+        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant gift sets, sweets, and floral arrangements (AED 407\u2013756) \u2014 perfect for sharing the joy of the festival with Parents. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
       },
       "whatsapp": {
         "template_body": "Happy Diwali {1} \ud83e\ude94 We've handpicked {2} to help you celebrate the festival of lights in style \u2014 delivered in 60 minutes to {3}. Browse: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Saffron & Cardamom Cake",
+          "Hazelnut Praline Cake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1887,7 +1887,7 @@
     }
   },
   {
-    "send_id": "612c9329-0440-44a9-bac2-2ff5245ff784",
+    "send_id": "3e0a6a2c-5649-4309-9e20-fe456647559d",
     "customer_id": "CUST006",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00+04:00",
@@ -1896,13 +1896,13 @@
     "message": {
       "email": {
         "subject": "Something beautiful for Mom this Mother's Day",
-        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Sunflowers & Birthday Cake Bundle (AED 407\u2013756) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
+        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Premium Rose & Oud Perfume Gift (AED 407\u2013756) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's Day is almost here \ud83c\udf38 We've handpicked {2} for Mom \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Sunflowers & Birthday Cake Bundle",
+          "Premium Rose & Oud Perfume Gift",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1924,7 +1924,7 @@
     }
   },
   {
-    "send_id": "9b6750a9-da77-4ea2-b801-4672f35569ea",
+    "send_id": "453a1f31-ddcc-48f0-acea-cb50d2f5675b",
     "customer_id": "CUST041",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-08-29T18:00:00+04:00",
@@ -1933,13 +1933,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Husband's birthday",
-        "body": "Husband's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Spa & Relaxation Gift Set (AED 358\u2013665) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Husband's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Lavender Mist Body Spray (AED 358\u2013665) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Husband's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Spa & Relaxation Gift Set",
+          "Lavender Mist Body Spray",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1961,7 +1961,7 @@
     }
   },
   {
-    "send_id": "9f641fc6-4e3e-4b16-95ac-db58c87283a6",
+    "send_id": "9e791516-8397-4d49-a18c-ee8db3eccd40",
     "customer_id": "CUST041",
     "channel": "push",
     "scheduled_send_time": "2027-03-01T13:00:00+04:00",
@@ -1970,13 +1970,13 @@
     "message": {
       "email": {
         "subject": "Celebrate the women who inspire you",
-        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our Jasmine Garland (AED 358\u2013665) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
+        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our Exotic Bird of Paradise (AED 358\u2013665) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Women's Day is almost here \ud83c\udf38 We've handpicked {2} to celebrate Mom \u2014 delivered beautifully in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Jasmine Garland",
+          "Exotic Bird of Paradise",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -1998,7 +1998,7 @@
     }
   },
   {
-    "send_id": "766e7ad3-6b08-4f3d-be9a-f7f56db374a9",
+    "send_id": "845de20e-e6bf-4000-a45e-0d929bdb6dfb",
     "customer_id": "CUST041",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T18:00:00+04:00",
@@ -2013,7 +2013,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Churros Cake",
+          "Belgian Dark Chocolate Bark",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2035,7 +2035,7 @@
     }
   },
   {
-    "send_id": "9e2cf700-6b4c-46ac-9396-ddd424e75629",
+    "send_id": "fdb6689d-2008-4ff8-a52f-2abc20a92bcc",
     "customer_id": "CUST001",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-07-08T09:00:00+04:00",
@@ -2044,13 +2044,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Husband's birthday",
-        "body": "Husband's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Ramadan Family Sharing Hamper (AED 305\u2013568) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Husband's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our His & Hers Pamper Bundle (AED 305\u2013568) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Husband's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Ramadan Family Sharing Hamper",
+          "His & Hers Pamper Bundle",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2072,7 +2072,7 @@
     }
   },
   {
-    "send_id": "b7756810-e579-49ab-9d8a-acdcdb96ed26",
+    "send_id": "4023ed5a-f86b-4669-a2d6-d64746a0bec7",
     "customer_id": "CUST001",
     "channel": "push",
     "scheduled_send_time": "2027-03-01T15:00:00+04:00",
@@ -2081,13 +2081,13 @@
     "message": {
       "email": {
         "subject": "Celebrate the women who inspire you",
-        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our Romantic Rose & Lily Combo (AED 305\u2013568) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
+        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our Chrysanthemum Wreath (AED 305\u2013568) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Women's Day is almost here \ud83c\udf38 We've handpicked {2} to celebrate Mom \u2014 delivered beautifully in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Romantic Rose & Lily Combo",
+          "Chrysanthemum Wreath",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2109,7 +2109,7 @@
     }
   },
   {
-    "send_id": "f173db6d-8a97-4d82-a770-de12d01baa56",
+    "send_id": "ec3e7b12-b44a-4ecb-8ef6-0f0b54c60842",
     "customer_id": "CUST001",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T09:00:00+04:00",
@@ -2124,7 +2124,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Premium Red Roses (24 stems)",
+          "Tulip Collection (15 stems)",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2146,7 +2146,7 @@
     }
   },
   {
-    "send_id": "a081f47d-15a7-47c5-aa39-a979d281eaf1",
+    "send_id": "c3fa7d54-9dfa-42f0-a172-cbec7d23f106",
     "customer_id": "CUST030",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-01T14:00:00-05:00",
@@ -2155,13 +2155,13 @@
     "message": {
       "email": {
         "subject": "Celebrate the women who inspire you",
-        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our White Lily Arrangement (AED 208\u2013408) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
+        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our Romantic Rose & Lily Combo (AED 208\u2013408) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Women's Day is almost here \ud83c\udf38 We've handpicked {2} to celebrate Mom \u2014 delivered beautifully in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "White Lily Arrangement",
+          "Romantic Rose & Lily Combo",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2183,7 +2183,7 @@
     }
   },
   {
-    "send_id": "89971e11-1d29-4185-a2f9-32388fb0ba5f",
+    "send_id": "84c2aace-06ab-4cdf-89c0-547cc08c542c",
     "customer_id": "CUST015",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-21T09:00:00+04:00",
@@ -2192,13 +2192,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Velvet Rose Parfum 80ml (AED 54\u2013254) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Cookie & Cream Ice Cream Cake (AED 54\u2013254) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Velvet Rose Parfum 80ml",
+          "Cookie & Cream Ice Cream Cake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2220,7 +2220,7 @@
     }
   },
   {
-    "send_id": "16c4196b-6b58-4a18-b31e-ee20fd106d7c",
+    "send_id": "3b07d710-c13d-4928-9d2e-68da6da623ce",
     "customer_id": "CUST015",
     "channel": "email",
     "scheduled_send_time": "2027-03-01T18:00:00+04:00",
@@ -2229,13 +2229,13 @@
     "message": {
       "email": {
         "subject": "Celebrate the women who inspire you",
-        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our Daisy Garden Mix (AED 54\u2013254) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
+        "body": "International Women's Day is a moment to celebrate the remarkable women in our lives. Our Chrysanthemum Wreath (AED 54\u2013254) has been thoughtfully curated to honour someone extraordinary \u2014 Mom. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure the gesture arrives as beautifully as it was intended. Browse our Women's Day collection and let us help you celebrate her."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Women's Day is almost here \ud83c\udf38 We've handpicked {2} to celebrate Mom \u2014 delivered beautifully in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Daisy Garden Mix",
+          "Chrysanthemum Wreath",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2257,7 +2257,7 @@
     }
   },
   {
-    "send_id": "624f9329-db08-4126-b714-1f922aff9a72",
+    "send_id": "c0b689cf-8584-498e-8d0d-e3064066ad8e",
     "customer_id": "CUST024",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-10-18T10:00:00+01:00",
@@ -2266,13 +2266,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Mom's birthday",
-        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Midnight Oud Intense 50ml (AED 140\u2013340) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Sugar-Free Dark Chocolate Set (AED 140\u2013340) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mom's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Midnight Oud Intense 50ml",
+          "Sugar-Free Dark Chocolate Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2294,7 +2294,7 @@
     }
   },
   {
-    "send_id": "99aca124-c978-4f5b-a14c-1efceff3c3bf",
+    "send_id": "5b49d48c-182a-4928-be39-bf3ec5288f21",
     "customer_id": "CUST023",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-30T10:00:00+01:00",
@@ -2331,7 +2331,7 @@
     }
   },
   {
-    "send_id": "a80246c1-6c88-4d29-8269-e8f15479e064",
+    "send_id": "2b81fc22-49ea-46af-ba8d-895ebebcd30d",
     "customer_id": "CUST023",
     "channel": "email",
     "scheduled_send_time": "2027-03-02T14:00:00+00:00",
@@ -2346,7 +2346,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Haribo Gummy & Chocolate Tower",
+          "Lavender Mist Body Spray",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2368,7 +2368,7 @@
     }
   },
   {
-    "send_id": "4dd35960-d1e3-43aa-90f3-2692705acf3b",
+    "send_id": "ff6f4eb2-8f5f-44c7-8a34-e0504a7798b0",
     "customer_id": "CUST040",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-01T09:00:00-08:00",
@@ -2377,13 +2377,13 @@
     "message": {
       "email": {
         "subject": "Diwali gifts that shine as bright as the festival",
-        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant hampers, sweets, and floral arrangements (AED 245\u2013456) \u2014 perfect for sharing the joy of the festival with Family. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
+        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant gift sets, sweets, and floral arrangements (AED 245\u2013456) \u2014 perfect for sharing the joy of the festival with Family. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
       },
       "whatsapp": {
         "template_body": "Happy Diwali {1} \ud83e\ude94 We've handpicked {2} to help you celebrate the festival of lights in style \u2014 delivered in 60 minutes to {3}. Browse: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Ramadan Family Sharing Hamper",
+          "Belgian Dark Chocolate Bark",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2405,7 +2405,7 @@
     }
   },
   {
-    "send_id": "df2149d4-ade0-4fe3-b6e1-5d551a9fd44b",
+    "send_id": "3298233d-8b64-45b2-8202-27f9f9fdf105",
     "customer_id": "CUST040",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00-07:00",
@@ -2414,13 +2414,13 @@
     "message": {
       "email": {
         "subject": "Something beautiful for Mom this Mother's Day",
-        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Orchid in Pot (AED 245\u2013456) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
+        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Mom would absolutely love. Our Wildflower & Wellness Hamper Set (AED 245\u2013456) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's Day is almost here \ud83c\udf38 We've handpicked {2} for Mom \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Orchid in Pot",
+          "Wildflower & Wellness Hamper Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2442,7 +2442,7 @@
     }
   },
   {
-    "send_id": "79262fb7-2017-4d08-ba2b-e7f2c5aaa109",
+    "send_id": "a1ed7174-a55a-4f9e-b60c-77cb4aea2ecb",
     "customer_id": "CUST032",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T20:00:00+02:00",
@@ -2457,7 +2457,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Lavender Mist Body Spray",
+          "Vanilla Bean Dream Cake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2479,7 +2479,7 @@
     }
   },
   {
-    "send_id": "a3f585d3-c329-45bc-9c9f-89bc72d28d11",
+    "send_id": "37b1462c-418d-4c58-9c91-e6971dad2647",
     "customer_id": "CUST017",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-12-05T09:00:00+05:30",
@@ -2488,13 +2488,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Dad's birthday",
-        "body": "Dad's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Ramadan Family Sharing Hamper (AED 347\u2013644) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Dad's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Spa & Relaxation Gift Set (AED 347\u2013644) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Dad's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Ramadan Family Sharing Hamper",
+          "Spa & Relaxation Gift Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2516,7 +2516,7 @@
     }
   },
   {
-    "send_id": "fa39f488-98c7-4c2c-bacc-48afb35fda3d",
+    "send_id": "485a30d5-6b2b-4bc6-a6df-4d149915eb1c",
     "customer_id": "CUST017",
     "channel": "email",
     "scheduled_send_time": "2026-11-01T19:00:00+05:30",
@@ -2525,13 +2525,13 @@
     "message": {
       "email": {
         "subject": "Diwali gifts that shine as bright as the festival",
-        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant hampers, sweets, and floral arrangements (AED 347\u2013644) \u2014 perfect for sharing the joy of the festival with Family. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
+        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant gift sets, sweets, and floral arrangements (AED 347\u2013644) \u2014 perfect for sharing the joy of the festival with Family. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
       },
       "whatsapp": {
         "template_body": "Happy Diwali {1} \ud83e\ude94 We've handpicked {2} to help you celebrate the festival of lights in style \u2014 delivered in 60 minutes to {3}. Browse: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Gourmet Cheese & Crackers Basket",
+          "Dark Chocolate Truffle Cake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2553,7 +2553,7 @@
     }
   },
   {
-    "send_id": "c49146b5-5c52-4107-bfb1-2ede10945a90",
+    "send_id": "a57b4208-f865-4134-8ac4-c711b5a67781",
     "customer_id": "CUST017",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00+05:30",
@@ -2562,13 +2562,13 @@
     "message": {
       "email": {
         "subject": "Something beautiful for Amma this Mother's Day",
-        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Amma would absolutely love. Our Premium Rose & Oud Perfume Gift (AED 347\u2013644) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
+        "body": "Mother's Day is just around the corner, and we've handpicked a few gifts we think Amma would absolutely love. Our Red Rose Bouquet (12 stems) (AED 347\u2013644) is one of our most treasured arrangements \u2014 perfect for the woman who deserves everything. With 60-minute delivery across Dubai and Abu Dhabi, we'll make sure it arrives beautifully on her special day. Browse our Mother's Day collection and let us take care of the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's Day is almost here \ud83c\udf38 We've handpicked {2} for Amma \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Premium Rose & Oud Perfume Gift",
+          "Red Rose Bouquet (12 stems)",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2590,7 +2590,7 @@
     }
   },
   {
-    "send_id": "bddaf16f-0f63-4bd5-8cc7-be3fd7ec4704",
+    "send_id": "1b033fdf-a1b5-4517-8981-23ce01f9f2e3",
     "customer_id": "CUST019",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-08-23T09:00:00+05:30",
@@ -2599,13 +2599,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Mom's birthday",
-        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Midnight Oud Intense 50ml (AED 141\u2013341) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Mom's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Ramadan Family Sharing Hamper (AED 141\u2013341) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mom's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Midnight Oud Intense 50ml",
+          "Ramadan Family Sharing Hamper",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2627,7 +2627,7 @@
     }
   },
   {
-    "send_id": "4e26d947-1ccc-4a56-8105-4f51425e19ff",
+    "send_id": "c31b4a65-7b04-4f7a-b275-f268edbc994c",
     "customer_id": "CUST019",
     "channel": "push",
     "scheduled_send_time": "2026-11-01T15:00:00+05:30",
@@ -2636,13 +2636,13 @@
     "message": {
       "email": {
         "subject": "Diwali gifts that shine as bright as the festival",
-        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant hampers, sweets, and floral arrangements (AED 141\u2013341) \u2014 perfect for sharing the joy of the festival with Parents. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
+        "body": "Diwali is a time for light, warmth, and celebrating the people who matter most. We've curated a collection of elegant gift sets, sweets, and floral arrangements (AED 141\u2013341) \u2014 perfect for sharing the joy of the festival with Parents. With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. Happy Diwali from the Zuvees family."
       },
       "whatsapp": {
         "template_body": "Happy Diwali {1} \ud83e\ude94 We've handpicked {2} to help you celebrate the festival of lights in style \u2014 delivered in 60 minutes to {3}. Browse: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Fruit & Nut Paradise Basket",
+          "Picnic in the Park Hamper",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2664,7 +2664,7 @@
     }
   },
   {
-    "send_id": "8b075750-29eb-4b0b-983b-8e758c6377b8",
+    "send_id": "1a9f83a9-80f3-420c-af6f-869f98bde7fc",
     "customer_id": "CUST002",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-09-15T08:00:00+04:00",
@@ -2673,13 +2673,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Wife's birthday",
-        "body": "Wife's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Peony & Perfume Gift Set (AED 225\u2013425) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Wife's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Godiva Assorted Truffles Box (16pc) (AED 225\u2013425) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Wife's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Peony & Perfume Gift Set",
+          "Godiva Assorted Truffles Box (16pc)",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2701,7 +2701,7 @@
     }
   },
   {
-    "send_id": "cfa5337e-50ee-4c05-8d50-3b7c3c7894d1",
+    "send_id": "d9dec682-214a-41ce-9c4a-1ae8d4888361",
     "customer_id": "CUST002",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T08:00:00+04:00",
@@ -2716,7 +2716,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Saffron & Gold Parfum 100ml",
+          "Sunflowers & Birthday Cake Bundle",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2738,7 +2738,7 @@
     }
   },
   {
-    "send_id": "fd44a751-61b9-4488-8908-4eb9b31b66eb",
+    "send_id": "78f8f1a4-8c80-4a3e-ad84-96698ca89c3a",
     "customer_id": "CUST002",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-05-20T08:00:00+04:00",
@@ -2753,7 +2753,7 @@
         "template_body": "Eid al-Adha Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Rose & Pistachio Chocolate Slab",
+          "Pineapple Upside Down Cake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2775,7 +2775,7 @@
     }
   },
   {
-    "send_id": "24eeaf2e-ad31-43ae-8aa6-46905791cf84",
+    "send_id": "e6ac5632-42aa-4570-8174-e7fab4d4f8ef",
     "customer_id": "CUST045",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-10-08T13:00:00+04:00",
@@ -2784,13 +2784,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Strawberry Shortcake (AED 140\u2013340) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Cookie & Cream Ice Cream Cake (AED 140\u2013340) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Strawberry Shortcake",
+          "Cookie & Cream Ice Cream Cake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2812,7 +2812,7 @@
     }
   },
   {
-    "send_id": "00c44a24-9f6b-4b91-92ca-81ec7b1f79e9",
+    "send_id": "e4c8bb3b-24d9-4dc8-8c91-020d38471445",
     "customer_id": "CUST044",
     "channel": "push",
     "scheduled_send_time": "2027-03-02T13:00:00+04:00",
@@ -2827,7 +2827,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Winter Warmth Gift Basket",
+          "White Chocolate Raspberry Bark",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2849,7 +2849,7 @@
     }
   },
   {
-    "send_id": "464369ab-eca8-4f24-af6c-32f404d82c06",
+    "send_id": "323f2c29-9ee4-44c6-b680-8fc9f3369019",
     "customer_id": "CUST012",
     "channel": "email",
     "scheduled_send_time": "2026-10-01T17:00:00+04:00",
@@ -2858,13 +2858,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Wife's birthday",
-        "body": "Wife's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Toblerone Tower Set (AED 148\u2013348) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Wife's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Birthday Celebration Mega Hamper (AED 148\u2013348) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Wife's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Toblerone Tower Set",
+          "Birthday Celebration Mega Hamper",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2886,7 +2886,7 @@
     }
   },
   {
-    "send_id": "9934bcef-c9a4-4321-b280-5169ee41f556",
+    "send_id": "f34454c7-d296-48fd-9d78-3a8eae348e3e",
     "customer_id": "CUST012",
     "channel": "email",
     "scheduled_send_time": "2026-12-18T17:00:00+04:00",
@@ -2895,13 +2895,13 @@
     "message": {
       "email": {
         "subject": "Christmas gifts, curated with care",
-        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Hazelnut Praline Cake (AED 148\u2013348) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
+        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Fresh Citrus Burst EDT 100ml (AED 148\u2013348) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Christmas is just around the corner \u2728 We've handpicked {2} for Family \u2014 beautifully wrapped and delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Hazelnut Praline Cake",
+          "Fresh Citrus Burst EDT 100ml",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2923,7 +2923,7 @@
     }
   },
   {
-    "send_id": "b5ee1e5e-4710-4e20-b477-33b5ec604649",
+    "send_id": "e04a7231-07b7-4f54-8c3c-1667eff36300",
     "customer_id": "CUST027",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T09:00:00-05:00",
@@ -2938,7 +2938,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Nutella Swirl Chocolate Box",
+          "Exotic Bird of Paradise",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2960,7 +2960,7 @@
     }
   },
   {
-    "send_id": "85363ba2-67da-4026-8d63-4c1281d113de",
+    "send_id": "c166cd87-50f3-4be6-9716-b33dd6f6196c",
     "customer_id": "CUST031",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-18T09:00:00+03:00",
@@ -2969,13 +2969,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Mother's birthday",
-        "body": "Mother's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our His & Hers Pamper Bundle (AED 701\u20131303) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Mother's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Nutella Swirl Chocolate Box (AED 701\u20131303) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Mother's birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "His & Hers Pamper Bundle",
+          "Nutella Swirl Chocolate Box",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -2997,7 +2997,7 @@
     }
   },
   {
-    "send_id": "465ae96d-da00-4064-86ee-bbbd43f861d3",
+    "send_id": "11990498-8fdf-40e9-9bc5-5db8131a07bd",
     "customer_id": "CUST031",
     "channel": "email",
     "scheduled_send_time": "2027-03-02T16:00:00+02:00",
@@ -3012,7 +3012,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Roses & Red Velvet Cake Combo",
+          "Ferrero Rocher Drip Cake",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3034,7 +3034,7 @@
     }
   },
   {
-    "send_id": "b3fd069e-02c8-4826-b828-389e75ea3014",
+    "send_id": "23159ea2-c9c7-4307-88e4-ad19683455a2",
     "customer_id": "CUST031",
     "channel": "push",
     "scheduled_send_time": "2026-05-20T12:00:00+03:00",
@@ -3049,7 +3049,7 @@
         "template_body": "Eid al-Adha Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Ferrero Rocher Drip Cake",
+          "Oud Royale Eau de Parfum 100ml",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3071,7 +3071,7 @@
     }
   },
   {
-    "send_id": "a73653c0-1b53-4c5d-a5ae-021270ac54d1",
+    "send_id": "f2cdae78-53cc-4b11-8ab6-ff0a88b428d7",
     "customer_id": "CUST005",
     "channel": "push",
     "scheduled_send_time": "2026-08-25T13:00:00+04:00",
@@ -3080,13 +3080,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Blueberry Chiffon Cake (AED 342\u2013635) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Pastel Carnation Bouquet (AED 342\u2013635) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Blueberry Chiffon Cake",
+          "Pastel Carnation Bouquet",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3108,7 +3108,7 @@
     }
   },
   {
-    "send_id": "d9696356-ba48-4a57-a906-3f7ef787b79c",
+    "send_id": "5d5c0553-9a82-4441-9e6a-ba01707be3c4",
     "customer_id": "CUST005",
     "channel": "push",
     "scheduled_send_time": "2026-05-20T13:00:00+04:00",
@@ -3123,7 +3123,7 @@
         "template_body": "Eid al-Adha Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Strawberry Shortcake",
+          "Winter Warmth Gift Basket",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3145,7 +3145,7 @@
     }
   },
   {
-    "send_id": "2b95e2fb-7fd8-4c55-b584-a01d7f3effc8",
+    "send_id": "c3825516-6c9c-4f06-91aa-93beda494738",
     "customer_id": "CUST042",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T09:00:00+04:00",
@@ -3160,7 +3160,7 @@
         "template_body": "Eid Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Toblerone Tower Set",
+          "Exotic Bird of Paradise",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3182,7 +3182,7 @@
     }
   },
   {
-    "send_id": "e29c9f70-7b71-497b-8403-293d81722706",
+    "send_id": "cfe3a156-0a2b-48a5-92db-7a3ba897da5d",
     "customer_id": "CUST010",
     "channel": "email",
     "scheduled_send_time": "2026-10-29T19:00:00+04:00",
@@ -3191,13 +3191,13 @@
     "message": {
       "email": {
         "subject": "Celebrate your anniversary in style",
-        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Tres Leches Cake (AED 140\u2013340) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
+        "body": "Your anniversary is coming up, and we'd love to help you mark it with something truly memorable. Our Lavender Mist Body Spray (AED 140\u2013340) has been thoughtfully curated for moments like this. With 60-minute delivery, we ensure every detail arrives perfectly \u2014 so you can focus on the celebration. Explore our anniversary collection today."
       },
       "whatsapp": {
         "template_body": "Hi {1}, your anniversary is almost here \ud83d\udc96 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Make it unforgettable: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Tres Leches Cake",
+          "Lavender Mist Body Spray",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3219,7 +3219,7 @@
     }
   },
   {
-    "send_id": "5c2b49af-327a-4869-8061-a214ae3d19cf",
+    "send_id": "3126931e-4dfd-436e-b03e-ebd958152128",
     "customer_id": "CUST014",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-27T17:00:00+04:00",
@@ -3228,13 +3228,13 @@
     "message": {
       "email": {
         "subject": "A beautiful gift for Partner's birthday",
-        "body": "Partner's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Rose Arabica Parfum 50ml (AED 140\u2013340) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
+        "body": "Partner's birthday is just around the corner, and we've handpicked a few things we think they'd absolutely love. Our Eid Mubarak Luxury Gift Box (AED 140\u2013340) has been beautifully curated for moments like this. With 60-minute delivery across Dubai and Abu Dhabi, everything arrives perfectly on their special day. Browse our birthday collection and let us handle the rest."
       },
       "whatsapp": {
         "template_body": "Hi {1}, a birthday is almost here \ud83c\udf82 We've handpicked {2} \u2014 beautifully presented and delivered in 60 minutes to {3}. Explore now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Rose Arabica Parfum 50ml",
+          "Eid Mubarak Luxury Gift Box",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3256,7 +3256,7 @@
     }
   },
   {
-    "send_id": "b99eea6b-e7ea-47e1-aa7f-358059d9ccd4",
+    "send_id": "94859886-5187-4c88-9454-f5d6591ece29",
     "customer_id": "CUST033",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-05-20T16:00:00+03:00",
@@ -3271,7 +3271,7 @@
         "template_body": "Eid al-Adha Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Saffron & Cardamom Cake",
+          "Premium Red Roses (24 stems)",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3293,7 +3293,7 @@
     }
   },
   {
-    "send_id": "04195de6-2e2e-4eb0-8443-c1d645b9b87d",
+    "send_id": "e50c5df7-85ba-42a0-951e-e08343b76067",
     "customer_id": "CUST038",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-05-20T09:00:00-04:00",
@@ -3308,7 +3308,7 @@
         "template_body": "Eid al-Adha Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Milk Chocolate Praline Selection",
+          "Peony & Perfume Gift Set",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3330,7 +3330,7 @@
     }
   },
   {
-    "send_id": "02152446-2410-459f-96f4-a61d5a85fc2b",
+    "send_id": "da5205b7-fd4c-4a73-99c7-19c4d0dfa3a2",
     "customer_id": "CUST034",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-05-20T09:00:00+03:00",
@@ -3345,7 +3345,7 @@
         "template_body": "Eid al-Adha Mubarak {1} \ud83c\udf19 The celebration is almost here \u2014 we've handpicked {2} to help you mark the occasion with elegance. Delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Ferrero Rocher Gift Tin (24pc)",
+          "Hydrangea Bliss Bouquet",
           "your door"
         ],
         "has_opt_out_footer": true
@@ -3367,7 +3367,7 @@
     }
   },
   {
-    "send_id": "394e7403-cd8d-48b6-ac92-25a6b79e5f6d",
+    "send_id": "1421098a-ec96-441e-83f0-9d61466a644e",
     "customer_id": "CUST028",
     "channel": "email",
     "scheduled_send_time": "2026-12-18T12:00:00-05:00",
@@ -3376,13 +3376,13 @@
     "message": {
       "email": {
         "subject": "Christmas gifts, curated with care",
-        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Corporate Gratitude Gift Box (AED 200\u2013400) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
+        "body": "Christmas is almost here, and we'd love to help you find something truly special for Family. Our Sugar-Free Dark Chocolate Set (AED 200\u2013400) has been carefully selected to bring warmth and joy to the season. With 60-minute delivery across the UAE, we'll ensure your gift arrives perfectly in time for the celebrations. Explore our Christmas collection and let us help you make their day magical."
       },
       "whatsapp": {
         "template_body": "Hi {1}, Christmas is just around the corner \u2728 We've handpicked {2} for Family \u2014 beautifully wrapped and delivered in 60 minutes to {3}. Browse now: zuvees.ae\n\nReply STOP to opt out.",
         "variables": [
           "{Customer Name}",
-          "Corporate Gratitude Gift Box",
+          "Sugar-Free Dark Chocolate Set",
           "your door"
         ],
         "has_opt_out_footer": true

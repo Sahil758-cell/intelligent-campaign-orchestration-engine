@@ -225,7 +225,7 @@ def _make_diwali(recipient: str, products: list[str], price_range: str) -> dict:
             "subject": "Diwali gifts that shine as bright as the festival",
             "body": (
                 f"Diwali is a time for light, warmth, and celebrating the people who matter most. "
-                f"We've curated a collection of elegant hampers, sweets, and floral arrangements ({price_range}) — "
+                f"We've curated a collection of elegant gift sets, sweets, and floral arrangements ({price_range}) — "
                 f"perfect for sharing the joy of the festival with {recipient}. "
                 f"With 60-minute delivery across Dubai and Abu Dhabi, your gift arrives as beautifully as it was chosen. "
                 f"Happy Diwali from the Zuvees family."
