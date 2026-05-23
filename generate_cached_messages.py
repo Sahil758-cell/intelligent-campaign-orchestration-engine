@@ -115,7 +115,7 @@ def _make_eid(occasion: str, recipient: str, products: list[str], price_range: s
             "subject": f"{greeting} — gifts to share the joy",
             "body": (
                 f"{body_detail} "
-                f"We've put together a collection of elegant hampers, chocolates, and floral arrangements — "
+                f"We've put together a collection of elegant gift sets, chocolates, and floral arrangements — "
                 f"all thoughtfully curated for the occasion ({price_range}). "
                 f"Whether you're celebrating with family or surprising someone dear, Zuvees delivers across the UAE in 60 minutes. "
                 f"{greeting} from all of us."

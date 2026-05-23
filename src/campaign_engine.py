@@ -157,7 +157,7 @@ def _select_channel(
     wa_preferred = profile.wa_read_rate >= 0.6 and profile.email_open_rate == 0.0
 
     if wa_preferred:
-        channel_priority = ["whatsapp", "push", "email"]
+        channel_priority = ["whatsapp", "push"]  # email excluded — 0% open rate
         preference_note = "due to high WA read rate and no email opens"
     else:
         channel_priority = ["whatsapp", "email", "push"]
