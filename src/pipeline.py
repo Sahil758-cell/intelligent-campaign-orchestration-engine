@@ -215,9 +215,10 @@ def stage_evaluate(detections, schedule):
             "name": "Data Quality",
             "self_score": 4,
             "justification": (
-                "500 events across 50 customers, spanning 14 months (March 2025–May 2026). "
+                "250 events across 25 customers, spanning 14 months (March 2025–May 2026). "
                 "Seasonal spikes on Valentine's, Mother's Day, Eid, Diwali, Christmas. "
-                "7 timezone regions (Asia/Dubai, Asia/Kolkata, Europe/London, America/Toronto, Africa/Cairo, America/New_York, America/Los_Angeles). "
+                "3 timezone regions (Asia/Dubai, Asia/Kolkata, Europe/London) covering UAE, India, and UK. "
+                "3 religions (Muslim, Hindu, other) with cultural sensitivity filters applied. "
                 "Temporal integrity maintained: browse events precede orders for same session."
             ),
             "would_improve": (
@@ -357,25 +358,27 @@ def _check_quiet_hours(schedule) -> bool:
 
 # ─── CLI ENTRYPOINT ──────────────────────────────────────────────────────────
 
-def stage_load_cached():
-    """Load pre-generated campaign_schedule.json from outputs/ as the message store."""
+def stage_load_cached(detections=None):
+    """Load pre-generated campaign_schedule.json from outputs/ as the message store.
+
+    Uses detections to reconstruct the exact keys expected by stage_schedule().
+    Falls back to a (customer_id, occasion) lookup if detections not provided.
+    """
     from src.campaign_engine import _detection_key
-    from src.models import MessageBundle, EmailMessage, WhatsAppMessage, PushMessage, OccasionDetection
+    from src.models import MessageBundle, EmailMessage, WhatsAppMessage, PushMessage
 
     sched_path = OUTPUTS_DIR / "campaign_schedule.json"
     if not sched_path.exists():
-        return None, None
+        return None
 
     with open(sched_path, encoding="utf-8") as f:
         raw = json.load(f)
 
-    messages = {}
-    detections_by_key = {}
+    # Build (customer_id, occasion) → MessageBundle from the file
+    by_cid_occ = {}
     for s in raw:
         cid = s["customer_id"]
         occ = s["occasion"]
-        key = f"{cid}:{occ}"
-
         m = s.get("message", {})
         e = m.get("email") or {}
         w = m.get("whatsapp") or {}
@@ -393,7 +396,20 @@ def stage_load_cached():
                 deep_link=p.get("deep_link", ""),
             ) if p else None,
         )
-        messages[key] = bundle
+        # Keep first match per (cid, occ) pair
+        by_cid_occ.setdefault((cid, occ), bundle)
+
+    # Re-key using the exact detection keys stage_schedule() will look up
+    messages = {}
+    if detections:
+        for det in detections:
+            bundle = by_cid_occ.get((det.customer_id, det.occasion))
+            if bundle:
+                messages[_detection_key(det)] = bundle
+    else:
+        # Fallback: store under both key formats so at least something matches
+        for (cid, occ), bundle in by_cid_occ.items():
+            messages[f"{cid}::{occ}::"] = bundle
 
     print(f"[generate] Loaded {len(messages)} cached message bundles from outputs/campaign_schedule.json")
     return messages
@@ -422,7 +438,7 @@ def main():
             _, catalogue, profiles = stage_ingest()
             detections = stage_detect(profiles)
         if args.use_cached:
-            messages = stage_load_cached()
+            messages = stage_load_cached(detections)
         else:
             llm_client = None
             if args.mock_llm:

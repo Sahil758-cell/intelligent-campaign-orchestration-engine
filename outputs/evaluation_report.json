@@ -27,7 +27,7 @@
     {
       "name": "Data Quality",
       "self_score": 4,
-      "justification": "500 events across 50 customers, spanning 14 months (March 2025\u2013May 2026). Seasonal spikes on Valentine's, Mother's Day, Eid, Diwali, Christmas. 7 timezone regions (Asia/Dubai, Asia/Kolkata, Europe/London, America/Toronto, Africa/Cairo, America/New_York, America/Los_Angeles). Temporal integrity maintained: browse events precede orders for same session.",
+      "justification": "250 events across 25 customers, spanning 14 months (March 2025\u2013May 2026). Seasonal spikes on Valentine's, Mother's Day, Eid, Diwali, Christmas. 3 timezone regions (Asia/Dubai, Asia/Kolkata, Europe/London) covering UAE, India, and UK. 3 religions (Muslim, Hindu, other) with cultural sensitivity filters applied. Temporal integrity maintained: browse events precede orders for same session.",
       "would_improve": "Add realistic noise: failed deliveries, returns, customer complaints. Model more granular browse \u2192 cart \u2192 order funnel with drop-off rates."
     },
     {

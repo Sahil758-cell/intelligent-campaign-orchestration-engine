@@ -1,6 +1,6 @@
 [
   {
-    "send_id": "fbf0bbce-8c21-496f-8287-2c69307aa544",
+    "send_id": "9b86b3b7-d07f-4365-b5f6-da5e5b512cd5",
     "customer_id": "CUST007",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-08-07T09:00:00+04:00",
@@ -37,7 +37,7 @@
     }
   },
   {
-    "send_id": "89e0756a-3a44-4704-b4bc-6b3d887d71ea",
+    "send_id": "505bf8e0-6f17-4dff-917d-421830f930ab",
     "customer_id": "CUST007",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T09:00:00+04:00",
@@ -74,7 +74,7 @@
     }
   },
   {
-    "send_id": "e364646d-10d7-40ad-8b9a-1bcc0eac403b",
+    "send_id": "de108e29-c1ed-4615-8fee-72f6ea0c5ed3",
     "customer_id": "CUST007",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-01T09:00:00+04:00",
@@ -111,7 +111,7 @@
     }
   },
   {
-    "send_id": "a4beebd6-2ff7-4db1-aedd-7d9f4fcd5be8",
+    "send_id": "b923296b-99e6-4cc0-9b48-d7d11d87acaa",
     "customer_id": "CUST007",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00+04:00",
@@ -148,7 +148,7 @@
     }
   },
   {
-    "send_id": "e437a3ee-964c-4d3b-b61c-36315edaabca",
+    "send_id": "9f0e9b21-b805-4bc4-a396-130acf8f9685",
     "customer_id": "CUST025",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-24T09:00:00+00:00",
@@ -185,7 +185,7 @@
     }
   },
   {
-    "send_id": "91431f47-fa53-4d17-ab29-e880ff0d0093",
+    "send_id": "041d4aa1-b106-4895-92e3-a83a754e7f06",
     "customer_id": "CUST025",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T09:00:00+00:00",
@@ -222,7 +222,7 @@
     }
   },
   {
-    "send_id": "9fdad7c5-93bc-4d82-a698-e793e88458d9",
+    "send_id": "3e26d9d5-7c40-44f3-991d-de55fd04aab9",
     "customer_id": "CUST013",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-13T09:00:00+04:00",
@@ -259,7 +259,7 @@
     }
   },
   {
-    "send_id": "be3f5644-e928-4efe-a544-9cb9c65f9044",
+    "send_id": "e2eecc48-3b2b-4284-b083-b1f38a54f1b1",
     "customer_id": "CUST013",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T09:00:00+04:00",
@@ -296,7 +296,7 @@
     }
   },
   {
-    "send_id": "23eab4ed-5575-4393-8be5-bb7f552eab5c",
+    "send_id": "763c5ca1-dd6f-4c11-84aa-4f525dde50e2",
     "customer_id": "CUST013",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-12-18T09:00:00+04:00",
@@ -333,7 +333,7 @@
     }
   },
   {
-    "send_id": "6e189c9d-2cbd-4785-8e8e-440024abe978",
+    "send_id": "7f29a81c-64b5-49f5-89ab-580d89e57c1c",
     "customer_id": "CUST003",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-03T11:00:00+04:00",
@@ -370,7 +370,7 @@
     }
   },
   {
-    "send_id": "2b062cee-6ef0-4eb3-8633-0a2016bbef98",
+    "send_id": "4343b001-3d70-4efd-8bfd-88dca3b66f9c",
     "customer_id": "CUST003",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T11:00:00+04:00",
@@ -407,7 +407,7 @@
     }
   },
   {
-    "send_id": "c1b6900f-f934-425d-89d8-364dca342893",
+    "send_id": "bf958ecc-0489-4156-bc93-151db32d0676",
     "customer_id": "CUST003",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T11:00:00+04:00",
@@ -444,7 +444,7 @@
     }
   },
   {
-    "send_id": "d77300fc-d5b7-4671-910f-65bbbcebb093",
+    "send_id": "647c5522-fc09-4ff7-a7c3-cc39f2f584e8",
     "customer_id": "CUST009",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-07-27T09:00:00+04:00",
@@ -481,7 +481,7 @@
     }
   },
   {
-    "send_id": "2abcf35b-d3d9-4348-b667-577186aca12c",
+    "send_id": "8f83498d-efb0-4bb2-b866-f6789746b1d2",
     "customer_id": "CUST009",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-01T09:00:00+04:00",
@@ -518,7 +518,7 @@
     }
   },
   {
-    "send_id": "dbd148af-209a-415a-a70b-f89a7908f227",
+    "send_id": "382058d3-5ec8-41e8-82ba-ad34c29ca912",
     "customer_id": "CUST009",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T09:00:00+04:00",
@@ -555,7 +555,7 @@
     }
   },
   {
-    "send_id": "43b0fb6e-c394-4851-b93d-eb8bfb88fbca",
+    "send_id": "17b6ab56-b2b3-4334-8cd7-2949f25c5fe0",
     "customer_id": "CUST009",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00+04:00",
@@ -592,7 +592,7 @@
     }
   },
   {
-    "send_id": "58a505f4-134a-4411-93a5-20dd4974a840",
+    "send_id": "86fa0671-0985-4cf5-9809-edc5af2e9387",
     "customer_id": "CUST004",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-07-15T09:00:00+04:00",
@@ -629,7 +629,7 @@
     }
   },
   {
-    "send_id": "f603fe1b-300e-4c13-8fc6-4a12a655b626",
+    "send_id": "68004f32-37fa-4494-b2fc-150e317edd95",
     "customer_id": "CUST004",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T09:00:00+04:00",
@@ -666,7 +666,7 @@
     }
   },
   {
-    "send_id": "c6f60aa9-e16e-432a-84a7-a778bf0cf2cb",
+    "send_id": "e127b878-5e1d-4c97-a190-383793da154b",
     "customer_id": "CUST004",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-05-20T09:00:00+04:00",
@@ -703,7 +703,7 @@
     }
   },
   {
-    "send_id": "f9c28dff-c9bd-4279-83ac-c3f90b1caf44",
+    "send_id": "e6742854-c9d5-4d2d-9ed9-e42292c0f88d",
     "customer_id": "CUST004",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T09:00:00+04:00",
@@ -740,7 +740,7 @@
     }
   },
   {
-    "send_id": "4ac1c0d6-3408-4183-92f3-dab2b7d16d11",
+    "send_id": "7f1c42c5-26c2-4b6a-adac-14d0612f5979",
     "customer_id": "CUST022",
     "channel": "email",
     "scheduled_send_time": "2026-09-07T15:00:00+01:00",
@@ -777,7 +777,7 @@
     }
   },
   {
-    "send_id": "c5488c2c-a5ce-4a5f-a713-52f29cf2ed17",
+    "send_id": "b19e8d32-dec5-4d36-a47f-7a09f6d9ec0c",
     "customer_id": "CUST022",
     "channel": "email",
     "scheduled_send_time": "2026-12-18T15:00:00+00:00",
@@ -814,7 +814,7 @@
     }
   },
   {
-    "send_id": "141e71e4-5710-4c6c-b21e-f2598121cab0",
+    "send_id": "2ab03005-6645-4e8a-a386-bc3a0b09fa51",
     "customer_id": "CUST022",
     "channel": "email",
     "scheduled_send_time": "2027-02-07T15:00:00+00:00",
@@ -851,7 +851,7 @@
     }
   },
   {
-    "send_id": "2cd70706-d5a8-4a7c-8800-c45460647c71",
+    "send_id": "d4e51574-ecbe-4f14-b00b-3d37d7400b75",
     "customer_id": "CUST016",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-10-10T09:00:00+05:30",
@@ -888,7 +888,7 @@
     }
   },
   {
-    "send_id": "daff2e13-dca4-42c5-b59f-a6745e565243",
+    "send_id": "d579e7fa-8b51-4430-9509-b213ccdca692",
     "customer_id": "CUST016",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T09:00:00+05:30",
@@ -925,7 +925,7 @@
     }
   },
   {
-    "send_id": "7d8626f6-9b9b-4faa-908c-7d52e9e9bab9",
+    "send_id": "8452df82-6b56-432b-915f-10f9d56064e3",
     "customer_id": "CUST016",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-01T09:00:00+05:30",
@@ -962,7 +962,7 @@
     }
   },
   {
-    "send_id": "714bc907-5499-48f5-98af-7979f92cda6d",
+    "send_id": "553317da-e146-469b-a338-58897ab521ef",
     "customer_id": "CUST016",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00+05:30",
@@ -999,7 +999,7 @@
     }
   },
   {
-    "send_id": "eb322ebb-1bac-46ae-858a-74f9c9c002fd",
+    "send_id": "b0d28b14-d755-4f8a-b76e-db2bcfc11a60",
     "customer_id": "CUST011",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-21T09:00:00+04:00",
@@ -1036,7 +1036,7 @@
     }
   },
   {
-    "send_id": "d0ee0964-55ca-49a6-a0ea-97cf8ebd4e94",
+    "send_id": "f9118006-ee99-42a5-9082-a280971eb409",
     "customer_id": "CUST011",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T09:00:00+04:00",
@@ -1073,7 +1073,7 @@
     }
   },
   {
-    "send_id": "cdfd1dc4-4d30-47fb-ae07-e25112792e92",
+    "send_id": "a315d895-3b44-429e-b4af-103c11a52090",
     "customer_id": "CUST011",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-12-18T09:00:00+04:00",
@@ -1110,7 +1110,7 @@
     }
   },
   {
-    "send_id": "0b04514f-dc68-4ca0-9a08-062307c4d3ba",
+    "send_id": "73b1070a-68ac-4132-ad0b-4a0146ebb402",
     "customer_id": "CUST011",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00+04:00",
@@ -1147,7 +1147,7 @@
     }
   },
   {
-    "send_id": "c7045d4b-bb52-4d47-ad7b-81bced8020ac",
+    "send_id": "af5fa60c-45d6-45bf-a62f-e0cd5f7d459f",
     "customer_id": "CUST021",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-07-23T10:00:00+01:00",
@@ -1184,7 +1184,7 @@
     }
   },
   {
-    "send_id": "79d4424e-5fc3-4d83-baa7-e7b8e0763dfe",
+    "send_id": "a08b62da-2d87-40d3-a2b7-2cf50d137bee",
     "customer_id": "CUST021",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-02-07T10:00:00+00:00",
@@ -1221,7 +1221,7 @@
     }
   },
   {
-    "send_id": "0996886b-b0fa-4ae1-9317-2f2d4cf2e9ff",
+    "send_id": "07ef97b1-2add-4545-acbc-8998cc32f5a1",
     "customer_id": "CUST021",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-12-18T10:00:00+00:00",
@@ -1258,7 +1258,7 @@
     }
   },
   {
-    "send_id": "22ee2458-ec8f-4586-8db9-1abc5c28e401",
+    "send_id": "95b94774-4a9b-4ff5-9050-16cf3df35daf",
     "customer_id": "CUST021",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T10:00:00+01:00",
@@ -1295,7 +1295,7 @@
     }
   },
   {
-    "send_id": "54eb1712-2c16-4621-aa4a-84b0bbf8f1f9",
+    "send_id": "61125fdf-6672-450a-8ac3-e2ab384b7806",
     "customer_id": "CUST008",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-08-12T13:00:00+04:00",
@@ -1332,7 +1332,7 @@
     }
   },
   {
-    "send_id": "48fa6004-56c1-4f2c-bbdf-27bc80f8b7f3",
+    "send_id": "503bfb47-e205-4e1a-8bd2-622bd80ead2e",
     "customer_id": "CUST008",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-01T13:00:00+04:00",
@@ -1369,7 +1369,7 @@
     }
   },
   {
-    "send_id": "0ee7209c-0be7-466e-8b6e-ea1dc2e6b110",
+    "send_id": "d33a4e6d-23c3-4960-9a3b-f16aa0c518eb",
     "customer_id": "CUST024",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-10-18T10:00:00+01:00",
@@ -1406,7 +1406,7 @@
     }
   },
   {
-    "send_id": "5bd9c9a6-d63f-4ccf-bbe1-e05fa2909fc0",
+    "send_id": "81ca9ac5-e82f-4645-a134-13a0b9ff1fbb",
     "customer_id": "CUST014",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-27T09:00:00+04:00",
@@ -1443,7 +1443,7 @@
     }
   },
   {
-    "send_id": "ad4de463-0aba-4844-9198-5bdb9dab9f70",
+    "send_id": "04302657-342a-49cd-b2ef-0e45a1b2c6fd",
     "customer_id": "CUST015",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-21T15:00:00+04:00",
@@ -1480,7 +1480,7 @@
     }
   },
   {
-    "send_id": "509ad2ea-03a0-4e51-bb9f-ae10cf9c2413",
+    "send_id": "832540db-94d3-405a-b4a6-b95860ffeb50",
     "customer_id": "CUST015",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-01T15:00:00+04:00",
@@ -1517,7 +1517,7 @@
     }
   },
   {
-    "send_id": "31c3bd89-58f9-4817-a70c-df8596daf715",
+    "send_id": "ec45e57e-86f0-4bed-9e27-9de5c7a71096",
     "customer_id": "CUST006",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-28T09:00:00+04:00",
@@ -1554,7 +1554,7 @@
     }
   },
   {
-    "send_id": "d49ef6f2-0d69-4c2f-843b-a61dcacd201e",
+    "send_id": "b1fbab48-a0e9-4bed-9041-210828c443ed",
     "customer_id": "CUST006",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-01T09:00:00+04:00",
@@ -1591,7 +1591,7 @@
     }
   },
   {
-    "send_id": "f29293ef-d840-4d63-93a3-887ca91d1c37",
+    "send_id": "5b1b603c-3a29-4174-a256-5aade84c9555",
     "customer_id": "CUST006",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-01T09:00:00+04:00",
@@ -1628,7 +1628,7 @@
     }
   },
   {
-    "send_id": "8e5af091-ac9e-46e4-b42b-789713772daf",
+    "send_id": "885bf9b6-b3eb-4fa7-84d6-d1088fbd45fd",
     "customer_id": "CUST006",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T09:00:00+04:00",
@@ -1665,7 +1665,7 @@
     }
   },
   {
-    "send_id": "064f64fd-b903-4645-bd6d-c51ddbe77e43",
+    "send_id": "44878d68-7165-4590-9b6a-483caaf8ad92",
     "customer_id": "CUST001",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-07-08T12:00:00+04:00",
@@ -1702,7 +1702,7 @@
     }
   },
   {
-    "send_id": "d9975d4a-4f1b-4969-b34e-5f4d8ca7ba38",
+    "send_id": "ec384286-f55f-43c4-9ce4-de24cdb53219",
     "customer_id": "CUST001",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-01T12:00:00+04:00",
@@ -1739,7 +1739,7 @@
     }
   },
   {
-    "send_id": "e2fb8516-e140-4603-9f13-2116f0c19016",
+    "send_id": "d5915684-ff83-4627-8239-1dbdb69277da",
     "customer_id": "CUST001",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T12:00:00+04:00",
@@ -1776,7 +1776,7 @@
     }
   },
   {
-    "send_id": "760f4fad-4591-4bcf-a8c8-be11285cc2e8",
+    "send_id": "c5d2b7f3-2cef-4f79-b0f2-ef9b55ecb1df",
     "customer_id": "CUST023",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-06-30T10:00:00+01:00",
@@ -1813,7 +1813,7 @@
     }
   },
   {
-    "send_id": "c0cb021e-5c38-4b6e-99b6-d1abb49ef51a",
+    "send_id": "c50a3546-ad42-4c32-b4f7-77361bc78526",
     "customer_id": "CUST023",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T10:00:00+00:00",
@@ -1850,7 +1850,7 @@
     }
   },
   {
-    "send_id": "e179d098-9f61-4e52-8caa-ccc27561c2ce",
+    "send_id": "ae5f9141-ebb8-406c-853f-bfae7b97fedc",
     "customer_id": "CUST002",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-09-15T11:00:00+04:00",
@@ -1887,7 +1887,7 @@
     }
   },
   {
-    "send_id": "bae04b5c-9bee-4ce2-8541-3577593b5b67",
+    "send_id": "b331efc1-bbf9-4b37-a9cd-a100d2001726",
     "customer_id": "CUST002",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-03-02T11:00:00+04:00",
@@ -1924,7 +1924,7 @@
     }
   },
   {
-    "send_id": "449759c6-8869-43a0-979a-2bb1d75a31e7",
+    "send_id": "afbaf084-c910-419b-b088-debdcae3af4a",
     "customer_id": "CUST002",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-05-20T11:00:00+04:00",
@@ -1961,7 +1961,7 @@
     }
   },
   {
-    "send_id": "b90a9573-efb3-47cd-951d-633be494a988",
+    "send_id": "67a9f78b-378d-4dcb-a61a-06a9e21888ea",
     "customer_id": "CUST017",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-12-05T18:00:00+05:30",
@@ -1998,7 +1998,7 @@
     }
   },
   {
-    "send_id": "1fac6699-9935-480e-af3c-26c4cd1644a6",
+    "send_id": "a9c605d4-1d8d-4278-8e33-49b815e76c2c",
     "customer_id": "CUST017",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-01T18:00:00+05:30",
@@ -2035,7 +2035,7 @@
     }
   },
   {
-    "send_id": "f711475a-5357-4589-8af3-870d0c6ef89c",
+    "send_id": "337cab72-3562-4abc-96fc-8dcf4cd41294",
     "customer_id": "CUST017",
     "channel": "whatsapp",
     "scheduled_send_time": "2027-05-02T18:00:00+05:30",
@@ -2072,7 +2072,7 @@
     }
   },
   {
-    "send_id": "ca2c8f4d-8e87-41c5-8ca9-e00029c724d5",
+    "send_id": "f134e373-f50f-402d-b822-53390d99e863",
     "customer_id": "CUST010",
     "channel": "email",
     "scheduled_send_time": "2026-10-29T19:00:00+04:00",
@@ -2109,7 +2109,7 @@
     }
   },
   {
-    "send_id": "0d8afc50-44c3-4680-aadc-0ef8c2e8bdc0",
+    "send_id": "6a05da00-ac4b-434d-bd03-d2536d3cc3c0",
     "customer_id": "CUST020",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-08T21:00:00+05:30",
@@ -2146,7 +2146,7 @@
     }
   },
   {
-    "send_id": "7d33d79f-c59f-4209-81c9-4d020ae1c2d5",
+    "send_id": "a3d90b14-8529-4346-82ad-a0d876fa08a4",
     "customer_id": "CUST019",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-08-23T15:00:00+05:30",
@@ -2183,7 +2183,7 @@
     }
   },
   {
-    "send_id": "d04977de-98f8-484d-9e21-d8e9602318ec",
+    "send_id": "9efbb538-79ac-443a-8888-2a8d4a2d1adc",
     "customer_id": "CUST019",
     "channel": "whatsapp",
     "scheduled_send_time": "2026-11-01T15:00:00+05:30",
@@ -2220,7 +2220,7 @@
     }
   },
   {
-    "send_id": "ae809990-d6c2-43d7-a028-316d7cafa78e",
+    "send_id": "1361b89e-8405-48a8-aed9-f2ace92ef982",
     "customer_id": "CUST012",
     "channel": "email",
     "scheduled_send_time": "2026-10-01T09:00:00+04:00",
@@ -2257,7 +2257,7 @@
     }
   },
   {
-    "send_id": "1e4f851c-8a78-4e39-8959-1eca563d3352",
+    "send_id": "a8517c32-2e87-47e1-b919-493c9431c408",
     "customer_id": "CUST012",
     "channel": "email",
     "scheduled_send_time": "2026-12-18T09:00:00+04:00",
@@ -2294,7 +2294,7 @@
     }
   },
   {
-    "send_id": "b6048f50-73e2-410a-8fa4-42c0ecb51f55",
+    "send_id": "57ae9d6e-2113-46af-a9d4-46529df5d11c",
     "customer_id": "CUST005",
     "channel": "push",
     "scheduled_send_time": "2026-08-25T19:00:00+04:00",
@@ -2331,7 +2331,7 @@
     }
   },
   {
-    "send_id": "c3b68d77-98d2-4c34-8a2b-e61134a540f0",
+    "send_id": "effb35f7-c7fa-4b73-9ade-10f0311aa298",
     "customer_id": "CUST005",
     "channel": "push",
     "scheduled_send_time": "2026-05-20T19:00:00+04:00",
@@ -2368,7 +2368,7 @@
     }
   },
   {
-    "send_id": "7d689d5e-0f11-421b-ad2f-761c29f4c7ae",
+    "send_id": "ea7fbfff-976b-402d-a5cc-bb92be1fdb3f",
     "customer_id": "CUST018",
     "channel": "email",
     "scheduled_send_time": "2026-10-13T19:00:00+05:30",
